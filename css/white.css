@@ -34,7 +34,7 @@ span {
   background-color: #fff;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #6e6e6e;
+  background-color: #1A98FF;
 }
 .menu-outer {
   width: 100%;
@@ -61,7 +61,7 @@ span {
   float: left;
   margin-right: 30px;
   font-size: 0.9em;
-  color: #999999;
+  color: #898FA0;
   position: relative;
   transition: all 0.3s;
 }
@@ -80,7 +80,7 @@ span {
   right: 0;
   bottom: -0.2em;
   transition: all 0.3s;
-  background-color: #6e6e6e;
+  background-color: #1A98FF;
 }
 .active-link li:hover:after {
   right: 50%;
@@ -125,7 +125,7 @@ span {
   right: 0;
   bottom: -0.04em;
   transition: all 0.3s;
-  background-color: #6e6e6e;
+  background-color: #1A98FF;
 }
 .intro-sub a:hover:after {
   right: 50%;
@@ -171,8 +171,8 @@ a {
 .archive-post-date {
   font-weight: 1000;
   font-size: 0.7em;
-  background-color: #e9e9e9;
-  color: #6e6e6e;
+  background-color: #DDF0FF;
+  color: #1A98FF;
   border-radius: 5px;
   padding: 0px 10px;
   margin: 0px 10px;
@@ -190,8 +190,8 @@ a {
 }
 .paginator .extend {
   margin: 0 10px;
-  background-color: #e9e9e9;
-  color: #6e6e6e;
+  background-color: #DDF0FF;
+  color: #1A98FF;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 0.9em;
@@ -200,7 +200,7 @@ a {
 }
 .paginator .extend:hover {
   color: #fff;
-  background-color: #6e6e6e;
+  background-color: #1A98FF;
 }
 .footer-outer {
   display: flex;
@@ -213,16 +213,16 @@ a {
   justify-content: space-between;
 }
 .footer-text {
-  color: #999999;
+  color: #898FA0;
   font-size: 1em;
 }
 .footer-text a {
-  color: #999999;
+  color: #898FA0;
   font-size: 1em;
   transition: all 0.3s;
 }
 .footer-text a:hover {
-  color: #6e6e6e;
+  color: #1A98FF;
 }
 .footer-contact {
   font-size: 1.2em;
@@ -236,14 +236,14 @@ a {
   transition: all 0.3s;
 }
 .footer-li i {
-  color: #999999;
+  color: #898FA0;
   font-size: 1.2em;
   transition: all 0.3s;
   padding: 5px;
   border-radius: 100%;
 }
 .footer-li:hover i {
-  color: #6e6e6e;
+  color: #1A98FF;
 }
 .gitalk-saysay > #gitalk-container .gt-counts {
   display: none;
@@ -329,7 +329,7 @@ a {
   line-height: 3;
 }
 .post-content-inner blockquote {
-  border-left: 4px solid #6e6e6e;
+  border-left: 4px solid #1A98FF;
   padding-left: 17px;
   color: #555;
   font-size: 0.9em;
@@ -340,7 +340,7 @@ a {
   line-height: 1.65;
 }
 .post-content-inner a {
-  color: #6e6e6e;
+  color: #1A98FF;
 }
 .post-content-inner a:hover {
   text-decoration: underline;
@@ -356,9 +356,9 @@ a {
   line-height: 2;
 }
 .post-content-inner p > strong {
-  color: #6e6e6e;
+  color: #1A98FF;
   display: inline-block;
-  box-shadow: inset 0 -0.2em 0 #6e6e6e;
+  box-shadow: inset 0 -0.2em 0 #1A98FF;
 }
 .post-content-inner hr {
   margin-top: 30px;
@@ -444,8 +444,8 @@ code {
 code {
   font-size: 0.8em;
   font-weight: 1000;
-  background-color: #e9e9e9;
-  color: #6e6e6e;
+  background-color: #DDF0FF;
+  color: #1A98FF;
   border-radius: 5px;
   padding: 4px 6px;
   margin: 0px 4px;
@@ -494,40 +494,40 @@ li p {
 }
 #gitalk-container .gt-header-controls>.gt-header-controls-tip,
 .gt-svg {
-  color: #6e6e6e;
+  color: #1A98FF;
 }
 #gitalk-container .gt-header-avatar>img,
 .gt-comment-avatar>img {
   border-radius: 100% !important;
 }
 #gitalk-container .gt-btn-preview {
-  border: 1px solid #6e6e6e;
+  border: 1px solid #1A98FF;
   border-radius: 20px;
   transition: all 0.3s;
 }
 #gitalk-container .gt-btn-preview:hover {
-  background-color: #6e6e6e;
+  background-color: #1A98FF;
   color: #fff;
 }
 #gitalk-container .gt-btn-login {
-  border: 1px solid #6e6e6e;
-  background-color: #6e6e6e;
+  border: 1px solid #1A98FF;
+  background-color: #1A98FF;
   border-radius: 20px;
   transition: all 0.3s;
 }
 #gitalk-container .gt-btn-login:hover {
   background-color: #fff;
-  color: #6e6e6e;
+  color: #1A98FF;
 }
 #gitalk-container .gt-btn-public {
-  border: 1px solid #6e6e6e;
-  background-color: #6e6e6e;
+  border: 1px solid #1A98FF;
+  background-color: #1A98FF;
   border-radius: 20px;
   transition: all 0.3s;
 }
 #gitalk-container .gt-btn-public:hover {
   background-color: #fff;
-  color: #6e6e6e;
+  color: #1A98FF;
 }
 .search {
   margin-top: 30px;
@@ -552,18 +552,18 @@ li p {
   padding-left: 13px;
   padding-right: 46px;
   background: transparent;
-  border: 2px solid #6e6e6e;
+  border: 2px solid #1A98FF;
 }
 .search-input-outer button {
   height: 42px;
   width: 42px;
   cursor: pointer;
   position: absolute;
-  background: #6e6e6e;
+  background: #1A98FF;
   color: #fff;
 }
 #local-search-result {
-  border-top: 1px dashed #999999;
+  border-top: 1px dashed #898FA0;
   margin-top: 40px;
   padding-top: 30px;
 }
@@ -579,10 +579,10 @@ li p {
 }
 #local-search-result .search-result-title:hover {
   text-decoration: none;
-  color: #6e6e6e;
+  color: #1A98FF;
 }
 #local-search-result .search-keyword {
-  color: #6e6e6e;
+  color: #1A98FF;
   font-weight: 1000;
 }
 #mobile-main {
@@ -621,7 +621,7 @@ li p {
   cursor: pointer;
 }
 .moibile-active-link span {
-  box-shadow: inset 0 -0.2em 0 #6e6e6e;
+  box-shadow: inset 0 -0.2em 0 #1A98FF;
 }
 #mobile-menu {
   display: none;

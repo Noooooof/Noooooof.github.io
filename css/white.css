@@ -171,7 +171,7 @@ a {
 .archive-post-date {
   font-weight: 1000;
   font-size: 0.7em;
-  background-color: #cacaca;
+  background-color: #e9e9e9;
   color: #6e6e6e;
   border-radius: 5px;
   padding: 0px 10px;
@@ -190,7 +190,7 @@ a {
 }
 .paginator .extend {
   margin: 0 10px;
-  background-color: #cacaca;
+  background-color: #e9e9e9;
   color: #6e6e6e;
   padding: 10px 20px;
   border-radius: 5px;
@@ -444,7 +444,7 @@ code {
 code {
   font-size: 0.8em;
   font-weight: 1000;
-  background-color: #cacaca;
+  background-color: #e9e9e9;
   color: #6e6e6e;
   border-radius: 5px;
   padding: 4px 6px;

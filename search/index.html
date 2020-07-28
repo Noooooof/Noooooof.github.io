@@ -134,27 +134,38 @@
   <div class="body-inner">
     
 <article class="post-inner">
-  <div class="post-content-outer">
-    <div class="post-content-inner">
-      <div class="post-intro">
-        <div class="post-title animate__animated  animate__fadeInUp">search</div>
-        <div class="meta-intro animate__animated  animate__fadeInUp"><span class="intro-span">2020年7月28日 by Nof</span></div>
-        
-      </div>
-      <div class="post-content-main animate__animated  animate__fadeInUp">
-        <!-- 目录 -->
-        
-        
-        <!-- 评论 -->
-        
-         
-        
-      </div>
-   </div>
-  </div>
-</article>
+    <div class="post-content-outer">
+      <div class="post-content-inner">
+        <div class="post-content-main animate__animated  animate__fadeInUp">
+            <div class="search">
+                <div class="search-input-outer">
+                    <form>
+                        <input type="text" placeholder="想要搜些什么呢..." id="local-search-input" name="q" results="0">
+                        <button type="submit"><i class="ri-search-line"></i></button>
+                    </form>
+                </div>
+                <div id="local-search-result">
+                    
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+  </article>
 
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 
+<script src="/js/search.js"></script>
+
+<script type="text/javascript">      
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+        search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
+  
   </div>
 </div>
 

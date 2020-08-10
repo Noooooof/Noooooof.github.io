@@ -510,8 +510,8 @@ li p {
 }
 .post-nav {
   color: #1A98FF;
-  font-size: 1.1em;
-  font-weight: 600;
+  font-size: 1.05em;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 #gitalk-container .gt-header-textarea,

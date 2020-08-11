@@ -233,6 +233,7 @@ a {
 }
 @media screen and (max-width: 550px) {
   .paginator {
+    display: block;
     margin: 50px 0px;
     text-align: center;
   }
@@ -248,7 +249,7 @@ a {
     color: #1A98FF;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 1000;
     transition: all 0.4s;
   }
@@ -259,6 +260,7 @@ a {
 }
 @media screen and (max-width: 450px) {
   .paginator {
+    display: block;
     margin: 50px 0px;
     text-align: center;
   }
@@ -274,7 +276,7 @@ a {
     color: #1A98FF;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 1000;
     transition: all 0.4s;
   }

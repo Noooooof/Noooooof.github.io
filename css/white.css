@@ -204,7 +204,7 @@ a {
 }
 .archive-post {
   line-height: 1.5em;
-  font-size: 1.1em;
+  font-size: 1.2em;
   background-color: #fff;
   padding: 20px;
   border-radius: 3px;
@@ -215,7 +215,7 @@ a {
   color: #1A98FF;
 }
 .archive-post-title {
-  font-size: 1.1em;
+  font-size: 1.12em;
   transition: 0.4s;
   font-family: Gothic;
   margin-right: auto;
@@ -466,7 +466,7 @@ a {
 }
 .post-title {
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.8em;
   margin-bottom: 15px;
   font-family: Gothic;
 }

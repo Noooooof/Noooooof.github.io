@@ -194,15 +194,17 @@ a {
   margin-bottom: 100px;
 }
 .archive-name {
-  line-height: 2.4em;
-  font-size: 2em;
+  line-height: 2.2em;
+  font-size: 1.8em;
+  letter-spacing: 0.2em;
+  font-family: Merriweather;
   margin: 40px 0px 30px 0px;
   font-family: Gothic;
   text-align: center;
 }
 .archive-post {
-  line-height: 1.7em;
-  font-size: 1.25em;
+  line-height: 1.5em;
+  font-size: 1.1em;
   background-color: #fff;
   padding: 20px;
   border-radius: 3px;
@@ -224,6 +226,7 @@ a {
   font-weight: 1000;
   background-color: #DDF0FF;
   font-size: 0.8em;
+  letter-spacing: 0.1em;
   border-radius: 5px;
   padding: 0px 10px;
   transition: all 0.4s;
@@ -250,7 +253,9 @@ a {
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1em;
+    letter-spacing: 0.1em;
     font-weight: 1000;
+    font-family: Gothic;
     transition: all 0.4s;
   }
   .paginator .extend:hover {
@@ -277,6 +282,7 @@ a {
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1em;
+    letter-spacing: 0.1em;
     font-weight: 1000;
     transition: all 0.4s;
   }
@@ -289,55 +295,27 @@ a {
   margin: 50px 0px;
   text-align-last: justify;
 }
-@media screen and (max-width: 550px) {
-  .paginator_diy {
-    text-align: center;
-  }
-}
-@media screen and (max-width: 450px) {
-  .paginator_diy {
-    text-align: center;
-  }
-}
 .paginator_diy .post-archive-next {
   text-align: right;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 5px;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: bold;
   background-color: $fff;
   font-family: Gothic;
-}
-@media screen and (max-width: 550px) {
-  .paginator_diy .post-archive-next {
-    display: none;
-  }
-}
-@media screen and (max-width: 450px) {
-  .paginator_diy .post-archive-next {
-    display: none;
-  }
+  letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-prev {
   text-align: left;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 5px;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: bold;
   background-color: $fff;
   font-family: Gothic;
-}
-@media screen and (max-width: 550px) {
-  .paginator_diy .post-archive-prev {
-    display: none;
-  }
-}
-@media screen and (max-width: 450px) {
-  .paginator_diy .post-archive-prev {
-    display: none;
-  }
+  letter-spacing: 0.1em;
 }
 .paginator_diy .page2page {
   text-align: center;
@@ -348,8 +326,7 @@ a {
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1.1em;
-  font-weight: 1000;
-  font-family: Gothic;
+  font-family: Merriweather;
   background-color: $fff;
 }
 .paginator_diy .page2page .space {
@@ -357,19 +334,19 @@ a {
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1.1em;
-  font-weight: 1000;
+  font-family: Merriweather;
   background-color: $fff;
 }
 .paginator_diy .page2page .extend {
   margin: 0 10px;
 }
 @media screen and (max-width: 550px) {
-  .paginator_diy .page2page {
+  .paginator_diy {
     display: none;
   }
 }
 @media screen and (max-width: 450px) {
-  .paginator_diy .page2page {
+  .paginator_diy {
     display: none;
   }
 }
@@ -489,9 +466,8 @@ a {
 }
 .post-title {
   text-align: center;
-  font-size: 2.15em;
+  font-size: 2em;
   margin-bottom: 20px;
-  font-weight: bold;
   font-family: Gothic;
 }
 .post-cover {
@@ -779,7 +755,6 @@ li p {
 .post-nav {
   color: #1A98FF;
   font-size: 1em;
-  font-weight: bold;
   margin-bottom: 10px;
 }
 #gitalk-container .gt-header-textarea,

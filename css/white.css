@@ -202,6 +202,7 @@ a {
 }
 .paginator .page2page {
   text-align: center;
+  display: inline-block;
 }
 .paginator .page2page .page-number {
   margin: 0 10px;
@@ -221,6 +222,26 @@ a {
 }
 .paginator .page2page .extend {
   margin: 0 10px;
+}
+@media mq-mobile {
+  .paginator {
+    text-align: center;
+  }
+  .paginator .post-archive-prev {
+    transition: all 0.4s;
+  }
+  .paginator .post-archive-prev:hover {
+    background-color: #DDF0FF;
+  }
+  .paginator .post-archive-next {
+    transition: all 0.4s;
+  }
+  .paginator .post-archive-next:hover {
+    background-color: #DDF0FF;
+  }
+  .paginator .page2page {
+    display: none;
+  }
 }
 .footer-outer {
   display: flex;
@@ -510,8 +531,8 @@ li p {
 }
 .post-nav {
   color: #1A98FF;
-  font-size: 1.05em;
-  font-weight: bold;
+  font-size: 1.1em;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 #gitalk-container .gt-header-textarea,

@@ -224,23 +224,13 @@ a {
   margin: 0 10px;
 }
 @media mq-mobile {
-  .paginator {
-    text-align: center;
-  }
-  .paginator .post-archive-prev {
-    transition: all 0.4s;
-  }
-  .paginator .post-archive-prev:hover {
-    background-color: #DDF0FF;
-  }
-  .paginator .post-archive-next {
-    transition: all 0.4s;
-  }
-  .paginator .post-archive-next:hover {
-    background-color: #DDF0FF;
-  }
   .paginator .page2page {
     display: none;
+  }
+}
+@media mq-mobile {
+  .paginator {
+    text-align: center;
   }
 }
 .footer-outer {

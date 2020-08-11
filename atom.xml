@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Farewell.</title>
+  <title>Farewell</title>
   <icon>https://noooooof.gitee.io/icon.png</icon>
-  
+  <subtitle>After long years.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://noooooof.gitee.io/"/>
@@ -221,7 +221,7 @@
     <link href="https://noooooof.gitee.io/2020/07/28/d20200728/"/>
     <id>https://noooooof.gitee.io/2020/07/28/d20200728/</id>
     <published>2020-07-28T07:36:09.000Z</published>
-    <updated>2020-08-11T06:38:41.898Z</updated>
+    <updated>2020-08-11T09:50:08.246Z</updated>
     
     <summary type="html">
     

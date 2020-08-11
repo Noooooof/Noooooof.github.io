@@ -307,6 +307,16 @@ a {
   background-color: $fff;
   font-family: Gothic;
 }
+@media screen and (max-width: 550px) {
+  .paginator_diy .post-archive-next {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .paginator_diy .post-archive-next {
+    display: none;
+  }
+}
 .paginator_diy .post-archive-prev {
   text-align: left;
   display: inline-block;
@@ -316,6 +326,16 @@ a {
   font-weight: bold;
   background-color: $fff;
   font-family: Gothic;
+}
+@media screen and (max-width: 550px) {
+  .paginator_diy .post-archive-prev {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .paginator_diy .post-archive-prev {
+    display: none;
+  }
 }
 .paginator_diy .page2page {
   text-align: center;
@@ -340,6 +360,16 @@ a {
 }
 .paginator_diy .page2page .extend {
   margin: 0 10px;
+}
+@media screen and (max-width: 550px) {
+  .paginator_diy .page2page {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .paginator_diy .page2page {
+    display: none;
+  }
 }
 .footer-outer {
   display: flex;

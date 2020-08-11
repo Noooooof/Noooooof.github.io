@@ -289,6 +289,16 @@ a {
   margin: 50px 0px;
   text-align-last: justify;
 }
+@media screen and (max-width: 550px) {
+  .paginator_diy {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .paginator_diy {
+    text-align: center;
+  }
+}
 .paginator_diy .post-archive-next {
   text-align: right;
   display: inline-block;

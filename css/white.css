@@ -234,7 +234,7 @@ a {
 .paginator {
   display: none;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1000px) {
   .paginator {
     display: block;
     margin: 50px 0px;
@@ -256,34 +256,6 @@ a {
     letter-spacing: 0.1em;
     font-weight: 1000;
     font-family: Gothic;
-    transition: all 0.4s;
-  }
-  .paginator .extend:hover {
-    color: #fff;
-    background-color: #1A98FF;
-  }
-}
-@media screen and (max-width: 450px) {
-  .paginator {
-    display: block;
-    margin: 50px 0px;
-    text-align: center;
-  }
-  .paginator .page-number {
-    display: none;
-  }
-  .paginator .space {
-    display: none;
-  }
-  .paginator .extend {
-    margin: 0 10px;
-    background-color: #DDF0FF;
-    color: #1A98FF;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1em;
-    letter-spacing: 0.1em;
-    font-weight: 1000;
     transition: all 0.4s;
   }
   .paginator .extend:hover {
@@ -323,7 +295,7 @@ a {
 }
 .paginator_diy .page2page .page-number {
   margin: 0 10px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border-radius: 5px;
   font-size: 1.1em;
   font-family: Merriweather;
@@ -331,7 +303,7 @@ a {
 }
 .paginator_diy .page2page .space {
   margin: 0 10px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border-radius: 5px;
   font-size: 1.1em;
   font-family: Merriweather;
@@ -341,12 +313,7 @@ a {
 .paginator_diy .page2page .extend {
   margin: 0 10px;
 }
-@media screen and (max-width: 550px) {
-  .paginator_diy {
-    display: none;
-  }
-}
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1000px) {
   .paginator_diy {
     display: none;
   }

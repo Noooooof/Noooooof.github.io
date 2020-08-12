@@ -336,6 +336,7 @@ a {
   font-size: 1.1em;
   font-family: Merriweather;
   background-color: $fff;
+  color: #333333;
 }
 .paginator_diy .page2page .extend {
   margin: 0 10px;

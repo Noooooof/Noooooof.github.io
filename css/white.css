@@ -805,7 +805,7 @@ li p {
   content: counter(li);
   font-size: 0.8em;
   font-family: Merriweather;
-  color: $color-text-second;
+  color: #e3e3e3;
   margin-right: 0.5em;
   text-align: right;
   transition: all 0.3s;

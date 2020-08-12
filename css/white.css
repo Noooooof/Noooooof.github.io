@@ -599,42 +599,44 @@ ol {
   content: "◆";
   font-size: 0.8em;
   font-family: Gothic;
-  color: #e3e3e3;
+  color: #ccc olor-text-secondary;
   margin-right: 0.7em;
   text-align: right;
 }
 table {
-  width: 100%;
-  border: 1px solid #e3e3e3;
   border-collapse: collapse;
-  overflow: hidden;
-  border-spacing: 0;
+  margin: 30px 0px;
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #eee;
+  border-image: initial;
+  border-spacing: 0px;
+  display: table;
 }
-table > thead > tr > th {
-  vertical-align: bottom;
-  border-bottom: 3px solid #e3e3e3;
+table thead {
+  box-shadow: rgba(0,0,0,0.05) 0px 4px 8px 0px;
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
 }
-table > tbody + tbody {
-  border-top: 2px solid #e3e3e3;
+table th,
+table td {
+  padding: 0.9rem;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #f8f8f8;
+  border-image: initial;
 }
-table > thead > tr > th,
-table > thead > tr > td,
-table > tbody > tr > th,
-table > tbody > tr > td,
-table > tfoot > tr > th,
-table > tfoot > tr > td {
-  padding: 12px;
-  line-height: 1.2;
-  vertical-align: top;
-  border-top: 1px solid #e3e3e3;
+table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
 }
-table > caption + thead > tr:first-child > th,
-table > caption + thead > tr:first-child > td,
-table > colgroup + thead > tr:first-child > th,
-table > colgroup + thead > tr:first-child > td,
-table > thead:first-child > tr:first-child > th,
-table > thead:first-child > tr:first-child > td {
-  border-top: 0;
+table tbody tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
 }
 pre .hljs {
   border-radius: 2px;

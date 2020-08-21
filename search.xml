@@ -321,21 +321,24 @@
   <entry>
     <title>There are two roads in the forest</title>
     <url>/2020/05/17/d20200517/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Please enter the password.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="dfc9990c7144e793bfe14b8e022ef93ce93efdda67fb5b6521aff48a9552fea4">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1fe119eea626a1cd0086720aa722c4203cf5d67199deef1397702b32fa1174e1336c7da9253ac5ddaa9e6bfbb2395275824b0f76914fd2b605e3af30599cfb02e75f35a1788fae11811da6e32d61f19e238558d597a9a6fc2d961df3e44a0dcbcad334352984d7bf1a65d9a6fde369e813926a9fbb7bafccf7cb5c3f606bff6cec4a04c3c833db8a83d332aa1c3377dbac29a50aa3f25e1036364b89a03dac1bdf9213a14aefc1a9dab406f97ff1c429eba6866ed174becd8d49eefcd2279a937c64a0563a0a9b4afcfcd6b79894e7f23c4154bfe0244702efc6ba825cbbfad0fe486f9b0db21237008c180acfc153d75009136769243c9d0cf2ef88f792320e866e7c3beebf9460dd3e3dd8457f47b12b0f4c9c97b69401d8a99b89d7e8b06872af56744d126fa53e45f9056a4e4b5301463b7b933ad025f009447a1d4ec16d44e97c0b6da3ca1d7b8b5cced9b586bd0e7b61dbf7a4c33b1ccff17a86210392a2213811bf1600ef40fa7ad7264cb46c64e2b2841b8eb5c8dd668a46c3259ea9e3c9ddef22f181ecca1f07f3570da903208d49ee20d61cb67974ccb1e56b205cad1df596e1bb5caa8f085be44434c480efc6afc0d266c6e543ca0b0c9faafaa70bc442f5f9185a75fc03cbf2c8a3fa8f53e597c26669ddd7380ddcba0e24600bf8c7392f62351c6197f0d9f6933ebfdbc7aa3181d1b73e0ba4a7a9279cf2fb1d350c6188d63ef0a488641458c97dcd7540c1ee544e7b06504d41cea875e99ce76f10f70568fe6fdf8eeccc112f07da97ba812a5c9fd28d6c6e0108e01d95222fec4e18d8923d81f74bb7d4bd86faae339ad0ec0f597faf3386e6b89a732f0f5c87c65b3188d1cb2ee2782fb2906c7b5c91b8462d0ec13a7eb203f3d968995322e8349ab72cd14aede581cf84ee1309e57f5a28076e7ea14cea22cd7712122cd060814d9c18352dba0831d51fbbbca2bc5aaf929a19ba78ba20c3dfaaddcf8d9ec75d3299c9e9077e35aea3f19b0f9e183d29b57121ba2080a4517c46274b57a4aab0612fbd89fcfa552b84ce2ef55cfee5bda19171dc6bd385fb832efc8ebf3027c944afbaaf49c3a4fc6f8da1bc858664fcd4580f65816e94836b30271b9b62e229992b963cd3ab0febea33d60db27800b30c672da8658895a3c7d2bdfb879a701a30c497b231640c1dc9f4d3e91ad2380984428ca34a591cd6f9db5928f90c433e9ccc9d5880337bbe8588963c0d5722908de7b49359f6b2fe27233d85dbda3e913e82786d7fa51c1132a92ed1c2d7557e208a5b15b2414cc46246a25ba37de0641e9fd225d26e2ff12258a4a1552673a315d974329b255e9a6bda5a0ce15001f9b31ee4966bb760098f86d56ef949448e5a94256432d670fe6b14f509a7716cf0bb8d9a79ee33a03c340143f0d6a781c66622516632750c312e4f7a5ecd4856bf3ab9df81af8287ffab8e511da757306990291262d3e949323eceb01a9243047cb9fb2f19338a7c72f885b4993afbb688eaf355a6a641a1c1c9d4a34d795f74764a310e2092cd2ac65ea3cb5c475684d6c5b51e7f53a0398c9388cd5ba9858fbe91e0a4da303eca91abbd64ef4adec9</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>日子过得颓废就会无聊，因为实际上并没有什么新的体验啊。</p>
+<br/>
+
+<p>今天下午保研宣讲，本研的ddl也到了，决定放弃本研也退掉方博士的课。从未如此清晰地意识到，命运的分岔口确确实实的就在面前了。我总得作出选择的，我要怎样过完我这一生。</p>
+<br/>
+
+<blockquote>
+<p>刘哲：本科阶段就是在寻找自我的规程，有规划有调整，这都是正常的。重要的不是改变，而是改变的理由是否理性而不是情绪化冲动更不是人云亦云。基于理性的理由的改变是值得称赞的！</p>
+<p>刘哲：大学里任何一门学科和现实之间的距离都是同样巨大，因为科学研究本就不是实践操作的指南也不是解释现实的套路。面对现实生活中的挑战，人们愿意寻求即时的锦囊妙计，这无可厚非。但这种安慰的代价是短暂和即将来临的更大灾难。科学研究无法提供这种安慰，它只有勇气和耐心相伴。</p>
+<p>刘哲：祝你法学的学习顺利！</p>
+</blockquote>
+<br/>
+
+<p>ps，今夜星星很漂亮。</p>
+]]></content>
       <categories>
         <category>2020.05</category>
       </categories>
-      <tags>
-        <tag>silly</tag>
-      </tags>
   </entry>
   <entry>
     <title>Runabout</title>
@@ -368,25 +371,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Dating</title>
-    <url>/2020/05/22/d20200522/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Please enter the password.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="00c2fe0c1c5c5aeca33fc9bed953f01c75aacd445d83d4bddbf44688423edc1a">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1f00866c9042610200b2a495bf92019529709d2488f6fcb055c3c7c02bb2e9d828f759856efe651448ebf692d7e36db691ea940d6bd86176472ea16d927ef32c225af65a3910bb6b3e55081786896d2bfc1b3ffd46776320a065eb6bbadc435f58ba4c4af5f0dcf44a7f2b48d087acda55b75701c8f5d562fe1af232a8f297bd9fab9f73b726d85367ada1713cf5987eb9de85932d7c4f2cf6448ca146b20a649b9b7ed56fca75c83d151b3ebc8cc49af5b085a69bf750422fd091e31c0c863ac5825ff98655d91ee453b27fd0d4567e4aa53d13d3293706f921ffc9e4b6a6db6fd60ab634d9f553e7e3fd620b89161259f864eabaa2689fe92ddb77de3cac4a05a177888672d3cc841eac953005522d189086afc8648a0f3d36cfe187b9a4bf10a04cb78396f7d84447175222c05220934892ac04aa83c283d13119157a0f1cdb9d6bd52f9a49fb147a9c61200c046eaa474c46fa3bde4fe4c96ba3115e5a9954297b99f511d47ac9add8ef5cdaf7df92d6e3380744723d8e23864215fe7218de71415a08f4ff4e6fe79802582386f72af5e763b90963c9a5d94428d9251cb7a646933514e753cad274dbc2fe4189f2a3ab558863ce2f0422f4a90e21cb1d3784606e7c0ccf5aa834c3cf359bc5fc7c67a3d1a8b2fd2f28aae56980fc2b5e2c267959d36cf21a3576dae738ef2cf89f2f</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>2020.05</category>
-      </categories>
-      <tags>
-        <tag>silly</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Fall down</title>
     <url>/2020/05/26/d20200526/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>偶尔也会意识到，自己是个无可救药的渣滓。</p>
@@ -409,6 +393,25 @@
       <categories>
         <category>2020.05</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Dating</title>
+    <url>/2020/05/22/d20200522/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Please enter the password.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="00c2fe0c1c5c5aeca33fc9bed953f01c75aacd445d83d4bddbf44688423edc1a">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1f00866c9042610200b2a495bf92019529709d2488f6fcb055c3c7c02bb2e9d828f759856efe651448ebf692d7e36db691ea940d6bd86176472ea16d927ef32c225af65a3910bb6b3e55081786896d2bfc1b3ffd46776320a065eb6bbadc435f58ba4c4af5f0dcf44a7f2b48d087acda55b75701c8f5d562fe1af232a8f297bd9fab9f73b726d85367ada1713cf5987eb9de85932d7c4f2cf6448ca146b20a649b9b7ed56fca75c83d151b3ebc8cc49af5b085a69bf750422fd091e31c0c863ac5825ff98655d91ee453b27fd0d4567e4aa53d13d3293706f921ffc9e4b6a6db6fd60ab634d9f553e7e3fd620b89161259f864eabaa2689fe92ddb77de3cac4a05a177888672d3cc841eac953005522d189086afc8648a0f3d36cfe187b9a4bf10a04cb78396f7d84447175222c05220934892ac04aa83c283d13119157a0f1cdb9d6bd52f9a49fb147a9c61200c046eaa474c46fa3bde4fe4c96ba3115e5a9954297b99f511d47ac9add8ef5cdaf7df92d6e3380744723d8e23864215fe7218de71415a08f4ff4e6fe79802582386f72af5e763b90963c9a5d94428d9251cb7a646933514e753cad274dbc2fe4189f2a3ab558863ce2f0422f4a90e21cb1d3784606e7c0ccf5aa834c3cf359bc5fc7c67a3d1a8b2fd2f28aae56980fc2b5e2c267959d36cf21a3576dae738ef2cf89f2f</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>2020.05</category>
+      </categories>
+      <tags>
+        <tag>silly</tag>
+      </tags>
   </entry>
   <entry>
     <title>Gift</title>
@@ -580,24 +583,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Day 3</title>
-    <url>/2020/06/25/d20200625/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>环湖。</p>
-<p>在石头铺成的小道上颠得浑身散架。</p>
-<p>经过女神湾、经过草海、经过摩梭博物馆，空气里的香火气太盛，捂住口鼻逃出来。</p>
-<p>20码。风吹起潘罩在头上遮阳的短袖。</p>
-<br/>
-
-<p>山雨欲来，黑云压境，抓着最后一点天光冲上泸源崖，和崖边的山羊相互咩咩叫。</p>
-<p>骑车下山，风声大的听不见彼此的话。</p>
-<p>突然想起龙族里逃不出时光的布加迪威龙。</p>
-<p>好像也是一样的。</p>
-]]></content>
-      <categories>
-        <category>2020.06</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Sad</title>
     <url>/2020/06/28/d20200628/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨晚没能去看星空，今天又开始打雷下雨，可能无缘了。</p>
@@ -631,6 +616,24 @@
 <p>不，大概是更懒惰了。懒得去考虑眼前之外的事情，懒得了解也懒得关心。</p>
 <p>这样是不对的吗？我以什么理由得出这样的判断？</p>
 <p>我不知道。</p>
+]]></content>
+      <categories>
+        <category>2020.06</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Day 3</title>
+    <url>/2020/06/25/d20200625/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>环湖。</p>
+<p>在石头铺成的小道上颠得浑身散架。</p>
+<p>经过女神湾、经过草海、经过摩梭博物馆，空气里的香火气太盛，捂住口鼻逃出来。</p>
+<p>20码。风吹起潘罩在头上遮阳的短袖。</p>
+<br/>
+
+<p>山雨欲来，黑云压境，抓着最后一点天光冲上泸源崖，和崖边的山羊相互咩咩叫。</p>
+<p>骑车下山，风声大的听不见彼此的话。</p>
+<p>突然想起龙族里逃不出时光的布加迪威龙。</p>
+<p>好像也是一样的。</p>
 ]]></content>
       <categories>
         <category>2020.06</category>
@@ -1088,6 +1091,22 @@
       </categories>
   </entry>
   <entry>
+    <title>Fireworks</title>
+    <url>/2020/07/30/d20200730/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>由于交通管制有了光明正大的理由冒雨骑车。</p>
+<p>今天的雨简直称得上缱绻，细细密密，轻轻柔柔。并没有感到自己被打湿，但身遭又确凿缠绕着薄薄的水汽，它以不可抗拒的姿态将人网罗住，试探、触碰、又收回手，欲语还休。</p>
+<br/>
+
+<p>返程的地铁上补小说更新，和「烟花」这一意象相关的故事总显得忧郁。可能烟花本身就带有这样的气质，在原本空荡荡的夜空中倾尽所有地绽放，绚烂的光彩一一散开然后凋零，再不能重来。</p>
+<p>未能实现的关于烟花的约定，是约定之时有人就知道不会实现的吗，还是多少都曾抱有微渺的期望却遭来幻灭？是世事弄人无缘再见，还是心意改变不必赴约？而终于看到了烟花的时候，这确实是曾经约定的那场烟花吗？却又隐隐预示了好景不长盛宴必散，此次一别再难有重聚的心境和时间。</p>
+<p>很微妙啊，这种感觉。</p>
+<p>大概这也是为什么我的桌面背景一直是四人看烟花的图片吧。</p>
+]]></content>
+      <categories>
+        <category>2020.07</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Romance and friendship</title>
     <url>/2020/07/31/d20200731/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>共度时光是有两种解读方式的，你得知道。</p>
@@ -1150,22 +1169,6 @@
 ]]></content>
       <categories>
         <category>2020.08</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Fireworks</title>
-    <url>/2020/07/30/d20200730/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>由于交通管制有了光明正大的理由冒雨骑车。</p>
-<p>今天的雨简直称得上缱绻，细细密密，轻轻柔柔。并没有感到自己被打湿，但身遭又确凿缠绕着薄薄的水汽，它以不可抗拒的姿态将人网罗住，试探、触碰、又收回手，欲语还休。</p>
-<br/>
-
-<p>返程的地铁上补小说更新，和「烟花」这一意象相关的故事总显得忧郁。可能烟花本身就带有这样的气质，在原本空荡荡的夜空中倾尽所有地绽放，绚烂的光彩一一散开然后凋零，再不能重来。</p>
-<p>未能实现的关于烟花的约定，是约定之时有人就知道不会实现的吗，还是多少都曾抱有微渺的期望却遭来幻灭？是世事弄人无缘再见，还是心意改变不必赴约？而终于看到了烟花的时候，这确实是曾经约定的那场烟花吗？却又隐隐预示了好景不长盛宴必散，此次一别再难有重聚的心境和时间。</p>
-<p>很微妙啊，这种感觉。</p>
-<p>大概这也是为什么我的桌面背景一直是四人看烟花的图片吧。</p>
-]]></content>
-      <categories>
-        <category>2020.07</category>
       </categories>
   </entry>
   <entry>

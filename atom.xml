@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://noooooof.gitee.io/"/>
-  <updated>2020-08-21T09:33:34.676Z</updated>
+  <updated>2020-08-22T13:26:36.489Z</updated>
   <id>https://noooooof.gitee.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Old times</title>
+    <link href="https://noooooof.gitee.io/2020/08/22/d20200822/"/>
+    <id>https://noooooof.gitee.io/2020/08/22/d20200822/</id>
+    <published>2020-08-22T13:23:54.000Z</published>
+    <updated>2020-08-22T13:26:36.489Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="2020.08" scheme="https://noooooof.gitee.io/categories/2020-08/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>At home</title>
@@ -237,31 +262,6 @@
     
     
       <category term="2020.08" scheme="https://noooooof.gitee.io/categories/2020-08/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Romance and friendship</title>
-    <link href="https://noooooof.gitee.io/2020/07/31/d20200731/"/>
-    <id>https://noooooof.gitee.io/2020/07/31/d20200731/</id>
-    <published>2020-07-31T15:38:33.000Z</published>
-    <updated>2020-08-11T06:41:53.242Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="2020.07" scheme="https://noooooof.gitee.io/categories/2020-07/"/>
     
     
   </entry>

@@ -489,7 +489,7 @@ a {
 }
 .post-content-inner {
   margin-bottom: 20px;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.8px;
   line-height: 1.7;
 }
 .post-content-inner h2,
@@ -501,6 +501,9 @@ a {
   color: #333333;
   font-weight: normal;
   font-family: Merriweather;
+}
+.post-content-inner p {
+  margin-bottom: 1em;
 }
 .post-content-inner h2 {
   font-size: 1.65em;

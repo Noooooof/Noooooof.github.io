@@ -727,6 +727,22 @@ li p {
   font-size: 1em;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 550px) {
+  .post-nav {
+    display: none;
+  }
+}
+.post-bot {
+  display: none;
+}
+@media screen and (max-width: 550px) {
+  .post-bot {
+    display: block;
+    color: #1A98FF;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+}
 #gitalk-container .gt-header-textarea,
 .gt-comment-content {
   border-radius: 7px;

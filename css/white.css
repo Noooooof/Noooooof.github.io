@@ -525,7 +525,8 @@ a {
   font-family: Merriweather;
 }
 .post-content-inner p {
-  margin-bottom: 1.1em;
+  margin-bottom: 0.3em;
+  text-indent: 2em;
 }
 .post-content-inner h2 {
   font-size: 1.65em;
@@ -554,6 +555,7 @@ a {
   font-size: 1em;
 }
 .post-content-inner blockquote {
+  margin-left: 2em;
   border-left: 4.2px solid #e3e3e3;
   padding-left: 17px;
   color: #898FA0;
@@ -563,6 +565,7 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 1.65;
+  text-indent: 0em;
 }
 .post-content-inner a {
   color: #1A98FF;
@@ -577,7 +580,8 @@ a {
   display: block;
 }
 .post-content-inner strong {
-  color: #1A98FF;
+  text-indent: 0em;
+  color: #898FA0;
   display: inline-block;
 }
 .post-content-inner hr {

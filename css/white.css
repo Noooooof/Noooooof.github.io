@@ -787,38 +787,6 @@ li p {
     margin-bottom: 10px;
   }
 }
-.paginator {
-  display: none;
-}
-@media screen and (max-width: 550px) {
-  .paginator {
-    display: block;
-    margin: 50px 0px;
-    text-align: center;
-  }
-  .paginator .page-number {
-    display: none;
-  }
-  .paginator .space {
-    display: none;
-  }
-  .paginator .extend {
-    margin: 0 10px;
-    background-color: #DDF0FF;
-    color: #1A98FF;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1em;
-    letter-spacing: 0.1em;
-    font-weight: 1000;
-    font-family: Gothic;
-    transition: all 0.4s;
-  }
-  .paginator .extend:hover {
-    color: #fff;
-    background-color: #1A98FF;
-  }
-}
 #gitalk-container .gt-header-textarea,
 .gt-comment-content {
   border-radius: 7px;

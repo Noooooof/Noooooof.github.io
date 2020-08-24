@@ -280,7 +280,6 @@ a {
 }
 .paginator_diy .post-archive-next .post-archive-next-text {
   color: #898FA0;
-  transition: all 0.4s;
 }
 .paginator_diy .post-archive-next .post-archive-next-text:hover {
   color: #1A98FF;

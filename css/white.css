@@ -279,6 +279,9 @@ a {
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-next .post-archive-next-text {
+  color: #898FA0;
+}
+.paginator_diy .post-archive-next .post-archive-next-text:hover {
   color: #1A98FF;
 }
 .paginator_diy .post-archive-prev {
@@ -293,6 +296,9 @@ a {
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-prev .post-archive-prev-text {
+  color: #898FA0;
+}
+.paginator_diy .post-archive-prev .post-archive-prev-text:hover {
   color: #1A98FF;
 }
 .paginator_diy .page2page {
@@ -308,7 +314,7 @@ a {
   font-weight: 1000;
   color: #898FA0;
   background-color: $fff;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 .paginator_diy .page2page .page-number:hover {
   color: #1A98FF;

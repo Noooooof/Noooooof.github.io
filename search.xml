@@ -984,6 +984,19 @@
       </categories>
   </entry>
   <entry>
+    <title>Without reader</title>
+    <url>/2020/07/29/d20200729/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在博客上领养了一只猫，四舍五入我也是有猫的人了。</p>
+<p>更新了一批旧文章，但添加日历云的尝试失败了，现在翻目录挺麻烦的。</p>
+<br/>
+
+<p>虽然说准备把大部分日记同步更新到博客，也分享了这个网址，但可能还是不要对读者有所预设为好，否则就真的没有可以和自己坦诚地说说话的地方了。</p>
+]]></content>
+      <categories>
+        <category>2020.07</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Blog</title>
     <url>/2020/07/28/d20200728/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在xrp帮助下建起了自己的博客，明明是很简单的事情，却做的挺费劲。</p>
@@ -1000,19 +1013,6 @@
 <br/>
 
 <p>ps，开启了<a href="http://www.noooooof.gitee.io/atom.xml" target="_blank" rel="noopener">RSS</a>订阅，如果有人想用的话？</p>
-]]></content>
-      <categories>
-        <category>2020.07</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Without reader</title>
-    <url>/2020/07/29/d20200729/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在博客上领养了一只猫，四舍五入我也是有猫的人了。</p>
-<p>更新了一批旧文章，但添加日历云的尝试失败了，现在翻目录挺麻烦的。</p>
-<br/>
-
-<p>虽然说准备把大部分日记同步更新到博客，也分享了这个网址，但可能还是不要对读者有所预设为好，否则就真的没有可以和自己坦诚地说说话的地方了。</p>
 ]]></content>
       <categories>
         <category>2020.07</category>

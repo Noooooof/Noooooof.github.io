@@ -278,6 +278,13 @@ a {
   font-family: Gothic;
   letter-spacing: 0.1em;
 }
+.paginator_diy .post-archive-next .post-archive-next-text {
+  color: #898FA0;
+  transition: all 0.4s;
+}
+.paginator_diy .post-archive-next .post-archive-next-text:hover {
+  color: #1A98FF;
+}
 .paginator_diy .post-archive-prev {
   text-align: left;
   display: inline-block;
@@ -289,6 +296,12 @@ a {
   font-family: Gothic;
   letter-spacing: 0.1em;
 }
+.paginator_diy .post-archive-prev .post-archive-prev-text {
+  color: #898FA0;
+}
+.paginator_diy .post-archive-prev .post-archive-prev-text:hover {
+  color: #1A98FF;
+}
 .paginator_diy .page2page {
   text-align: center;
   display: inline-block;
@@ -297,21 +310,31 @@ a {
   margin: 0 10px;
   padding: 10px 15px;
   border-radius: 5px;
-  font-size: 1.1em;
-  font-family: Merriweather;
+  font-size: 1.125em;
+  font-family: Gothic;
+  font-weight: 1000;
+  color: #898FA0;
   background-color: $fff;
+  transition: all 0.3s;
+}
+.paginator_diy .page2page .page-number:hover {
+  color: #1A98FF;
 }
 .paginator_diy .page2page .space {
   margin: 0 10px;
   padding: 10px 15px;
   border-radius: 5px;
-  font-size: 1.1em;
-  font-family: Merriweather;
+  font-size: 1.125em;
+  font-weight: 1000;
+  font-family: Gothic;
   background-color: $fff;
-  color: #333333;
+  color: #898FA0;
+}
+.paginator_diy .page2page .current {
+  color: #1A98FF;
 }
 .paginator_diy .page2page .extend {
-  margin: 0 10px;
+  display: none;
 }
 @media screen and (max-width: 1000px) {
   .paginator_diy {
@@ -714,6 +737,7 @@ li p {
   border: 1px solid #e3e3e3;
   border-radius: 5px;
   padding: 20px 20px;
+  font-family: Gothic;
 }
 .post-categoris-bottom .post-categoris-bottom-link:hover {
   text-decoration: none;
@@ -722,6 +746,7 @@ li p {
   margin-right: 20px;
   color: #898FA0;
   font-size: 0.9em;
+  transition: all 0.3s;
 }
 .post-categoris-bottom .post-categoris-date:hover {
   color: #1A98FF;
@@ -757,6 +782,38 @@ li p {
     color: #1A98FF;
     font-size: 1em;
     margin-bottom: 10px;
+  }
+}
+.paginator {
+  display: none;
+}
+@media screen and (max-width: 550px) {
+  .paginator {
+    display: block;
+    margin: 50px 0px;
+    text-align: center;
+  }
+  .paginator .page-number {
+    display: none;
+  }
+  .paginator .space {
+    display: none;
+  }
+  .paginator .extend {
+    margin: 0 10px;
+    background-color: #DDF0FF;
+    color: #1A98FF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 1000;
+    font-family: Gothic;
+    transition: all 0.4s;
+  }
+  .paginator .extend:hover {
+    color: #fff;
+    background-color: #1A98FF;
   }
 }
 #gitalk-container .gt-header-textarea,

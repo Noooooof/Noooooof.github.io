@@ -708,7 +708,7 @@ li p {
   line-height: 2;
 }
 .post-categoris-bottom {
-  line-height: 1.7;
+  line-height: 1.8;
   margin-top: 30px;
   margin-bottom: 30px;
   border: 1px solid #e3e3e3;
@@ -717,6 +717,21 @@ li p {
 }
 .post-categoris-bottom .post-categoris-bottom-link:hover {
   text-decoration: none;
+}
+.post-categoris-bottom .post-categoris-date {
+  margin-right: 20px;
+  color: #79c3ff;
+  font-weight: 1000;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+}
+.post-categoris-bottom .post-categoris-date:hover {
+  color: #1A98FF;
+}
+@media screen and (max-width: 550px) {
+  .post-categoris-bottom .post-categoris-date {
+    display: none;
+  }
 }
 .post-categoris-name {
   font-size: 1.2em;

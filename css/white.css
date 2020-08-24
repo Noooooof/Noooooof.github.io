@@ -279,9 +279,6 @@ a {
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-next .post-archive-next-text {
-  color: #898FA0;
-}
-.paginator_diy .post-archive-next .post-archive-next-text:hover {
   color: #1A98FF;
 }
 .paginator_diy .post-archive-prev {
@@ -296,9 +293,6 @@ a {
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-prev .post-archive-prev-text {
-  color: #898FA0;
-}
-.paginator_diy .post-archive-prev .post-archive-prev-text:hover {
   color: #1A98FF;
 }
 .paginator_diy .page2page {
@@ -748,10 +742,6 @@ li p {
   margin-right: 20px;
   color: #898FA0;
   font-size: 0.9em;
-  transition: all 0.3s;
-}
-.post-categoris-bottom .post-categoris-bottom-link .post-categoris-date:hover {
-  color: #1A98FF;
 }
 @media screen and (max-width: 550px) {
   .post-categoris-bottom .post-categoris-bottom-link .post-categoris-date {

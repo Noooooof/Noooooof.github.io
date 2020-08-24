@@ -53,7 +53,7 @@ span {
   background-color: #898FA0;
 }
 .menu-outer {
-  font-family: CH;
+  font-family: CH, Gothic;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -68,7 +68,7 @@ span {
   transition: all 0.3s;
 }
 .menu-site-name {
-  font-family: CH;
+  font-family: CH, Gothic;
   font-size: 1.6em;
 }
 .menu-ul {
@@ -145,14 +145,14 @@ span {
   width: 80%;
 }
 .intro-title {
-  font-family: CH;
+  font-family: CH, Gothic;
   font-size: 4.5em;
   font-weight: 1000;
   margin: 0;
   padding: 0;
 }
 .intro-sub {
-  font-family: CH;
+  font-family: CH, Gothic;
   margin-top: 30px;
   font-size: 1.2em;
   line-height: 1.8em;
@@ -160,7 +160,7 @@ span {
 }
 .intro-sub a {
   display: inline-block;
-  font-family: CH;
+  font-family: CH, Gothic;
   position: relative;
 }
 .intro-sub a:after {
@@ -201,7 +201,7 @@ a {
   line-height: 2.1em;
   font-size: 1.7em;
   letter-spacing: 0.2em;
-  font-family: CH;
+  font-family: CH, Gothic;
   color: #898FA0;
   font-weight: bold;
   margin: 40px 0px 30px 0px;
@@ -222,7 +222,7 @@ a {
 .archive-post-title {
   font-size: 1.12em;
   transition: 0.4s;
-  font-family: CH;
+  font-family: CH, Gothic;
   margin-right: auto;
 }
 .archive-post-date {
@@ -260,7 +260,7 @@ a {
     font-size: 1em;
     letter-spacing: 0.1em;
     font-weight: 1000;
-    font-family: CH;
+    font-family: CH, Gothic;
     transition: all 0.4s;
   }
   .paginator .extend:hover {
@@ -280,7 +280,7 @@ a {
   font-size: 1.1em;
   font-weight: bold;
   background-color: $fff;
-  font-family: CH;
+  font-family: CH, Gothic;
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-next .post-archive-next-text {
@@ -297,7 +297,7 @@ a {
   font-size: 1.1em;
   font-weight: bold;
   background-color: $fff;
-  font-family: CH;
+  font-family: CH, Gothic;
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-prev .post-archive-prev-text {
@@ -315,7 +315,7 @@ a {
   padding: 10px 15px;
   border-radius: 5px;
   font-size: 1.125em;
-  font-family: CH;
+  font-family: CH, Gothic;
   font-weight: 1000;
   color: #898FA0;
   background-color: $fff;
@@ -330,7 +330,7 @@ a {
   border-radius: 5px;
   font-size: 1.125em;
   font-weight: 1000;
-  font-family: CH;
+  font-family: CH, Gothic;
   background-color: $fff;
   color: #898FA0;
 }
@@ -348,7 +348,7 @@ a {
 .footer-outer {
   display: flex;
   justify-content: center;
-  font-family: CH;
+  font-family: CH, Gothic;
 }
 .footer-inner {
   padding: 40px 0px;
@@ -463,7 +463,7 @@ a {
   text-align: center;
   font-size: 1.6em;
   margin-bottom: 10px;
-  font-family: CH;
+  font-family: CH, Gothic;
   font-weight: bold;
 }
 .post-cover {
@@ -528,7 +528,7 @@ a {
   margin: 15px 0px;
   color: #333333;
   font-weight: normal;
-  font-family: CH;
+  font-family: CH, Gothic;
 }
 .post-content-inner p {
   margin-bottom: 0.5em;
@@ -750,7 +750,7 @@ li p {
   border: 1px solid #e3e3e3;
   border-radius: 5px;
   padding: 20px 20px;
-  font-family: CH;
+  font-family: CH, Gothic;
 }
 .post-categoris-bottom .post-me-link {
   color: #898FA0;
@@ -845,7 +845,7 @@ li p {
 .post-content-inner .post-content-main {
   flex-basis: 800px;
   max-width: 800px;
-  font-family: CH;
+  font-family: CH, Gothic;
 }
 .post-content-inner .post-content-inner-space {
   flex-basis: 165px;

@@ -721,9 +721,7 @@ li p {
 .post-categoris-bottom .post-categoris-date {
   margin-right: 20px;
   color: #898FA0;
-  font-weight: 1000;
-  font-size: 0.8em;
-  letter-spacing: 0.1em;
+  font-size: 0.9em;
 }
 .post-categoris-bottom .post-categoris-date:hover {
   color: #1A98FF;

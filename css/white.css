@@ -22,10 +22,6 @@
   font-family: Merriweather;
   src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/Merriweather-Regular-9.ttf");
 }
-@font-face {
-  font-family: CH;
-  src: url("../font/H-TTF-BuMing-R-2.ttf");
-}
 * {
   padding: 0;
   margin: 0;
@@ -50,10 +46,10 @@ span {
   background-color: #fff;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #898FA0;
+  background-color: #1A98FF;
 }
 .menu-outer {
-  font-family: CH;
+  font-family: Gothic;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -68,7 +64,7 @@ span {
   transition: all 0.3s;
 }
 .menu-site-name {
-  font-family: CH;
+  font-family: Gothic;
   font-size: 1.6em;
 }
 .menu-ul {
@@ -145,14 +141,14 @@ span {
   width: 80%;
 }
 .intro-title {
-  font-family: CH;
+  font-family: Gothic;
   font-size: 4.5em;
   font-weight: 1000;
   margin: 0;
   padding: 0;
 }
 .intro-sub {
-  font-family: CH;
+  font-family: Gothic;
   margin-top: 30px;
   font-size: 1.2em;
   line-height: 1.8em;
@@ -160,7 +156,7 @@ span {
 }
 .intro-sub a {
   display: inline-block;
-  font-family: CH;
+  font-family: Gothic;
   position: relative;
 }
 .intro-sub a:after {
@@ -198,13 +194,12 @@ a {
   margin-bottom: 100px;
 }
 .archive-name {
-  line-height: 2.1em;
+  line-height: 2em;
   font-size: 1.7em;
   letter-spacing: 0.2em;
-  font-family: CH;
-  color: #898FA0;
-  font-weight: bold;
+  font-family: Merriweather;
   margin: 40px 0px 30px 0px;
+  font-family: Gothic;
   text-align: center;
 }
 .archive-post {
@@ -222,7 +217,7 @@ a {
 .archive-post-title {
   font-size: 1.12em;
   transition: 0.4s;
-  font-family: CH;
+  font-family: Gothic;
   margin-right: auto;
 }
 .archive-post-date {
@@ -260,7 +255,7 @@ a {
     font-size: 1em;
     letter-spacing: 0.1em;
     font-weight: 1000;
-    font-family: CH;
+    font-family: Gothic;
     transition: all 0.4s;
   }
   .paginator .extend:hover {
@@ -280,7 +275,7 @@ a {
   font-size: 1.1em;
   font-weight: bold;
   background-color: $fff;
-  font-family: CH;
+  font-family: Gothic;
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-next .post-archive-next-text {
@@ -297,7 +292,7 @@ a {
   font-size: 1.1em;
   font-weight: bold;
   background-color: $fff;
-  font-family: CH;
+  font-family: Gothic;
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-prev .post-archive-prev-text {
@@ -315,7 +310,7 @@ a {
   padding: 10px 15px;
   border-radius: 5px;
   font-size: 1.125em;
-  font-family: CH;
+  font-family: Gothic;
   font-weight: 1000;
   color: #898FA0;
   background-color: $fff;
@@ -330,7 +325,7 @@ a {
   border-radius: 5px;
   font-size: 1.125em;
   font-weight: 1000;
-  font-family: CH;
+  font-family: Gothic;
   background-color: $fff;
   color: #898FA0;
 }
@@ -348,7 +343,7 @@ a {
 .footer-outer {
   display: flex;
   justify-content: center;
-  font-family: CH;
+  font-family: Gothic;
 }
 .footer-inner {
   padding: 40px 0px;
@@ -461,10 +456,9 @@ a {
 }
 .post-title {
   text-align: center;
-  font-size: 1.6em;
-  margin-bottom: 10px;
-  font-family: CH;
-  font-weight: bold;
+  font-size: 1.7em;
+  margin-bottom: 15px;
+  font-family: Gothic;
 }
 .post-cover {
   margin-top: 80px;
@@ -496,7 +490,7 @@ a {
   text-align: center;
   font-family: Gothic;
   color: #898FA0;
-  line-height: 3;
+  line-height: 4;
   position: relative;
 }
 .meta-intro:after {
@@ -528,18 +522,14 @@ a {
   margin: 15px 0px;
   color: #333333;
   font-weight: normal;
-  font-family: CH;
+  font-family: Merriweather;
 }
 .post-content-inner p {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.3em;
   text-indent: 2em;
 }
-.post-content-inner h1 {
-  font-size: 1.3em;
-  font-weight: bold;
-}
 .post-content-inner h2 {
-  font-size: 1.25em;
+  font-size: 1.65em;
   margin: 30px 0px;
 }
 .post-content-inner h2::after {
@@ -551,7 +541,7 @@ a {
   font-weight: 1000;
 }
 .post-content-inner h3 {
-  font-size: 1.2em;
+  font-size: 1.25em;
   display: inline-block;
   box-shadow: inset 0 -1rem 0 #e3e3e3;
 }
@@ -559,10 +549,10 @@ a {
   font-size: 1.15em;
 }
 .post-content-inner h5 {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 .post-content-inner h6 {
-  font-size: 1.05em;
+  font-size: 1em;
 }
 .post-content-inner blockquote {
   margin-left: 2em;
@@ -750,7 +740,7 @@ li p {
   border: 1px solid #e3e3e3;
   border-radius: 5px;
   padding: 20px 20px;
-  font-family: CH;
+  font-family: Gothic;
 }
 .post-categoris-bottom .post-me-link {
   color: #898FA0;
@@ -762,7 +752,6 @@ li p {
   margin-right: 20px;
   color: #898FA0;
   font-size: 0.9em;
-  font-family: Gothic;
 }
 @media screen and (max-width: 550px) {
   .post-categoris-bottom .post-categoris-bottom-link .post-categoris-date {
@@ -845,7 +834,7 @@ li p {
 .post-content-inner .post-content-main {
   flex-basis: 800px;
   max-width: 800px;
-  font-family: CH;
+  font-family: Gothic;
 }
 .post-content-inner .post-content-inner-space {
   flex-basis: 165px;

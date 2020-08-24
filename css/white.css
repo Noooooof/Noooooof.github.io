@@ -1,30 +1,30 @@
 @font-face {
   font-family: hack-regular;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/Hack-Regular.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/Noooooof/partials/Font/Hack-Regular.ttf");
 }
 @font-face {
   font-family: hack-italic;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/Hack-Italic.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/Noooooof/partials/Font/Hack-Italic.ttf");
 }
 @font-face {
   font-family: hack-bold;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/Hack-Bold.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/Noooooof/partials/Font/Hack-Bold.ttf");
 }
 @font-face {
   font-family: hack-bolditalic;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/Hack-BoldItalic.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/Noooooof/partials/Font/Hack-BoldItalic.ttf");
 }
 @font-face {
   font-family: Gothic;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/GOTHIC.TTF");
+  src: url("https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/GOTHIC.ttf");
 }
 @font-face {
   font-family: Merriweather;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/Merriweather-Regular-9.ttf");
+  src: url("https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/Merriweather-Regular-9.ttf");
 }
 @font-face {
   font-family: CH;
-  src: url("../font/H-TTF-BuMing-R-2.ttf");
+  src: url("https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/H-TTF-BuMing-R-2.ttf");
 }
 * {
   padding: 0;

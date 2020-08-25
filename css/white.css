@@ -521,6 +521,7 @@ a {
   line-height: 1.7;
   font-size: 1em;
 }
+.post-content-inner h1,
 .post-content-inner h2,
 .post-content-inner h3,
 .post-content-inner h4,
@@ -536,7 +537,7 @@ a {
   text-indent: 2em;
 }
 .post-content-inner h1 {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-weight: bold;
 }
 .post-content-inner h2 {

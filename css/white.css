@@ -226,7 +226,7 @@ a {
   margin-right: auto;
 }
 .archive-post-date {
-  font-family: Gothic;
+  font-family: CH, Gothic;
   color: #1A98FF;
   font-weight: 1000;
   background-color: #DDF0FF;
@@ -494,7 +494,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: center;
-  font-family: Gothic;
+  font-family: CH, Gothic;
   color: #898FA0;
   line-height: 3;
   position: relative;
@@ -639,7 +639,7 @@ ol {
 .post-content-inner ul li::before {
   content: "◆";
   font-size: 0.8em;
-  font-family: Gothic;
+  font-family: CH, Gothic;
   color: #898FA0;
   margin-right: 0.7em;
   text-align: right;
@@ -764,7 +764,7 @@ li p {
   margin-right: 20px;
   color: #898FA0;
   font-size: 0.9em;
-  font-family: Gothic;
+  font-family: CH, Gothic;
 }
 @media screen and (max-width: 550px) {
   .post-categoris-bottom .post-categoris-bottom-link .post-categoris-date {

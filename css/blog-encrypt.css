@@ -54,11 +54,11 @@
   order: 2;
   width: 0;
   height: 2px;
-  background: #fff; /*底色*/
+  background: #658db5;
   transition: all 0.3s;
 }
 .hbe-input-container input:focus {
-  border-bottom-color: #aeaeae; /*输入时的横线颜色*/
+  border-bottom-color: #fff;
 }
 .hbe-input-container input:focus ~ div,
 .hbe-input-container input:not(:placeholder-shown) ~ div {
@@ -66,7 +66,7 @@
 }
 .hbe-input-container input:focus + label,
 .hbe-input-container input:not(:placeholder-shown) + label {
-  color: #7e7e7e; /*提示语颜色*/
+  color: #52616c;
   -webkit-transform: translate(10px) scale(0.9);
   transform: translate(10px) scale(0.9);
 }
@@ -78,7 +78,7 @@
   border: none;
   border-radius: 5px;
   position: relative;
-  border-bottom: 4px solid #e3e3e3; /*横线原本颜色*/
+  border-bottom: 4px solid #2b8bc6;
   color: #fbfbfb;
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;

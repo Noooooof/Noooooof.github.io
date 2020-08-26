@@ -522,33 +522,28 @@ a {
   line-height: 1.7;
   font-size: 1em;
 }
+.post-content-inner p {
+  margin-bottom: 0.5em;
+  text-indent: 2em;
+}
 .post-content-inner h1,
 .post-content-inner h2,
 .post-content-inner h3,
 .post-content-inner h4,
 .post-content-inner h5,
 .post-content-inner h6 {
-  margin: 20px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 20px 0px 10px 0px;
   color: #333333;
   font-weight: bold;
   font-family: CH, Gothic;
 }
-.post-content-inner p {
-  margin-bottom: 0.5em;
-  text-indent: 2em;
-}
 .post-content-inner h1 {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin: 40px 0px 20px 0px;
   font-size: 1.45em;
 }
 .post-content-inner h2 {
   font-size: 1.4em;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin: 40px 0px 20px 0px;
 }
 .post-content-inner h2::after {
   content: "#";

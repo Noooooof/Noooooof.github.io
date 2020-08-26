@@ -629,9 +629,10 @@ ol {
   counter-increment: li;
 }
 .post-content-inner ol li::before {
+  display: none;
   content: counter(li);
   font-family: Merriweather;
-  color: #333333;
+  color: #898FA0;
   margin-right: 0.7em;
   text-align: right;
 }
@@ -859,6 +860,7 @@ li p {
   flex-basis: 165px;
 }
 .post-content-inner .post-content-inner-space .space-toc-main {
+  font-family: CH, Gothic;
   position: sticky;
   top: 30px;
   max-height: 550px;
@@ -868,7 +870,7 @@ li p {
 .post-content-inner .post-content-inner-space .space-toc-main a {
   color: #898FA0;
   transition: all 0.3s;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 .post-content-inner .post-content-inner-space .space-toc-main ol {
   list-style: none;

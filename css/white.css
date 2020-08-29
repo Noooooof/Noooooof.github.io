@@ -977,12 +977,6 @@ li p {
   list-style: none;
   margin-bottom: 40px;
 }
-@media screen and (max-width: 550px) {
-  #local-search-result .search-cover {
-    width: 30%;
-    height: 30%;
-  }
-}
 #local-search-result .search-result-title {
   color: #333;
   font-size: 1.3em;

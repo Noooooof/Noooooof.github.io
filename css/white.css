@@ -979,7 +979,8 @@ li p {
 }
 @media screen and (max-width: 550px) {
   #local-search-result .search-cover {
-    display: none;
+    width: 85%;
+    height: 85%;
   }
 }
 #local-search-result .search-result-title {

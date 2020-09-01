@@ -6,7 +6,12 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天把「死神」看完了，结尾有点仓促，但实在是非常有趣的作品。</p>
 <p>有些激动，想要写点什么，关于几个蛮喜欢的大叔、关于那些各具特色的人物和能力。</p>
 <p>但现在写总觉得会有所遗漏，而且也会是个挺大的工程，等我什么时候二刷完再说吧。</p>
-<p>先丢在这里。</p>
+<p>
+        <span class="lazyload-img-span">
+        <img   
+           data-src="https://cdn.jsdelivr.net/gh//Noooooof/partials/Image/Bleach/Kisuke.png" >
+        </sapn>
+      </p>
 ]]></content>
       <categories>
         <category>Essay</category>
@@ -424,6 +429,32 @@
       </categories>
   </entry>
   <entry>
+    <title>Spider silk</title>
+    <url>/d20200601/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>对稳定安全的关系没有要求的话，建立契约好像确实不是必要的事情。</p>
+<p>但我确切地知道，我是需要这种关系的。</p>
+<p>它像飘在空中的蛛丝，牢牢抓住了下坠的我。</p>
+]]></content>
+      <categories>
+        <category>2020.06</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Live a life</title>
+    <url>/d20200604/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>陆陆续续收到了斯丝、潘和博涵的儿童节礼物。</p>
+<br/>
+
+<p>在前段时间持续低温之后，今天又热了起来，电脑的掌托明确地告诉我这一点。</p>
+<p>钻机声代替蝉鸣不知疲倦地喧噪着。从前我能在蝉声中轻易入睡，如今亦然。</p>
+<p>总得向前看看，总得向前走走。</p>
+<p>有想做的事，有想见的人，有想去的地方，就别困守一隅了啊。</p>
+]]></content>
+      <categories>
+        <category>2020.06</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Four years long</title>
     <url>/d20200605/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>逃避着论文，和潘约在天府广场。</p>
@@ -455,17 +486,6 @@
       <tags>
         <tag>silly</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Spider silk</title>
-    <url>/d20200601/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>对稳定安全的关系没有要求的话，建立契约好像确实不是必要的事情。</p>
-<p>但我确切地知道，我是需要这种关系的。</p>
-<p>它像飘在空中的蛛丝，牢牢抓住了下坠的我。</p>
-]]></content>
-      <categories>
-        <category>2020.06</category>
-      </categories>
   </entry>
   <entry>
     <title>Give up</title>
@@ -519,21 +539,6 @@
 
 <p>回民宿之后，梅西（客栈的金毛）高高兴兴地围着潘嗅嗅舔舔。</p>
 <p>大狗真可爱。</p>
-]]></content>
-      <categories>
-        <category>2020.06</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Live a life</title>
-    <url>/d20200604/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>陆陆续续收到了斯丝、潘和博涵的儿童节礼物。</p>
-<br/>
-
-<p>在前段时间持续低温之后，今天又热了起来，电脑的掌托明确地告诉我这一点。</p>
-<p>钻机声代替蝉鸣不知疲倦地喧噪着。从前我能在蝉声中轻易入睡，如今亦然。</p>
-<p>总得向前看看，总得向前走走。</p>
-<p>有想做的事，有想见的人，有想去的地方，就别困守一隅了啊。</p>
 ]]></content>
       <categories>
         <category>2020.06</category>
@@ -1817,7 +1822,10 @@
 <p>坐夜巴到Paris……我不应该强迫症地想把各种交通方式都试试看的，夜巴真是糟糕的体验。</p>
 <br/>
 
-<h3 id="Paris"><a href="#Paris" class="headerlink" title="Paris"></a>Paris</h3><p>我觉得越来越没什么可写的了……</p>
+<h3 id="Paris"><a href="#Paris" class="headerlink" title="Paris"></a>Paris</h3><p>Paris反倒没什么可写的，或许塞纳河两岸有些别致的风光，但它给人印象最深的果然还是地铁站里经久不散的尿骚味、裹在破旧被子里的流浪汉和从闸机上一跃而过的逃票者。九月底再来这里的时候，我还亲眼见到一个小姐姐在地铁靠站的两分钟里迅速意识到自己包被偷了，健步冲下车追回包，然后又跳上来和旁边的女性朋友继续谈笑，简直像是某种日常。</p>
+<p>从潘那里拿到居留证和大小姐送我的游戏王卡片，陪我妈逛了整两天博物馆逛到腿断。她大概是一点都不知道由于脚仍肿着、走路发力不当而从腿到腰都剧痛的我有多崩溃。我坐在凯旋门底下吹着妖风，她倒是一步一脚印地爬上去，回来和我说非常壮观。我看了看那些花掉的照片，不太理解一个五角星形的放射状广场有什么壮观可言。</p>
+<p>和房东相处得非常不愉快，于是这以后我再没有租过Airbnb上的独立房间。</p>
+<h2 id="September"><a href="#September" class="headerlink" title="September"></a>September</h2><p>北欧小姐姐们真好看啊（笑</p>
 <p><strong>To Be Continued…</strong></p>
 ]]></content>
       <categories>

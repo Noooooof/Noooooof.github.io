@@ -34,21 +34,6 @@
       </categories>
   </entry>
   <entry>
-    <title>A star and a stray dog</title>
-    <url>/d20200426/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>看见星星的话，就要搭起高塔去捞星星。</p>
-<p>因为真正美好而明亮的星星不是那么常见的东西。</p>
-</blockquote>
-<br/>
-
-<p>即使是野狗，也可以拥有自己的星星的吧。</p>
-]]></content>
-      <categories>
-        <category>2020.04</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Reborn</title>
     <url>/d20200427/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>你好。</p>
@@ -148,6 +133,21 @@
 ]]></content>
       <categories>
         <category>2020.05</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>A star and a stray dog</title>
+    <url>/d20200426/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>看见星星的话，就要搭起高塔去捞星星。</p>
+<p>因为真正美好而明亮的星星不是那么常见的东西。</p>
+</blockquote>
+<br/>
+
+<p>即使是野狗，也可以拥有自己的星星的吧。</p>
+]]></content>
+      <categories>
+        <category>2020.04</category>
       </categories>
   </entry>
   <entry>
@@ -483,25 +483,6 @@
       <categories>
         <category>2020.06</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Life is a dream</title>
-    <url>/d20200611/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Please enter the password.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="10a04736060af322674c9b7900c6d98b70550fba51b5b2e839d571209eba6aaa">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1f507922e7733ea82775f1345379cdd5c4fbe978e723a9d7c742d4d403fa9e7e9c79d0877d677f580526e0be9e4ea5adeea7e36abe7344c781250529212d3813d29754ce99a7d3cb59abe1e9b6eb6e7d9b13ef2c129d2001f687e8048933ee4cee074a71aa884950122a70b03a4827c3a76a36110978823a163afc1da5c41de747f27d27b03cbcff56566c0522a72788b9e8d564977e5ec244d8b0107e6de0ab756c32ecd4ea8c064c6dcaf5a916130a6fce283caf6d93a35bc3fa474c9d4bdcefa30c1a7e01c09079bfa2b495dbf957f3ff9aaa5bb376d6626e19af0d570081ccd20eb619b634c2bddc86f190648cffc539ce8a7abf879940cd2604bc5c5cb8edb39429d1a15236b8d94ef8322c841345f2fe3239221a5c959d43941e63f6545249b523001f49e97469fa47e833ad038a3ca3e8929bc2f44c9553cda7214fc9abdac4b84deca2e69b2c51151385afe72e536e6de6e304fa406c0e4e03c49c4effb25ba8fc191a489ca110b776cf9e6c7923486461aed07b9ec9d4a23a9c3eb5a0cb561cba8ed8b02e91264a5ba6ae39dacb12c7e2dcaffc9dfce93749905a62631160f6c449faff0f0dd3390a3c932d863d3219f3f8d4ca904c1e2d67cef5b861bab43a2916f0e22d3bb5bf7daf3c0521364b3472d976e1d557c98f958cdcc58e07d1a54d60e44f781f97fed00c401e33a785e57e74023e5ae261f944470cdb136bf7bda5c43d93b2c919c0439812870ba27f9a2fbdc664dea3833da1230c2eeb80be202d6b433216f57ed7d98dd17f3079726f3ca3ba67a458481ed88d161d757caf3f4a2e1f4b5b4c40e0aa24ada62bd937b8c9803833caec97245e921fe97328267c88466a6250a4cabd1df2c87620b8fec701aef607ac27554028a9124231f6ed4ee0516302838be87573852c123cb34c6f75729f3c4281863e64838bf69cb641427658ba0a51c1b6a4d7b5a669899da121ca3c1c61c39cc2f095bfcfc56b35e3628ca75f7b6814be4db3be9ab5e869edc0c91a4dd74021aee1410a2926263cb310e4521ec29d295b73b4763940ba01c589acc0ee8b582f59ccabbdbc165f28857208433e1c61bb457b73bc20fcc6ee63344412014c9ba922cd472ee484d054560915161147d59b202ea25761411624e9a8985c9c7229c93f2b0c9e3189dca28f4b395afc890aa870fd157e60aa49616f72e80dce6dc66d9f0fb12c71072724dd353afebc99d7304b0a6be5c2cc179479fed8ab60d7d656c993fe0f2ec56651787eb696aaf4392dd995708e9bd74db8c11082fad6210ec4ed978586ef8d79c666144f9f1fc9e286e2041988d9cba67ce8357c3a15c944c91fc4275d7030565bb7c5bfba9d041eaa1ceece9f6a138801edf5aa0803486fa23a6068abff313dbc6367f934f2b9d62087b81df1124f96f5dca370506967551224f04f0c69fc5ef75aaa7cd3dcb7b3be181adc26a258ac8795c0149c5ed75260ee8df729a8da643e9a774fb37c15f8916ac4b54afc00daf5868b7d85ce64e2fff304c50078690731a28295a512c039c3e49fa6839f5219dcedab1eb8ccfb0d3d39b0b62e3eb5e5b5bbcdd7132c9e6949a81b9be63791010a37afb0be2467da47647b357d16ef92defafb44b27977482d733c84a5b42beb588ffeb83bb56334ae46f6c5baee8e0ac5d83d7e3c7db153de620c58762f5bbf5ac7edccf88826319311c7c2351522643969503a50dbd95b584a568ff0b8dc4d59f18466ae4fb7df938a658f2bf61191fcfd28e1bc1ca414b29af28d5ebfb9d0e16115d940831c60dddc88fd1e058d63940b2a60a6b13db6f1e7e83fd4f9a9273a8192891371d6d935bf6390435b573f6e21207fddcd720d4ac14f320c73c3db887a0b74e2f3c7dc88dbe3e84ebdb87c5a8448b56db3d994bf054061e2e646d14e06f26b2a88027b229ae10f4f117546e011c8c63c42c366b36b7438154b412265eb6b94d739c39361f59adbaeda43fb49939db7563f15ba2f317e26dd88afffd45f110dd6e7ff4400a98f09ddb36fb9ed75a7f0bd59f1d39573c34e652e0e067321383b8eb45f397dc9e2a3aa6c4695595dedb66cd633f81395af945073da4b3630dc88f001c543b37d05d37c0a5a3d88d08266ec47c88849e008fab591f3b9d60411ccf05e47c71249b9ba29bf983133066fc429e95ef7fa09b10b2c2e93e49e56980354081c9d531e8c5a819a2e91ca683fc7e8a0f7b9a0c5d106a9c7112e381a7693d3f254430d5be371baac0a1325c0817da1e12f1173ac4d3bf29f1cd9e84079185aa16c6e10c2a9ef4a82ddf6e444afaede1f46361fb13be4168849953be995e5f181b7c92438de9c797784763cedd30ee4572ba922137aeb3666bcf0ad33172ccc06968a202fe22fdc31f00640a54fca22455dfb3436380dd5cb3d027be41bb65665bf5178ea3637b19fe26630499bfce9c2e0de0906dfb0e812f005058a207d8f5a2e31f73a94bab3f229a80b2128edb6105e315f3c3ee4e4fd0174041198541e9853f16508af290f6bda9fd4d9697af2cfc63698ac40de2a881e06241458bb459fc5ec3986e3481a528da0f20038549c8c85ffa332d10202f3909b9b80d359f9b31d953a0e99716fa97d6669819e21e333966fd077d949d48efe108df0c4427ccb6a52449a7cc72b50abadbaca9824153d74b1c0e48c8fc7b2c293db058c6b0a2c6f003429a3b4a80dcb4aea03fc695ef8c45cc5eabeecdd6ed8fd824032ba7c0e78f62d78f479df73c99da0c1a15d323b913d78939728de1709b467e4ec4e4b25d11a957e62787535ca88a4940eb4521fa561643ed992ab567fa0c1226a8eb6459364f187d46e9f1267ce5a26d172a48e3d954546b20fbe41a10f48e270ddcc5b8a30bed0adb01f14fca3f85e44b6e6feace7d081d131120048d7ed875501b73cbfa656baaf8846968fe82a7d795060a01ea4496c5b9af8baad67c45ac38109302f0fee41cb2a8895e7f8bec302af45f2bd07587f8b940a6f6a2946f1130e19aec79dfce10061620837cae491f4ac597fedf18cdda04837032c69f94e782f780ccd6a181162629f0fa94df3304d69bcd55793a227cdd0c218e4325d06aae4c5588fbd3b4fcdd13d1eb4cfccdf1172dad27c99484ba98af02477785228bec9de4549bef00d769be6bfc67662517590e57b61145af3b2f92dddcd167b3ce97b43f9aeb2b8a17e031525689dd831cf105ec4ce5dcf50bfea707a8fe96c35c22d02fd5be30669d7313a5e29a11d03f326774406ffa8fe98b4cf0ce9ce77c78c541738e62936f8d745bc83113efe0e2bf6b5495383044e1462d17f83fd6b17b3ac5b1e165ab2423e89e7841802a41d25147e411797a3b3b039991602ea</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>2020.06</category>
-      </categories>
-      <tags>
-        <tag>silly</tag>
-      </tags>
   </entry>
   <entry>
     <title>Give up</title>
@@ -1084,23 +1065,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Meeting</title>
-    <url>/d20200801/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>和斯丝、柳依、潘聚会，溜达到成博。</p>
-<p>一楼的特展有点意思，佛像多是为亡父母或亡子所塑（也有一尊为亡夫塑的），在忍冬纹莲花纹菩提纹火焰纹之外还另有龙纹，儒释道结合的颇为融洽。三楼的中日伊万里瓷不太行，配色太死亡了，尤其日本的瓷器，一点留白都没有……也许这就是当时欧洲的审美风向？</p>
-<p>在天府广场逛了逛，看见帽子就没走动路，快快乐乐都试了一遍，瓜皮帽实在太好笑了。</p>
-<p>太累了尝试了下路边的按摩椅，有一说一体感不错，除了本来按摩肩背变成了捶我脑阔之外（x）</p>
-<p>晚饭前在桌子上趴了会，听见地铁轰隆隆从底下经过，朋友们点着菜，我盯着绿植发呆。</p>
-<p>真的，好久不见啦。</p>
-<br/>
-
-<p>ps，脑花寿司居然是甜的啊。</p>
-]]></content>
-      <categories>
-        <category>2020.08</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Liar</title>
     <url>/d20200802/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>张九龄是个骗子。</p>
@@ -1351,6 +1315,23 @@
       </categories>
   </entry>
   <entry>
+    <title>Meeting</title>
+    <url>/d20200801/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>和斯丝、柳依、潘聚会，溜达到成博。</p>
+<p>一楼的特展有点意思，佛像多是为亡父母或亡子所塑（也有一尊为亡夫塑的），在忍冬纹莲花纹菩提纹火焰纹之外还另有龙纹，儒释道结合的颇为融洽。三楼的中日伊万里瓷不太行，配色太死亡了，尤其日本的瓷器，一点留白都没有……也许这就是当时欧洲的审美风向？</p>
+<p>在天府广场逛了逛，看见帽子就没走动路，快快乐乐都试了一遍，瓜皮帽实在太好笑了。</p>
+<p>太累了尝试了下路边的按摩椅，有一说一体感不错，除了本来按摩肩背变成了捶我脑阔之外（x）</p>
+<p>晚饭前在桌子上趴了会，听见地铁轰隆隆从底下经过，朋友们点着菜，我盯着绿植发呆。</p>
+<p>真的，好久不见啦。</p>
+<br/>
+
+<p>ps，脑花寿司居然是甜的啊。</p>
+]]></content>
+      <categories>
+        <category>2020.08</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Crazy</title>
     <url>/d20200827/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>写推送写吐了，有一说一没什么实质内容，只是个很简单的攻略，我居然搞了十个小时，原地爆炸。</p>
@@ -1417,23 +1398,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Songs</title>
-    <url>/d20200908/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-KWRHNVUr" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="5226428131" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
-    ></div>
-
-
-
-<p>收拾东西，把乱七八糟的衣服塞进箱子努力合上。</p>
-<p>得走了。</p>
-]]></content>
-      <categories>
-        <category>2020.09</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Back to school</title>
     <url>/d20200909/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早上出门时忘带帽子，走到楼下想起来折回去拿，结果到机场下车的时候又忘了。</p>
@@ -1448,6 +1412,21 @@
 <br/>
 
 <p>ps，晚上买了五斤西瓜榨汁，消灭得很艰难……果然还是太贪心了。</p>
+]]></content>
+      <categories>
+        <category>2020.09</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>trivia</title>
+    <url>/d20200911/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>潘总结了下刘哲老师的推荐信，「花同学哲学方面特别优秀，然后突然想学法；虽然不知道为什么，但是她很厉害，你们要相信她」。这么一看是蛮好笑的。</p>
+<p>上午跑去教务盖了章，也收到了天岳老师的推荐信，突然觉得这事情的结果还是很重要，不说我未来的方向，就只说对不对得起老师们的推荐和祝福。虽然到这个时间点也没办法再挽回什么了，我还是认认真真抱抱佛脚吧。</p>
+<p>疫情期间去地下室要开介绍信，文体部的老师开会没回来，索性坐在门口自习——简直像在静坐示威。</p>
+<p>去B209搬了椅子、窗帘和医药箱出来，在南门等闪送的时候陆续碰到了嵩嵩、左正浩和徐培琰，大家这是扎堆出门吗（笑</p>
+<br/>
+
+<p>ps，搬窗帘要了我半条命，这包东西怕是有半个我高（捂脸</p>
 ]]></content>
       <categories>
         <category>2020.09</category>
@@ -1696,6 +1675,19 @@
       </categories>
   </entry>
   <entry>
+    <title>聊将锦瑟寄流年</title>
+    <url>/e20140905/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我并不算多情的人，甚而性子有一点凉薄，只是在乎的人便极在乎，纵然一切都不复当初。嘉祥，我在这里徘徊了四年，一个人，两个人，三个人，然后一点点零落。只是想着，也许可以写点什么来祭奠，那些人，和那些心情。</p>
+<p>六年级一个人走过长长的林荫道，仰头望天。那时候两旁的行道树还没有移走，教学楼二楼月季娇媚如火，那时候一个人数着天空被切割成细碎的空隙，阳光深深浅浅映出虹影，那时候四月的路上有两方春秋，一处盛开着春意，一处透着离索，那时候我假装自己多么忧愁，却真实地笑，也坚强地哭。</p>
+<p>初一我遇见铃，在人群中。惊异于一个可以很温柔也可以很腹黑的女孩。我试着去打排球，笨拙地垫球。那一年排球馆还没有装修，地板油光发亮，一地排球四散滚动，打羽毛球的人简单圈了个训场。你告诫我别在别人打球时靠近，你一遍遍为我示范喊我不托球时手要放松，你笑着看我躲在场地的角落里赶着作业，你坐在架子下给我讲你的过去和你所希冀的未来。还有每天中午算着时间往寝室奔跑的那种跳脱和恣肆，香樟打下树影在我们身后追逐。只是那些日子，却一如云烟了。排球馆换了新装，也不会有人再踏着点和我冲回寝室，体育课我练着垫球，想起你的音容笑貌，已远在加拿大了。</p>
+<p>另外一个家伙呢，等我毕业前偶然想起，才恍悟他竟安静地伴过我三年。车窗上掠过灯火纷繁，斑驳的光影点洒在身边人的脸上，白色的耳机线悠悠晃荡。晚上刷过题从机房一路赶下来，22：02月光如水，完全没有迟到自觉性地一边跑一边讨论。后来我写了篇纪念OIer的《阳光路上》，至于究竟修饰美化了些什么似乎不需多言了。你总是脾气很好，无奈地看着我“神奇的找来一大堆事情做”——你的原话，当然我最麻烦的时候还是钻牛角尖东问西问烦得你直接“嘟咯噗噜”地冒出各种奇怪的音节应付了事。我还在学信息，一如既往地喜欢迟到，钻牛角尖时还是很讨厌，但好像没有一个好脾气如你的家伙可以被我揪着问来问去了。我去教育处帮你领团员证，盖上印章，想着大概以后难会相见了，不过你在七林必然也会一样的荣光。</p>
+<p>似乎也就是这样了。到了新的班级，身边多了形形色色的脸孔，我情愿不戴眼镜，不去看，就不会烦恼。约是逃避。我开始在一个人的时候写一些东西，琐琐碎碎地拼凑起过去的时光和无可替代的你们。到这篇为止，大约也足够了，才刚刚开始呢，就忘了结束吧。</p>
+]]></content>
+      <categories>
+        <category>Essay</category>
+      </categories>
+  </entry>
+  <entry>
     <title>日落</title>
     <url>/e20140930/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>看见日落。</p>
@@ -1712,19 +1704,6 @@
 <p>虫鸣在野。</p>
 <p>我抬头，看见最后一抹霞光就此敛去。</p>
 <p>天地之间，只余湛湛然一片。</p>
-]]></content>
-      <categories>
-        <category>Essay</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>聊将锦瑟寄流年</title>
-    <url>/e20140905/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我并不算多情的人，甚而性子有一点凉薄，只是在乎的人便极在乎，纵然一切都不复当初。嘉祥，我在这里徘徊了四年，一个人，两个人，三个人，然后一点点零落。只是想着，也许可以写点什么来祭奠，那些人，和那些心情。</p>
-<p>六年级一个人走过长长的林荫道，仰头望天。那时候两旁的行道树还没有移走，教学楼二楼月季娇媚如火，那时候一个人数着天空被切割成细碎的空隙，阳光深深浅浅映出虹影，那时候四月的路上有两方春秋，一处盛开着春意，一处透着离索，那时候我假装自己多么忧愁，却真实地笑，也坚强地哭。</p>
-<p>初一我遇见铃，在人群中。惊异于一个可以很温柔也可以很腹黑的女孩。我试着去打排球，笨拙地垫球。那一年排球馆还没有装修，地板油光发亮，一地排球四散滚动，打羽毛球的人简单圈了个训场。你告诫我别在别人打球时靠近，你一遍遍为我示范喊我不托球时手要放松，你笑着看我躲在场地的角落里赶着作业，你坐在架子下给我讲你的过去和你所希冀的未来。还有每天中午算着时间往寝室奔跑的那种跳脱和恣肆，香樟打下树影在我们身后追逐。只是那些日子，却一如云烟了。排球馆换了新装，也不会有人再踏着点和我冲回寝室，体育课我练着垫球，想起你的音容笑貌，已远在加拿大了。</p>
-<p>另外一个家伙呢，等我毕业前偶然想起，才恍悟他竟安静地伴过我三年。车窗上掠过灯火纷繁，斑驳的光影点洒在身边人的脸上，白色的耳机线悠悠晃荡。晚上刷过题从机房一路赶下来，22：02月光如水，完全没有迟到自觉性地一边跑一边讨论。后来我写了篇纪念OIer的《阳光路上》，至于究竟修饰美化了些什么似乎不需多言了。你总是脾气很好，无奈地看着我“神奇的找来一大堆事情做”——你的原话，当然我最麻烦的时候还是钻牛角尖东问西问烦得你直接“嘟咯噗噜”地冒出各种奇怪的音节应付了事。我还在学信息，一如既往地喜欢迟到，钻牛角尖时还是很讨厌，但好像没有一个好脾气如你的家伙可以被我揪着问来问去了。我去教育处帮你领团员证，盖上印章，想着大概以后难会相见了，不过你在七林必然也会一样的荣光。</p>
-<p>似乎也就是这样了。到了新的班级，身边多了形形色色的脸孔，我情愿不戴眼镜，不去看，就不会烦恼。约是逃避。我开始在一个人的时候写一些东西，琐琐碎碎地拼凑起过去的时光和无可替代的你们。到这篇为止，大约也足够了，才刚刚开始呢，就忘了结束吧。</p>
 ]]></content>
       <categories>
         <category>Essay</category>
@@ -1757,6 +1736,39 @@
 <p>相信四班的我们总会义无反顾地踏上自己的方向，带着我们的约定和希望。</p>
 <p>祝你们，祝我们，一路安好。 </p>
 <p><strong>Forever Spain</strong></p>
+]]></content>
+      <categories>
+        <category>Essay</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>辉夜</title>
+    <url>/e20160304/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>海外徒闻更九州，他生未卜此生休。</p>
+<p>空闻虎旅传宵柝，无复鸡人报晓筹。</p>
+<p>此日六军同驻马，当时七夕笑牵牛。</p>
+<p>如何四纪为天子，不及卢家有莫愁。</p>
+</blockquote>
+ <br/>
+
+<p>辉夜姬。</p>
+<p>“真乃秀美之名。”他低语，走进曲折掩映的回廊。</p>
+<p>这是他又一次出诊，应大君的请求。本以为是某位公家的女儿，见到人时方打消了念头。紫黑色的儒裙，隐约绣着玄色的花纹，秀眉微蹙，脸色苍白得近乎透明，却意外地有着坚定而雍贵的神态。于是和以往一般诊断、开方，抬头的一瞬，被女子浅浅漾起的笑容迷了眼。</p>
+<p>一去二三年，女子身上几乎不留时光的痕迹，只是仍旧不常出府。平成京里传扬着她的美貌大方，各家公子都以得辉夜姬一纸邀约为荣——唯他旬旬任意进出。穿过回廊，他熟练地去往庭院，耀眼盛开的紫阳花海中却不见她的身影。折返回去，在会客堂前隐约听见“天河”二字，片刻后一着布衫的清秀少年走出厅堂，似是大唐服饰。屋内传来压抑的咳嗽声，他忙压下纷乱思绪，快步冲入。</p>
+<p>此后女子日渐消瘦，少年走后仿佛更容易见到她恍惚脆弱的神态。他来府日益频繁，却也难解心病。是日例行诊断后他正欲先行告别，未想她转过身来，“藤原，你可知天河？”</p>
+<p>“……故老曾言，是应人愿景处。”他掸掸衣襟，复又坐下。</p>
+<p>“前日，有少年自故地来。便想着约其相见，借问故人近况。”</p>
+<p>他静静坐着，眸中映出女子拂拭卷轴的模样。</p>
+<p>“他说不知……怎得不知呢……那人约是……先我而去了罢。”</p>
+<p>红色丝绸系住的卷轴，他在女子的闺中多次见过，料是极重要的物什。见她似要撕去，不由出声阻止：“莫！若那人未去，又何苦来由！”两行清泪自女子眼中滑落，他一时竟是怔了。</p>
+<p>“那少年此去寻找天河，邀我同行，许能重现旧时光景。”</p>
+<p>她定定地注视着某处，收起卷轴：“可逝去的……终是回不去从前了。”</p>
+<p>“……藤原，多谢你听我说这些。”</p>
+<p>他不知自己怎样走出府的，眼前浮现漫山遍野的紫阳花，一会是初见时雍贵的辉夜姬，一会是方才落泪的女子。</p>
+<p>慢慢关上的府邸大门里，良久一声苦笑：“如同你失了社稷……我失了你……”</p>
+<p>三日后，辉夜姬离世。走的时候极安详，隐在紫阳花海中，皓腕边散落着信笺。他第一次颤抖着手打开那幅卷轴，画中人英气勃发，款识著着“赠玉环”的字样。他沉默不语地烧着那些信笺，一页一页相同的句子。</p>
+<p>“求而……不得……”</p>
 ]]></content>
       <categories>
         <category>Essay</category>
@@ -1814,39 +1826,6 @@
       </categories>
   </entry>
   <entry>
-    <title>辉夜</title>
-    <url>/e20160304/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>海外徒闻更九州，他生未卜此生休。</p>
-<p>空闻虎旅传宵柝，无复鸡人报晓筹。</p>
-<p>此日六军同驻马，当时七夕笑牵牛。</p>
-<p>如何四纪为天子，不及卢家有莫愁。</p>
-</blockquote>
- <br/>
-
-<p>辉夜姬。</p>
-<p>“真乃秀美之名。”他低语，走进曲折掩映的回廊。</p>
-<p>这是他又一次出诊，应大君的请求。本以为是某位公家的女儿，见到人时方打消了念头。紫黑色的儒裙，隐约绣着玄色的花纹，秀眉微蹙，脸色苍白得近乎透明，却意外地有着坚定而雍贵的神态。于是和以往一般诊断、开方，抬头的一瞬，被女子浅浅漾起的笑容迷了眼。</p>
-<p>一去二三年，女子身上几乎不留时光的痕迹，只是仍旧不常出府。平成京里传扬着她的美貌大方，各家公子都以得辉夜姬一纸邀约为荣——唯他旬旬任意进出。穿过回廊，他熟练地去往庭院，耀眼盛开的紫阳花海中却不见她的身影。折返回去，在会客堂前隐约听见“天河”二字，片刻后一着布衫的清秀少年走出厅堂，似是大唐服饰。屋内传来压抑的咳嗽声，他忙压下纷乱思绪，快步冲入。</p>
-<p>此后女子日渐消瘦，少年走后仿佛更容易见到她恍惚脆弱的神态。他来府日益频繁，却也难解心病。是日例行诊断后他正欲先行告别，未想她转过身来，“藤原，你可知天河？”</p>
-<p>“……故老曾言，是应人愿景处。”他掸掸衣襟，复又坐下。</p>
-<p>“前日，有少年自故地来。便想着约其相见，借问故人近况。”</p>
-<p>他静静坐着，眸中映出女子拂拭卷轴的模样。</p>
-<p>“他说不知……怎得不知呢……那人约是……先我而去了罢。”</p>
-<p>红色丝绸系住的卷轴，他在女子的闺中多次见过，料是极重要的物什。见她似要撕去，不由出声阻止：“莫！若那人未去，又何苦来由！”两行清泪自女子眼中滑落，他一时竟是怔了。</p>
-<p>“那少年此去寻找天河，邀我同行，许能重现旧时光景。”</p>
-<p>她定定地注视着某处，收起卷轴：“可逝去的……终是回不去从前了。”</p>
-<p>“……藤原，多谢你听我说这些。”</p>
-<p>他不知自己怎样走出府的，眼前浮现漫山遍野的紫阳花，一会是初见时雍贵的辉夜姬，一会是方才落泪的女子。</p>
-<p>慢慢关上的府邸大门里，良久一声苦笑：“如同你失了社稷……我失了你……”</p>
-<p>三日后，辉夜姬离世。走的时候极安详，隐在紫阳花海中，皓腕边散落着信笺。他第一次颤抖着手打开那幅卷轴，画中人英气勃发，款识著着“赠玉环”的字样。他沉默不语地烧着那些信笺，一页一页相同的句子。</p>
-<p>“求而……不得……”</p>
-]]></content>
-      <categories>
-        <category>Essay</category>
-      </categories>
-  </entry>
-  <entry>
     <title>凤凰花</title>
     <url>/e20160530/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
@@ -1883,6 +1862,25 @@
       <categories>
         <category>Essay</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Life is a dream</title>
+    <url>/d20200611/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Please enter the password.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="10a04736060af322674c9b7900c6d98b70550fba51b5b2e839d571209eba6aaa">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1f507922e7733ea82775f1345379cdd5c4fbe978e723a9d7c742d4d403fa9e7e9c79d0877d677f580526e0be9e4ea5adeea7e36abe7344c781250529212d3813d29754ce99a7d3cb59abe1e9b6eb6e7d9b13ef2c129d2001f687e8048933ee4cee074a71aa884950122a70b03a4827c3a76a36110978823a163afc1da5c41de747f27d27b03cbcff56566c0522a72788b9e8d564977e5ec244d8b0107e6de0ab756c32ecd4ea8c064c6dcaf5a916130a6fce283caf6d93a35bc3fa474c9d4bdcefa30c1a7e01c09079bfa2b495dbf957f3ff9aaa5bb376d6626e19af0d570081ccd20eb619b634c2bddc86f190648cffc539ce8a7abf879940cd2604bc5c5cb8edb39429d1a15236b8d94ef8322c841345f2fe3239221a5c959d43941e63f6545249b523001f49e97469fa47e833ad038a3ca3e8929bc2f44c9553cda7214fc9abdac4b84deca2e69b2c51151385afe72e536e6de6e304fa406c0e4e03c49c4effb25ba8fc191a489ca110b776cf9e6c7923486461aed07b9ec9d4a23a9c3eb5a0cb561cba8ed8b02e91264a5ba6ae39dacb12c7e2dcaffc9dfce93749905a62631160f6c449faff0f0dd3390a3c932d863d3219f3f8d4ca904c1e2d67cef5b861bab43a2916f0e22d3bb5bf7daf3c0521364b3472d976e1d557c98f958cdcc58e07d1a54d60e44f781f97fed00c401e33a785e57e74023e5ae261f944470cdb136bf7bda5c43d93b2c919c0439812870ba27f9a2fbdc664dea3833da1230c2eeb80be202d6b433216f57ed7d98dd17f3079726f3ca3ba67a458481ed88d161d757caf3f4a2e1f4b5b4c40e0aa24ada62bd937b8c9803833caec97245e921fe97328267c88466a6250a4cabd1df2c87620b8fec701aef607ac27554028a9124231f6ed4ee0516302838be87573852c123cb34c6f75729f3c4281863e64838bf69cb641427658ba0a51c1b6a4d7b5a669899da121ca3c1c61c39cc2f095bfcfc56b35e3628ca75f7b6814be4db3be9ab5e869edc0c91a4dd74021aee1410a2926263cb310e4521ec29d295b73b4763940ba01c589acc0ee8b582f59ccabbdbc165f28857208433e1c61bb457b73bc20fcc6ee63344412014c9ba922cd472ee484d054560915161147d59b202ea25761411624e9a8985c9c7229c93f2b0c9e3189dca28f4b395afc890aa870fd157e60aa49616f72e80dce6dc66d9f0fb12c71072724dd353afebc99d7304b0a6be5c2cc179479fed8ab60d7d656c993fe0f2ec56651787eb696aaf4392dd995708e9bd74db8c11082fad6210ec4ed978586ef8d79c666144f9f1fc9e286e2041988d9cba67ce8357c3a15c944c91fc4275d7030565bb7c5bfba9d041eaa1ceece9f6a138801edf5aa0803486fa23a6068abff313dbc6367f934f2b9d62087b81df1124f96f5dca370506967551224f04f0c69fc5ef75aaa7cd3dcb7b3be181adc26a258ac8795c0149c5ed75260ee8df729a8da643e9a774fb37c15f8916ac4b54afc00daf5868b7d85ce64e2fff304c50078690731a28295a512c039c3e49fa6839f5219dcedab1eb8ccfb0d3d39b0b62e3eb5e5b5bbcdd7132c9e6949a81b9be63791010a37afb0be2467da47647b357d16ef92defafb44b27977482d733c84a5b42beb588ffeb83bb56334ae46f6c5baee8e0ac5d83d7e3c7db153de620c58762f5bbf5ac7edccf88826319311c7c2351522643969503a50dbd95b584a568ff0b8dc4d59f18466ae4fb7df938a658f2bf61191fcfd28e1bc1ca414b29af28d5ebfb9d0e16115d940831c60dddc88fd1e058d63940b2a60a6b13db6f1e7e83fd4f9a9273a8192891371d6d935bf6390435b573f6e21207fddcd720d4ac14f320c73c3db887a0b74e2f3c7dc88dbe3e84ebdb87c5a8448b56db3d994bf054061e2e646d14e06f26b2a88027b229ae10f4f117546e011c8c63c42c366b36b7438154b412265eb6b94d739c39361f59adbaeda43fb49939db7563f15ba2f317e26dd88afffd45f110dd6e7ff4400a98f09ddb36fb9ed75a7f0bd59f1d39573c34e652e0e067321383b8eb45f397dc9e2a3aa6c4695595dedb66cd633f81395af945073da4b3630dc88f001c543b37d05d37c0a5a3d88d08266ec47c88849e008fab591f3b9d60411ccf05e47c71249b9ba29bf983133066fc429e95ef7fa09b10b2c2e93e49e56980354081c9d531e8c5a819a2e91ca683fc7e8a0f7b9a0c5d106a9c7112e381a7693d3f254430d5be371baac0a1325c0817da1e12f1173ac4d3bf29f1cd9e84079185aa16c6e10c2a9ef4a82ddf6e444afaede1f46361fb13be4168849953be995e5f181b7c92438de9c797784763cedd30ee4572ba922137aeb3666bcf0ad33172ccc06968a202fe22fdc31f00640a54fca22455dfb3436380dd5cb3d027be41bb65665bf5178ea3637b19fe26630499bfce9c2e0de0906dfb0e812f005058a207d8f5a2e31f73a94bab3f229a80b2128edb6105e315f3c3ee4e4fd0174041198541e9853f16508af290f6bda9fd4d9697af2cfc63698ac40de2a881e06241458bb459fc5ec3986e3481a528da0f20038549c8c85ffa332d10202f3909b9b80d359f9b31d953a0e99716fa97d6669819e21e333966fd077d949d48efe108df0c4427ccb6a52449a7cc72b50abadbaca9824153d74b1c0e48c8fc7b2c293db058c6b0a2c6f003429a3b4a80dcb4aea03fc695ef8c45cc5eabeecdd6ed8fd824032ba7c0e78f62d78f479df73c99da0c1a15d323b913d78939728de1709b467e4ec4e4b25d11a957e62787535ca88a4940eb4521fa561643ed992ab567fa0c1226a8eb6459364f187d46e9f1267ce5a26d172a48e3d954546b20fbe41a10f48e270ddcc5b8a30bed0adb01f14fca3f85e44b6e6feace7d081d131120048d7ed875501b73cbfa656baaf8846968fe82a7d795060a01ea4496c5b9af8baad67c45ac38109302f0fee41cb2a8895e7f8bec302af45f2bd07587f8b940a6f6a2946f1130e19aec79dfce10061620837cae491f4ac597fedf18cdda04837032c69f94e782f780ccd6a181162629f0fa94df3304d69bcd55793a227cdd0c218e4325d06aae4c5588fbd3b4fcdd13d1eb4cfccdf1172dad27c99484ba98af02477785228bec9de4549bef00d769be6bfc67662517590e57b61145af3b2f92dddcd167b3ce97b43f9aeb2b8a17e031525689dd831cf105ec4ce5dcf50bfea707a8fe96c35c22d02fd5be30669d7313a5e29a11d03f326774406ffa8fe98b4cf0ce9ce77c78c541738e62936f8d745bc83113efe0e2bf6b5495383044e1462d17f83fd6b17b3ac5b1e165ab2423e89e7841802a41d25147e411797a3b3b039991602ea</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>2020.06</category>
+      </categories>
+      <tags>
+        <tag>silly</tag>
+      </tags>
   </entry>
   <entry>
     <title>Europe</title>

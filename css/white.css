@@ -16,7 +16,7 @@
 }
 @font-face {
   font-family: Gothic;
-  src: url("https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/GOTHIC.ttf");
+  src: url("https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/GOTHIC.TTF");
 }
 @font-face {
   font-family: Merriweather;
@@ -24,7 +24,7 @@
 }
 @font-face {
   font-family: CH;
-  src: url("E:/Recent/MyBlog/source/_partials/Font/H-TTF-BuMing-R-2.ttf");
+  src: url("../../../../../source/_partials/Font/H-TTF-BuMing-R-2.ttf");
 /*SiyuanSong-Regular.otf*/
 }
 * {

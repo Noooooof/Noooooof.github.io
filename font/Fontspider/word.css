@@ -1,0 +1,7 @@
+@font-face{
+  font-family:"CH";
+  src:url(../H-TTF-BuMing-R-2.ttf);
+}
+body{
+	font-family:"CH"
+}

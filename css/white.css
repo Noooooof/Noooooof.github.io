@@ -14,14 +14,6 @@
   font-family: hack-bolditalic;
   src: url("https://cdn.jsdelivr.net/gh/Noooooof/partials/Font/Hack-BoldItalic.ttf");
 }
-@font-face {
-  font-family: Gothic;
-  src: url("https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/GOTHIC.TTF");
-}
-@font-face {
-  font-family: Merriweather;
-  src: url("https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/Merriweather-Regular-9.ttf");
-}
 * {
   padding: 0;
   margin: 0;
@@ -49,7 +41,7 @@ span {
   background-color: #898FA0;
 }
 .menu-outer {
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
   width: 100%;
   display: flex;
   justify-content: center;
@@ -64,7 +56,7 @@ span {
   transition: all 0.3s;
 }
 .menu-site-name {
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
   font-size: 1.6em;
 }
 .menu-ul {
@@ -141,22 +133,22 @@ span {
   width: 80%;
 }
 .intro-title {
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
   font-size: 4.5em;
   font-weight: 1000;
   margin: 0;
   padding: 0;
 }
 .intro-sub {
-  font-family: Gothic;
-  margin-top: 30px;
+  font-family: "H-宫书", "Microsoft YaHei";
+  margin-top: 20px;
   font-size: 1.2em;
   line-height: 1.8em;
   margin-left: 5px;
 }
 .intro-sub a {
   display: inline-block;
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
   position: relative;
 }
 .intro-sub a:after {
@@ -194,12 +186,13 @@ a {
   margin-bottom: 100px;
 }
 .archive-name {
-  line-height: 2em;
+  line-height: 2.1em;
   font-size: 1.7em;
   letter-spacing: 0.2em;
-  font-family: Merriweather;
+  font-family: "H-宫书", "Microsoft YaHei";
+  color: #898FA0;
+  font-weight: bold;
   margin: 40px 0px 30px 0px;
-  font-family: Gothic;
   text-align: center;
 }
 .archive-post {
@@ -215,21 +208,20 @@ a {
   color: #1A98FF;
 }
 .archive-post-title {
-  font-size: 1.12em;
-  transition: 0.4s;
-  font-family: Gothic;
+  font-size: 1.1em;
+  transition: 0.3s;
+  font-family: "H-宫书", "Microsoft YaHei";
   margin-right: auto;
 }
 .archive-post-date {
-  font-family: Gothic;
-  color: #1A98FF;
+  font-family: "H-宫书", "Microsoft YaHei";
+  color: #898FA0;
   font-weight: 1000;
-  background-color: #DDF0FF;
-  font-size: 0.8em;
+  background-color: #efefef;
+  font-size: 0.75em;
   letter-spacing: 0.1em;
   border-radius: 5px;
   padding: 0px 10px;
-  transition: all 0.4s;
 }
 .paginator {
   display: none;
@@ -255,8 +247,8 @@ a {
     font-size: 1em;
     letter-spacing: 0.1em;
     font-weight: 1000;
-    font-family: Gothic;
-    transition: all 0.4s;
+    font-family: "H-宫书", "Microsoft YaHei";
+    transition: all 0.3s;
   }
   .paginator .extend:hover {
     color: #fff;
@@ -275,7 +267,7 @@ a {
   font-size: 1.1em;
   font-weight: bold;
   background-color: $fff;
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-next .post-archive-next-text {
@@ -292,7 +284,7 @@ a {
   font-size: 1.1em;
   font-weight: bold;
   background-color: $fff;
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-prev .post-archive-prev-text {
@@ -310,7 +302,7 @@ a {
   padding: 10px 15px;
   border-radius: 5px;
   font-size: 1.125em;
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
   font-weight: 1000;
   color: #898FA0;
   background-color: $fff;
@@ -325,7 +317,7 @@ a {
   border-radius: 5px;
   font-size: 1.125em;
   font-weight: 1000;
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
   background-color: $fff;
   color: #898FA0;
 }
@@ -343,7 +335,7 @@ a {
 .footer-outer {
   display: flex;
   justify-content: center;
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
 }
 .footer-inner {
   padding: 40px 0px;
@@ -404,12 +396,12 @@ a {
 .img-show-post-title {
   text-align: center;
   font-size: 1.4em;
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
   margin-top: 30px;
 }
 .img-show-post-date {
   text-align: center;
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-size: 0.8em;
@@ -456,9 +448,10 @@ a {
 }
 .post-title {
   text-align: center;
-  font-size: 1.7em;
-  margin-bottom: 15px;
-  font-family: Gothic;
+  font-size: 1.6em;
+  margin-bottom: 5px;
+  font-family: "H-宫书", "Microsoft YaHei";
+  font-weight: bold;
 }
 .post-cover {
   margin-top: 80px;
@@ -486,11 +479,11 @@ a {
 .meta-intro {
   font-size: 0.8em;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   text-align: center;
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
   color: #898FA0;
-  line-height: 4;
+  line-height: 3;
   position: relative;
 }
 .meta-intro:after {
@@ -528,7 +521,7 @@ a {
   margin: 20px 0px 10px 0px;
   color: #333333;
   font-weight: bold;
-  font-family: CH, Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
 }
 .post-content-inner h1 {
   margin: 40px 0px 20px 0px;
@@ -540,7 +533,7 @@ a {
 }
 .post-content-inner h2::after {
   content: "#";
-  font-family: Merriweather;
+  font-family: "H-宫书", "Microsoft YaHei";
   display: inline-block;
   color: #e3e3e3;
   margin-left: 0.5rem;
@@ -606,6 +599,7 @@ a {
 ol {
   padding-left: 22px;
   margin: 7px 0px;
+  text-indent: 2em;
 }
 .post-content-inner ol {
   list-style: none;
@@ -617,9 +611,10 @@ ol {
   counter-increment: li;
 }
 .post-content-inner ol li::before {
+  display: none;
   content: counter(li);
-  font-family: Merriweather;
-  color: #333333;
+  font-family: "H-宫书", "Microsoft YaHei";
+  color: #898FA0;
   margin-right: 0.7em;
   text-align: right;
 }
@@ -633,7 +628,7 @@ ol {
 .post-content-inner ul li::before {
   content: "◆";
   font-size: 0.8em;
-  font-family: Gothic;
+  font-family: "方正宋刻本秀楷简体", "Microsoft YaHei";
   color: #898FA0;
   margin-right: 0.7em;
   text-align: right;
@@ -725,7 +720,7 @@ code {
 .toc-top li::before {
   content: counter(li);
   font-size: 0.8em;
-  font-family: Merriweather;
+  font-family: "H-宫书", "Microsoft YaHei";
   color: #898FA0;
   margin-right: 0.5em;
   text-align: right;
@@ -740,40 +735,45 @@ li p {
   line-height: 2;
 }
 .post-categoris-bottom {
-  line-height: 1.8;
+  line-height: 2;
   margin-top: 30px;
   margin-bottom: 30px;
   border: 1px solid #e3e3e3;
   border-radius: 5px;
   padding: 20px 20px;
-  font-family: Gothic;
+  font-family: "H-宫书", "Microsoft YaHei";
 }
-.post-categoris-bottom .post-me-link {
+.post-categoris-bottom .post-categoris-list {
+  text-indent: 0em;
+}
+.post-categoris-bottom .post-categoris-list .post-me-link {
   color: #898FA0;
 }
-.post-categoris-bottom .post-categoris-bottom-link:hover {
+.post-categoris-bottom .post-categoris-list .post-categoris-bottom-link:hover {
   text-decoration: none;
 }
-.post-categoris-bottom .post-categoris-bottom-link .post-categoris-date {
+.post-categoris-bottom .post-categoris-list .post-categoris-bottom-link .post-categoris-date {
   margin-right: 20px;
   color: #898FA0;
-  font-size: 0.9em;
+  font-size: 0.85em;
+  font-family: "H-宫书", "Microsoft YaHei";
 }
 @media screen and (max-width: 550px) {
-  .post-categoris-bottom .post-categoris-bottom-link .post-categoris-date {
+  .post-categoris-bottom .post-categoris-list .post-categoris-bottom-link .post-categoris-date {
     display: none;
   }
 }
-.post-categoris-name {
+.post-categoris-bottom .post-categoris-name {
   font-size: 1.2em;
   font-weight: 1000;
-  line-height: 2;
+  line-height: 2.1;
   color: #898FA0;
   margin-bottom: 10px;
 }
 .post-nav {
   color: #1A98FF;
   font-size: 1em;
+  font-family: "H-宫书", "Microsoft YaHei";
   margin-bottom: 10px;
 }
 @media screen and (max-width: 550px) {
@@ -789,6 +789,7 @@ li p {
     display: block;
     color: #1A98FF;
     font-size: 1em;
+    font-family: "H-宫书", "Microsoft YaHei";
     margin-bottom: 10px;
   }
 }
@@ -840,12 +841,13 @@ li p {
 .post-content-inner .post-content-main {
   flex-basis: 800px;
   max-width: 800px;
-  font-family: Gothic;
+  font-family: "方正宋刻本秀楷简体", "Microsoft YaHei";
 }
 .post-content-inner .post-content-inner-space {
   flex-basis: 165px;
 }
 .post-content-inner .post-content-inner-space .space-toc-main {
+  font-family: "方正宋刻本秀楷简体", "Microsoft YaHei";
   position: sticky;
   top: 30px;
   max-height: 550px;
@@ -855,7 +857,7 @@ li p {
 .post-content-inner .post-content-inner-space .space-toc-main a {
   color: #898FA0;
   transition: all 0.3s;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 .post-content-inner .post-content-inner-space .space-toc-main ol {
   list-style: none;
@@ -869,7 +871,7 @@ li p {
 .post-content-inner .post-content-inner-space .space-toc-main li::before {
   content: counter(li);
   font-size: 0.8em;
-  font-family: Merriweather;
+  font-family: "H-宫书", "Microsoft YaHei";
   color: #e3e3e3;
   margin-right: 0.5em;
   text-align: right;

@@ -1326,17 +1326,6 @@
       </categories>
   </entry>
   <entry>
-    <title>The bridge of cloud</title>
-    <url>/d20200824/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>晚上在老爸的重金激励下去跑步，浓郁而甜腻的桂花香宛若实质。</p>
-<p>绕着中庭转圈，两缕流云交缠在一起，横跨过漫漫星河。一刻钟后又从中折断，被遮挡在云后的群星重新彰显自己的存在感。</p>
-<p>不由疑心自己邂逅了鹊桥。</p>
-]]></content>
-      <categories>
-        <category>2020.08</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Osmanthus fragrans</title>
     <url>/d20200823-2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天和潘去逛伊藤，没买到母上指定的泳镜，倒是看完电影出来买了件牛仔外套。</p>
@@ -1346,6 +1335,17 @@
 
 <p>回到小区又闻见让人怀念的桂花香。想起小学有一株高龄的桂花树，那些个秋天月在树下捡桂花，我在地上打滚，周围人来人往，我从枝叶的缝隙中看着天。</p>
 <p>嘉祥的桂树香气淡了许多，北京的秋天就更是只有白果腐烂的味道了。</p>
+]]></content>
+      <categories>
+        <category>2020.08</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>The bridge of cloud</title>
+    <url>/d20200824/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>晚上在老爸的重金激励下去跑步，浓郁而甜腻的桂花香宛若实质。</p>
+<p>绕着中庭转圈，两缕流云交缠在一起，横跨过漫漫星河。一刻钟后又从中折断，被遮挡在云后的群星重新彰显自己的存在感。</p>
+<p>不由疑心自己邂逅了鹊桥。</p>
 ]]></content>
       <categories>
         <category>2020.08</category>
@@ -1466,7 +1466,7 @@
   <entry>
     <title>Blog</title>
     <url>/d20200917/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用字蛛把博客字体缩小到1.2MB，但用cdn链接加载还是得加载8.4MB，就只能把字体源放在本地了。严格来说无缓存加载快了那么两三秒钟，但从控件出现到字体出现之间还是有个明显的卡顿，就很烦。这个问题我暂时没法解决，等闲下来研究研究字体异步加载或者拖慢其他部件的速度等一下字体出来？再说吧。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用字蛛把博客字体缩小到1.02MB，但用cdn链接加载还是得加载8.4MB，就只能把字体源放在本地了。严格来说无缓存加载快了那么两三秒钟，但从控件出现到字体出现之间还是有个明显的卡顿，就很烦。这个问题我暂时没法解决，等闲下来研究研究字体异步加载或者拖慢其他部件的速度等一下字体出来？再说吧。</p>
 <p>另一个想解决的是夜间模式和自定义404页面，暂时不知道怎么搞……嘛，这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
 ]]></content>
       <categories>

@@ -41,7 +41,7 @@ span {
   background-color: #898FA0;
 }
 .menu-outer {
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   width: 100%;
   display: flex;
   justify-content: center;
@@ -56,7 +56,7 @@ span {
   transition: all 0.3s;
 }
 .menu-site-name {
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   font-size: 1.6em;
 }
 .menu-ul {
@@ -133,14 +133,14 @@ span {
   width: 80%;
 }
 .intro-title {
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   font-size: 4.5em;
   font-weight: 1000;
   margin: 0;
   padding: 0;
 }
 .intro-sub {
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   margin-top: 20px;
   font-size: 1.2em;
   line-height: 1.8em;
@@ -148,7 +148,7 @@ span {
 }
 .intro-sub a {
   display: inline-block;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   position: relative;
 }
 .intro-sub a:after {
@@ -188,8 +188,8 @@ a {
 .archive-name {
   line-height: 2.1em;
   font-size: 1.7em;
-  letter-spacing: 0.2em;
-  font-family: "H-宫书", "Microsoft YaHei";
+  letter-spacing: 0.3em;
+  font-family: "民国报纸字体", "Microsoft YaHei";
   color: #898FA0;
   font-weight: bold;
   margin: 40px 0px 30px 0px;
@@ -208,18 +208,18 @@ a {
   color: #1A98FF;
 }
 .archive-post-title {
-  font-size: 1.1em;
+  font-size: 1.15em;
   transition: 0.3s;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   margin-right: auto;
 }
 .archive-post-date {
-  font-family: "H-宫书", "Microsoft YaHei";
-  color: #898FA0;
-  font-weight: 1000;
-  background-color: #efefef;
-  font-size: 0.75em;
-  letter-spacing: 0.1em;
+  font-family: "民国报纸字体", "Microsoft YaHei";
+  color: #1A98FF;
+  font-weight: bold;
+  background-color: #DDF0FF;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
   border-radius: 5px;
   padding: 0px 10px;
 }
@@ -244,10 +244,10 @@ a {
     color: #1A98FF;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1.1em;
     letter-spacing: 0.1em;
     font-weight: 1000;
-    font-family: "H-宫书", "Microsoft YaHei";
+    font-family: "民国报纸字体", "Microsoft YaHei";
     transition: all 0.3s;
   }
   .paginator .extend:hover {
@@ -267,7 +267,7 @@ a {
   font-size: 1.1em;
   font-weight: bold;
   background-color: $fff;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-next .post-archive-next-text {
@@ -284,7 +284,7 @@ a {
   font-size: 1.1em;
   font-weight: bold;
   background-color: $fff;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   letter-spacing: 0.1em;
 }
 .paginator_diy .post-archive-prev .post-archive-prev-text {
@@ -302,7 +302,7 @@ a {
   padding: 10px 15px;
   border-radius: 5px;
   font-size: 1.125em;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   font-weight: 1000;
   color: #898FA0;
   background-color: $fff;
@@ -317,7 +317,7 @@ a {
   border-radius: 5px;
   font-size: 1.125em;
   font-weight: 1000;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   background-color: $fff;
   color: #898FA0;
 }
@@ -335,7 +335,7 @@ a {
 .footer-outer {
   display: flex;
   justify-content: center;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
 }
 .footer-inner {
   padding: 40px 0px;
@@ -396,12 +396,12 @@ a {
 .img-show-post-title {
   text-align: center;
   font-size: 1.4em;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   margin-top: 30px;
 }
 .img-show-post-date {
   text-align: center;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-size: 0.8em;
@@ -450,8 +450,7 @@ a {
   text-align: center;
   font-size: 1.6em;
   margin-bottom: 5px;
-  font-family: "H-宫书", "Microsoft YaHei";
-  font-weight: bold;
+  font-family: "民国报纸字体", "Microsoft YaHei";
 }
 .post-cover {
   margin-top: 80px;
@@ -481,7 +480,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 1.2px;
   text-align: center;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   color: #898FA0;
   line-height: 3;
   position: relative;
@@ -521,19 +520,20 @@ a {
   margin: 20px 0px 10px 0px;
   color: #333333;
   font-weight: bold;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
 }
 .post-content-inner h1 {
   margin: 40px 0px 20px 0px;
-  font-size: 1.45em;
+  font-size: 1.4em;
+  font-weight: 1000;
 }
 .post-content-inner h2 {
-  font-size: 1.4em;
+  font-size: 1.35em;
   margin: 40px 0px 20px 0px;
 }
 .post-content-inner h2::after {
   content: "#";
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   display: inline-block;
   color: #e3e3e3;
   margin-left: 0.5rem;
@@ -613,7 +613,7 @@ ol {
 .post-content-inner ol li::before {
   display: none;
   content: counter(li);
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "方正宋刻本秀楷简体", "Microsoft YaHei";
   color: #898FA0;
   margin-right: 0.7em;
   text-align: right;
@@ -720,7 +720,7 @@ code {
 .toc-top li::before {
   content: counter(li);
   font-size: 0.8em;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   color: #898FA0;
   margin-right: 0.5em;
   text-align: right;
@@ -741,7 +741,7 @@ li p {
   border: 1px solid #e3e3e3;
   border-radius: 5px;
   padding: 20px 20px;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
 }
 .post-categoris-bottom .post-categoris-list {
   text-indent: 0em;
@@ -756,7 +756,7 @@ li p {
   margin-right: 20px;
   color: #898FA0;
   font-size: 0.85em;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
 }
 @media screen and (max-width: 550px) {
   .post-categoris-bottom .post-categoris-list .post-categoris-bottom-link .post-categoris-date {
@@ -773,7 +773,7 @@ li p {
 .post-nav {
   color: #1A98FF;
   font-size: 1em;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   margin-bottom: 10px;
 }
 @media screen and (max-width: 550px) {
@@ -789,7 +789,7 @@ li p {
     display: block;
     color: #1A98FF;
     font-size: 1em;
-    font-family: "H-宫书", "Microsoft YaHei";
+    font-family: "民国报纸字体", "Microsoft YaHei";
     margin-bottom: 10px;
   }
 }
@@ -871,7 +871,7 @@ li p {
 .post-content-inner .post-content-inner-space .space-toc-main li::before {
   content: counter(li);
   font-size: 0.8em;
-  font-family: "H-宫书", "Microsoft YaHei";
+  font-family: "民国报纸字体", "Microsoft YaHei";
   color: #e3e3e3;
   margin-right: 0.5em;
   text-align: right;

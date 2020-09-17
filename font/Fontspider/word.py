@@ -14,7 +14,6 @@ def getFile(logPath):
 	return set(text)
 
 content = "".join(getFile(postPath))
-print (content)
 
 title = "<meta charset=\"UTF-8\">\n<link rel=\"stylesheet\" href=\"word.css\">\n<body>\n"
 

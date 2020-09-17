@@ -410,12 +410,12 @@ a {
 .img-show-post-title {
   text-align: center;
   font-size: 1.4em;
-  font-family: Gothic;
+  font-family: CH, Gothic;
   margin-top: 30px;
 }
 .img-show-post-date {
   text-align: center;
-  font-family: Gothic;
+  font-family: CH, Gothic;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-size: 0.8em;

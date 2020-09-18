@@ -220,10 +220,11 @@ a {
   margin-right: auto;
 }
 .archive-post-date {
-  font-family: "H-宫书", "Gothic", "Microsoft YaHei";
+  font-family: "Gothic", "Microsoft YaHei";
   color: #1A98FF;
   background-color: #DDF0FF;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  font-weight: bold;
   letter-spacing: 0.1em;
   border-radius: 5px;
   padding: 0px 10px;
@@ -999,6 +1000,7 @@ li p {
   top: 0;
   left: 0;
   display: none;
+  font-family: "H-宫书", "Gothic", "Microsoft YaHei";
 }
 #mobile-main .mobile-menu-div {
   margin-top: 20px;
@@ -1008,8 +1010,9 @@ li p {
 }
 #mobile-main .mobile-menu-div .mobile-menu-child {
   margin-top: 50px;
-  font-size: 2.2em;
-  font-weight: 1000;
+  font-size: 2em;
+  font-weight: bold;
+  color: #898FA0;
 }
 .mobile-menu-inner {
   display: flex;

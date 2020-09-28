@@ -6,7 +6,7 @@
   <link href="https://noooooof.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://noooooof.gitee.io/"/>
-  <updated>2020-09-27T08:32:07.000Z</updated>
+  <updated>2020-09-28T10:24:56.000Z</updated>
   <id>https://noooooof.gitee.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Nof</title>
+    <link href="https://noooooof.gitee.io/d20200928/"/>
+    <id>https://noooooof.gitee.io/d20200928/</id>
+    <published>2020-09-28T10:24:56.000Z</published>
+    <updated>2020-09-28T10:24:56.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="2020.09" scheme="https://noooooof.gitee.io/categories/2020-09/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Day 1</title>
@@ -219,29 +242,6 @@
     
     
     <category term="2020.09" scheme="https://noooooof.gitee.io/categories/2020-09/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Setting</title>
-    <link href="https://noooooof.gitee.io/d20200917/"/>
-    <id>https://noooooof.gitee.io/d20200917/</id>
-    <published>2020-09-17T06:58:24.000Z</published>
-    <updated>2020-09-17T06:58:24.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Tips" scheme="https://noooooof.gitee.io/categories/Tips/"/>
     
     
   </entry>

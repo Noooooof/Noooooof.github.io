@@ -368,6 +368,21 @@
       </categories>
   </entry>
   <entry>
+    <title>Rain</title>
+    <url>/d20200521/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>雨夜读庄子。</p>
+<p>潘被导师看上了，我倒还是一事无成的状态。</p>
+<p>我总是害怕校园外的风雨，但显然我马上就要面对了。</p>
+<br/>
+
+
+<p>ps，北京暴雨，白昼如夜。国之将兴，必有祯祥啊。</p>
+]]></content>
+      <categories>
+        <category>2020.05</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Dating</title>
     <url>/d20200522/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -385,21 +400,6 @@
       <tags>
         <tag>silly</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Rain</title>
-    <url>/d20200521/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>雨夜读庄子。</p>
-<p>潘被导师看上了，我倒还是一事无成的状态。</p>
-<p>我总是害怕校园外的风雨，但显然我马上就要面对了。</p>
-<br/>
-
-
-<p>ps，北京暴雨，白昼如夜。国之将兴，必有祯祥啊。</p>
-]]></content>
-      <categories>
-        <category>2020.05</category>
-      </categories>
   </entry>
   <entry>
     <title>Fall down</title>
@@ -611,25 +611,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Back to daily life</title>
-    <url>/d20200629/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>司机要接住在里格的另一位客人，趁机看了看沿途的风景，大概也就那样。</p>
-<p>路过云南附近的观景台，溜达上去看了看湖，摆拍了两三张没甚意思的照片，又下来了。</p>
-<p>看，我突然又陷入这样的疲惫状态了。</p>
-<br/>
-
-<p>在大悦城吃海底捞，中途开始下暴雨，白雾茫茫。</p>
-<p>坐在楼下的咖啡馆改当年的采访稿，身体陷在柔软的椅子里，却没能好好体会。</p>
-<p>我当年就是挤牙膏一样写东西，现在好像也没什么区别。</p>
-<p>不，大概是更懒惰了。懒得去考虑眼前之外的事情，懒得了解也懒得关心。</p>
-<p>这样是不对的吗？我以什么理由得出这样的判断？</p>
-<p>我不知道。</p>
-]]></content>
-      <categories>
-        <category>2020.06</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Graduation</title>
     <url>/d20200702/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>16级的朋友们毕业了，君仪学姐也毕业了。</p>
@@ -692,6 +673,25 @@
 ]]></content>
       <categories>
         <category>2020.07</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Back to daily life</title>
+    <url>/d20200629/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>司机要接住在里格的另一位客人，趁机看了看沿途的风景，大概也就那样。</p>
+<p>路过云南附近的观景台，溜达上去看了看湖，摆拍了两三张没甚意思的照片，又下来了。</p>
+<p>看，我突然又陷入这样的疲惫状态了。</p>
+<br/>
+
+<p>在大悦城吃海底捞，中途开始下暴雨，白雾茫茫。</p>
+<p>坐在楼下的咖啡馆改当年的采访稿，身体陷在柔软的椅子里，却没能好好体会。</p>
+<p>我当年就是挤牙膏一样写东西，现在好像也没什么区别。</p>
+<p>不，大概是更懒惰了。懒得去考虑眼前之外的事情，懒得了解也懒得关心。</p>
+<p>这样是不对的吗？我以什么理由得出这样的判断？</p>
+<p>我不知道。</p>
+]]></content>
+      <categories>
+        <category>2020.06</category>
       </categories>
   </entry>
   <entry>
@@ -1342,6 +1342,17 @@
       </categories>
   </entry>
   <entry>
+    <title>Crazy</title>
+    <url>/d20200827/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>写推送写吐了，有一说一没什么实质内容，只是个很简单的攻略，我居然搞了十个小时，原地爆炸。</p>
+<p>中午我妈骂完我爸又骂我，吃饭重新变成了维持自己不要死掉的任务。虽然一直以来我都这么觉得，但好像在外面自己做饭的时候要稍微快乐一点，都是自己愿意吃的食材，也不贪多，有种对自己生活的掌控感。在家里每次进厨房都感到极度的不适应，厨具和碗筷不在我顺手的位置，抹布到处乱放也没有分门别类，台面和地砖有水迹和污渍，锅好重，左边的灶总是打不燃火。这种时候就清楚地意识到这不是我的家，是我妈或者奶奶的，我只是借宿在这里，没有对一切物品的归置权。于是我打开冰箱拿了瓶酸奶，关上门，自己走开。</p>
+<p>……可能是占有欲和控制欲太过旺盛了也说不定。</p>
+]]></content>
+      <categories>
+        <category>2020.08</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Goodbye</title>
     <url>/d20200902/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -1397,17 +1408,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Crazy</title>
-    <url>/d20200827/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>写推送写吐了，有一说一没什么实质内容，只是个很简单的攻略，我居然搞了十个小时，原地爆炸。</p>
-<p>中午我妈骂完我爸又骂我，吃饭重新变成了维持自己不要死掉的任务。虽然一直以来我都这么觉得，但好像在外面自己做饭的时候要稍微快乐一点，都是自己愿意吃的食材，也不贪多，有种对自己生活的掌控感。在家里每次进厨房都感到极度的不适应，厨具和碗筷不在我顺手的位置，抹布到处乱放也没有分门别类，台面和地砖有水迹和污渍，锅好重，左边的灶总是打不燃火。这种时候就清楚地意识到这不是我的家，是我妈或者奶奶的，我只是借宿在这里，没有对一切物品的归置权。于是我打开冰箱拿了瓶酸奶，关上门，自己走开。</p>
-<p>……可能是占有欲和控制欲太过旺盛了也说不定。</p>
-]]></content>
-      <categories>
-        <category>2020.08</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Back to school</title>
     <url>/d20200909/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早上出门时忘带帽子，走到楼下想起来折回去拿，结果到机场下车的时候又忘了。</p>
@@ -1422,6 +1422,21 @@
 <br/>
 
 <p>ps，晚上买了五斤西瓜榨汁，消灭得很艰难……果然还是太贪心了。</p>
+]]></content>
+      <categories>
+        <category>2020.09</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Trivia</title>
+    <url>/d20200911/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>潘总结了下刘哲老师的推荐信，「花同学哲学方面特别优秀，然后突然想学法；虽然不知道为什么，但是她很厉害，你们要相信她」。这么一看是蛮好笑的。</p>
+<p>上午跑去教务盖了章，也收到了天岳老师的推荐信，突然觉得这事情的结果还是很重要，不说我未来的方向，就只说对不对得起老师们的推荐和祝福。虽然到这个时间点也没办法再挽回什么了，我还是认认真真抱抱佛脚吧。</p>
+<p>疫情期间去地下室要开介绍信，文体部的老师开会没回来，索性坐在门口自习——简直像在静坐示威。</p>
+<p>去B209搬了椅子、窗帘和医药箱出来，在南门等闪送的时候陆续碰到了嵩嵩、左正浩和徐培琰，大家这是扎堆出门吗（笑</p>
+<br/>
+
+<p>ps，搬窗帘要了我半条命，这包东西怕是有半个我高（捂脸</p>
 ]]></content>
       <categories>
         <category>2020.09</category>
@@ -1462,21 +1477,6 @@
 <br/>
 
 <p>p.ps，试了下准备穿去面试的衣服，晴儿和抽抽都说像小企鹅（悲</p>
-]]></content>
-      <categories>
-        <category>2020.09</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Trivia</title>
-    <url>/d20200911/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>潘总结了下刘哲老师的推荐信，「花同学哲学方面特别优秀，然后突然想学法；虽然不知道为什么，但是她很厉害，你们要相信她」。这么一看是蛮好笑的。</p>
-<p>上午跑去教务盖了章，也收到了天岳老师的推荐信，突然觉得这事情的结果还是很重要，不说我未来的方向，就只说对不对得起老师们的推荐和祝福。虽然到这个时间点也没办法再挽回什么了，我还是认认真真抱抱佛脚吧。</p>
-<p>疫情期间去地下室要开介绍信，文体部的老师开会没回来，索性坐在门口自习——简直像在静坐示威。</p>
-<p>去B209搬了椅子、窗帘和医药箱出来，在南门等闪送的时候陆续碰到了嵩嵩、左正浩和徐培琰，大家这是扎堆出门吗（笑</p>
-<br/>
-
-<p>ps，搬窗帘要了我半条命，这包东西怕是有半个我高（捂脸</p>
 ]]></content>
       <categories>
         <category>2020.09</category>
@@ -1594,6 +1594,18 @@
       </categories>
   </entry>
   <entry>
+    <title>Fail</title>
+    <url>/d20200925/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>跟厅姐他们约饭的时候突然收到了出成绩的消息，数了数名次，果然没过。</p>
+<p>某种意义上说，也算是意料之中的事情吧。</p>
+<p>接下来怎么办呢？想要继续拖延做决定的话，大概就是考研吧，不行还有春招或者出国？</p>
+<p>哪项都是很恼火的事情（笑</p>
+]]></content>
+      <categories>
+        <category>2020.09</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Redo</title>
     <url>/d20200926/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>花花什么时候才能不摸鱼呢（悲</p>
@@ -1614,23 +1626,13 @@
       </categories>
   </entry>
   <entry>
-    <title>Fail</title>
-    <url>/d20200925/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>跟厅姐他们约饭的时候突然收到了出成绩的消息，数了数名次，果然没过。</p>
-<p>某种意义上说，也算是意料之中的事情吧。</p>
-<p>接下来怎么办呢？想要继续拖延做决定的话，大概就是考研吧，不行还有春招或者出国？</p>
-<p>哪项都是很恼火的事情（笑</p>
-]]></content>
-      <categories>
-        <category>2020.09</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Day</title>
     <url>/d20200927/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早上收到了马知送的小恐龙，超可爱。</p>
 <p>下午再收到快递的时候以为又是生日礼物，兴冲冲跑出去，然后发现是昨天买的考研教材。</p>
 <p>某，某种意义上说也是生日礼物了呢……</p>
+<br/>
+
 <p>大小姐又开始催我的毕业论文了。</p>
 <blockquote>
 <p>夏：按照花花的德性，现在开始催也是应当的；不过按照花花的德性，现在开始催也是没有用的。</p>
@@ -1648,7 +1650,7 @@
     <title>Nof</title>
     <url>/d20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-xhzErHJf" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-qQVbsUXe" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -1668,29 +1670,10 @@
       </categories>
   </entry>
   <entry>
-    <title>Loser</title>
-    <url>/d20200930/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Please enter the password.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="57ddfab71542a8c2d91ad6344e7de77a762b1be40b201a467e820d131af87315">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1f4deeedf8be3a85de9544c680ec30573e0d5ad9aaea4f9cd167415d67c83a0a5fc2dbaf7f12a84cfda52efe002ca4b5169c38777f724a75233d968b9f37198b2a48ad4be4dc2c56dbeb05cb7a43af382192aef3181188241dba3d8308433f30a7147858cd204f26c04b87dbed83a0d4cb246612c1bf4cffb6e3f674520ee7d52f670c0067a6e4c721a0f59c952fb0a983d3cfe8433351020aff1ba96f65ce5cf38cace436865b8a30f3a7439e31b4f69543aafe9db00d3d06fafcbf5bc0c462a1ba88b5e9976a81173e6b9139a3cd6f01867e35a33823ea4a68b8c15b806516ddd1d970429eacd05de2aed446df5e25383f7489e5f0fa99966cf9ee33cb5824f0cfe04cb75c7abdceabe8df39ebbc2ae432fb4c3e8b775b4ee1255304dce2336a25abc08f6f256a281fd0967de902ede500546ba7395eef7f2c65b0387c567b2ff089178395bbe45abd28ff51a89c3200e77a1e7e7fda0469895ce33732f327f9d97e7a47e365336dde9d7db49e8ec8e7bd31a99a9c8b56dd2a525b3bfab190f74bf37ce6c75ad74ac8d0f362792878d7c9c2f36c01f679b72a2c2c2febb1b376e90801187ba2e8a78136e6e5730068e1b5d7d9006c31a807287df31dc142e673dac6cc80b625d25fb46c7df0db411baed233a550a77c9f859961809c2451e9914523f3cd903de472185fa785b0db176c697bc63b00ca823d675b4021cabf3bc12f7d56e2ad54f0cf4175c001d9a304fb69366bf874491997e8760e314cab81be5a681a4eedd585322f857248c434ece06b584e8c405d7889dfc60944215286713f2598cfb6dab9f3165400a8deeb67c7958c3e98d535c27ee03d01d711a1810d01cc95b6804d0ef194654eca826d65220b16db1295870b9c0076e0f56901b6d40f79eb6ef5b16ee1684bbc8f0fe83ce8d73c88a1760e38a8c10e031acba95022d2251422c167268c3d548dd97a2e34609e099b7add1e919e909ce9e023e845d203a44ac043c6cb0e6398d1b9f523eb07560846d5ec8d525a95852fe3853bed0168cf42cc9f6cdddae48e6b4a32d6bae00c94b457f2dff638c73d1ef4ef4d1c4c5524d9faa38418414211b876e4a2ae5e32e85a7e9812e16b82bfa0884ef13550ff5be484a2a8f89178eabe1cf9f2b8d8da65e5ffcd1df08a79dd9333ede6ba1fef3db3a9cc22a0e5b7117b01f07b1ac8cf2bedef30b5bf6733dc8fd5b112f912e99d6143f63dbb96afdff95eb1da87eeab78308b85e47577788a58d83a09851904729b41d12c037c5fc1e5607372afa689afb7e0550640661b8c6196e211ee523707d295148327f9e4348516a28ef87046373a7bec382ed60584845bdfbb4c8a977aa82feff1b69c2476ee591a8e9135978ecca5178190e342af39be9a9d0d70126eb52c2aea78a320a97c725008d56f9330dc159ef85f988fcc657fe14da0b7478e32a1bbf6f01703ea287aba375443cf6b4f9ba60fd6a9489c9f3e3aeea025793186ba6eaf5a3432d83220c0ffc926330329398b52b126df4aa85e35b9d6644bb8cbcb6202fd0443ac4c807968545ffaadfeeda565439ae7cd3dcd55c376c580478fba29d117265560a6b3de05a8baf6e43cc9515313becbe8db9e5ea93824931de65788a4b85117202750cf4e8f84c8156e9c74c2a905544f99bcd4ccd5eecc94b16b2ef9e872f073dca02c5ae4f8798be1b1dc3e3b1548544c97ef53c71b43580a263f2d5a140c2be3ea7130d2ee5d138b314260fa9a2adcb6a718a9c2d8ccccb024740b1eea67e9f2b5acf67cb608e7519b7988fd0f95e1ce7657ecb554c4525f4e9f269a5ecb4f35c2f11f40861f13f0e1fbefeb321f32d63aa989cb03bc0ed59bdc977ce67263b2a0df134b10a629b638e88340feadb14b3b2c9ea31829400737fc1be51e2be5d8cb4dab88870d6b8b243c9a69da76cd3d495041bf3c44be16c678016c06187c4a585d10e25c67c8150ab08c881e1a79ca82df87f07fca329ca520e8b87c688e27fa88b4f388bf709394a47281b53dcf65549b55010d3064e7802b267500b4fbfda724aac110afbe42da987ab21e43b3cf9dd4917f6a763d835dd81ba16250c3224a8726780ca29bfa6f2c7a1ace4cc4576aea498349e9b9a2199ae0306ef885469884ba5642a8bdb05ef547f5c35c1c3bff0e5acd289a68216b99773a8af521ca1860f10e118df5b315de87ada4ef90104e67435604df194af9381af5f7c619c362d4eec4380abf9be031a948b8b832084226d8690a968d65746f1e104441e3423aa4e448d2</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>2020.09</category>
-      </categories>
-      <tags>
-        <tag>silly</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Fifteen</title>
     <url>/d20200929/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-OxpzweFb" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-gnesserL" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="28684996" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -1716,27 +1699,23 @@
       </categories>
   </entry>
   <entry>
-    <title>彼年豆蔻</title>
-    <url>/e20140818/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>默。</p>
-<p>我不知道，人生能有多少个三年。</p>
-<p>风吹过弄堂摇落一地的寂寥，金银花伏在墙头有娇憨的情状，树影婆娑带走所有的思念，故人的自行车尚在巷角静好。大概是最后一次，我又走过那条曾无数次走过的小巷，从一个人，两个人，三个人，两个人，最后独自一人。梨花的花期早过了，果然来的不是时候，蓊郁的树荫下我抬起头，恍惚看见满树梨花纷飞如雪落。</p>
-<p>我想说些什么呢，我也不知道，我还执着些什么呢，其实都忘了。只是一个人的时候回想起那些时光，走马观花不免有淡淡的欢喜与忧伤。</p>
-<p>我尚还记得捧着电纸书在街巷里往来的日子，那个暑假我看完了《恶魔法则》《冰火魔厨》，《神墓》刚刚起看，也许还有好多，但我已经记不得了。翻着多年前的微博，想起那时候抬头能看见欧奕阳坐在教室的东北角，我前面是叶添右边唐苒琦，和索索隔了一个过道，黑板上粉笔印张牙舞爪。倚在抚琴301的门框边，看索索请教杨老一些精巧的代数题，安静地听着，听着现世安稳岁月静好。八月他们得了很好的奖项，也算没有辜负了自己。窝在家里和他们用QQ联系，笑着闹着调侃着八卦着就是一个夏季。 </p>
-<p>很多时候只要时间允许，下课了杨老会载我们一程，聊天聊地，有时候谈谈学习，有时候谈谈生活，偶尔沉默不语。我一直觉得系安全带麻烦，所以从来坐后排，抱着书包看着沿街的灯火掠过身后，有浅浅的心安。昨天语文课下课，大雨，老吉搭我到车站。第一次坐副驾驶位，笨手笨脚把安全带扣上的一刻，脑海里闪现杨老的样子，莫名有些想笑。如果是杨老我肯定会被笑话的，“还是会系嘛。”大概会这样一边笑着一边说吧。很温暖。</p>
-<p>某次上完课下着大雨，杨老去开会，我被老妈拉着不准淋雨干脆坐在大堂里等雨停。叶添吃着泡面悠悠哉哉，两个家长在那闲聊。我盯着门口发呆，直到视野里出现某个裹着黑色塑料袋的家伙。笑喷。林教头穿的长裤被打湿大半一脸苦笑，杨老得瑟大笑：“谁叫你要穿长裤？”我摸来老妈的手机照下林教一脸威胁状，最后却是忘了那照片去了哪里。</p>
-<p>初中的第一个寒假，三个人约着去看林教，冯孚，索索，和我。之后从花牌坊一路走到抚琴。那时我们还不算熟悉，索索开着玩笑，冯孚舀着果冻，阳光温煦，缀成回忆。和索索并着肩走进小巷，回头看着自行车停在巷口逆着光，没有挥手，看不清模样。梨树葱郁，阴影洒在年少的脸上，嘻嘻闹闹，南辕北辙。想想真的好遥远，那天我们终于准点进了那扇门，没有迟到，也没有回头。故事的开始与落幕本就没有关系。</p>
-<p>超班总是要占点暑假的正常时间，翘了四五节课的结果通常是位置被占了，于是索索和我两个人潇洒地霸占了最后一排，趴在棕黑色的长桌上说说笑笑。所以理所当然的，被杨老重点吐槽也成了常事。那是最快乐的时候，我的圈子很小，小到一个人就心满意足。中午早早地缩在教室里看着小说，阳光从后门打进来，空气里微尘飘浮，伸着懒腰期待着每一天杨老阴险的笑容和身边同伴温暖的陪伴。</p>
-<p>另一年暴雨，听说生态园泛滥成海。索索没有再来。一个人插着裤包行走，满城风雨倾盆而下。车水马龙人世喧嚣都披散在身后，心无挂碍。在公交车上慢慢回想起从前拉着她去看梨花如雪枝桠却单薄，想起捧着小说偶尔瞥见青苔湿润着覆过石坷。终究还是一个人了。</p>
-<p>后来最初的那条街全面改造，我买了红豆奶茶看着《白夜行》一个人去上课，接连三周。直到现在一想到《白夜行》还能依稀闻见红豆奶茶的味道，只是一切都不如初见。最后一节课，冯思淼撺掇杨老答应联赛考得好请客，杨老说好啊冯思淼考140才请他。“什么哦，不公平。”“是撒，你起码要考到一百四嘛。”杨老笑着如是说。不知道最后杨老有没有请客呢，三年的答卷我只交了个三等奖的成绩却是各种丢脸了。年级上颁奖的时候我窝在小黑屋里修改主持人稿，初中就这么散了。敲着字突然想起抚琴巷里的金银花，这个时节应该是开花了吧，就像三年前一样。人生能有多少个三年呢。</p>
-<p>最后索索去了七林，杨老和林教出来办“哈哈教育”，当年的那些人不知道都去了哪里。</p>
-<p>就像曾经的相片，荏苒着又一茬春秋。</p>
-<p>就像曾经梨花半敛新叶未成，我站在树下。</p>
-<p>落了薄薄一层悲欢。</p>
-]]></content>
+    <title>Loser</title>
+    <url>/d20200930/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Please enter the password.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="57ddfab71542a8c2d91ad6344e7de77a762b1be40b201a467e820d131af87315">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1f4deeedf8be3a85de9544c680ec30573e0d5ad9aaea4f9cd167415d67c83a0a5fc2dbaf7f12a84cfda52efe002ca4b5169c38777f724a75233d968b9f37198b2a48ad4be4dc2c56dbeb05cb7a43af382192aef3181188241dba3d8308433f30a7147858cd204f26c04b87dbed83a0d4cb246612c1bf4cffb6e3f674520ee7d52f670c0067a6e4c721a0f59c952fb0a983d3cfe8433351020aff1ba96f65ce5cf38cace436865b8a30f3a7439e31b4f69543aafe9db00d3d06fafcbf5bc0c462a1ba88b5e9976a81173e6b9139a3cd6f01867e35a33823ea4a68b8c15b806516ddd1d970429eacd05de2aed446df5e25383f7489e5f0fa99966cf9ee33cb5824f0cfe04cb75c7abdceabe8df39ebbc2ae432fb4c3e8b775b4ee1255304dce2336a25abc08f6f256a281fd0967de902ede500546ba7395eef7f2c65b0387c567b2ff089178395bbe45abd28ff51a89c3200e77a1e7e7fda0469895ce33732f327f9d97e7a47e365336dde9d7db49e8ec8e7bd31a99a9c8b56dd2a525b3bfab190f74bf37ce6c75ad74ac8d0f362792878d7c9c2f36c01f679b72a2c2c2febb1b376e90801187ba2e8a78136e6e5730068e1b5d7d9006c31a807287df31dc142e673dac6cc80b625d25fb46c7df0db411baed233a550a77c9f859961809c2451e9914523f3cd903de472185fa785b0db176c697bc63b00ca823d675b4021cabf3bc12f7d56e2ad54f0cf4175c001d9a304fb69366bf874491997e8760e314cab81be5a681a4eedd585322f857248c434ece06b584e8c405d7889dfc60944215286713f2598cfb6dab9f3165400a8deeb67c7958c3e98d535c27ee03d01d711a1810d01cc95b6804d0ef194654eca826d65220b16db1295870b9c0076e0f56901b6d40f79eb6ef5b16ee1684bbc8f0fe83ce8d73c88a1760e38a8c10e031acba95022d2251422c167268c3d548dd97a2e34609e099b7add1e919e909ce9e023e845d203a44ac043c6cb0e6398d1b9f523eb07560846d5ec8d525a95852fe3853bed0168cf42cc9f6cdddae48e6b4a32d6bae00c94b457f2dff638c73d1ef4ef4d1c4c5524d9faa38418414211b876e4a2ae5e32e85a7e9812e16b82bfa0884ef13550ff5be484a2a8f89178eabe1cf9f2b8d8da65e5ffcd1df08a79dd9333ede6ba1fef3db3a9cc22a0e5b7117b01f07b1ac8cf2bedef30b5bf6733dc8fd5b112f912e99d6143f63dbb96afdff95eb1da87eeab78308b85e47577788a58d83a09851904729b41d12c037c5fc1e5607372afa689afb7e0550640661b8c6196e211ee523707d295148327f9e4348516a28ef87046373a7bec382ed60584845bdfbb4c8a977aa82feff1b69c2476ee591a8e9135978ecca5178190e342af39be9a9d0d70126eb52c2aea78a320a97c725008d56f9330dc159ef85f988fcc657fe14da0b7478e32a1bbf6f01703ea287aba375443cf6b4f9ba60fd6a9489c9f3e3aeea025793186ba6eaf5a3432d83220c0ffc926330329398b52b126df4aa85e35b9d6644bb8cbcb6202fd0443ac4c807968545ffaadfeeda565439ae7cd3dcd55c376c580478fba29d117265560a6b3de05a8baf6e43cc9515313becbe8db9e5ea93824931de65788a4b85117202750cf4e8f84c8156e9c74c2a905544f99bcd4ccd5eecc94b16b2ef9e872f073dca02c5ae4f8798be1b1dc3e3b1548544c97ef53c71b43580a263f2d5a140c2be3ea7130d2ee5d138b314260fa9a2adcb6a718a9c2d8ccccb024740b1eea67e9f2b5acf67cb608e7519b7988fd0f95e1ce7657ecb554c4525f4e9f269a5ecb4f35c2f11f40861f13f0e1fbefeb321f32d63aa989cb03bc0ed59bdc977ce67263b2a0df134b10a629b638e88340feadb14b3b2c9ea31829400737fc1be51e2be5d8cb4dab88870d6b8b243c9a69da76cd3d495041bf3c44be16c678016c06187c4a585d10e25c67c8150ab08c881e1a79ca82df87f07fca329ca520e8b87c688e27fa88b4f388bf709394a47281b53dcf65549b55010d3064e7802b267500b4fbfda724aac110afbe42da987ab21e43b3cf9dd4917f6a763d835dd81ba16250c3224a8726780ca29bfa6f2c7a1ace4cc4576aea498349e9b9a2199ae0306ef885469884ba5642a8bdb05ef547f5c35c1c3bff0e5acd289a68216b99773a8af521ca1860f10e118df5b315de87ada4ef90104e67435604df194af9381af5f7c619c362d4eec4380abf9be031a948b8b832084226d8690a968d65746f1e104441e3423aa4e448d2</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>Essay</category>
+        <category>2020.09</category>
       </categories>
+      <tags>
+        <tag>silly</tag>
+      </tags>
   </entry>
   <entry>
     <title>纸飞机的夏天</title>
@@ -1958,6 +1937,29 @@
       </categories>
   </entry>
   <entry>
+    <title>彼年豆蔻</title>
+    <url>/e20140818/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>默。</p>
+<p>我不知道，人生能有多少个三年。</p>
+<p>风吹过弄堂摇落一地的寂寥，金银花伏在墙头有娇憨的情状，树影婆娑带走所有的思念，故人的自行车尚在巷角静好。大概是最后一次，我又走过那条曾无数次走过的小巷，从一个人，两个人，三个人，两个人，最后独自一人。梨花的花期早过了，果然来的不是时候，蓊郁的树荫下我抬起头，恍惚看见满树梨花纷飞如雪落。</p>
+<p>我想说些什么呢，我也不知道，我还执着些什么呢，其实都忘了。只是一个人的时候回想起那些时光，走马观花不免有淡淡的欢喜与忧伤。</p>
+<p>我尚还记得捧着电纸书在街巷里往来的日子，那个暑假我看完了《恶魔法则》《冰火魔厨》，《神墓》刚刚起看，也许还有好多，但我已经记不得了。翻着多年前的微博，想起那时候抬头能看见欧奕阳坐在教室的东北角，我前面是叶添右边唐苒琦，和索索隔了一个过道，黑板上粉笔印张牙舞爪。倚在抚琴301的门框边，看索索请教杨老一些精巧的代数题，安静地听着，听着现世安稳岁月静好。八月他们得了很好的奖项，也算没有辜负了自己。窝在家里和他们用QQ联系，笑着闹着调侃着八卦着就是一个夏季。 </p>
+<p>很多时候只要时间允许，下课了杨老会载我们一程，聊天聊地，有时候谈谈学习，有时候谈谈生活，偶尔沉默不语。我一直觉得系安全带麻烦，所以从来坐后排，抱着书包看着沿街的灯火掠过身后，有浅浅的心安。昨天语文课下课，大雨，老吉搭我到车站。第一次坐副驾驶位，笨手笨脚把安全带扣上的一刻，脑海里闪现杨老的样子，莫名有些想笑。如果是杨老我肯定会被笑话的，“还是会系嘛。”大概会这样一边笑着一边说吧。很温暖。</p>
+<p>某次上完课下着大雨，杨老去开会，我被老妈拉着不准淋雨干脆坐在大堂里等雨停。叶添吃着泡面悠悠哉哉，两个家长在那闲聊。我盯着门口发呆，直到视野里出现某个裹着黑色塑料袋的家伙。笑喷。林教头穿的长裤被打湿大半一脸苦笑，杨老得瑟大笑：“谁叫你要穿长裤？”我摸来老妈的手机照下林教一脸威胁状，最后却是忘了那照片去了哪里。</p>
+<p>初中的第一个寒假，三个人约着去看林教，冯孚，索索，和我。之后从花牌坊一路走到抚琴。那时我们还不算熟悉，索索开着玩笑，冯孚舀着果冻，阳光温煦，缀成回忆。和索索并着肩走进小巷，回头看着自行车停在巷口逆着光，没有挥手，看不清模样。梨树葱郁，阴影洒在年少的脸上，嘻嘻闹闹，南辕北辙。想想真的好遥远，那天我们终于准点进了那扇门，没有迟到，也没有回头。故事的开始与落幕本就没有关系。</p>
+<p>超班总是要占点暑假的正常时间，翘了四五节课的结果通常是位置被占了，于是索索和我两个人潇洒地霸占了最后一排，趴在棕黑色的长桌上说说笑笑。所以理所当然的，被杨老重点吐槽也成了常事。那是最快乐的时候，我的圈子很小，小到一个人就心满意足。中午早早地缩在教室里看着小说，阳光从后门打进来，空气里微尘飘浮，伸着懒腰期待着每一天杨老阴险的笑容和身边同伴温暖的陪伴。</p>
+<p>另一年暴雨，听说生态园泛滥成海。索索没有再来。一个人插着裤包行走，满城风雨倾盆而下。车水马龙人世喧嚣都披散在身后，心无挂碍。在公交车上慢慢回想起从前拉着她去看梨花如雪枝桠却单薄，想起捧着小说偶尔瞥见青苔湿润着覆过石坷。终究还是一个人了。</p>
+<p>后来最初的那条街全面改造，我买了红豆奶茶看着《白夜行》一个人去上课，接连三周。直到现在一想到《白夜行》还能依稀闻见红豆奶茶的味道，只是一切都不如初见。最后一节课，冯思淼撺掇杨老答应联赛考得好请客，杨老说好啊冯思淼考140才请他。“什么哦，不公平。”“是撒，你起码要考到一百四嘛。”杨老笑着如是说。不知道最后杨老有没有请客呢，三年的答卷我只交了个三等奖的成绩却是各种丢脸了。年级上颁奖的时候我窝在小黑屋里修改主持人稿，初中就这么散了。敲着字突然想起抚琴巷里的金银花，这个时节应该是开花了吧，就像三年前一样。人生能有多少个三年呢。</p>
+<p>最后索索去了七林，杨老和林教出来办“哈哈教育”，当年的那些人不知道都去了哪里。</p>
+<p>就像曾经的相片，荏苒着又一茬春秋。</p>
+<p>就像曾经梨花半敛新叶未成，我站在树下。</p>
+<p>落了薄薄一层悲欢。</p>
+]]></content>
+      <categories>
+        <category>Essay</category>
+      </categories>
+  </entry>
+  <entry>
     <title>聊将锦瑟寄流年</title>
     <url>/e20140905/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我并不算多情的人，甚而性子有一点凉薄，只是在乎的人便极在乎，纵然一切都不复当初。嘉祥，我在这里徘徊了四年，一个人，两个人，三个人，然后一点点零落。只是想着，也许可以写点什么来祭奠，那些人，和那些心情。</p>
@@ -1965,6 +1967,28 @@
 <p>初一我遇见铃，在人群中。惊异于一个可以很温柔也可以很腹黑的女孩。我试着去打排球，笨拙地垫球。那一年排球馆还没有装修，地板油光发亮，一地排球四散滚动，打羽毛球的人简单圈了个训场。你告诫我别在别人打球时靠近，你一遍遍为我示范喊我不托球时手要放松，你笑着看我躲在场地的角落里赶着作业，你坐在架子下给我讲你的过去和你所希冀的未来。还有每天中午算着时间往寝室奔跑的那种跳脱和恣肆，香樟打下树影在我们身后追逐。只是那些日子，却一如云烟了。排球馆换了新装，也不会有人再踏着点和我冲回寝室，体育课我练着垫球，想起你的音容笑貌，已远在加拿大了。</p>
 <p>另外一个家伙呢，等我毕业前偶然想起，才恍悟他竟安静地伴过我三年。车窗上掠过灯火纷繁，斑驳的光影点洒在身边人的脸上，白色的耳机线悠悠晃荡。晚上刷过题从机房一路赶下来，22：02月光如水，完全没有迟到自觉性地一边跑一边讨论。后来我写了篇纪念OIer的《阳光路上》，至于究竟修饰美化了些什么似乎不需多言了。你总是脾气很好，无奈地看着我“神奇的找来一大堆事情做”——你的原话，当然我最麻烦的时候还是钻牛角尖东问西问烦得你直接“嘟咯噗噜”地冒出各种奇怪的音节应付了事。我还在学信息，一如既往地喜欢迟到，钻牛角尖时还是很讨厌，但好像没有一个好脾气如你的家伙可以被我揪着问来问去了。我去教育处帮你领团员证，盖上印章，想着大概以后难会相见了，不过你在七林必然也会一样的荣光。</p>
 <p>似乎也就是这样了。到了新的班级，身边多了形形色色的脸孔，我情愿不戴眼镜，不去看，就不会烦恼。约是逃避。我开始在一个人的时候写一些东西，琐琐碎碎地拼凑起过去的时光和无可替代的你们。到这篇为止，大约也足够了，才刚刚开始呢，就忘了结束吧。</p>
+]]></content>
+      <categories>
+        <category>Essay</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>日落</title>
+    <url>/e20140930/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>看见日落。</p>
+<p>寥廓的天际横卧一片霞霓。</p>
+<p>云边笼上浅淡的光辉，像婴儿脸上初生的绒毛。也许是错觉，我看见云层和着我的心跳搏动，有受惊的鸟冲着天空飞起，树林站立成无言的寂静。</p>
+<p>这种时候，在这个地方，我应该想些什么呢。是想着气吞万里壮志凌云，还是想着日暮西山一生行休。不由自嘲，我只是想起上一次是谁陪我看着日落。</p>
+<p>曾经在雨幕里笑着打闹着的那个人，曾经用坐标描述整个世界的那个人，曾经为我撑伞教我处事的那个人，曾经戴着耳机侧影斑驳的那个人，浸润在我的生命里，最后却也物是人非。</p>
+<p>于是我骄傲于我的孤独，我的不曾孤独，我不断迷惑，不断改变，不断肯定，亦不断追寻。我一直以为我孑然一人，可以放下一切，独自活在这个世界上。</p>
+<p>直到我的小学同学变成我的高中同学，直到他无意中喊出了我儿时的乳名，直到他尴尬地摆手换回称呼，直到我挠着脑袋说就这样就可以。我才在一阵恍惚中明白，我到底忽略了些什么。曾经的印记是永远都无法摆脱的，它永远都在那里，记载在我的生命中，在某一时刻出现，如闪电乍然掠过。</p>
+<p>我们带着过去的一切来到这里，我们所经历的最后都变成了我们的一部分，包括我们所看过的书，我们所走过的路，我们所见过的事，我们所爱过的人。这世界又何尝不是如此呢。弄堂口那棵树的高度，小小的孩童怎样爬上树干摘下嫩叶；厂门口文化广场的大小，电影结束人群散去后的一片狼藉；阴井盖缝隙的宽度和下雨天雨水如何流转汇聚；路边树丛下野草的间隙和一只老鼠如何沿着它躲入阴影。</p>
+<p>构成这个世界的，其实是我们的经历。</p>
+<p>生命是一场如此庞大的抒情，时间与空间缠绕绵延。我们也就是这样成长起来的，我们的生命里承载着这个世界。散文里的爱憎与思索，小说里的悲欢和离合，朋友一句无意的戏言，师长一段恳切的提点，江南的烟雨迷蒙小桥流水，塞北的长空万里大漠孤烟。</p>
+<p>原是这般的，安然而庄重。</p>
+<p>虫鸣在野。</p>
+<p>我抬头，看见最后一抹霞光就此敛去。</p>
+<p>天地之间，只余湛湛然一片。</p>
 ]]></content>
       <categories>
         <category>Essay</category>
@@ -2030,28 +2054,6 @@
 <p>慢慢关上的府邸大门里，良久一声苦笑：“如同你失了社稷……我失了你……”</p>
 <p>三日后，辉夜姬离世。走的时候极安详，隐在紫阳花海中，皓腕边散落着信笺。他第一次颤抖着手打开那幅卷轴，画中人英气勃发，款识著着“赠玉环”的字样。他沉默不语地烧着那些信笺，一页一页相同的句子。</p>
 <p>“求而……不得……”</p>
-]]></content>
-      <categories>
-        <category>Essay</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>日落</title>
-    <url>/e20140930/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>看见日落。</p>
-<p>寥廓的天际横卧一片霞霓。</p>
-<p>云边笼上浅淡的光辉，像婴儿脸上初生的绒毛。也许是错觉，我看见云层和着我的心跳搏动，有受惊的鸟冲着天空飞起，树林站立成无言的寂静。</p>
-<p>这种时候，在这个地方，我应该想些什么呢。是想着气吞万里壮志凌云，还是想着日暮西山一生行休。不由自嘲，我只是想起上一次是谁陪我看着日落。</p>
-<p>曾经在雨幕里笑着打闹着的那个人，曾经用坐标描述整个世界的那个人，曾经为我撑伞教我处事的那个人，曾经戴着耳机侧影斑驳的那个人，浸润在我的生命里，最后却也物是人非。</p>
-<p>于是我骄傲于我的孤独，我的不曾孤独，我不断迷惑，不断改变，不断肯定，亦不断追寻。我一直以为我孑然一人，可以放下一切，独自活在这个世界上。</p>
-<p>直到我的小学同学变成我的高中同学，直到他无意中喊出了我儿时的乳名，直到他尴尬地摆手换回称呼，直到我挠着脑袋说就这样就可以。我才在一阵恍惚中明白，我到底忽略了些什么。曾经的印记是永远都无法摆脱的，它永远都在那里，记载在我的生命中，在某一时刻出现，如闪电乍然掠过。</p>
-<p>我们带着过去的一切来到这里，我们所经历的最后都变成了我们的一部分，包括我们所看过的书，我们所走过的路，我们所见过的事，我们所爱过的人。这世界又何尝不是如此呢。弄堂口那棵树的高度，小小的孩童怎样爬上树干摘下嫩叶；厂门口文化广场的大小，电影结束人群散去后的一片狼藉；阴井盖缝隙的宽度和下雨天雨水如何流转汇聚；路边树丛下野草的间隙和一只老鼠如何沿着它躲入阴影。</p>
-<p>构成这个世界的，其实是我们的经历。</p>
-<p>生命是一场如此庞大的抒情，时间与空间缠绕绵延。我们也就是这样成长起来的，我们的生命里承载着这个世界。散文里的爱憎与思索，小说里的悲欢和离合，朋友一句无意的戏言，师长一段恳切的提点，江南的烟雨迷蒙小桥流水，塞北的长空万里大漠孤烟。</p>
-<p>原是这般的，安然而庄重。</p>
-<p>虫鸣在野。</p>
-<p>我抬头，看见最后一抹霞光就此敛去。</p>
-<p>天地之间，只余湛湛然一片。</p>
 ]]></content>
       <categories>
         <category>Essay</category>

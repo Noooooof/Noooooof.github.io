@@ -1606,7 +1606,7 @@
     <title>Nof</title>
     <url>/d20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-sBoJQwWD" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-dvLArlDL" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -1682,6 +1682,28 @@
 ]]></content>
       <categories>
         <category>2020.10</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>TODO</title>
+    <url>/d20201014/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>一些想做的事情：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 好好把课程阅读材料都读下来，以及从柜子里翻出来的那些杂书</li>
+<li><input disabled="" type="checkbox"> 毕业论文开题（躺平</li>
+<li><input disabled="" type="checkbox"> 继续速成法律常识（躺平</li>
+<li><input disabled="" type="checkbox"> 背着相机去找猫，到处走走拍拍照</li>
+<li><input disabled="" type="checkbox"> 跑步锻炼……啊让我跑步不如宰了我，不如再去办张游泳卡</li>
+<li><input disabled="" type="checkbox"> 尝试学习日语？……</li>
+<li><input disabled="" type="checkbox"> 调教下Trilium，或许能成为常用工具</li>
+<li><input disabled="" type="checkbox"> 主题的修改……这…多半被我水掉</li>
+<li><input disabled="" type="checkbox"> Unity……（只要我活得够久总能见到共斗第三幕的x</li>
+<li><input disabled="" type="checkbox"> 遥遥无期的二刷Bleach</li>
+<li><input disabled="" type="checkbox"> 清空Stack（危</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Draft</category>
       </categories>
   </entry>
   <entry>

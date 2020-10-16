@@ -613,7 +613,7 @@ ol {
   counter-reset: li;
 }
 .post-content-inner ol li {
-  line-height: 1.7;
+  line-height: 1.5;
   margin: 6px 0px;
   counter-increment: li;
 }
@@ -629,7 +629,7 @@ ol {
   list-style: none;
 }
 .post-content-inner ul li {
-  line-height: 1.2;
+  line-height: 1.5;
   margin: 6px 0px;
 }
 .post-content-inner ul li::before {

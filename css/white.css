@@ -752,9 +752,13 @@ li p {
 }
 .post-categoris-bottom .post-categoris-list {
   text-indent: 0em;
+  font-weight: bold;
 }
 .post-categoris-bottom .post-categoris-list .post-me-link {
   color: #898FA0;
+}
+.post-categoris-bottom .post-categoris-list .post-categoris-bottom-link {
+  color: #56b3ff;
 }
 .post-categoris-bottom .post-categoris-list .post-categoris-bottom-link:hover {
   text-decoration: none;
@@ -782,6 +786,7 @@ li p {
   font-size: 1em;
   font-family: "H-宫书", "Gothic", "Microsoft YaHei";
   margin-bottom: 10px;
+  font-weight: bold;
 }
 @media screen and (max-width: 550px) {
   .post-nav {
@@ -798,6 +803,7 @@ li p {
     font-size: 1em;
     font-family: "H-宫书", "Gothic", "Microsoft YaHei";
     margin-bottom: 10px;
+    font-weight: bold;
   }
 }
 #gitalk-container .gt-header-textarea,

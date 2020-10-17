@@ -90,6 +90,27 @@
       </categories>
   </entry>
   <entry>
+    <title>As well</title>
+    <url>/d20200430/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里，没有早一步，也没有晚一步，刚巧赶上了，那也没有别的话可说，惟有轻轻的问一声：“哦，你也在这里吗？” </p>
+</blockquote>
+<br/>
+
+<p>朋友真的是永恒的话题。</p>
+<p>怎么认定朋友呢？怎么对待朋友呢？</p>
+<p>我是怕受伤的，所以在决心以朋友相待之前，总得要确认对方的态度。</p>
+<p>能够完全依凭自己的意志行事，不在乎别人的反馈，实在是一件很有勇气的事情。</p>
+<br/>
+
+<p>今天眼睛稍微消肿了一点，晚上再热敷一下上点眼药膏吧。</p>
+<p>天气渐渐热起来了，虽然我还窝在屋子里穿着毛衣，但夏天是确切地临近了。</p>
+]]></content>
+      <categories>
+        <category>2020.04</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Somebody tells you they love you</title>
     <url>/d20200501/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>其实本周预定的任务完全没做，昨晚紧急去买了条裤子，今天出门和LC、斯丝聚会。</p>
@@ -822,27 +843,6 @@
       </categories>
   </entry>
   <entry>
-    <title>As well</title>
-    <url>/d20200430/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里，没有早一步，也没有晚一步，刚巧赶上了，那也没有别的话可说，惟有轻轻的问一声：“哦，你也在这里吗？” </p>
-</blockquote>
-<br/>
-
-<p>朋友真的是永恒的话题。</p>
-<p>怎么认定朋友呢？怎么对待朋友呢？</p>
-<p>我是怕受伤的，所以在决心以朋友相待之前，总得要确认对方的态度。</p>
-<p>能够完全依凭自己的意志行事，不在乎别人的反馈，实在是一件很有勇气的事情。</p>
-<br/>
-
-<p>今天眼睛稍微消肿了一点，晚上再热敷一下上点眼药膏吧。</p>
-<p>天气渐渐热起来了，虽然我还窝在屋子里穿着毛衣，但夏天是确切地临近了。</p>
-]]></content>
-      <categories>
-        <category>2020.04</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Keyboard and Umbrella</title>
     <url>/d20200721/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>键盘和雨伞都到了。</p>
@@ -1419,27 +1419,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Setting</title>
-    <url>/d20200917/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用字蛛把博客字体缩小到1.02MB，但用cdn链接加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p>
-<p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p>
-<ul>
-<li><a href="https://noooooof.gitee.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li>
-<li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li>
-</ul>
-<p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p>
-<br/>
-
-<p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
-<br/>
-
-<p>ps，开启了<a href="http://www.noooooof.gitee.io/atom.xml">RSS</a>订阅，如果有人想用的话？</p>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Dream</title>
     <url>/d20200918/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>梦见老吉，梦见一群很久不见甚至很可能不会再见的人。</p>
@@ -1472,6 +1451,23 @@
 <p>看完还是，有点遗憾。</p>
 <p>也许是我先入为主了，总觉得没有「四张机」和「落梅风」有趣。</p>
 <p>那些在剧本中暧昧不清欲言又止的东西，在剧里未免太显明又略突兀，哎。</p>
+]]></content>
+      <categories>
+        <category>2020.09</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Autumn</title>
+    <url>/d20200922/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>被逻辑题折磨得自闭。</p>
+<p>翻着去年寥寥无几的照片，恍若隔世。</p>
+<p>十月后瑞典一阵一阵地下雨，教学楼门口的路满是泥泞，有小姐姐牵着大狗跑过去。深一脚浅一脚地挪动着和Robin抱怨天气的时候，他笑说瑞典总是这样的，北边雨势更大也更冷，这就是秋天。</p>
+<p>秋天，啊。</p>
+<p>一定要在四季之中选一个喜欢的季节，可能就是秋天了。</p>
+<p>没有夏天的燥气和生机，也没有冬天的严酷和死寂，从草木边缘处变了颜色，稍微透露出一点寂寥来，含蓄却也决绝。</p>
+<p>今天是秋分，不过倒只隐约闻到一点腐烂的白果的臭味，没有往年那么肆无忌惮。也许是因为开学太晚，又或者因为我完完全全地翘了课宅在二教，不怎么走过理教前面那条路。</p>
+<p>还有一天。</p>
+<p>明明不喜欢这个城市的，却还是想努力留下来，稍微有点可笑啊。</p>
 ]]></content>
       <categories>
         <category>2020.09</category>
@@ -1534,23 +1530,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Autumn</title>
-    <url>/d20200922/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>被逻辑题折磨得自闭。</p>
-<p>翻着去年寥寥无几的照片，恍若隔世。</p>
-<p>十月后瑞典一阵一阵地下雨，教学楼门口的路满是泥泞，有小姐姐牵着大狗跑过去。深一脚浅一脚地挪动着和Robin抱怨天气的时候，他笑说瑞典总是这样的，北边雨势更大也更冷，这就是秋天。</p>
-<p>秋天，啊。</p>
-<p>一定要在四季之中选一个喜欢的季节，可能就是秋天了。</p>
-<p>没有夏天的燥气和生机，也没有冬天的严酷和死寂，从草木边缘处变了颜色，稍微透露出一点寂寥来，含蓄却也决绝。</p>
-<p>今天是秋分，不过倒只隐约闻到一点腐烂的白果的臭味，没有往年那么肆无忌惮。也许是因为开学太晚，又或者因为我完完全全地翘了课宅在二教，不怎么走过理教前面那条路。</p>
-<p>还有一天。</p>
-<p>明明不喜欢这个城市的，却还是想努力留下来，稍微有点可笑啊。</p>
-]]></content>
-      <categories>
-        <category>2020.09</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Over</title>
     <url>/d20200924/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>法硕考试结束，论述题是防疫措施，面试题是坟头蹦迪。</p>
@@ -1606,7 +1585,7 @@
     <title>Nof</title>
     <url>/d20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-fSFKUVZt" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-qfELAdLW" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -1685,17 +1664,54 @@
       </categories>
   </entry>
   <entry>
-    <title>Quick note</title>
-    <url>/d20201016/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>好饿。寝室里应当屯零食。</p>
-<p>看了学弟的票圈尝试学双拼，学的好慢，sigh。我才发现自己键位不太熟……那我全拼怎么完全没事qaq</p>
-<p>周末全是会和锅，溜了溜了。</p>
+    <title>New life</title>
+    <url>/d20201012/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>推免结束。</p>
+<p>有学上了就会幸福吗？只是选择的期限再一次推迟罢了。</p>
+<p>希望三年之后我不会还是这个鬼样子。</p>
 <br/>
 
-<p>ps，最近和我发消息发现我总在输入中或者反应慢得不行是正常的，理由如上。</p>
+<p>无所事事的一早上，出门看见姜丝鸭和面粉猫猫对骂。</p>
+<p>下课之后读完了马基雅维利的「曼陀罗」，然后冻得瑟瑟发抖骑回寝室。</p>
+<p>有感兴趣的事情就动手，有想要的东西就去争取，活得更热烈更自我一点吧。</p>
 ]]></content>
       <categories>
-        <category>Draft</category>
+        <category>2020.10</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Normal</title>
+    <url>/d20201015/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨晚摸了下trilium和notion，选定notion作为未来笔记工具。</p>
+<br/>
+
+<p>挣扎着起来和桃儿去校医院，为避免被赶去发热门诊就还是没去看，反正快好了。</p>
+<p>困得不行在园子里游荡，踩着枯枝听鸟叫，麻雀被一整群惊起。</p>
+<blockquote>
+<p>乾为天 天风姤 天山遯 天地否……</p>
+</blockquote>
+<p>背下了分宫卦象的前一半。</p>
+<p>吃了午饭回寝室，勉强看完一集monster就睡着了。</p>
+<p>三点多想着晴儿还在上课不想下床，翻了个身接着睡。</p>
+<p>然后就做噩梦了（瘫</p>
+]]></content>
+      <categories>
+        <category>2020.10</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Lighten</title>
+    <url>/d20201016/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>歌剧欣赏放了「费加罗的婚礼」，又好笑又可怕。</p>
+<p>下午天气很好，在寝室歇了一会出门逛逛。</p>
+<p>在未名湖边上看见了猫们。</p>
+<p>猫真是现实的动物，有粮的时候就不走了，黏黏腻腻地凑过来，揣着手手乖乖巧巧。</p>
+<br/>
+
+<p>ps，在尝试学双拼，进展好慢，所以最近和我发消息发现我总在输入中或者反应慢得不行是正常的QAQ</p>
+]]></content>
+      <categories>
+        <category>2020.10</category>
       </categories>
   </entry>
   <entry>
@@ -2181,6 +2197,37 @@
 ]]></content>
       <categories>
         <category>Essay</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Setting</title>
+    <url>/t20200917/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用字蛛把博客字体缩小到1.02MB，但用cdn链接加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p>
+<p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p>
+<ul>
+<li><a href="https://noooooof.gitee.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li>
+<li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li>
+</ul>
+<p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p>
+<br/>
+
+<p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
+<br/>
+
+<p>ps，开启了<a href="http://www.noooooof.gitee.io/atom.xml">RSS</a>订阅，如果有人想用的话？</p>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Quick note</title>
+    <url>/t20201016/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>看了学弟的票圈尝试学双拼，学的好慢，sigh。</p>
+<p>所以最近和我发消息发现我总在输入中或者反应慢得不行是正常的QAQ</p>
+]]></content>
+      <categories>
+        <category>Tips</category>
       </categories>
   </entry>
   <entry>

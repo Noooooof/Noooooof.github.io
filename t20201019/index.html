@@ -24,7 +24,7 @@
   
     
       
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh//Noooooof/partials/CSS/highlight/styles/agate.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh//Noooooof/partials/CSS/highlight/styles/color-brewer.css">
 
     
   
@@ -208,13 +208,14 @@ for file in os.listdir(path):
 <p>最后的效果是把部署当天更新或修改的文章在archive页置顶标注，之前的文章则踢回原本时间线。</p>
 <p>顺便把layout.ejs的修改也放上来。</p>
 <pre><code class="html">&lt;% var now = moment(); %&gt;
+
 &lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;
     &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;
 &lt;% &#125; %&gt;</code></pre>
 <p>害，可以说是相当笨拙了。</p>
 <br/>
 
-<p>ps，代码高亮待修改。</p>
+<p>ps，为什么没办法自定义配色啊（恼</p>
 
         <!-- 分类文章 -->
         

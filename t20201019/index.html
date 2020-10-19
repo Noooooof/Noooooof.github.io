@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>  Driving |    Farewell.</title>
+  <title>  Theme |    Farewell.</title>
   <!-- 标签页图标 -->
   
 
@@ -139,8 +139,8 @@
 <article class="post-inner">
   <div class="post-content-outer">
     <div class="post-intro">
-      <div class="post-title animate__animated  animate__fadeInUp">Driving</div>
-      <div class="meta-intro animate__animated  animate__fadeInUp">Jul 15 2020</div>
+      <div class="post-title animate__animated  animate__fadeInUp">Theme</div>
+      <div class="meta-intro animate__animated  animate__fadeInUp">Oct 19 2020</div>
       
     </div>
     <div class="post-content-inner">
@@ -150,109 +150,84 @@
       <div class="post-content-main animate__animated  animate__fadeInUp">
         <!-- top型目录 -->
         
-        <p>昨晚熬到两点半把所有pc的unity文件都做完了，算是初步告一段落。</p>
+        <p>White是一个非常年轻的主题，有一说一它的功能非常单一，设计更是简洁，但「刚刚够用」这一点实在太香了。所以在搭建博客的时候第一眼就选定了它，并想方设法把它打磨成我希望的样子。</p>
+<p>发布者上次更新的时候添加了图片归档界面和lazy load功能，感觉和white本身的轻巧背道而驰，但后续更新还是值得期待的……直到他突然心态崩掉跑路（害</p>
+<p>现在我使用的这个主题已经多少和White有所不同了，以后或许会有更大区别，想着不如记录在这里吧。</p>
+<h2 id="Paginator"><a href="#Paginator" class="headerlink" title="Paginator"></a>Paginator</h2><p>White原本的翻页方式就只有archive页面的「prev」和「next」按钮。</p>
+<p>我增加了archive页面的页码和post页面的前后翻页功能，然后根据页面宽度改了改显示效果。</p>
+<p>实现方式有点笨，就是在ejs文件里把宽屏和窄屏的翻页部件都写出来，然后在styl文件里根据屏幕宽度选择性显示。</p>
+<pre><code>.paginator 
+  display none
+  @media $desktop-m
+    display block
+
+.paginator_diy
+  display block
+  @media $desktop-m
+    display none</code></pre>
+<p>styl文件对格式的要求比较低，各种花括号、冒号、分号都可以不要。</p>
+<h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>我的更新以日记为主，这意味着我基本得按照日记时间降序排列；但另一方面我还经常会删改增添以前的日记，所以一定程度上也得按修改时间排序。</p>
+<p>看了下hexo默认的排序文件，不太知道怎么改，所以最后还是选择改自己的post。</p>
+<pre><code class="python"># coding:utf-8
+
+import os
+import re
+import time
+
+path = &#39;../_posts&#39;
+
+for file in os.listdir(path):
+    if (&#39;.md&#39; in file):
+        fileName = os.path.join(path,file)
+        with open(fileName,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:
+            postContent = fi.read() # markdown文件内容
+
+        localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间
+        localUpdate = time.strftime(&#39;%Y-%m-%d %H:%M:%S&#39;, time.localtime(os.stat(fileName).st_mtime)) # 文件修改时间
+
+        postCategoris = re.search(r&#39;categories: \d*\.\d*\n&#39;,postContent)
+        if (postCategoris == None):
+            postCategoris = re.search(r&#39;categories: \&#39;\d*\.\d*\&#39;\n&#39;,postContent) # 非None就是日记
+
+        postDate = re.findall(r&#39;date: ([\s\S]*?)\n&#39;,postContent)[0] # date时间
+        postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # update时间
+
+        post = postContent # 准备覆写
+
+        if (localDate in localUpdate): # 如果是当天修改的文件
+            postUpdate = localUpdate
+            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postUpdate +&#39;\n&#39;, post) # 更新update时间
+            if (postCategoris == None):
+                post = re.sub(r&#39;date: [\s\S]*?\n&#39;,&#39;date: &#39;+ postUpdate +&#39;\n&#39;, post) # 连载文章更新date时间
+        else:        
+            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, post) # 以前的文章按date时间复位
+
+        with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
+            fo.write(post) # 覆写</code></pre>
+<p>最后的效果是把部署当天更新或修改的文章在archive页置顶标注，之前的文章则踢回原本时间线。</p>
+<p>顺便把layout.ejs的修改也放上来。</p>
+<pre><code class="html">&lt;% var now = moment(); %&gt;
+&lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;
+    &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;
+&lt;% &#125; %&gt;</code></pre>
+<p>害，可以说是相当笨拙了。</p>
 <br/>
 
-<p>今天头一次练车，从华阳骑到世纪城，七公里全速，人都没了。</p>
-<p>开车好像还蛮好玩的，有点上头。</p>
-<p>说是要好好学习的，又拉着潘浪了一天，抱歉抱歉。</p>
-<br/>
-
-<p>总觉得马知越来越极端了呀，倒也没必要什么都上到道德评价上去。何况米二挣腐女的钱和讨厌腐女本来就不矛盾嘛，他又没有故意卖腐；最多就是要承担相关群体讨厌他的后果，都是成年人了（笑</p>
-<p>和xrp胡侃，抱着小手机等新消息的青春真的结束了，总觉得是甜蜜而酸涩的一段时光。</p>
-<p>那倒也不错，不是吗？</p>
+<p>ps，我死了这个代码高亮好丑！晚点改改（悲</p>
 
         <!-- 分类文章 -->
         
           <div class="post-categoris-bottom">
-            <div class="post-categoris-name">2020.07</div>
+            <div class="post-categoris-name">Tips</div>
             <ul class="post-categoris-list">
             
             
               
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
+                <li>
+                  
+                    <span class="post-me-link"> Theme </span>
+                  
+                </li>
               
             
             
@@ -328,10 +303,10 @@
               
                 <li>
                   
-                    <a  href="/d20200731/" class="post-categoris-bottom-link">
-                    Romance and friendship
+                    <a  href="/t20200917/" class="post-categoris-bottom-link">
+                    Setting
                     
-                    <span style="float: right" class="post-categoris-date"> Jul 31 </span>
+                    <span style="float: right" class="post-categoris-date"> Sep 17 </span>
                     
                     </a>
                   
@@ -341,281 +316,161 @@
             
             
               
-                <li>
-                  
-                    <a  href="/d20200730/" class="post-categoris-bottom-link">
-                    Fireworks
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 30 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200729/" class="post-categoris-bottom-link">
-                    Without reader
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 29 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200728/" class="post-categoris-bottom-link">
-                    Museum
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 28 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200727/" class="post-categoris-bottom-link">
-                    A la recherche du temps perdu
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 27 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200725/" class="post-categoris-bottom-link">
-                    Friends
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 25 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200724/" class="post-categoris-bottom-link">
-                    Hurry up
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 24 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200723/" class="post-categoris-bottom-link">
-                    Fragile
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 23 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200722/" class="post-categoris-bottom-link">
-                    Se una notte d&#39;inverno un viaggiatore
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 22 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200721/" class="post-categoris-bottom-link">
-                    Keyboard and Umbrella
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 21 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200720/" class="post-categoris-bottom-link">
-                    Back to school
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 20 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200719/" class="post-categoris-bottom-link">
-                    Painful
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 19 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200717/" class="post-categoris-bottom-link">
-                    Old things, precious things
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 17 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
+              
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <a  href="/d20200716/" class="post-categoris-bottom-link">
-                    Cat and dog
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 16 </span>
-                    
-                    </a>
-                  
-                </li>
+            
+            
+            
               
             
             
             
               
-                <li>
-                  
-                    <span class="post-me-link"> Driving </span>
-                  
-                </li>
-              
             
             
             
-              
-                <li>
-                  
-                    <a  href="/d20200712/" class="post-categoris-bottom-link">
-                    Dating
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 12 </span>
-                    
-                    </a>
-                  
-                </li>
-              
-            
-            
-            
-              
-                <li>
-                  
-                    <a  href="/d20200710/" class="post-categoris-bottom-link">
-                    Wandering
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 10 </span>
-                    
-                    </a>
-                  
-                </li>
-              
-            
-            
-            
-              
-                <li>
-                  
-                    <a  href="/d20200707/" class="post-categoris-bottom-link">
-                    College entrance exam
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 07 </span>
-                    
-                    </a>
-                  
-                </li>
-              
-            
-            
-            
-              
-                <li>
-                  
-                    <a  href="/d20200703/" class="post-categoris-bottom-link">
-                    Take your responsibility
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 03 </span>
-                    
-                    </a>
-                  
-                </li>
-              
-            
-            
-            
-              
-                <li>
-                  
-                    <a  href="/d20200702/" class="post-categoris-bottom-link">
-                    Graduation
-                    
-                    <span style="float: right" class="post-categoris-date"> Jul 02 </span>
-                    
-                    </a>
-                  
-                </li>
               
             
             
@@ -796,8 +651,8 @@
       
             <div align="right" style="float:right" class="post-nav-next">
               
-                <a href="/d20200712/" rel="next" title="Dating">
-                Dating
+                <a href="/loading/" rel="next" title="Europe">
+                Europe
                 </a>
                 <span> > </span>
               
@@ -805,11 +660,6 @@
 
             <div align="left" style="float:left" class="post-nav-prev">
                 
-                <span> < </span>
-                <a href="/d20200716/" rel="prev" title="Cat and dog">
-                Cat and dog
-                </a>
-              
             </div>
 
           </div>
@@ -819,16 +669,13 @@
       
             <div align="right" style="float:right" class="post-bot-next">
               
-                <a href="/d20200712/" rel="next" title="Dating"> Next </a>
+                <a href="/loading/" rel="next" title="Europe"> Next </a>
                 <span> > </span>
               
             </div>
 
             <div align="left" style="float:left" class="post-bot-prev">
                 
-                <span> < </span>
-                <a href="/d20200716/" rel="prev" title="Cat and dog"> Prev </a>
-              
             </div>
 
           </div>
@@ -837,6 +684,10 @@
                 
       </div>
       <div class="post-content-inner-space">
+        
+          <div class="space-toc-main animate__animated  animate__fadeInUp">
+            <ol class="space-toc"><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Paginator"><span class="space-toc-text">Paginator</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Sort-by"><span class="space-toc-text">Sort_by</span></a></li></ol>
+           </div>
         
       </div>
     </div>

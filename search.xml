@@ -262,18 +262,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Wake up</title>
-    <url>/d20200509/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>呼……</p>
-<p>一口气把死神破面篇看完了，甚至把之前「只有你不在的世界」的log也重新看了一遍，有点累到……老实说多少也有点失望。</p>
-<p>尽管梦和现实的边界摇摇欲坠，我却总爱做梦。心里当然明白梦总有醒来的一天，而我尚未拥有赤手空拳对抗现实的勇气和实力……但又总是躺下，按下潜意识的惴惴不安，把逃避称为潇洒。</p>
-<p>Time to wake up, guy.</p>
-]]></content>
-      <categories>
-        <category>2020.05</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Endless summer</title>
     <url>/d20200510/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>挣扎着起床去公园跑步的时候，看见绣球花开了。</p>
@@ -285,6 +273,18 @@
 <br/>
 
 <p>ps，凌晨一时兴起去看了看贴吧，互联网的记忆总是短暂，人们像星火一样聚散。</p>
+]]></content>
+      <categories>
+        <category>2020.05</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Wake up</title>
+    <url>/d20200509/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>呼……</p>
+<p>一口气把死神破面篇看完了，甚至把之前「只有你不在的世界」的log也重新看了一遍，有点累到……老实说多少也有点失望。</p>
+<p>尽管梦和现实的边界摇摇欲坠，我却总爱做梦。心里当然明白梦总有醒来的一天，而我尚未拥有赤手空拳对抗现实的勇气和实力……但又总是躺下，按下潜意识的惴惴不安，把逃避称为潇洒。</p>
+<p>Time to wake up, guy.</p>
 ]]></content>
       <categories>
         <category>2020.05</category>
@@ -434,6 +434,17 @@
       </categories>
   </entry>
   <entry>
+    <title>Spider silk</title>
+    <url>/d20200601/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>对稳定安全的关系没有要求的话，建立契约好像确实不是必要的事情。</p>
+<p>但我确切地知道，我是需要这种关系的。</p>
+<p>它像飘在空中的蛛丝，牢牢抓住了下坠的我。</p>
+]]></content>
+      <categories>
+        <category>2020.06</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Live a life</title>
     <url>/d20200604/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>陆陆续续收到了斯丝、潘和博涵的儿童节礼物。</p>
@@ -443,17 +454,6 @@
 <p>钻机声代替蝉鸣不知疲倦地喧噪着。从前我能在蝉声中轻易入睡，如今亦然。</p>
 <p>总得向前看看，总得向前走走。</p>
 <p>有想做的事，有想见的人，有想去的地方，就别困守一隅了啊。</p>
-]]></content>
-      <categories>
-        <category>2020.06</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Spider silk</title>
-    <url>/d20200601/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>对稳定安全的关系没有要求的话，建立契约好像确实不是必要的事情。</p>
-<p>但我确切地知道，我是需要这种关系的。</p>
-<p>它像飘在空中的蛛丝，牢牢抓住了下坠的我。</p>
 ]]></content>
       <categories>
         <category>2020.06</category>
@@ -1329,6 +1329,25 @@
       </categories>
   </entry>
   <entry>
+    <title>Goodbye</title>
+    <url>/d20200902/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Please enter the password.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="118f1614fdacdf860d68b39c31d1d4cea8823219b6c1e2909d7b210c3a3560aa">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1fbea9c98ca64730714e4033741210725729023798fde7f12836acdad8f03237854e761b5cf8754cbcd9ecf75fd103385601f9d24c46841e7d67abad55ffc97ecb4da4f1591e67b517450128446b4a8ea00f6b7626fc2a1b6a238d9fdea23f6dca617c096d79593b7b7268e645209f2775b5e2683bb76b8d6f136604c7187c0f8346ca7cd744d38b55c22061dacd8bcb52d8cd0c52e23c31e82b2bfed5c2bceab7c519db4f65808c4ef8db056b637b65bfea055bf341e97eb1ab992afbb4f26725f106a8b434c7541d4aaa0f0e844952c455cf4f04f8c404f2220e281443889feb0ead6bfc0e7ce44086ddefb6d32e5f1bbf36c5969d59f202ec04ebcfdde2c92683cce72bcc6265a74b500f77203ec692b99a0e94cabc5e044d1f4635d7d6d40e61246f74f5bddb0c7e24fcf518500feaa587a7cfb1c2baaa632b24b2abd911bf451d2421ccb1222321f17b963f9dc3287b93b2b5ff23a9e5d7af3b1009d80d33e9446a6e28a8a92790d35367d06bdb084d939dd4e52a177c8d11fd1d65015bc4ca5d45ddcf6c6ac22da20842bff62220210ad09618599a671e93100a94b48ebd804e418a19b7e9f1fd83598af75ed9e5fd6adc1f96bb9f14c6288e7092632be7f2a3d2da8dded863dea308b38c19ce6cb2bf0f254e3894f9f2ac2dc243281fa002abc9c66c5e982ba3d8a658a9d2b3d944224d6e7173703c620248f943bd660f583f5e6e19a6003a1a7b9a5ea3703ddce214047b43e69672abf9409003b43b9415a4762046c963038662d8b69b6840e83a5fc7d27575842f3a395810ba80c815022c61fc701052bd5925bf8ab60e0df97386edb3987269f1d5604c981a15564ab51517f968c7fb839657c679ea232ad7e1926354425ba3f15765c9865a562adcfe2c68dcdc2c961e4936fdeecbb52e6ae3eda9908d39c4fb0c88deabddc227ab3df862593b84ae9651cc9233bd81357a1d499550cbeee96eef777a6b4bd918b3</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>2020.09</category>
+      </categories>
+      <tags>
+        <tag>silly</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Long summer</title>
     <url>/d20200907/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>马知天天都在催我更新啊……别着急，我只是实在没什么好说的罢了。</p>
@@ -1365,25 +1384,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Goodbye</title>
-    <url>/d20200902/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Please enter the password.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="118f1614fdacdf860d68b39c31d1d4cea8823219b6c1e2909d7b210c3a3560aa">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1fbea9c98ca64730714e4033741210725729023798fde7f12836acdad8f03237854e761b5cf8754cbcd9ecf75fd103385601f9d24c46841e7d67abad55ffc97ecb4da4f1591e67b517450128446b4a8ea00f6b7626fc2a1b6a238d9fdea23f6dca617c096d79593b7b7268e645209f2775b5e2683bb76b8d6f136604c7187c0f8346ca7cd744d38b55c22061dacd8bcb52d8cd0c52e23c31e82b2bfed5c2bceab7c519db4f65808c4ef8db056b637b65bfea055bf341e97eb1ab992afbb4f26725f106a8b434c7541d4aaa0f0e844952c455cf4f04f8c404f2220e281443889feb0ead6bfc0e7ce44086ddefb6d32e5f1bbf36c5969d59f202ec04ebcfdde2c92683cce72bcc6265a74b500f77203ec692b99a0e94cabc5e044d1f4635d7d6d40e61246f74f5bddb0c7e24fcf518500feaa587a7cfb1c2baaa632b24b2abd911bf451d2421ccb1222321f17b963f9dc3287b93b2b5ff23a9e5d7af3b1009d80d33e9446a6e28a8a92790d35367d06bdb084d939dd4e52a177c8d11fd1d65015bc4ca5d45ddcf6c6ac22da20842bff62220210ad09618599a671e93100a94b48ebd804e418a19b7e9f1fd83598af75ed9e5fd6adc1f96bb9f14c6288e7092632be7f2a3d2da8dded863dea308b38c19ce6cb2bf0f254e3894f9f2ac2dc243281fa002abc9c66c5e982ba3d8a658a9d2b3d944224d6e7173703c620248f943bd660f583f5e6e19a6003a1a7b9a5ea3703ddce214047b43e69672abf9409003b43b9415a4762046c963038662d8b69b6840e83a5fc7d27575842f3a395810ba80c815022c61fc701052bd5925bf8ab60e0df97386edb3987269f1d5604c981a15564ab51517f968c7fb839657c679ea232ad7e1926354425ba3f15765c9865a562adcfe2c68dcdc2c961e4936fdeecbb52e6ae3eda9908d39c4fb0c88deabddc227ab3df862593b84ae9651cc9233bd81357a1d499550cbeee96eef777a6b4bd918b3</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>2020.09</category>
-      </categories>
-      <tags>
-        <tag>silly</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Back to school</title>
     <url>/d20200909/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早上出门时忘带帽子，走到楼下想起来折回去拿，结果到机场下车的时候又忘了。</p>
@@ -1413,6 +1413,25 @@
 <br/>
 
 <p>ps，搬窗帘要了我半条命，这包东西怕是有半个我高（捂脸</p>
+]]></content>
+      <categories>
+        <category>2020.09</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Dream</title>
+    <url>/d20200918/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>梦见老吉，梦见一群很久不见甚至很可能不会再见的人。</p>
+<p>梦见他说，你们居然扎堆回来了。</p>
+<p>聊些乱七八糟的事情，甚至抓出高考语文卷子找他订正，仿佛大学三年都不曾存在过。</p>
+<p>然后潘从犄角旮旯里冒出来问我，复习好了吗就又开始玩了，他都做了很多事了。</p>
+<p>醒来发现自己抱着皮卡丘蜷成一团，八点了。</p>
+<br/>
+
+<p>ps，晚上榨了猕猴桃，酸死了QAQ</p>
+<br/>
+
+<p>p.ps，试了下准备穿去面试的衣服，晴儿和抽抽都说像小企鹅（悲</p>
 ]]></content>
       <categories>
         <category>2020.09</category>
@@ -1566,7 +1585,7 @@
     <title>Nof</title>
     <url>/d20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-ZWUHWCeJ" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-joyMjVlt" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -1692,25 +1711,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Dream</title>
-    <url>/d20200918/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>梦见老吉，梦见一群很久不见甚至很可能不会再见的人。</p>
-<p>梦见他说，你们居然扎堆回来了。</p>
-<p>聊些乱七八糟的事情，甚至抓出高考语文卷子找他订正，仿佛大学三年都不曾存在过。</p>
-<p>然后潘从犄角旮旯里冒出来问我，复习好了吗就又开始玩了，他都做了很多事了。</p>
-<p>醒来发现自己抱着皮卡丘蜷成一团，八点了。</p>
-<br/>
-
-<p>ps，晚上榨了猕猴桃，酸死了QAQ</p>
-<br/>
-
-<p>p.ps，试了下准备穿去面试的衣服，晴儿和抽抽都说像小企鹅（悲</p>
-]]></content>
-      <categories>
-        <category>2020.09</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Be my mirror my sword and shield</title>
     <url>/d20201017/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>过于充实的一天。</p>
@@ -1725,124 +1725,6 @@
 ]]></content>
       <categories>
         <category>2020.10</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>纸飞机的夏天</title>
-    <url>/e20140531/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>到此为止。</p>
-<p>就这么结束了。</p>
-<p>一个月。</p>
-<p>从4月29日到5月30日。</p>
-<p>从纸飞机的夏天到青春纪念册。</p>
-<p>从最初的十几个人到现在。</p>
-<p>有人退出，有人坚守，有人抗争，有人妥协。</p>
-<p>有过愤怒，有过无力，有过争辩，有过服从。</p>
-<p>小黑屋，那些混乱而纠结的往事，在杨柳岸，慢慢长出了根须。</p>
-<p>我无意批判什么，无意抱怨什么，甚而无意争执，无意再去细想。</p>
-<p>谨以此文纪念我们的夏天。</p>
-<p><strong>2014.4.30.~2014.5.3.</strong></p>
-<p>第一次集合小黑屋。</p>
-<p>“纸飞机的夏天”群初创建。讨论组无比活跃。各种花絮。</p>
-<p>诗朗诵初稿定出，取名为《顾》。</p>
-<p>嘉祥去哪儿歌曲改编基本完毕，《老师考哪儿》（谢斯丝词，谢斯丝试唱）以及《时间都去哪了》（赵晨词，孔祥宇试唱）。</p>
-<p>填字游戏尚在纠结中。</p>
-<p><strong>2014.5.5.夜</strong></p>
-<p>谢斯丝、孔祥宇、黄天出去吵架最后演变为畅谈人生理想。</p>
-<p><strong>2014.5.7.</strong></p>
-<p>早上就开始悲观毕业典礼的结局是心情不好，而心情不好的结局就是多早做完数学后开始想典礼事情以至于勾股定理都算错了囧。</p>
-<p>晚上一群人把李典的课翘了，据说李典震怒。</p>
-<p>大阶开会莫名出现一大堆无关人等，而且效率低下。本来会前估计的没几个问题几下就over掉，结果颁奖那边扯淡经费，另一边连一个节目顺序都弄了一个小时。当时真的想直接摔东西走人。</p>
-<p>第二节晚自习尝试诗朗诵，情感不对，人心涣散，憋了一肚子火。奉主任的突然闯入，一大帮人逃得狼狈。</p>
-<p>去机房。制定战时临时方针。之后和王星宇、孔祥宇在12班门口商讨，说是商讨毋宁言之发泄，孔祥宇手中的冰露瓶子彻底拧成了麻花。</p>
-<p><strong>2014.5.9.</strong></p>
-<p>诗朗诵从艺体楼搬到生态园三楼。</p>
-<p>关于某槽点——没有忧伤：文宇轩被要求要又哭又笑。。</p>
-<p>中午新加坡面试第一轮。熙熙攘攘。突然有些落寞。</p>
-<p>晚上廖老的课。陈果等学霸没吃饭于是第一节下课去小卖部买吃的，走上楼梯嬉嬉闹闹。上课了我们都还没吃完，陈果、刘宇翀、孔祥宇貌似在课上把薯片解决了，第二节下课我在抱怨奶昔完全化掉了然后没心没肺地笑。不知道我们还会不会有这样的时光。在很久以后。</p>
-<p>下课回去，雨落无声。又说起毒气室。黄天和孔祥宇讨论赵晨作死后生成的某抹茶色物质的组成成分及原因。路过凉亭时孔祥宇叹一句烟雨迷蒙。</p>
-<p>烟雨迷蒙。</p>
-<p>这周那些大起大落的心绪，都在风雨中犹自飘摇。</p>
-<p>这就是我们年少的时光，哭过，笑过，骂过，痛过，</p>
-<p>然后在回忆里蕴藉成昨日的烟火，浅淡清欢。</p>
-<p><strong>2014.5.11.夜</strong></p>
-<p>返校。政史周考。</p>
-<p><strong>2014.5.13.</strong> </p>
-<p>依然是生态园三楼排练。各种欢脱。</p>
-<p>夏宇辰夸张的“五毛钱一包小零食”以及“故意仰起头比身高”。还全员录了两段欢乐和悲伤的朗诵。生态园的阳光很温柔，八个人的笑声，“胜过了整个风季的铃响”。附人员：胡春伶，汤可欣，花艺芸，谢锦瑶，夏宇辰，孔祥宇，王星宇，文宇轩。 </p>
-<p>下午跟谢斯丝、谢锦瑶、孔祥宇到处抓老师采访，结果被王老给抓去帮忙录联赛颁奖的MV。异常搞笑。</p>
-<p>晚上几个人在小黑屋闲扯，猛然发现外面在开党校会，立马关灯安静窘的要死。<br>之后一个一个小心摸下去，在生态园二楼练奔跑。</p>
-<p>孔祥宇和黄天在扭秧歌，赵晨在很纠结地学习着，场面具有爆笑效果。然后莫名其妙的黄天开始追谢斯丝，赵晨开始录花絮（随后莫名其妙的黄天和其它所有女生都来了段花絮。。说好的找个直男相伴一生呢= =）。</p>
-<p>Then黄大师开始转圈圈把眼镜弄掉了，谢斯丝给找回来的时候已经被蹂躏得不成样子了，孔大师简单修了一下作罢。</p>
-<p>从生态园出来，月儿正圆，稍远的地方张菲诺和吴承程提了一件冰露走来。</p>
-<p>我想我永远都不会忘记这样的夜晚。</p>
-<p>提心吊胆的，纵情狂欢的，逗逼的，笑闹的，年少的，柔软的，</p>
-<p>我们的夜晚。</p>
-<p>纸飞机在夏天飞起，明朗而满是希望。</p>
-<p>等到九点，小品审核。被勒令大改。唐欣宜孔祥宇谢斯丝在分析以及总结改进。至于我熬夜弄了一点东西，理了下思路，虽然一点用也没有。</p>
-<p><strong>2014.5.15.</strong></p>
-<p>某小红军摔着了呆在小黑屋，后来安静离开。把桌椅全部归位之后收拾干净，关上门。</p>
-<p>背后的小黑屋，静阒无声。 </p>
-<p><strong>2014.5.18.</strong></p>
-<p>拉通二审。</p>
-<p><strong>2014.5.20.</strong></p>
-<p>去找梁明朗。无功而返。</p>
-<p>黄天被杜老批了一顿果断罢工。</p>
-<p>其实后来想想黄天当时也许是最明智的决定。</p>
-<p>总之毕业典礼从这以后已经完全脱出了我们所能掌控的范围。</p>
-<p>（断层又来了= =</p>
-<p>  这期间教育处审了一次，周校长要求改题目：“纸飞机一点喻意都没有不信你上网查！”</p>
-<p>  于是扯淡的年级组把它改成了XX纪念册。）</p>
-<p><strong>2014.5.25.夜</strong></p>
-<p>诗朗诵音频的初稿做出。</p>
-<p>练到21：00八个人浩浩荡荡直奔大操场。</p>
-<p>坐在主席台上并排读着。</p>
-<p>探照灯的光从侧面打来。</p>
-<p>操场上其他小组的人追逐笑闹。</p>
-<p>天空中淡淡的墨色，没有星光。</p>
-<p>夜空下我们笑着跳着丢开了文件夹。</p>
-<p>吼着青春未完尚有一世狂欢。</p>
-<p>吼着嘉祥不败再夺中考桂冠。 </p>
-<p>哪怕很久很久以后，</p>
-<p>我们也会想起这日的模样，</p>
-<p>稚嫩吧，青涩吧，也许是的。</p>
-<p>迷路的回忆湮没了星光。</p>
-<p><strong>2014.5.27.夜</strong></p>
-<p>教育处二审。</p>
-<p>杜老的话我无力吐槽。</p>
-<p>我才知道我们做毕业典礼只是为了秀自己。</p>
-<p>不想多说。说好了不再抱怨的。</p>
-<p>散会后吴俣桥说把电脑格了，孔祥宇打开DEV开始打字。</p>
-<p>最后几个人到小黑屋里平心静气讨论。</p>
-<p>罢工而已。</p>
-<p><strong>2014.5.29.</strong></p>
-<p>诗朗诵组下午才出去租衣服。</p>
-<p>走在陕西街上，一墙之隔的石室联中，我们笑着说嘉祥入侵石室了。</p>
-<p>三叶梅飘落在地上，小小的紫色悠游的少年，</p>
-<p>在人影疏朗的街道上驻足成柔和的风景。</p>
-<p>从迪卡侬回来，夏宇辰、文宇轩先回学校，我们另外六个人打包了八碗抄手，光明正大地从正门进来。一路违反了多少校规谁知道呢= =</p>
-<hr>
-<p><strong>2014.5.30.</strong></p>
-<blockquote>
-<p>再见吧老师，</p>
-<p>再见吧同伴，</p>
-<p>再见吧我的校园。</p>
-</blockquote>
-<p>这场毕业典礼。</p>
-<p>虽然中途波波折折也有很多遗憾。</p>
-<p>但总算，以一个较好的姿态。</p>
-<p>落下了帷幕。</p>
-<p>20：30几个人一起走在灯火纷繁的街上，</p>
-<p>在十字路口一一作别，</p>
-<p>初三的这个夏天，也终于散了。 </p>
-<p>不论这个句号画得多么拙劣，</p>
-<p>不论我们的告别多么仓促。</p>
-<p>感谢我们曾一起，安然走过。</p>
-<p>感谢我们曾被这世界，</p>
-<p>如此温柔相待。</p>
-]]></content>
-      <categories>
-        <category>Essay</category>
       </categories>
   </entry>
   <entry>
@@ -1898,38 +1780,6 @@
 <p>虫鸣在野。</p>
 <p>我抬头，看见最后一抹霞光就此敛去。</p>
 <p>天地之间，只余湛湛然一片。</p>
-]]></content>
-      <categories>
-        <category>Essay</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>那年肆意</title>
-    <url>/e20150129/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>树叶边缘颤抖的剪影那么浅淡单薄，努力伸手却只握住虚无。</p>
-<p>就像那天我站在天桥上，看着满天的霞光褪去，脑海一片空白。</p>
-<p>我一直以为，我们还有三年。</p>
-<br/>
-
-<p>班委评选吴彦桥长得很安全，黄天一直捂嘴笑着写下Hct。</p>
-<p>孔祥宇一个下午赶完了本学期第一次班会，排球队血拼的背影在眼前摇晃。</p>
-<p>乱七八糟的讲座总有一大波人睡觉，在食堂门口卖《以太》碎了一地节操。</p>
-<p>每周借职务之便翻看那些美好的文字，大考成绩一出听各路学霸打闹。</p>
-<p>欢欢腾腾一天录出的《老龚去哪儿》，四班永红杠上三班的口号。</p>
-<p>艺术节前斑马斑马唱破文达昕的肺泡，荆轲刺秦的笑声落下浅浅的震撼和哀伤。</p>
-<p>语言怪们小语种周倾情奉上，水哥和LC惹起的掀帽狂潮。</p>
-<p>文科同盟会第一次众志成城，最后的欢送会默默笑到泪落。</p>
-<br/>
-
-<p>天空还是那样黯淡的颜色，盛夏里16℃的空调吹拂着满头大汗的少年郎。</p>
-<p>操场上回荡着永远的歌声和勇气和梦想，被人误解被人诬蔑又有何妨。</p>
-<p>那年那些肆意的辉煌。</p>
-<br/>
-
-<p>而我终于只能掬一捧离别代酒，抱紧我的四班留给我最后的回忆。</p>
-<p>相信四班的我们总会义无反顾地踏上自己的方向，带着我们的约定和希望。</p>
-<p>祝你们，祝我们，一路安好。 </p>
-<p><strong>Forever Spain</strong></p>
 ]]></content>
       <categories>
         <category>Essay</category>
@@ -2145,9 +1995,8 @@
   @media $desktop-m
     display none</code></pre>
 <p>stylus对格式的要求比较低，各种花括号、冒号、分号都可以省略。</p>
-<p>其实还想要输入页码跳转的功能来着。</p>
-<h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>我的更新以日记为主，这意味着博文基本得按照日记时间降序排列；但另一方面我还经常会删改增添以前的日记，所以一定程度上也得按修改时间排序。</p>
-<p>看了下hexo默认的排序文件，不太知道怎么改，所以最后还是选择改自己的post。</p>
+<p>其实还想要<u>输入页码跳转</u>的功能来着。</p>
+<h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>需求比较复杂，看了下hexo默认的排序文件不太知道怎么改，所以还是选择改自己的post。</p>
 <pre><code class="python"># coding:utf-8
 
 import os
@@ -2191,10 +2040,8 @@ for file in os.listdir(path):
 &lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;
     &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;
 &lt;% &#125; %&gt;</code></pre>
-<p>害，可以说是相当笨拙了。</p>
-<br/>
-
-<p>ps，为什么没办法自定义配色啊（恼</p>
+<p>值得注意的是，要使它整体按照updated关键字排序，需要将<code>hexo-generator-archieve\lib\generator.js</code>中<code>date</code>关键字改为<code>updated</code>。</p>
+<p>以及不知道为什么<u>post页面的前后页总是按date而非updated排序的前后页</u>。</p>
 ]]></content>
       <categories>
         <category>Tips</category>
@@ -2353,9 +2200,6 @@ for file in os.listdir(path):
 <br/>
 
 <p><strong>To Be Continued…</strong></p>
-<br/>
-
-<p>简单的尝试。</p>
 ]]></content>
       <categories>
         <category>Essay</category>

@@ -24,7 +24,7 @@
   
     
       
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh//Noooooof/partials/CSS/highlight/styles/color-brewer.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh//Noooooof/partials/CSS/highlight/styles/mono-blue.css">
 
     
   
@@ -140,7 +140,7 @@
   <div class="post-content-outer">
     <div class="post-intro">
       <div class="post-title animate__animated  animate__fadeInUp">Theme</div>
-      <div class="meta-intro animate__animated  animate__fadeInUp">Oct 19 2020</div>
+      <div class="meta-intro animate__animated  animate__fadeInUp">Oct 20 2020</div>
       
     </div>
     <div class="post-content-inner">
@@ -166,9 +166,8 @@
   @media $desktop-m
     display none</code></pre>
 <p>stylus对格式的要求比较低，各种花括号、冒号、分号都可以省略。</p>
-<p>其实还想要输入页码跳转的功能来着。</p>
-<h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>我的更新以日记为主，这意味着博文基本得按照日记时间降序排列；但另一方面我还经常会删改增添以前的日记，所以一定程度上也得按修改时间排序。</p>
-<p>看了下hexo默认的排序文件，不太知道怎么改，所以最后还是选择改自己的post。</p>
+<p>其实还想要<u>输入页码跳转</u>的功能来着。</p>
+<h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>需求比较复杂，看了下hexo默认的排序文件不太知道怎么改，所以还是选择改自己的post。</p>
 <pre><code class="python"># coding:utf-8
 
 import os
@@ -212,10 +211,8 @@ for file in os.listdir(path):
 &lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;
     &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;
 &lt;% &#125; %&gt;</code></pre>
-<p>害，可以说是相当笨拙了。</p>
-<br/>
-
-<p>ps，为什么没办法自定义配色啊（恼</p>
+<p>值得注意的是，要使它整体按照updated关键字排序，需要将<code>hexo-generator-archieve\lib\generator.js</code>中<code>date</code>关键字改为<code>updated</code>。</p>
+<p>以及不知道为什么<u>post页面的前后页总是按date而非updated排序的前后页</u>。</p>
 
         <!-- 分类文章 -->
         
@@ -283,44 +280,34 @@ for file in os.listdir(path):
             
             
               
+            
+            
+            
+              
+            
+            
+            
+              
+            
+            
+            
+              
+            
+            
+            
+              
+            
+            
+            
+              
                 <li>
                   
                     <a  href="/t20200917/" class="post-categoris-bottom-link">
                     Setting
                     
-                    <span style="float: right" class="post-categoris-date"> Oct 19 </span>
-                    
                     </a>
                   
                 </li>
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
               
             
             
@@ -653,8 +640,8 @@ for file in os.listdir(path):
       
             <div align="right" style="float:right" class="post-nav-next">
               
-                <a href="/loading/" rel="next" title="Europe">
-                Europe
+                <a href="/monster/" rel="next" title="Monster">
+                Monster
                 </a>
                 <span> > </span>
               
@@ -671,7 +658,7 @@ for file in os.listdir(path):
       
             <div align="right" style="float:right" class="post-bot-next">
               
-                <a href="/loading/" rel="next" title="Europe"> Next </a>
+                <a href="/monster/" rel="next" title="Monster"> Next </a>
                 <span> > </span>
               
             </div>

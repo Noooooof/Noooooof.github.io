@@ -434,17 +434,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Spider silk</title>
-    <url>/d20200601/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>对稳定安全的关系没有要求的话，建立契约好像确实不是必要的事情。</p>
-<p>但我确切地知道，我是需要这种关系的。</p>
-<p>它像飘在空中的蛛丝，牢牢抓住了下坠的我。</p>
-]]></content>
-      <categories>
-        <category>2020.06</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Live a life</title>
     <url>/d20200604/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>陆陆续续收到了斯丝、潘和博涵的儿童节礼物。</p>
@@ -454,6 +443,17 @@
 <p>钻机声代替蝉鸣不知疲倦地喧噪着。从前我能在蝉声中轻易入睡，如今亦然。</p>
 <p>总得向前看看，总得向前走走。</p>
 <p>有想做的事，有想见的人，有想去的地方，就别困守一隅了啊。</p>
+]]></content>
+      <categories>
+        <category>2020.06</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Spider silk</title>
+    <url>/d20200601/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>对稳定安全的关系没有要求的话，建立契约好像确实不是必要的事情。</p>
+<p>但我确切地知道，我是需要这种关系的。</p>
+<p>它像飘在空中的蛛丝，牢牢抓住了下坠的我。</p>
 ]]></content>
       <categories>
         <category>2020.06</category>
@@ -1329,25 +1329,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Goodbye</title>
-    <url>/d20200902/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Please enter the password.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="118f1614fdacdf860d68b39c31d1d4cea8823219b6c1e2909d7b210c3a3560aa">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1fbea9c98ca64730714e4033741210725729023798fde7f12836acdad8f03237854e761b5cf8754cbcd9ecf75fd103385601f9d24c46841e7d67abad55ffc97ecb4da4f1591e67b517450128446b4a8ea00f6b7626fc2a1b6a238d9fdea23f6dca617c096d79593b7b7268e645209f2775b5e2683bb76b8d6f136604c7187c0f8346ca7cd744d38b55c22061dacd8bcb52d8cd0c52e23c31e82b2bfed5c2bceab7c519db4f65808c4ef8db056b637b65bfea055bf341e97eb1ab992afbb4f26725f106a8b434c7541d4aaa0f0e844952c455cf4f04f8c404f2220e281443889feb0ead6bfc0e7ce44086ddefb6d32e5f1bbf36c5969d59f202ec04ebcfdde2c92683cce72bcc6265a74b500f77203ec692b99a0e94cabc5e044d1f4635d7d6d40e61246f74f5bddb0c7e24fcf518500feaa587a7cfb1c2baaa632b24b2abd911bf451d2421ccb1222321f17b963f9dc3287b93b2b5ff23a9e5d7af3b1009d80d33e9446a6e28a8a92790d35367d06bdb084d939dd4e52a177c8d11fd1d65015bc4ca5d45ddcf6c6ac22da20842bff62220210ad09618599a671e93100a94b48ebd804e418a19b7e9f1fd83598af75ed9e5fd6adc1f96bb9f14c6288e7092632be7f2a3d2da8dded863dea308b38c19ce6cb2bf0f254e3894f9f2ac2dc243281fa002abc9c66c5e982ba3d8a658a9d2b3d944224d6e7173703c620248f943bd660f583f5e6e19a6003a1a7b9a5ea3703ddce214047b43e69672abf9409003b43b9415a4762046c963038662d8b69b6840e83a5fc7d27575842f3a395810ba80c815022c61fc701052bd5925bf8ab60e0df97386edb3987269f1d5604c981a15564ab51517f968c7fb839657c679ea232ad7e1926354425ba3f15765c9865a562adcfe2c68dcdc2c961e4936fdeecbb52e6ae3eda9908d39c4fb0c88deabddc227ab3df862593b84ae9651cc9233bd81357a1d499550cbeee96eef777a6b4bd918b3</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>2020.09</category>
-      </categories>
-      <tags>
-        <tag>silly</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Long summer</title>
     <url>/d20200907/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>马知天天都在催我更新啊……别着急，我只是实在没什么好说的罢了。</p>
@@ -1384,6 +1365,25 @@
       </categories>
   </entry>
   <entry>
+    <title>Goodbye</title>
+    <url>/d20200902/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Please enter the password.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="118f1614fdacdf860d68b39c31d1d4cea8823219b6c1e2909d7b210c3a3560aa">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1fbea9c98ca64730714e4033741210725729023798fde7f12836acdad8f03237854e761b5cf8754cbcd9ecf75fd103385601f9d24c46841e7d67abad55ffc97ecb4da4f1591e67b517450128446b4a8ea00f6b7626fc2a1b6a238d9fdea23f6dca617c096d79593b7b7268e645209f2775b5e2683bb76b8d6f136604c7187c0f8346ca7cd744d38b55c22061dacd8bcb52d8cd0c52e23c31e82b2bfed5c2bceab7c519db4f65808c4ef8db056b637b65bfea055bf341e97eb1ab992afbb4f26725f106a8b434c7541d4aaa0f0e844952c455cf4f04f8c404f2220e281443889feb0ead6bfc0e7ce44086ddefb6d32e5f1bbf36c5969d59f202ec04ebcfdde2c92683cce72bcc6265a74b500f77203ec692b99a0e94cabc5e044d1f4635d7d6d40e61246f74f5bddb0c7e24fcf518500feaa587a7cfb1c2baaa632b24b2abd911bf451d2421ccb1222321f17b963f9dc3287b93b2b5ff23a9e5d7af3b1009d80d33e9446a6e28a8a92790d35367d06bdb084d939dd4e52a177c8d11fd1d65015bc4ca5d45ddcf6c6ac22da20842bff62220210ad09618599a671e93100a94b48ebd804e418a19b7e9f1fd83598af75ed9e5fd6adc1f96bb9f14c6288e7092632be7f2a3d2da8dded863dea308b38c19ce6cb2bf0f254e3894f9f2ac2dc243281fa002abc9c66c5e982ba3d8a658a9d2b3d944224d6e7173703c620248f943bd660f583f5e6e19a6003a1a7b9a5ea3703ddce214047b43e69672abf9409003b43b9415a4762046c963038662d8b69b6840e83a5fc7d27575842f3a395810ba80c815022c61fc701052bd5925bf8ab60e0df97386edb3987269f1d5604c981a15564ab51517f968c7fb839657c679ea232ad7e1926354425ba3f15765c9865a562adcfe2c68dcdc2c961e4936fdeecbb52e6ae3eda9908d39c4fb0c88deabddc227ab3df862593b84ae9651cc9233bd81357a1d499550cbeee96eef777a6b4bd918b3</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>2020.09</category>
+      </categories>
+      <tags>
+        <tag>silly</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Back to school</title>
     <url>/d20200909/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早上出门时忘带帽子，走到楼下想起来折回去拿，结果到机场下车的时候又忘了。</p>
@@ -1413,25 +1413,6 @@
 <br/>
 
 <p>ps，搬窗帘要了我半条命，这包东西怕是有半个我高（捂脸</p>
-]]></content>
-      <categories>
-        <category>2020.09</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Dream</title>
-    <url>/d20200918/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>梦见老吉，梦见一群很久不见甚至很可能不会再见的人。</p>
-<p>梦见他说，你们居然扎堆回来了。</p>
-<p>聊些乱七八糟的事情，甚至抓出高考语文卷子找他订正，仿佛大学三年都不曾存在过。</p>
-<p>然后潘从犄角旮旯里冒出来问我，复习好了吗就又开始玩了，他都做了很多事了。</p>
-<p>醒来发现自己抱着皮卡丘蜷成一团，八点了。</p>
-<br/>
-
-<p>ps，晚上榨了猕猴桃，酸死了QAQ</p>
-<br/>
-
-<p>p.ps，试了下准备穿去面试的衣服，晴儿和抽抽都说像小企鹅（悲</p>
 ]]></content>
       <categories>
         <category>2020.09</category>
@@ -1585,7 +1566,7 @@
     <title>Nof</title>
     <url>/d20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-BsmMjryI" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ZWUHWCeJ" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -1708,6 +1689,25 @@
 ]]></content>
       <categories>
         <category>2020.10</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Dream</title>
+    <url>/d20200918/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>梦见老吉，梦见一群很久不见甚至很可能不会再见的人。</p>
+<p>梦见他说，你们居然扎堆回来了。</p>
+<p>聊些乱七八糟的事情，甚至抓出高考语文卷子找他订正，仿佛大学三年都不曾存在过。</p>
+<p>然后潘从犄角旮旯里冒出来问我，复习好了吗就又开始玩了，他都做了很多事了。</p>
+<p>醒来发现自己抱着皮卡丘蜷成一团，八点了。</p>
+<br/>
+
+<p>ps，晚上榨了猕猴桃，酸死了QAQ</p>
+<br/>
+
+<p>p.ps，试了下准备穿去面试的衣服，晴儿和抽抽都说像小企鹅（悲</p>
+]]></content>
+      <categories>
+        <category>2020.09</category>
       </categories>
   </entry>
   <entry>
@@ -2169,18 +2169,18 @@ for file in os.listdir(path):
         if (postCategoris == None):
             postCategoris = re.search(r&#39;categories: \&#39;\d*\.\d*\&#39;\n&#39;,postContent) # 非None就是日记
 
-        postDate = re.findall(r&#39;date: ([\s\S]*?)\n&#39;,postContent)[0] # date时间
-        postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # update时间
+        postDate = re.findall(r&#39;date: 2020-10-19 23:27:13
+        postUpdate = re.findall(r&#39;updated: 2020-10-19 23:27:13
 
         post = postContent # 准备覆写
 
         if (localDate in localUpdate): # 如果是当天修改的文件
             postUpdate = localUpdate
-            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postUpdate +&#39;\n&#39;, post) # 更新update时间
+            post = re.sub(r&#39;updated: 2020-10-19 23:27:13
             if (postCategoris == None):
-                post = re.sub(r&#39;date: [\s\S]*?\n&#39;,&#39;date: &#39;+ postUpdate +&#39;\n&#39;, post) # 连载文章更新date时间
+                post = re.sub(r&#39;date: 2020-10-19 23:27:13
         else:        
-            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, post) # 以前的文章按date时间复位
+            post = re.sub(r&#39;updated: 2020-10-19 23:27:13
 
         with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
             fo.write(post) # 覆写</code></pre>

@@ -24,7 +24,7 @@
   
     
       
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.1.1/styles/github.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh//Noooooof/partials/CSS/highlight/styles/agate.css">
 
     
   
@@ -156,7 +156,7 @@
 <h2 id="Paginator"><a href="#Paginator" class="headerlink" title="Paginator"></a>Paginator</h2><p>White原本的翻页方式就只有archive页面的「prev」和「next」按钮。</p>
 <p>我增加了archive页面的页码和post页面的前后翻页功能，然后根据页面宽度改了改显示效果。</p>
 <p>实现方式有点笨，就是在ejs文件里把宽屏和窄屏的翻页部件都写出来，然后在styl文件里根据屏幕宽度选择性显示。</p>
-<pre><code>.paginator 
+<pre><code class="stylus">.paginator 
   display none
   @media $desktop-m
     display block
@@ -165,7 +165,8 @@
   display block
   @media $desktop-m
     display none</code></pre>
-<p>styl文件对格式的要求比较低，各种花括号、冒号、分号都可以不要。</p>
+<p>stylus对格式的要求比较低，各种花括号、冒号、分号都可以省略。</p>
+<p>其实还想要输入页码跳转的功能来着。</p>
 <h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>我的更新以日记为主，这意味着我基本得按照日记时间降序排列；但另一方面我还经常会删改增添以前的日记，所以一定程度上也得按修改时间排序。</p>
 <p>看了下hexo默认的排序文件，不太知道怎么改，所以最后还是选择改自己的post。</p>
 <pre><code class="python"># coding:utf-8
@@ -751,7 +752,7 @@ for file in os.listdir(path):
 
     
       
-<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh//Noooooof/partials/CSS/highlight/highlight.pack.js"></script>
 
       <script>hljs.initHighlightingOnLoad();</script>
     

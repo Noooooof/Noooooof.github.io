@@ -222,7 +222,7 @@ a {
 .archive-post-today {
   font-size: 0.7em;
   font-family: "H-宫书", "Gothic", "Microsoft YaHei";
-  color: #1A98FF;
+  color: #56b3ff;
   padding: 2px 8px;
 }
 .archive-post-date {
@@ -668,7 +668,7 @@ table td {
   padding: 0.9rem;
   border-width: 0.5px;
   border-style: solid;
-  border-color: #f8f8f8;
+  border-color: #f0f0f0;
   border-image: initial;
 }
 table tbody {

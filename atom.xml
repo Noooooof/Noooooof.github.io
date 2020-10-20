@@ -42,56 +42,6 @@
   </entry>
   
   <entry>
-    <title>Font-spider</title>
-    <link href="https://noooooof.gitee.io/t20200916/"/>
-    <id>https://noooooof.gitee.io/t20200916/</id>
-    <published>2020-09-16T08:52:33.000Z</published>
-    <updated>2020-10-20T09:50:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>字蛛是个中文字体压缩器。简单来说就是检测网页上用到了哪些字，然后把原字体文件中没用到的字删掉，使得在压缩字体文件大小的同时也不影响网站的正常显示。对于静态部署的博客来说不失为一种提高网页加载速度的好方案。</p><br/><p>先用npm安装下载。</p><pre><code>npm install font-spider -g</code></pre><br/><p>我的思路是遍历所有博文，收集起来丢进集合，然后输出一个包含网站所有文字的网页提供给字蛛。</p><p>鉴于博文主要都在<code>_posts</code>文件夹内，我就没爬其他page页面了。理论上该爬的，但post本身文本量够大，我就偷了个懒。</p><pre><code class="python"># coding:utf-8import ospostPath = &#39;E:/Recent/MyBlog/source/_posts&#39; # _posts文件夹位置path = os.path.dirname(__file__) # 所在文件夹位置def getFile(logPath):    text = &quot;&quot;    for file in os.listdir(logPath):        fileInput = os.path.join(logPath,file)        with open(fileInput,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:            text += fi.read()    return set(text) # 返回一个包含所有post文字的集合content = &quot;&quot;.join(getFile(postPath)) # set转strtitle = &quot;&lt;meta charset=\&quot;UTF-8\&quot;&gt;\n&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;word.css\&quot;&gt;\n&lt;body&gt;\n&quot;content = title + content +&quot;\n&lt;/body&gt;&quot; # 网页内容fileOutput = os.path.join(path,&quot;word.html&quot;)with open(fileOutput,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:    fo.write(content) # 输出html文件print(&quot;Words are collected.\n&quot;) # 一个回应</code></pre><br/><p>在同文件夹下放了字体文件和样式文件（<code>word.css</code>）。</p><pre><code class="css">@font-face&#123;  font-family:&quot;CH&quot;;  src:url(../H-TTF-BuMing-R-2.ttf);&#125;body&#123;    font-family:&quot;CH&quot;&#125;</code></pre><br/><p>最后一个简单的脚本。</p><pre><code>@echo offpython word.pyXcopy E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font\.font-spider\H-TTF-BuMing-R-2.ttf E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font /Yfont-spider word.html</code></pre><p>这里这样写主要是因为运行font-spider之后，它会在原字体文件目录下新建<code>.font-spider</code>文件夹，把该字体文件备份过去；然后把原字体文件替换为压缩过的新字体文件。</p><p>如此，我使用的「不明体」可以直接从12MB压缩到1.1MB。</p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="Tips" scheme="https://noooooof.gitee.io/categories/Tips/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>CDN link</title>
-    <link href="https://noooooof.gitee.io/t20200902/"/>
-    <id>https://noooooof.gitee.io/t20200902/</id>
-    <published>2020-09-02T09:29:31.000Z</published>
-    <updated>2020-10-20T08:29:31.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>博客上引用各种资源（比如图片）的时候可以把要引用的东西丢到<code>source</code>文件夹里，然后使用相对地址。不过我一开始不知道这种方法，就只能把图片上传到GitHub仓库里，然后用cdn链接引用它。</p><p>这样做的好处一个是加载速度远快于直接用gitee链接，另一个是在撰写markdown文档的时候就可以看到图片效果了。</p><p>当然想用cdn链接的话，除了jsDelivr提供的关联GitHub的免费链接之外，国内也有其他平台提供支持。jsDelivr的优点是不需要注册什么有的没的，只要GitHub上传了就OK。他家链接除了20MB的单个文件上限之外没有任何值得诟病的地方，反正用来传图片还是绰绰有余了。</p><p>那么把要用的文件推到GitHub之后，就可以直接使用下述链接来引用它：</p><pre><code>https://cdn.jsdelivr.net/gh//GitHub用户名/库名/文件位置</code></pre>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="Tips" scheme="https://noooooof.gitee.io/categories/Tips/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Little things</title>
     <link href="https://noooooof.gitee.io/d20201020/"/>
     <id>https://noooooof.gitee.io/d20201020/</id>
@@ -348,7 +298,7 @@
     <published>2020-09-28T10:24:56.000Z</published>
     <updated>2020-09-28T10:24:56.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-nwzZmWdy" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br/><p>「Nof」这个名字省略自「Not for」，虽然它看上去确实蛮像「No friend」的。</p><p>今天收到了太多的祝福和鼓励，甚至有一点点想哭（笑</p><p>只是一点点而已。</p><br/><p>谢谢您们，真的。</p><blockquote><p>Happy birthday, Nof.</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-GTQKsQnb" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br/><p>「Nof」这个名字省略自「Not for」，虽然它看上去确实蛮像「No friend」的。</p><p>今天收到了太多的祝福和鼓励，甚至有一点点想哭（笑</p><p>只是一点点而已。</p><br/><p>谢谢您们，真的。</p><blockquote><p>Happy birthday, Nof.</p></blockquote>]]></content>
     
     
       
@@ -567,6 +517,31 @@
   </entry>
   
   <entry>
+    <title>Font-spider</title>
+    <link href="https://noooooof.gitee.io/t20200916/"/>
+    <id>https://noooooof.gitee.io/t20200916/</id>
+    <published>2020-09-16T08:52:33.000Z</published>
+    <updated>2020-10-20T09:50:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>字蛛是个中文字体压缩器。简单来说就是检测网页上用到了哪些字，然后把原字体文件中没用到的字删掉，使得在压缩字体文件大小的同时也不影响网站的正常显示。对于静态部署的博客来说不失为一种提高网页加载速度的好方案。</p><br/><p>先用npm安装下载。</p><pre><code>npm install font-spider -g</code></pre><br/><p>我的思路是遍历所有博文，收集起来丢进集合，然后输出一个包含网站所有文字的网页提供给字蛛。</p><p>鉴于博文主要都在<code>_posts</code>文件夹内，我就没爬其他page页面了。理论上该爬的，但post本身文本量够大，我就偷了个懒。</p><pre><code class="python"># coding:utf-8import ospostPath = &#39;E:/Recent/MyBlog/source/_posts&#39; # _posts文件夹位置path = os.path.dirname(__file__) # 所在文件夹位置def getFile(logPath):    text = &quot;&quot;    for file in os.listdir(logPath):        fileInput = os.path.join(logPath,file)        with open(fileInput,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:            text += fi.read()    return set(text) # 返回一个包含所有post文字的集合content = &quot;&quot;.join(getFile(postPath)) # set转strtitle = &quot;&lt;meta charset=\&quot;UTF-8\&quot;&gt;\n&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;word.css\&quot;&gt;\n&lt;body&gt;\n&quot;content = title + content +&quot;\n&lt;/body&gt;&quot; # 网页内容fileOutput = os.path.join(path,&quot;word.html&quot;)with open(fileOutput,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:    fo.write(content) # 输出html文件print(&quot;Words are collected.\n&quot;) # 一个回应</code></pre><br/><p>在同文件夹下放了字体文件和样式文件（<code>word.css</code>）。</p><pre><code class="css">@font-face&#123;  font-family:&quot;CH&quot;;  src:url(../H-TTF-BuMing-R-2.ttf);&#125;body&#123;    font-family:&quot;CH&quot;&#125;</code></pre><br/><p>最后一个简单的脚本。</p><pre><code>@echo offpython word.pyXcopy E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font\.font-spider\H-TTF-BuMing-R-2.ttf E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font /Yfont-spider word.html</code></pre><p>这里这样写主要是因为运行font-spider之后，它会在原字体文件目录下新建<code>.font-spider</code>文件夹，把该字体文件备份过去；然后把原字体文件替换为压缩过的新字体文件。</p><p>如此，我使用的「不明体」可以直接从12MB压缩到1.1MB。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Tips" scheme="https://noooooof.gitee.io/categories/Tips/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Trivia</title>
     <link href="https://noooooof.gitee.io/d20200911/"/>
     <id>https://noooooof.gitee.io/d20200911/</id>
@@ -683,6 +658,31 @@
     
     
     <category term="Essay" scheme="https://noooooof.gitee.io/categories/Essay/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CDN link</title>
+    <link href="https://noooooof.gitee.io/t20200902/"/>
+    <id>https://noooooof.gitee.io/t20200902/</id>
+    <published>2020-09-02T09:29:31.000Z</published>
+    <updated>2020-10-20T08:29:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>博客上引用各种资源（比如图片）的时候可以把要引用的东西丢到<code>source</code>文件夹里，然后使用相对地址。不过我一开始不知道这种方法，就只能把图片上传到GitHub仓库里，然后用cdn链接引用它。</p><p>这样做的好处一个是加载速度远快于直接用gitee链接，另一个是在撰写markdown文档的时候就可以看到图片效果了。</p><p>当然想用cdn链接的话，除了jsDelivr提供的关联GitHub的免费链接之外，国内也有其他平台提供支持。jsDelivr的优点是不需要注册什么有的没的，只要GitHub上传了就OK。他家链接除了20MB的单个文件上限之外没有任何值得诟病的地方，反正用来传图片还是绰绰有余了。</p><p>那么把要用的文件推到GitHub之后，就可以直接使用下述链接来引用它：</p><pre><code>https://cdn.jsdelivr.net/gh//GitHub用户名/库名/文件位置</code></pre>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Tips" scheme="https://noooooof.gitee.io/categories/Tips/"/>
     
     
   </entry>

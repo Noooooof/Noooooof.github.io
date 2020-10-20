@@ -6,7 +6,7 @@
   <link href="https://noooooof.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://noooooof.gitee.io/"/>
-  <updated>2020-10-20T08:52:33.000Z</updated>
+  <updated>2020-10-20T09:50:33.000Z</updated>
   <id>https://noooooof.gitee.io/</id>
   
   <author>
@@ -21,7 +21,30 @@
     <link href="https://noooooof.gitee.io/t20200916/"/>
     <id>https://noooooof.gitee.io/t20200916/</id>
     <published>2020-09-16T08:52:33.000Z</published>
-    <updated>2020-10-20T08:52:33.000Z</updated>
+    <updated>2020-10-20T09:50:33.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Tips" scheme="https://noooooof.gitee.io/categories/Tips/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CDN link</title>
+    <link href="https://noooooof.gitee.io/t20200902/"/>
+    <id>https://noooooof.gitee.io/t20200902/</id>
+    <published>2020-09-02T09:29:31.000Z</published>
+    <updated>2020-10-20T08:29:31.000Z</updated>
     
     
       
@@ -206,29 +229,6 @@
     <id>https://noooooof.gitee.io/d20201012/</id>
     <published>2020-10-11T17:41:58.000Z</published>
     <updated>2020-10-11T17:41:58.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="2020.10" scheme="https://noooooof.gitee.io/categories/2020-10/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Complex</title>
-    <link href="https://noooooof.gitee.io/d20201010/"/>
-    <id>https://noooooof.gitee.io/d20201010/</id>
-    <published>2020-10-09T16:57:15.000Z</published>
-    <updated>2020-10-09T16:57:15.000Z</updated>
     
     
       

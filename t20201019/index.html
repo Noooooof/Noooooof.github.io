@@ -189,18 +189,18 @@ for file in os.listdir(path):
         if (postCategoris == None):
             postCategoris = re.search(r&#39;categories: \&#39;\d*\.\d*\&#39;\n&#39;,postContent) # 非None就是日记
 
-        postDate = re.findall(r&#39;date: 2020-10-21 00:00:16
-        postUpdate = re.findall(r&#39;updated: 2020-10-21 00:00:16
+        postDate = re.findall(r&#39;date: 2020-10-21 00:01:05
+        postUpdate = re.findall(r&#39;updated: 2020-10-21 00:01:05
 
         post = postContent # 准备覆写
 
         if (localDate in localUpdate): # 如果是当天修改的文件
             postUpdate = localUpdate
-            post = re.sub(r&#39;updated: 2020-10-21 00:00:16
+            post = re.sub(r&#39;updated: 2020-10-21 00:01:05
             if (postCategoris == None):
-                post = re.sub(r&#39;date: 2020-10-21 00:00:16
+                post = re.sub(r&#39;date: 2020-10-21 00:01:05
         else:        
-            post = re.sub(r&#39;updated: 2020-10-21 00:00:16
+            post = re.sub(r&#39;updated: 2020-10-21 00:01:05
 
         with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
             fo.write(post) # 覆写</code></pre>

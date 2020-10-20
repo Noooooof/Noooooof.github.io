@@ -211,7 +211,7 @@ for file in os.listdir(path):
 &lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;
     &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;
 &lt;% &#125; %&gt;</code></pre>
-<p>值得注意的是，要使它整体按照updated关键字排序，需要将<code>hexo-generator-archive\lib\generator.js</code>中<code>date</code>关键字改为<code>updated</code>。</p>
+<p>值得注意的是，要使它按照updated关键字排序分页，需要将<code>node_modules\hexo-generator-archive\lib\generator.js</code>中<code>date</code>关键字改为<code>updated</code>，<code>node_modules\hexo-generator-category\lib\generator.js</code>中<code>orderBy</code>常量限定为<code>&#39;-updated&#39;</code>，<code>hexo-generator-tag</code>同理（不过我没用tag页面就不管它了）。</p>
 <p>以及不知道为什么<u>post页面的前后页总是按date而非updated排序的前后页</u>。</p>
 
         <!-- 分类文章 -->
@@ -308,6 +308,19 @@ for file in os.listdir(path):
                   
                     <a  href="/t20200917/" class="post-categoris-bottom-link">
                     Setting
+                    
+                    </a>
+                  
+                </li>
+              
+            
+            
+            
+              
+                <li>
+                  
+                    <a  href="/t20200916/" class="post-categoris-bottom-link">
+                    Font-spider
                     
                     </a>
                   

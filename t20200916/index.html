@@ -150,7 +150,7 @@
       <div class="post-content-main animate__animated  animate__fadeInUp">
         <!-- top型目录 -->
         
-        <p>字蛛是个中文字体压缩器。简单来说就是检测网页上用到了哪些字，然后把原字体文件中没用到的字删掉，使得在压缩字体文件大小的同时也不影响网站的正常显示。对于静态部署的博客来说不失为一种加快网页加载速度的好方案。</p>
+        <p>字蛛是个中文字体压缩器。简单来说就是检测网页上用到了哪些字，然后把原字体文件中没用到的字删掉，使得在压缩字体文件大小的同时也不影响网站的正常显示。对于静态部署的博客来说不失为一种提高网页加载速度的好方案。</p>
 <br/>
 
 <p>先用npm安装下载。</p>
@@ -187,7 +187,7 @@ with open(fileOutput,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
 print(&quot;Words are collected.\n&quot;) # 一个回应</code></pre>
 <br/>
 
-<p>在同文件夹下放了个<code>word.css</code>文件。</p>
+<p>在同文件夹下放了字体文件和样式文件（<code>word.css</code>）。</p>
 <pre><code class="css">@font-face&#123;
   font-family:&quot;CH&quot;;
   src:url(../H-TTF-BuMing-R-2.ttf);
@@ -202,7 +202,8 @@ body&#123;
 python word.py
 Xcopy E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font\.font-spider\H-TTF-BuMing-R-2.ttf E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font /Y
 font-spider word.html</code></pre>
-<p>这里这样写主要是因为运行font-spider之后，它会在同目录下新建<code>.font-spider</code>文件夹，把原来的字体文件备份过去；而字体文件原本所在的地方会替换成字蛛压缩过的字体文件。如此，我使用的「不明体」可以直接从12MB压缩到1.1MB。</p>
+<p>这里这样写主要是因为运行font-spider之后，它会在原字体文件目录下新建<code>.font-spider</code>文件夹，把该字体文件备份过去；然后把原字体文件替换为压缩过的新字体文件。</p>
+<p>如此，我使用的「不明体」可以直接从12MB压缩到1.1MB。</p>
 
         <!-- 分类文章 -->
         
@@ -660,8 +661,8 @@ font-spider word.html</code></pre>
       
             <div align="right" style="float:right" class="post-nav-next">
               
-                <a href="/d20200911/" rel="next" title="Trivia">
-                Trivia
+                <a href="/t20200902/" rel="next" title="CDN link">
+                CDN link
                 </a>
                 <span> > </span>
               
@@ -669,11 +670,6 @@ font-spider word.html</code></pre>
 
             <div align="left" style="float:left" class="post-nav-prev">
                 
-                <span> < </span>
-                <a href="/t20200917/" rel="prev" title="Setting">
-                Setting
-                </a>
-              
             </div>
 
           </div>
@@ -683,16 +679,13 @@ font-spider word.html</code></pre>
       
             <div align="right" style="float:right" class="post-bot-next">
               
-                <a href="/d20200911/" rel="next" title="Trivia"> Next </a>
+                <a href="/t20200902/" rel="next" title="CDN link"> Next </a>
                 <span> > </span>
               
             </div>
 
             <div align="left" style="float:left" class="post-bot-prev">
                 
-                <span> < </span>
-                <a href="/t20200917/" rel="prev" title="Setting"> Prev </a>
-              
             </div>
 
           </div>

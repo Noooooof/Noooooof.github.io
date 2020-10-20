@@ -191,7 +191,7 @@ a {
 }
 .archive-name {
   line-height: 2em;
-  font-size: 1.6em;
+  font-size: 1.65em;
   letter-spacing: 0.2em;
   font-family: "H-宫书", "Gothic", "Microsoft YaHei";
   font-weight: bold;
@@ -213,7 +213,7 @@ a {
   color: #1A98FF;
 }
 .archive-post-title {
-  font-size: 1.05em;
+  font-size: 1.025em;
   transition: 0.3s;
   font-family: "H-宫书", "Gothic", "Microsoft YaHei";
   color: #898FA0;

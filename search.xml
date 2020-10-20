@@ -1585,7 +1585,7 @@
     <title>Nof</title>
     <url>/d20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-OLAdXoEI" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-OshxwMuo" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -1975,7 +1975,7 @@
     <url>/t20200902/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>博客上引用各种资源（比如图片）的时候可以把要引用的东西丢到<code>source</code>文件夹里，然后使用相对地址。不过我一开始不知道这种方法，就只能把图片上传到GitHub仓库里，然后用cdn链接引用它。</p>
 <p>这样做的好处一个是加载速度远快于直接用gitee链接，另一个是在撰写markdown文档的时候就可以看到图片效果了。</p>
-<p>当然想用cdn链接的话，除了jsDelivr提供的关联GitHub的免费链接之外，国内也有其他平台提供支持。jsDelivr的优点是不需要注册啊有的没的，只要GitHub上传了就OK。他家链接除了20MB的单个文件上限之外没有任何值得诟病的地方，反正用来传图片还是绰绰有余了。</p>
+<p>当然想用cdn链接的话，除了jsDelivr提供的关联GitHub的免费链接之外，国内也有其他平台提供支持。jsDelivr的优点是不需要注册什么的有的没的，只要GitHub上传了就OK。他家链接除了20MB的单个文件上限之外没有任何值得诟病的地方，反正用来传图片还是绰绰有余了。</p>
 <p>那么把要用的文件推到GitHub之后，就可以直接使用下述链接来引用它：</p>
 <pre><code>https://cdn.jsdelivr.net/gh//GitHub用户名/库名/文件位置</code></pre>
 ]]></content>
@@ -1986,7 +1986,7 @@
   <entry>
     <title>Font-spider</title>
     <url>/t20200916/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>字蛛是个中文字体压缩器。简单来说就是检测网页上用到了哪些字，然后把原字体文件中没用到的字删掉，使得在压缩字体文件大小的同时也不影响网站的正常显示。对于静态部署的博客来说不失为一种加快网页加载速度的好方案。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>字蛛是个中文字体压缩器。简单来说就是检测网页上用到了哪些字，然后把原字体文件中没用到的字删掉，使得在压缩字体文件大小的同时也不影响网站的正常显示。对于静态部署的博客来说不失为一种提高网页加载速度的好方案。</p>
 <br/>
 
 <p>先用npm安装下载。</p>
@@ -2023,7 +2023,7 @@ with open(fileOutput,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
 print(&quot;Words are collected.\n&quot;) # 一个回应</code></pre>
 <br/>
 
-<p>在同文件夹下放了个<code>word.css</code>文件。</p>
+<p>在同文件夹下放了字体文件和样式文件（<code>word.css</code>）。</p>
 <pre><code class="css">@font-face&#123;
   font-family:&quot;CH&quot;;
   src:url(../H-TTF-BuMing-R-2.ttf);
@@ -2038,7 +2038,8 @@ body&#123;
 python word.py
 Xcopy E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font\.font-spider\H-TTF-BuMing-R-2.ttf E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font /Y
 font-spider word.html</code></pre>
-<p>这里这样写主要是因为运行font-spider之后，它会在同目录下新建<code>.font-spider</code>文件夹，把原来的字体文件备份过去；而字体文件原本所在的地方会替换成字蛛压缩过的字体文件。如此，我使用的「不明体」可以直接从12MB压缩到1.1MB。</p>
+<p>这里这样写主要是因为运行font-spider之后，它会在原字体文件目录下新建<code>.font-spider</code>文件夹，把该字体文件备份过去；然后把原字体文件替换为压缩过的新字体文件。</p>
+<p>如此，我使用的「不明体」可以直接从12MB压缩到1.1MB。</p>
 ]]></content>
       <categories>
         <category>Tips</category>
@@ -2069,7 +2070,7 @@ font-spider word.html</code></pre>
     <title>Theme</title>
     <url>/t20201019/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>White是一个非常年轻的主题，有一说一它的功能非常单一，设计更是简洁，但「刚刚够用」这一点实在太香了。所以在搭建博客的时候第一眼就选定了它，并想方设法把它打磨成我希望的样子。</p>
-<p>发布者上次更新的时候添加了图片归档界面和lazyload功能，感觉和white本身的轻巧背道而驰，但后续更新还是值得期待的……直到他突然心态崩掉跑路（害</p>
+<p>发布者上次更新的时候添加了图片归档界面和lazyload功能，感觉和White本身的轻巧背道而驰，但后续更新还是值得期待的……直到他突然心态崩掉跑路（害</p>
 <p>现在我使用的这个主题已经多少和White有所不同了，以后或许会有更大区别，想着不如记录在这里吧。</p>
 <h2 id="Paginator"><a href="#Paginator" class="headerlink" title="Paginator"></a>Paginator</h2><p>White原本的翻页方式就只有archive页面的「prev」和「next」按钮。</p>
 <p>我增加了archive页面的页码和post页面的前后翻页功能，然后根据页面宽度改了改显示效果。</p>
@@ -2123,14 +2124,35 @@ for file in os.listdir(path):
         with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
             fo.write(post) # 覆写</code></pre>
 <p>最后的效果是把部署当天更新或修改的文章在archive页置顶标注，之前的文章则踢回原本时间线。</p>
-<p>顺便把layout.ejs的修改也放上来。</p>
+<p>顺便把<code>layout.ejs</code>的修改也放上来。</p>
 <pre><code class="html">&lt;% var now = moment(); %&gt;
 
 &lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;
     &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;
 &lt;% &#125; %&gt;</code></pre>
-<p>值得注意的是，要使它按照updated关键字排序分页，需要将<code>node_modules\hexo-generator-archive\lib\generator.js</code>中<code>date</code>关键字改为<code>updated</code>，<code>node_modules\hexo-generator-category\lib\generator.js</code>中<code>orderBy</code>常量限定为<code>&#39;-updated&#39;</code>，<code>hexo-generator-tag</code>同理（不过我没用tag页面就不管它了）。</p>
-<p>以及不知道为什么<u>post页面的前后页总是按date而非updated排序的前后页</u>。</p>
+<p>值得注意的是，要使它按照<code>-updated</code>关键字排序需要修改博客的<code>_config.yml</code>文件，添加：</p>
+<pre><code class="yaml">index_generator:
+  path: &#39;&#39;
+  per_page: 10
+  order_by: -updated
+  pagination_dir: page
+
+archive_generator:
+  enabled: true
+  per_page: 10
+  yearly: true
+  monthly: true
+  daily: false
+  order_by: -updated
+
+category_generator:
+  per_page: 10
+  order_by: -updated
+
+tag_generator:
+  per_page: 10
+  order_by: -updated</code></pre>
+<p>感谢Joseph，posts按<code>-updated</code>排序需要把<code>node_modules\hexo\lib\plugins\generator\post.js</code>中<code>-date</code>改为<code>-updated</code>，这真难找（捂脸</p>
 ]]></content>
       <categories>
         <category>Tips</category>

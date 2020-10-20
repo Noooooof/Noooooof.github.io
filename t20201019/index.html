@@ -189,18 +189,18 @@ for file in os.listdir(path):
         if (postCategoris == None):
             postCategoris = re.search(r&#39;categories: \&#39;\d*\.\d*\&#39;\n&#39;,postContent) # 非None就是日记
 
-        postDate = re.findall(r&#39;date: 2020-10-19 23:27:13
-        postUpdate = re.findall(r&#39;updated: 2020-10-19 23:27:13
+        postDate = re.findall(r&#39;date: ([\s\S]*?)\n&#39;,postContent)[0] # date时间
+        postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # update时间
 
         post = postContent # 准备覆写
 
         if (localDate in localUpdate): # 如果是当天修改的文件
             postUpdate = localUpdate
-            post = re.sub(r&#39;updated: 2020-10-19 23:27:13
+            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postUpdate +&#39;\n&#39;, post) # 更新update时间
             if (postCategoris == None):
-                post = re.sub(r&#39;date: 2020-10-19 23:27:13
+                post = re.sub(r&#39;date: [\s\S]*?\n&#39;,&#39;date: &#39;+ postUpdate +&#39;\n&#39;, post) # 连载文章更新date时间
         else:        
-            post = re.sub(r&#39;updated: 2020-10-19 23:27:13
+            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, post) # 以前的文章按date时间复位
 
         with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
             fo.write(post) # 覆写</code></pre>

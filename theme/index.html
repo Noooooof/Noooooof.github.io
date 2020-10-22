@@ -66,7 +66,7 @@
           <li class="menu-li animate__animated  animate__fadeInUp" id="sort">
              Tabs
              <div class="categories-outer " id="sort-div">
-               <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/2015/">2015</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/2020-04/">2020.04</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/2020-05/">2020.05</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/2020-06/">2020.06</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/2020-07/">2020.07</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/2020-08/">2020.08</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/2020-09/">2020.09</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/2020-10/">2020.10</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Essay/">Essay</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tips/">Tips</a></li></ul>
+               <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Diary/">Diary</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Essay/">Essay</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tips/">Tips</a></li></ul>
              </div>
           </li>
         
@@ -139,7 +139,7 @@
   <div class="post-content-outer">
     <div class="post-intro">
       <div class="post-title animate__animated  animate__fadeInUp">Theme</div>
-      <div class="meta-intro animate__animated  animate__fadeInUp">Oct 21 2020</div>
+      <div class="meta-intro animate__animated  animate__fadeInUp">Oct 22 2020</div>
       
     </div>
     <div class="post-content-inner">
@@ -185,22 +185,19 @@ for file in os.listdir(path):
         localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间
         localUpdate = time.strftime(&#39;%Y-%m-%d %H:%M:%S&#39;, time.localtime(os.stat(fileName).st_mtime)) # 文件修改时间
 
-        postCategoris = re.search(r&#39;categories: \d*\.\d*\n&#39;,postContent)
-        if (postCategoris == None):
-            postCategoris = re.search(r&#39;categories: \&#39;\d*\.\d*\&#39;\n&#39;,postContent) # 非None就是日记
-
-        postDate = re.findall(r&#39;date: ([\s\S]*?)\n&#39;,postContent)[0] # date时间
+        postCategoris = re.findall(r&#39;categories: ([\s\S]*?)\n&#39;,postContent)[0] # 分类
+        postDate = re.findall(r&#39;date: 2020-10-22 15:01:05
         postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # update时间
 
         post = &quot;&quot; # 准备覆写
 
-        if (localDate not in localUpdate):
+        if (localDate not in localUpdate): # 过往文章
             if (postDate != postUpdate):
-                post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, postContent) # 过往文章按date时间复位
+                post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, postContent) # 按date时间复位
         else:
             if (localDate in postUpdate): # 今日更新文章
-                if ((postCategoris==None) and (postDate != postUpdate)):
-                    post = re.sub(r&#39;date: [\s\S]*?\n&#39;,&#39;date: &#39;+ postUpdate +&#39;\n&#39;, postContent) # 连载按update时间更新date
+                if ((postCategoris != &#39;Diary&#39;) and (postDate != postUpdate)):
+                    post = re.sub(r&#39;date: 2020-10-22 15:01:05
 
         if (post):
             with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
@@ -237,470 +234,472 @@ tag_generator:
 <p>感谢Joseph，posts按<code>-updated</code>排序需要把<code>node_modules\hexo\lib\plugins\generator\post.js</code>中<code>-date</code>改为<code>-updated</code>，这真难找（捂脸</p>
 <br/>
 
-<p>不折腾了，花太多时间了（半恼</p>
+<h2 id="List-of-posts"><a href="#List-of-posts" class="headerlink" title="List of posts"></a>List of posts</h2><p>White本身提供了把同分类的文章展示在post页面底部的功能，之前是手动把categories设置成YYYY.MM来梳理日记，但可以预见的是，如果这博客持续更新下去，这分类数量就太多了，干脆改了改让Diary分类下的文章底部只显示同月的日记。</p>
+<p>但<u>跳月份还是很麻烦</u>，想办法搞搞日历或者categories/Diary/按月分类？</p>
 
         <!-- 分类文章 -->
         
-          <div class="post-categoris-bottom">
-            <div class="post-categoris-name">Tips</div>
-            <ul class="post-categoris-list">
-            
-            
+          
+            <div class="post-categoris-bottom">
+              <div class="post-categoris-name">Tips</div>
+              <ul class="post-categoris-list">
               
-            
-            
-            
               
-                <li>
-                  
-                    <span class="post-me-link"> Theme </span>
-                  
-                </li>
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-                <li>
-                  
-                    <a  href="/t20200917/" class="post-categoris-bottom-link">
-                    Setting
+                
+                  <li>
                     
-                    </a>
-                  
-                </li>
-              
-            
-            
-            
-              
-                <li>
-                  
-                    <a  href="/t20200916/" class="post-categoris-bottom-link">
-                    Font-spider
+                      <span class="post-me-link"> Theme </span>
                     
-                    </a>
-                  
-                </li>
+                  </li>
+                
               
-            
-            
-            
               
-            
-            
-            
               
-            
-            
-            
+                
               
-            
-            
-            
               
-            
-            
-            
               
-            
-            
-            
+                
               
-                <li>
-                  
-                    <a  href="/t20200902/" class="post-categoris-bottom-link">
-                    CDN link
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+                  <li>
                     
-                    </a>
-                  
-                </li>
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            
-              
-            
-            
-            </ul>
-          </div>
+                      <a  href="/t20200917/" class="post-categoris-bottom-link">
+                      Setting
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/t20200916/" class="post-categoris-bottom-link">
+                      Font-spider
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/t20200902/" class="post-categoris-bottom-link">
+                      CDN link
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              </ul>
+            </div>
+          
         
+
+
         <!-- 翻页 -->
         
           <div class="post-nav">
       
             <div align="right" style="float:right" class="post-nav-next">
               
-                <a href="/d20201020/" rel="next" title="Little things">
-                Little things
+                <a href="/d20151022/" rel="next" title="Sakura">
+                Sakura
                 </a>
                 <span> > </span>
               
@@ -708,11 +707,6 @@ tag_generator:
 
             <div align="left" style="float:left" class="post-nav-prev">
                 
-                <span> < </span>
-                <a href="/d20151022/" rel="prev" title="Sakura">
-                Sakura
-                </a>
-              
             </div>
 
           </div>
@@ -722,16 +716,13 @@ tag_generator:
       
             <div align="right" style="float:right" class="post-bot-next">
               
-                <a href="/d20201020/" rel="next" title="Little things"> Next </a>
+                <a href="/d20151022/" rel="next" title="Sakura"> Next </a>
                 <span> > </span>
               
             </div>
 
             <div align="left" style="float:left" class="post-bot-prev">
                 
-                <span> < </span>
-                <a href="/d20151022/" rel="prev" title="Sakura"> Prev </a>
-              
             </div>
 
           </div>
@@ -742,7 +733,7 @@ tag_generator:
       <div class="post-content-inner-space">
         
           <div class="space-toc-main animate__animated  animate__fadeInUp">
-            <ol class="space-toc"><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Paginator"><span class="space-toc-text">Paginator</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Sort-by"><span class="space-toc-text">Sort_by</span></a></li></ol>
+            <ol class="space-toc"><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Paginator"><span class="space-toc-text">Paginator</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Sort-by"><span class="space-toc-text">Sort_by</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#List-of-posts"><span class="space-toc-text">List of posts</span></a></li></ol>
            </div>
         
       </div>

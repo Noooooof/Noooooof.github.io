@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Bleach</title>
-    <url>/Bleach/</url>
+    <url>/bleach/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天把「死神」看完了，结尾有点仓促，但实在是非常有趣的作品。</p>
 <p>有些激动，想要写点什么，关于几个蛮喜欢的大叔、关于那些各具特色的人物和能力。</p>
 <p>但现在写总觉得会有所遗漏，而且也会是个挺大的工程，等我什么时候二刷完再说吧。</p>
@@ -39,7 +39,7 @@
 <p>总让人觉得极温柔。</p>
 ]]></content>
       <categories>
-        <category>2015</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -54,7 +54,7 @@
 <p>即使是野狗，也可以拥有自己的星星的吧。</p>
 ]]></content>
       <categories>
-        <category>2020.04</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -68,7 +68,7 @@
 <p>我总是羡慕勇敢的理想主义者，因为自己胆小而懦弱，驯服而盲从，空有妄想而吝于践行。但大小姐提出要退学复读的时候，我还是不可抑制地为他担心……要一路顺风啊。</p>
 ]]></content>
       <categories>
-        <category>2020.04</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -82,7 +82,7 @@
 <p>ps，飞燕草的花语是清净、轻盈、自由。</p>
 ]]></content>
       <categories>
-        <category>2020.04</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -101,7 +101,7 @@
 <p> ps，飞燕草又掉了一片花瓣。</p>
 ]]></content>
       <categories>
-        <category>2020.04</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -122,7 +122,7 @@
 <p>天气渐渐热起来了，虽然我还窝在屋子里穿着毛衣，但夏天是确切地临近了。</p>
 ]]></content>
       <categories>
-        <category>2020.04</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -156,22 +156,7 @@
 <p>这不是，很幸运吗？</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>The city of fog</title>
-    <url>/d20200503/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天启程前往重庆。</p>
-<p>楼房呈现出奇妙的弧度和惊人的高度，恍惚让人想起疯狂山脉中的古老遗迹。抬头是高楼，低头是市井，摩登街景和宋代古刹交相辉映，空气热的爽利而透彻——仿佛梦境和现实之间的脆弱夹层。</p>
-<p>沿着马路走，总觉得自己随时可能变成一只死耗子，万幸最后平安无事。朝天门广场的夜景意外的好看，灯光透过薄薄的雾霾就显得朦胧，夜风也温柔。跟潘唱了唱最近一直惦念的「素颜」，走调当然是走调了，但唱出来总觉得释然。我确实是敏感而懦弱的人，和朋友约会就担心对方会拒绝，和朋友相遇就总担心立马就离别。</p>
-<p>是嘛，当年给我推荐许嵩的人，当年和我一起听许嵩的人，当年听我唱许嵩的人，慢慢慢慢就走丢啦。</p>
-<blockquote>
-<p>你啊，不过才刚知道对方的名字，就以为大家是莫逆了吗？</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -191,7 +176,22 @@
 <p>我太久没有说过话了，就容我任性一次吧。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>The city of fog</title>
+    <url>/d20200503/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天启程前往重庆。</p>
+<p>楼房呈现出奇妙的弧度和惊人的高度，恍惚让人想起疯狂山脉中的古老遗迹。抬头是高楼，低头是市井，摩登街景和宋代古刹交相辉映，空气热的爽利而透彻——仿佛梦境和现实之间的脆弱夹层。</p>
+<p>沿着马路走，总觉得自己随时可能变成一只死耗子，万幸最后平安无事。朝天门广场的夜景意外的好看，灯光透过薄薄的雾霾就显得朦胧，夜风也温柔。跟潘唱了唱最近一直惦念的「素颜」，走调当然是走调了，但唱出来总觉得释然。我确实是敏感而懦弱的人，和朋友约会就担心对方会拒绝，和朋友相遇就总担心立马就离别。</p>
+<p>是嘛，当年给我推荐许嵩的人，当年和我一起听许嵩的人，当年听我唱许嵩的人，慢慢慢慢就走丢啦。</p>
+<blockquote>
+<p>你啊，不过才刚知道对方的名字，就以为大家是莫逆了吗？</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -208,7 +208,7 @@
 <p>太热了，汗水顺着发梢流到锁骨，半张脸被口罩捂出痱子。坐在东水门古街的甜品店里喝奇异果汁，听潘说旁桌的中年女性在讨论宗教的事情……挺魔幻的。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -224,10 +224,10 @@
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
       <tags>
-        <tag>silly</tag>
+        <tag>locked</tag>
       </tags>
   </entry>
   <entry>
@@ -252,7 +252,7 @@
 <p>p.ps，我从前居然是个恋爱脑吗……还原了事件的经过，越发觉得我是个虚伪的家伙，伤害着别人却把自己放在受害者的位置。这是值得警醒的。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -273,7 +273,7 @@
 <p>ps，再见了，栗子。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -285,7 +285,7 @@
 <p>Time to wake up, guy.</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -302,7 +302,7 @@
 <p>ps，凌晨一时兴起去看了看贴吧，互联网的记忆总是短暂，人们像星火一样聚散。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -318,7 +318,7 @@
 <p>总是晃晃悠悠地踩在钢丝绳上的话，早晚是会翻下来万劫不复的啊。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -332,7 +332,7 @@
 <p>ps，回忆杀人。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -343,7 +343,7 @@
 <p>久违的畅快。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -360,7 +360,7 @@
 <p>ps，今夜星星很漂亮。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -374,7 +374,7 @@
 <p>人生苦短，如果希望能够捡起来一点什么的话，就从现在开始吧。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -389,7 +389,7 @@
 <p>ps，北京暴雨，白昼如夜。国之将兴，必有祯祥啊。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -405,10 +405,10 @@
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
       <tags>
-        <tag>silly</tag>
+        <tag>locked</tag>
       </tags>
   </entry>
   <entry>
@@ -430,7 +430,7 @@
 <p>在下雨啊，我很糊涂。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -445,7 +445,7 @@
 <p>ps，「伸爪怕犯错，缩爪怕错过」，这太真实了不是吗。</p>
 ]]></content>
       <categories>
-        <category>2020.05</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -456,7 +456,7 @@
 <p>它像飘在空中的蛛丝，牢牢抓住了下坠的我。</p>
 ]]></content>
       <categories>
-        <category>2020.06</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -471,7 +471,7 @@
 <p>有想做的事，有想见的人，有想去的地方，就别困守一隅了啊。</p>
 ]]></content>
       <categories>
-        <category>2020.06</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -486,7 +486,7 @@
 <p>ps，四周年快乐，遇见你很幸运。</p>
 ]]></content>
       <categories>
-        <category>2020.06</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -502,7 +502,7 @@
 <p>缩在被子里试图做个好梦，但什么也没梦见。</p>
 ]]></content>
       <categories>
-        <category>2020.06</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -524,7 +524,7 @@
 <p>p.ps，星河倒悬，满船清梦。跟着星图认了下星星，很受触动。</p>
 ]]></content>
       <categories>
-        <category>2020.06</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -543,7 +543,7 @@
 <p>大狗真可爱。</p>
 ]]></content>
       <categories>
-        <category>2020.06</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -566,7 +566,7 @@
 <p>真的不想写论文啊。</p>
 ]]></content>
       <categories>
-        <category>2020.06</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -584,7 +584,7 @@
 <p>好像也是一样的。</p>
 ]]></content>
       <categories>
-        <category>2020.06</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -598,7 +598,7 @@
 <p>心灵净化就是个伪命题吧。</p>
 ]]></content>
       <categories>
-        <category>2020.06</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -617,7 +617,7 @@
 <p>我不知道。</p>
 ]]></content>
       <categories>
-        <category>2020.06</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -641,7 +641,7 @@
 <p>挺没意思的。</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -682,7 +682,7 @@
 </blockquote>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -709,7 +709,7 @@
 <p>成熟到底是什么呢？</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -725,10 +725,10 @@
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
       <tags>
-        <tag>silly</tag>
+        <tag>locked</tag>
       </tags>
   </entry>
   <entry>
@@ -744,10 +744,10 @@
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
       <tags>
-        <tag>silly</tag>
+        <tag>locked</tag>
       </tags>
   </entry>
   <entry>
@@ -766,7 +766,7 @@
 <p>那倒也不错，不是吗？</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -787,7 +787,7 @@
 <p>ps，今天lofter凉了，文字狱什么时候才会终止呢？</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -810,7 +810,7 @@
 <p>请不要大意地使用我吧，我的朋友。</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -826,10 +826,10 @@
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
       <tags>
-        <tag>silly</tag>
+        <tag>locked</tag>
       </tags>
   </entry>
   <entry>
@@ -854,7 +854,7 @@
 <p>ps，看了xrp安利了好久的Agatha Christie’s Poirot，东方快车谋杀案里Poirot的挣扎真是太美味了。甚至有把原著全部翻出来读的冲动。</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -874,7 +874,7 @@
 <p>ps，看了Curtain和The Big Four，直奔最后一幕还是太着急了。</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -909,7 +909,7 @@
 <p>有一种难言的气魄。</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -933,7 +933,7 @@
 </blockquote>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -949,10 +949,10 @@
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
       <tags>
-        <tag>silly</tag>
+        <tag>locked</tag>
       </tags>
   </entry>
   <entry>
@@ -977,7 +977,7 @@
 <p>回家看到尚未开头的稿子，头秃。</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -999,7 +999,7 @@
 </blockquote>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1017,7 +1017,7 @@
 <p>ps，在xrp帮助下建起了自己的博客，明明是很简单的事情，却做的挺费劲。已经变成电脑废柴了啊。</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1030,7 +1030,7 @@
 <p>虽然说准备把大部分日记同步更新到博客，也分享了这个网址，但可能还是不要对读者有所预设为好，否则就真的没有可以和自己坦诚地说说话的地方了。</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1045,7 +1045,7 @@
 <p>很微妙啊，这种感觉。</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1062,7 +1062,24 @@
 <p>……那其实我要是能够分析出来了，就不会有这个问题了嘛。</p>
 ]]></content>
       <categories>
-        <category>2020.07</category>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Meeting</title>
+    <url>/d20200801/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>和斯丝、柳依、潘聚会，溜达到成博。</p>
+<p>一楼的特展有点意思，佛像多是为亡父母或亡子所塑（也有一尊为亡夫塑的），在忍冬纹莲花纹菩提纹火焰纹之外还另有龙纹，儒释道结合的颇为融洽。三楼的中日伊万里瓷不太行，配色太死亡了，尤其日本的瓷器，一点留白都没有……也许这就是当时欧洲的审美风向？</p>
+<p>在天府广场逛了逛，看见帽子就没走动路，快快乐乐都试了一遍，瓜皮帽实在太好笑了。</p>
+<p>太累了尝试了下路边的按摩椅，有一说一体感不错，除了本来按摩肩背变成了捶我脑阔之外（x）</p>
+<p>晚饭前在桌子上趴了会，听见地铁轰隆隆从底下经过，朋友们点着菜，我盯着绿植发呆。</p>
+<p>真的，好久不见啦。</p>
+<br/>
+
+<p>ps，脑花寿司居然是甜的啊。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1086,7 +1103,7 @@
 <p>荒诞却真实。</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1106,24 +1123,7 @@
 <p>ps，发现自己大量使用虚词，尽可能不说确切并避免语气生硬。以前倒不是这个样子的，改变的起因是初中索索说我说话未免太傲慢。这么多年来说话的口气变了，但我好像还是那样傲慢呢。</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Meeting</title>
-    <url>/d20200801/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>和斯丝、柳依、潘聚会，溜达到成博。</p>
-<p>一楼的特展有点意思，佛像多是为亡父母或亡子所塑（也有一尊为亡夫塑的），在忍冬纹莲花纹菩提纹火焰纹之外还另有龙纹，儒释道结合的颇为融洽。三楼的中日伊万里瓷不太行，配色太死亡了，尤其日本的瓷器，一点留白都没有……也许这就是当时欧洲的审美风向？</p>
-<p>在天府广场逛了逛，看见帽子就没走动路，快快乐乐都试了一遍，瓜皮帽实在太好笑了。</p>
-<p>太累了尝试了下路边的按摩椅，有一说一体感不错，除了本来按摩肩背变成了捶我脑阔之外（x）</p>
-<p>晚饭前在桌子上趴了会，听见地铁轰隆隆从底下经过，朋友们点着菜，我盯着绿植发呆。</p>
-<p>真的，好久不见啦。</p>
-<br/>
-
-<p>ps，脑花寿司居然是甜的啊。</p>
-]]></content>
-      <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1166,7 +1166,7 @@
 <p>哎，我真正想说的其实也不是日记里说出来的这些，写着写着就插科打诨或者岔开话题了。那好像是说不出来的，更隐晦更幽微的感受，是我敲着字却无法排解的胸中块垒。</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1188,7 +1188,7 @@
 <p>再抬头，教室空无一人。</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1205,7 +1205,7 @@
 <p>自己给自己配乐，中二的快乐。</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1218,7 +1218,7 @@
 <p>凌晨的雨早上就停了，却恍惚觉得下了一整天。</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1233,7 +1233,7 @@
 <p>何况我捂不住嘴也按不住笔呢？</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1249,10 +1249,10 @@
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
       <tags>
-        <tag>silly</tag>
+        <tag>locked</tag>
       </tags>
   </entry>
   <entry>
@@ -1267,7 +1267,7 @@
 <p>明天是川农这学期第二次聚会，可惜孔大佬飞不回来。</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1286,7 +1286,7 @@
 <p>见面的意义是什么呢？好像见面本身就是目的。</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1303,7 +1303,7 @@
 <p>ps，Essay中我偏爱那篇<a href="https://noooooof.gitee.io/e20160305/">雨霖铃</a>，这也许能够说明我的倾向吧？</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1318,7 +1318,7 @@
 <p>嘉祥的桂树香气淡了许多，北京的秋天就更是只有白果腐烂的味道了。</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1329,18 +1329,7 @@
 <p>不由疑心自己邂逅了鹊桥。</p>
 ]]></content>
       <categories>
-        <category>2020.08</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Crazy</title>
-    <url>/d20200827/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>写推送写吐了，有一说一没什么实质内容，只是个很简单的攻略，我居然搞了十个小时，原地爆炸。</p>
-<p>中午我妈骂完我爸又骂我，吃饭重新变成了维持自己不要死掉的任务。虽然一直以来我都这么觉得，但好像在外面自己做饭的时候要稍微快乐一点，都是自己愿意吃的食材，也不贪多，有种对自己生活的掌控感。在家里每次进厨房都感到极度的不适应，厨具和碗筷不在我顺手的位置，抹布到处乱放也没有分门别类，台面和地砖有水迹和污渍，锅好重，左边的灶总是打不燃火。这种时候就清楚地意识到这不是我的家，是我妈或者奶奶的，我只是借宿在这里，没有对一切物品的归置权。于是我打开冰箱拿了瓶酸奶，关上门，自己走开。</p>
-<p>……可能是占有欲和控制欲太过旺盛了也说不定。</p>
-]]></content>
-      <categories>
-        <category>2020.08</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1356,11 +1345,22 @@
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
       <tags>
-        <tag>silly</tag>
+        <tag>locked</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Crazy</title>
+    <url>/d20200827/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>写推送写吐了，有一说一没什么实质内容，只是个很简单的攻略，我居然搞了十个小时，原地爆炸。</p>
+<p>中午我妈骂完我爸又骂我，吃饭重新变成了维持自己不要死掉的任务。虽然一直以来我都这么觉得，但好像在外面自己做饭的时候要稍微快乐一点，都是自己愿意吃的食材，也不贪多，有种对自己生活的掌控感。在家里每次进厨房都感到极度的不适应，厨具和碗筷不在我顺手的位置，抹布到处乱放也没有分门别类，台面和地砖有水迹和污渍，锅好重，左边的灶总是打不燃火。这种时候就清楚地意识到这不是我的家，是我妈或者奶奶的，我只是借宿在这里，没有对一切物品的归置权。于是我打开冰箱拿了瓶酸奶，关上门，自己走开。</p>
+<p>……可能是占有欲和控制欲太过旺盛了也说不定。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
   </entry>
   <entry>
     <title>Long summer</title>
@@ -1395,7 +1395,7 @@
 </blockquote>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1415,7 +1415,7 @@
 <p>ps，晚上买了五斤西瓜榨汁，消灭得很艰难……果然还是太贪心了。</p>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1430,7 +1430,7 @@
 <p>ps，搬窗帘要了我半条命，这包东西怕是有半个我高（捂脸</p>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1449,7 +1449,7 @@
 <p>p.ps，试了下准备穿去面试的衣服，晴儿和抽抽都说像小企鹅（悲</p>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1468,7 +1468,7 @@
 <p>那些在剧本中暧昧不清欲言又止的东西，在剧里未免太显明又略突兀，哎。</p>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1524,7 +1524,7 @@
 </blockquote>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1541,7 +1541,7 @@
 <p>明明不喜欢这个城市的，却还是想努力留下来，稍微有点可笑啊。</p>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1560,7 +1560,7 @@
 <p>这种时候就觉得口罩多少还是有点用的了。</p>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1572,7 +1572,7 @@
 <p>哪项都是很恼火的事情（笑</p>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1593,14 +1593,14 @@
 <p>ps，地学楼自习尝试，它不行.jpg</p>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
     <title>Nof</title>
     <url>/d20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-GcgfefEc" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-vMpQPmOW" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -1617,7 +1617,7 @@
 </blockquote>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1628,7 +1628,7 @@
 <p>它只不过是忘记了，野狗之所以被称为野狗的日子。</p>
 ]]></content>
       <categories>
-        <category>2020.09</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1641,7 +1641,7 @@
 <p>从兰熊带回来米酒酿奶，姑且敬一敬阳台上这轮月亮吧。</p>
 ]]></content>
       <categories>
-        <category>2020.10</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1675,7 +1675,7 @@
 <p>这回打通了，是offer。</p>
 ]]></content>
       <categories>
-        <category>2020.10</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1691,7 +1691,7 @@
 <p>有感兴趣的事情就动手，有想要的东西就去争取，活得更热烈更自我一点吧。</p>
 ]]></content>
       <categories>
-        <category>2020.10</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1707,7 +1707,7 @@
 <p>然后就做噩梦了（瘫</p>
 ]]></content>
       <categories>
-        <category>2020.10</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1722,7 +1722,7 @@
 <p>ps，在尝试学双拼，进展好慢，所以最近和我发消息发现我总在输入中或者反应慢得不行是正常的QAQ</p>
 ]]></content>
       <categories>
-        <category>2020.10</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1739,7 +1739,7 @@
 <p>p.ps，淘洗抹布的时候（凌晨三点）碰见明早约了小组讨论的同学，有咕咕的预感。</p>
 ]]></content>
       <categories>
-        <category>2020.10</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -1754,7 +1754,7 @@
 <p>ps，从LC那听说dev C++居然更新了，爷青回（x</p>
 ]]></content>
       <categories>
-        <category>2020.10</category>
+        <category>Diary</category>
       </categories>
   </entry>
   <entry>
@@ -2083,7 +2083,7 @@ font-spider word.html</code></pre>
   </entry>
   <entry>
     <title>Theme</title>
-    <url>/t20201019/</url>
+    <url>/theme/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>White是一个非常年轻的主题，有一说一它的功能非常单一，设计更是简洁，但「刚刚够用」这一点实在太香了。所以在搭建博客的时候第一眼就选定了它，并想方设法把它打磨成我希望的样子。</p>
 <p>发布者上次更新的时候添加了图片归档界面和lazyload功能，感觉和White本身的轻巧背道而驰，但后续更新还是值得期待的……直到他突然心态崩掉跑路（害</p>
 <p>现在我使用的这个主题已经多少和White有所不同了，以后或许会有更大区别，想着不如记录在这里吧。</p>
@@ -2120,22 +2120,19 @@ for file in os.listdir(path):
         localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间
         localUpdate = time.strftime(&#39;%Y-%m-%d %H:%M:%S&#39;, time.localtime(os.stat(fileName).st_mtime)) # 文件修改时间
 
-        postCategoris = re.search(r&#39;categories: \d*\.\d*\n&#39;,postContent)
-        if (postCategoris == None):
-            postCategoris = re.search(r&#39;categories: \&#39;\d*\.\d*\&#39;\n&#39;,postContent) # 非None就是日记
-
-        postDate = re.findall(r&#39;date: ([\s\S]*?)\n&#39;,postContent)[0] # date时间
+        postCategoris = re.findall(r&#39;categories: ([\s\S]*?)\n&#39;,postContent)[0] # 分类
+        postDate = re.findall(r&#39;date: 2020-10-22 15:01:05
         postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # update时间
 
         post = &quot;&quot; # 准备覆写
 
-        if (localDate not in localUpdate):
+        if (localDate not in localUpdate): # 过往文章
             if (postDate != postUpdate):
-                post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, postContent) # 过往文章按date时间复位
+                post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, postContent) # 按date时间复位
         else:
             if (localDate in postUpdate): # 今日更新文章
-                if ((postCategoris==None) and (postDate != postUpdate)):
-                    post = re.sub(r&#39;date: [\s\S]*?\n&#39;,&#39;date: &#39;+ postUpdate +&#39;\n&#39;, postContent) # 连载按update时间更新date
+                if ((postCategoris != &#39;Diary&#39;) and (postDate != postUpdate)):
+                    post = re.sub(r&#39;date: 2020-10-22 15:01:05
 
         if (post):
             with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
@@ -2172,7 +2169,8 @@ tag_generator:
 <p>感谢Joseph，posts按<code>-updated</code>排序需要把<code>node_modules\hexo\lib\plugins\generator\post.js</code>中<code>-date</code>改为<code>-updated</code>，这真难找（捂脸</p>
 <br/>
 
-<p>不折腾了，花太多时间了（半恼</p>
+<h2 id="List-of-posts"><a href="#List-of-posts" class="headerlink" title="List of posts"></a>List of posts</h2><p>White本身提供了把同分类的文章展示在post页面底部的功能，之前是手动把categories设置成YYYY.MM来梳理日记，但可以预见的是，如果这博客持续更新下去，这分类数量就太多了，干脆改了改让Diary分类下的文章底部只显示同月的日记。</p>
+<p>但<u>跳月份还是很麻烦</u>，想办法搞搞日历或者categories/Diary/按月分类？</p>
 ]]></content>
       <categories>
         <category>Tips</category>
@@ -2180,7 +2178,7 @@ tag_generator:
   </entry>
   <entry>
     <title>Europe</title>
-    <url>/loading/</url>
+    <url>/europe/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>突然想拼凑下去年在欧洲的经历，趁我还没有忘个干净。</p>
 <h2 id="Before"><a href="#Before" class="headerlink" title="Before"></a>Before</h2><p>乌大是8月31日开学，如果准备学瑞典语就还要提前一个月。答应了我妈开学前陪她玩半个月（虽然按她的说法是她送我上学顺便旅游）就没有报名。稍微有点可惜，听康康说瑞典语还蛮好玩的。</p>
 <p>跑路前出了不少幺蛾子。七月上中旬在洛阳支教推迟了签证录指纹的时间，为了不耽误行程火速申请法签，瑞典居留证还是后来托大小姐代领、潘帮我带过来的；出发前五天电脑死机，都准备下单新电脑了想想还是要整理下遗容，把灰一清它突然又焕发新生，不愧是ThinkPad（虽然四月份我拿酒精擦它键盘和触摸板还是凉了）；出发前两天从我妈手里接大瓶饮料没拿住，小脚趾遭受重击，于是最终不得不一瘸一拐地上路。</p>

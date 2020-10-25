@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>  Font-Spider |    Farewell.</title>
+  <title>  Game |    Farewell.</title>
   <!-- 标签页图标 -->
   
 
@@ -137,8 +137,8 @@
     <article class="post-inner">
   <div class="post-content-outer">
     <div class="post-intro">
-      <div class="post-title animate__animated  animate__fadeInUp">Font-spider</div>
-      <div class="meta-intro animate__animated  animate__fadeInUp">Sep 16 2020</div>
+      <div class="post-title animate__animated  animate__fadeInUp">Game</div>
+      <div class="meta-intro animate__animated  animate__fadeInUp">Oct 25 2020</div>
       
     </div>
     <div class="post-content-inner">
@@ -148,70 +148,55 @@
       <div class="post-content-main animate__animated  animate__fadeInUp">
         <!-- top型目录 -->
         
-        <p>字蛛是个中文字体压缩器。简单来说就是检测网页上用到了哪些字，然后把原字体文件中没用到的字删掉，使得在压缩字体文件大小的同时也不影响网站的正常显示。对于静态部署的博客来说不失为一种提高网页加载速度的好方案。</p>
+        <p>去玩了下「时空中的绘旅人」。</p>
+<p>日常线里女主的吐槽简直就是马知本人。</p>
+<blockquote>
+<p>Nof：【截图】这不像你吗？</p>
+<p>Sucrose：哈哈哈哈哈哈哈哈哈哈哈哈哈你一说真的有点</p>
+<p>Nof：当成马知谈恋爱 真不错</p>
+<p>Sucrose：？？？！不对劲不对劲</p>
+<p>Nof：对劲</p>
+</blockquote>
 <br/>
 
-<p>先用npm安装下载。</p>
-<pre><code>npm install font-spider -g</code></pre>
+<p>以及今天中午聊到司岚这个角色。</p>
+<blockquote>
+<p>Sucrose：哈哈哈哈哈哈我感觉你应该会喜欢司岚</p>
+<p>Nof：为啥 虽然确实</p>
+<p>Sucrose：就是那种比较大只又温柔类的？不妖魅 比较清爽</p>
+<p>Sucrose：不过司岚性格那种感觉不就是男版花花么</p>
+<p>Nof：？！有吗（小声</p>
+<p>Nof：（那我走司岚线的话是不是四舍五入就和马知谈恋爱了！</p>
+<p>Sucrose：？？？？？！！！</p>
+<p>Sucrose：哈哈哈哈哈哈哈哈哈哈哈</p>
+</blockquote>
 <br/>
 
-<p>我的思路是遍历所有博文，收集起来丢进集合，然后输出一个包含网站所有文字的网页提供给字蛛。</p>
-<p>鉴于博文主要都在<code>_posts</code>文件夹内，我就没爬其他page页面了。理论上该爬的，但post本身文本量够大，我就偷了个懒。</p>
-<pre><code class="python"># coding:utf-8
-
-import os
-
-postPath = &#39;E:/Recent/MyBlog/source/_posts&#39; # _posts文件夹位置
-path = os.path.dirname(__file__) # 所在文件夹位置
-
-def getFile(logPath):
-    text = &quot;&quot;
-    for file in os.listdir(logPath):
-        fileInput = os.path.join(logPath,file)
-        with open(fileInput,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:
-            text += fi.read()
-    return set(text) # 返回一个包含所有post文字的集合
-
-content = &quot;&quot;.join(getFile(postPath)) # set转str
-
-title = &quot;&lt;meta charset=\&quot;UTF-8\&quot;&gt;\n&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;word.css\&quot;&gt;\n&lt;body&gt;\n&quot;
-
-content = title + content +&quot;\n&lt;/body&gt;&quot; # 网页内容
-
-fileOutput = os.path.join(path,&quot;word.html&quot;)
-with open(fileOutput,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
-    fo.write(content) # 输出html文件
-
-print(&quot;Words are collected.\n&quot;) # 一个回应</code></pre>
-<br/>
-
-<p>在同文件夹下放了字体文件和样式文件（<code>word.css</code>）。</p>
-<pre><code class="css">@font-face&#123;
-  font-family:&quot;CH&quot;;
-  src:url(../H-TTF-BuMing-R-2.ttf);
-&#125;
-body&#123;
-    font-family:&quot;CH&quot;
-&#125;</code></pre>
-<br/>
-
-<p>最后一个简单的脚本。</p>
-<pre><code>@echo off
-python word.py
-Xcopy E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font\.font-spider\H-TTF-BuMing-R-2.ttf E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font /Y
-font-spider word.html</code></pre>
-<p>这里这样写主要是因为运行font-spider之后，它会在原字体文件目录下新建<code>.font-spider</code>文件夹，把该字体文件备份过去；然后把原字体文件替换为压缩过的新字体文件。</p>
-<p>如此，我使用的「不明体」可以直接从12MB压缩到1.1MB。</p>
+<p>这游戏的核心设计还是有趣的，不断改变过去来试图改变未来的结局。</p>
+<p>我期待看到更经得起推敲的世界观和更丰富的人物形象。</p>
+<p>目前也就看到路辰个人线的开头，对昔日的朋友说让他离开王都别掺和反叛军送死，但王都之外都是无法抵御的天灾，这和送死有什么区别呢。害，现在迷惑也没有用，说到底我对世界设定还是缺乏了解，也许后面会圆上也说不定。</p>
+<p>……不那么关心恋爱游戏里的甜甜互动而只是想去了解剧情和人设的我多少有点问题。</p>
+<p>一个小吐槽是感觉女主性格有点分裂，异世界的女主没有马知的感觉了呜呜呜。</p>
 
         <!-- 分类文章 -->
         
           
             <div class="post-categoris-bottom">
-              <div class="post-categoris-name">Tips</div>
+              <div class="post-categoris-name">2020.10</div>
               <ul class="post-categoris-list">
               
               
                 
+                  <li>
+                    
+                      <span class="post-me-link"> Game </span>
+                    
+                  </li>
+                
+              
+              
+              
+                
               
               
               
@@ -222,8 +207,91 @@ font-spider word.html</code></pre>
                 
                   <li>
                     
-                      <a  href="/theme/" class="post-categoris-bottom-link">
-                      Theme
+                      <a  href="/d20201020/" class="post-categoris-bottom-link">
+                      Little things
+                      <span style="float: right" class="post-categoris-date"> Oct 20 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/d20201017/" class="post-categoris-bottom-link">
+                      Be my mirror my sword and shield
+                      <span style="float: right" class="post-categoris-date"> Oct 17 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/d20201016/" class="post-categoris-bottom-link">
+                      Lighten
+                      <span style="float: right" class="post-categoris-date"> Oct 16 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/d20201015/" class="post-categoris-bottom-link">
+                      Normal
+                      <span style="float: right" class="post-categoris-date"> Oct 15 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/d20201012/" class="post-categoris-bottom-link">
+                      New life
+                      <span style="float: right" class="post-categoris-date"> Oct 12 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/d20201010/" class="post-categoris-bottom-link">
+                      Complex
+                      <span style="float: right" class="post-categoris-date"> Oct 10 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/d20201001/" class="post-categoris-bottom-link">
+                      Moon
+                      <span style="float: right" class="post-categoris-date"> Oct 01 </span>
                       </a>
                     
                   </li>
@@ -295,60 +363,6 @@ font-spider word.html</code></pre>
               
               
               
-                
-              
-              
-              
-                
-                  <li>
-                    
-                      <a  href="/t20200917/" class="post-categoris-bottom-link">
-                      Setting
-                      </a>
-                    
-                  </li>
-                
-              
-              
-              
-                
-                  <li>
-                    
-                      <span class="post-me-link"> Font-spider </span>
-                    
-                  </li>
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-                  <li>
-                    
-                      <a  href="/t20200902/" class="post-categoris-bottom-link">
-                      CDN link
-                      </a>
-                    
-                  </li>
                 
               
               
@@ -664,8 +678,8 @@ font-spider word.html</code></pre>
       
             <div align="right" style="float:right" class="post-nav-next">
               
-                <a href="/d20200911/" rel="next" title="Trivia">
-                Trivia
+                <a href="/monster/" rel="next" title="Monster">
+                Monster
                 </a>
                 <span> > </span>
               
@@ -673,11 +687,6 @@ font-spider word.html</code></pre>
 
             <div align="left" style="float:left" class="post-nav-prev">
                 
-                <span> < </span>
-                <a href="/t20200917/" rel="prev" title="Setting">
-                Setting
-                </a>
-              
             </div>
 
           </div>
@@ -687,16 +696,13 @@ font-spider word.html</code></pre>
       
             <div align="right" style="float:right" class="post-bot-next">
               
-                <a href="/d20200911/" rel="next" title="Trivia"> Next </a>
+                <a href="/monster/" rel="next" title="Monster"> Next </a>
                 <span> > </span>
               
             </div>
 
             <div align="left" style="float:left" class="post-bot-prev">
                 
-                <span> < </span>
-                <a href="/t20200917/" rel="prev" title="Setting"> Prev </a>
-              
             </div>
 
           </div>

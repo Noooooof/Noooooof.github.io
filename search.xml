@@ -717,25 +717,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Dating</title>
-    <url>/d20200712/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Please enter the password.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="f980c33b47c7eb8f40f2edeb23e034cb1309247c7dea468eabe3c6afe5086384">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1fc67abc77f9df326a929ab12576614d0ac22569b5917afd90eaee5f009707edaac5e46995d29a375b8634d08bf5b7de42106fa7661c98f70ab0c1e31c38a5974e47be03e1e027e89ed0443edaeb765cf9c4f08ffcc6a281bfb585ee918802e04b4be997c9c6350adf4c378709a1b8b0053e728ba5d3b6921477a707e530f93effa5a15ce6c8830e241aae3a8d27ad21598ff368e834bcafffaf96e80e65582fdc678ef260df156f2777d95132a1809d96fda4eb8f2f43614197994eac8ff13d203ade43c99ab1d76f386384f20083f5cde59e721c544e6ae81a6664f45a8546f1b70904ce5d3a57ae89b7b9cb56c64f6a40e6fc92f3ca2a524199adcf36cda7a40427866b9c17290dae2c1c17fd0e9a43a04d7e980afa4df53bd3620522300971b9d48ea4a9f90fd486de6e0cfd77ce5ccc8742fa2d71d87d449e43d2b86dbc7b445aaff4e7f3b0c9a48500d57561b26d2e6cfb49449236d34b2f0e7571e177472c57e716d1962a9dbae43f1e38ff24a1c65212bf32718b9e1b8c82dea429f89d</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-      <tags>
-        <tag>locked</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Driving</title>
     <url>/d20200715/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨晚熬到两点半把所有pc的unity文件都做完了，算是初步告一段落。</p>
@@ -753,6 +734,25 @@
       <categories>
         <category>Diary</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Dating</title>
+    <url>/d20200712/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Please enter the password.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="f980c33b47c7eb8f40f2edeb23e034cb1309247c7dea468eabe3c6afe5086384">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1fc67abc77f9df326a929ab12576614d0ac22569b5917afd90eaee5f009707edaac5e46995d29a375b8634d08bf5b7de42106fa7661c98f70ab0c1e31c38a5974e47be03e1e027e89ed0443edaeb765cf9c4f08ffcc6a281bfb585ee918802e04b4be997c9c6350adf4c378709a1b8b0053e728ba5d3b6921477a707e530f93effa5a15ce6c8830e241aae3a8d27ad21598ff368e834bcafffaf96e80e65582fdc678ef260df156f2777d95132a1809d96fda4eb8f2f43614197994eac8ff13d203ade43c99ab1d76f386384f20083f5cde59e721c544e6ae81a6664f45a8546f1b70904ce5d3a57ae89b7b9cb56c64f6a40e6fc92f3ca2a524199adcf36cda7a40427866b9c17290dae2c1c17fd0e9a43a04d7e980afa4df53bd3620522300971b9d48ea4a9f90fd486de6e0cfd77ce5ccc8742fa2d71d87d449e43d2b86dbc7b445aaff4e7f3b0c9a48500d57561b26d2e6cfb49449236d34b2f0e7571e177472c57e716d1962a9dbae43f1e38ff24a1c65212bf32718b9e1b8c82dea429f89d</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+      <tags>
+        <tag>locked</tag>
+      </tags>
   </entry>
   <entry>
     <title>Cat and dog</title>
@@ -1307,22 +1307,22 @@
       </categories>
   </entry>
   <entry>
-    <title>The bridge of cloud</title>
-    <url>/d20200824/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>晚上在老爸的重金激励下去跑步，浓郁而甜腻的桂花香宛若实质。</p>
-<p>绕着中庭转圈，两缕流云交缠在一起，横跨过漫漫星河。一刻钟后又从中折断，被遮挡在云后的群星重新彰显自己的存在感。</p>
-<p>不由疑心自己邂逅了鹊桥。</p>
+    <title>Crazy</title>
+    <url>/d20200827/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>写推送写吐了，有一说一没什么实质内容，只是个很简单的攻略，我居然搞了十个小时，原地爆炸。</p>
+<p>中午我妈骂完我爸又骂我，吃饭重新变成了维持自己不要死掉的任务。虽然一直以来我都这么觉得，但好像在外面自己做饭的时候要稍微快乐一点，都是自己愿意吃的食材，也不贪多，有种对自己生活的掌控感。在家里每次进厨房都感到极度的不适应，厨具和碗筷不在我顺手的位置，抹布到处乱放也没有分门别类，台面和地砖有水迹和污渍，锅好重，左边的灶总是打不燃火。这种时候就清楚地意识到这不是我的家，是我妈或者奶奶的，我只是借宿在这里，没有对一切物品的归置权。于是我打开冰箱拿了瓶酸奶，关上门，自己走开。</p>
+<p>……可能是占有欲和控制欲太过旺盛了也说不定。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
       </categories>
   </entry>
   <entry>
-    <title>Crazy</title>
-    <url>/d20200827/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>写推送写吐了，有一说一没什么实质内容，只是个很简单的攻略，我居然搞了十个小时，原地爆炸。</p>
-<p>中午我妈骂完我爸又骂我，吃饭重新变成了维持自己不要死掉的任务。虽然一直以来我都这么觉得，但好像在外面自己做饭的时候要稍微快乐一点，都是自己愿意吃的食材，也不贪多，有种对自己生活的掌控感。在家里每次进厨房都感到极度的不适应，厨具和碗筷不在我顺手的位置，抹布到处乱放也没有分门别类，台面和地砖有水迹和污渍，锅好重，左边的灶总是打不燃火。这种时候就清楚地意识到这不是我的家，是我妈或者奶奶的，我只是借宿在这里，没有对一切物品的归置权。于是我打开冰箱拿了瓶酸奶，关上门，自己走开。</p>
-<p>……可能是占有欲和控制欲太过旺盛了也说不定。</p>
+    <title>The bridge of cloud</title>
+    <url>/d20200824/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>晚上在老爸的重金激励下去跑步，浓郁而甜腻的桂花香宛若实质。</p>
+<p>绕着中庭转圈，两缕流云交缠在一起，横跨过漫漫星河。一刻钟后又从中折断，被遮挡在云后的群星重新彰显自己的存在感。</p>
+<p>不由疑心自己邂逅了鹊桥。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1585,7 +1585,7 @@
     <title>Nof</title>
     <url>/d20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-PgqOdCpC" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-qvWtOZWX" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -1790,6 +1790,9 @@
 <p>你说啥？那不就是越有执念越有天赋，那这个世界怎么没遍地是法师啊……这个天赋甚至是波动性的，真实所有人有成为法师的可能，也可能瞬间暴毙（不是</p>
 <p>而且，面对这种全世界的灾难，王权又这么强大，那完全可以通过设定一个人的成长环境（511x），折磨他，勉励他，来使他成为有天赋的法师呗？虽然这不人道，但罗夏他们看起来就是功利主义者啊，这种事他完全做得出来。</p>
 <p>……最难受的还是这苏的要死的对话了，希望一个恋爱向游戏的主线剧情少点莫名其妙的粉红泡泡是我输了。未定在我退游边缘的时候给了两张ssr，我还是回去蹲它的主线剧情吧orz</p>
+<br/>
+
+<p>ps，在我发了这篇并决定把剩下十连抽了退游之后，绘旅人给了我ssr……啊这，你们是有读心术吗？</p>
 ]]></content>
       <categories>
         <category>Diary</category>

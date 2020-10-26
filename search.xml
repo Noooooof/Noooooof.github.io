@@ -1585,7 +1585,7 @@
     <title>Nof</title>
     <url>/d20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-VioNsMhT" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-OCAarVAW" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -2110,7 +2110,9 @@ font-spider word.html</code></pre>
   <entry>
     <title>RSS</title>
     <url>/t20201026/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>开启了<a href="http://noooooof.gitee.io/atom.xml">RSS</a>订阅，但它莫名挂了，改一下链接看看可不可行。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>开启了<a href="http://noooooof.gitee.io/atom.xml">RSS</a>订阅，但它今天莫名挂了。</p>
+<p>删掉之前添加的feed重新添加（再刷新一下）似乎就可以了。</p>
+<p>不太明白。</p>
 ]]></content>
       <categories>
         <category>Tips</category>

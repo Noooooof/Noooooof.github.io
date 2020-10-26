@@ -1585,7 +1585,7 @@
     <title>Nof</title>
     <url>/d20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-LlFNRtkI" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-VioNsMhT" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -2102,9 +2102,15 @@ font-spider word.html</code></pre>
 <br/>
 
 <p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
-<br/>
-
-<p>ps，开启了<a href="http://www.noooooof.gitee.io/atom.xml">RSS</a>订阅，如果有人想用的话？</p>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>RSS</title>
+    <url>/t20201026/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>开启了<a href="http://noooooof.gitee.io/atom.xml">RSS</a>订阅，但它莫名挂了，改一下链接看看可不可行。</p>
 ]]></content>
       <categories>
         <category>Tips</category>

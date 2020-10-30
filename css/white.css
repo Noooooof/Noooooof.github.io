@@ -932,6 +932,7 @@ li p {
   display: block;
   position: relative;
   font-size: 0;
+  margin: 20px 10px;
 }
 .lazyload-img-span::before {
   position: absolute;

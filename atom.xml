@@ -6,7 +6,7 @@
   <link href="https://noooooof.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://noooooof.gitee.io/"/>
-  <updated>2020-11-15T15:57:04.000Z</updated>
+  <updated>2020-11-15T18:11:00.000Z</updated>
   <id>https://noooooof.gitee.io/</id>
   
   <author>
@@ -17,11 +17,61 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Obsidian</title>
+    <link href="https://noooooof.gitee.io/Tips/Obsidian/"/>
+    <id>https://noooooof.gitee.io/Tips/Obsidian/</id>
+    <published>2020-11-15T18:11:00.000Z</published>
+    <updated>2020-11-15T18:11:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从Joseph那摸到了这个应用：<a href="https://obsidian.md/">Obsidian</a>，拿来维护blog好香。这里插播一条他的硬核安利「vscode永不服输」，没用过的我不予置评。</p><p>一些小问题在于，它不能直接打开单个文件，相关的配置和模板文件都会放在所打开的文件夹目录下，显得有些凌乱，在「所见即所得」方面更比不上永远的神typora；但它响应速度不错，体量很轻，外观优美（可以自定义css文件，还支持半透明状界面），允许分栏阅读，支持导入模板，也能比较方便地管理大量文档——对于主要文档都在<code>_posts</code>文件夹下的博客来说就非常nice，更何况现在hexo也能够读取<code>_posts</code>的子文件夹下的文件了。</p><p>接下来介绍一些设置选项：</p><ul><li>Editor：编辑器相关。<ul><li>Fold heading 和 Fold indent：这两个选项允许你把小标题和列表的子项目收起来，和Notion里面的toggle list是一样的功能。</li><li>Vim key bindings：看来创作者用的是vim，不过至少这个选项说明你是有可能全靠键盘进行编辑操作的（这我就要安利tp的小红点了，同样手是不用离开键盘的嘛x</li></ul></li><li>Files and links：我只用来维护我的博客，基本用不上文档之间的链接和本地附件。</li><li>Appearance：选Custom Css可以自定义主题文件，也可以从Obsidian的社区里选，我是直接用的默认主题（Dark）啦，它没啥不好。</li><li>Hotkeys：自定义热键，好物。</li><li>About：版本升级和语言设定之类的东西，它现在还是个beta版本（不过我印象中typora好像也是这么多年了还在beta版本？</li><li>Account：不管它不管它。</li><li>Core plugins：核心插件。<ul><li>Graph view：我用不着这个，把它关掉了，文档之间层级和链接关系做得好的话会很好看。</li><li>Tag pane：不知道它怎么认定的，我front matter里的tag它似乎没识别出来。</li><li>Starred：星标文档，这个我打开了，毕竟有些在更（gu）新（gu）的文档需要稍微区分一下。</li><li>Daily notes：不好用，它的本意是你可以快速创建当日日记（文档名字默认为当天日期），日记会根据你建立的日记模板的样式被创建出来。但是，它按照日记模板是不会自动把模板中的<code>&#123;date&#125;</code>变量变更为创建时间的，而是会老老实实地把<code>&#123;date&#125;</code>打出来……有被蠢到（捂脸</li><li>Templates：这个模板就没问题，放心用。不过由于模板文件必须在库的目录或子目录下，建议以<code>_</code>开头命名你的模板文件夹，避免被hexo读取时误伤（否则你就会发现archive页面多了几篇奇奇怪怪的文章）。</li><li>Zettelkasten prefixer：这是Obsidian提供的另一种快速创建文档的方式，新建的文档会以这个zp码为名，默认格式是YYYYMMDDHHII（可以改，当然可以改，我反正就设成年月日形式，即YYYYMMDD，来记日记了）。</li><li>Translucent window：半透明磨砂式的界面，效果超好！不过刚打开可能需要给它一点时间加载出来，据说是因为这种UI要求的运算力比较大。</li><li>Publish：付费服务。</li></ul></li><li>Trird-party plugins：我没开，请尽情探索（？</li><li>Plugin options：不赘述了。</li></ul>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Tips" scheme="https://noooooof.gitee.io/categories/Tips/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Theme</title>
+    <link href="https://noooooof.gitee.io/Tips/theme/"/>
+    <id>https://noooooof.gitee.io/Tips/theme/</id>
+    <published>2020-11-15T16:01:05.000Z</published>
+    <updated>2020-11-15T16:01:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>White是一个非常年轻的主题，有一说一它的功能非常单一，设计更是简洁，但「刚刚够用」这一点实在太香了。所以在搭建博客的时候第一眼就选定了它，并想方设法把它打磨成我希望的样子。</p><p>发布者上次更新的时候添加了图片归档界面和lazyload功能，感觉和White本身的轻巧背道而驰，但后续更新还是值得期待的……直到他突然心态崩掉跑路（害</p><p>现在我使用的这个主题已经多少和White有所不同了，以后或许会有更大区别，想着不如记录在这里吧。</p><h2 id="Paginator"><a href="#Paginator" class="headerlink" title="Paginator"></a>Paginator</h2><p>White原本的翻页方式就只有archive页面的「prev」和「next」按钮。</p><p>我增加了archive页面的页码和post页面的前后翻页功能，然后根据页面宽度改了改显示效果。</p><p>实现方式有点笨，就是在ejs文件里把宽屏和窄屏的翻页部件都写出来，然后在styl文件里根据屏幕宽度选择性显示。</p><pre><code class="stylus">.paginator   display none  @media $desktop-m    display block.paginator_diy  display block  @media $desktop-m    display none</code></pre><p>stylus对格式的要求比较低，各种花括号、冒号、分号都可以省略。</p><p>其实还想要<u>输入页码跳转</u>的功能来着。</p><h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>我的主题没有置顶功能，与我相关的描述就都放在「About」界面了。</p><p>这里通过修改文件updated时间手动置顶每天的更新。</p><p>令人高兴的是，hexo不知道什么时候也认<code>_posts</code>下面的子文件夹了，我稍微改了下之前的脚本，并让它自动按照文件路径修改文章分类（懒人的快乐x</p><pre><code class="python"># coding:utf-8import osimport reimport timepostpath = &#39;../_posts&#39; # _posts文件夹位置def oper(tag,fileName): #  处理md文档    with open(fileName,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:        postContent = fi.read() # markdown文件内容    post = postContent # 准备覆写    flag = 0    postCategoris = re.findall(r&#39;categories: ([\s\S]*?)\n&#39;,postContent)[0] # 文章分类    if (postCategoris!=tag): # 按照文件路径更改分类        flag = 1        post = re.sub(r&#39;categories: ([\s\S]*?)\n&#39;,&#39;categories: &#39; + tag + &#39;\n&#39;,post)    localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间    postDate = re.findall(r&#39;date: 2020-11-16 00:01:05    postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # 文章update    if (postDate != postUpdate):        if (localDate not in postUpdate): # 非new            flag = 1            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, post) # 按date时间复位        else: # new post            if (tag != &#39;Diary&#39;):                flag = 1                post = re.sub(r&#39;date: 2020-11-16 00:01:05    if (flag):        with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:            fo.write(post) # 覆写    returndef finddir(tag,path): # 递归遍历文件夹    for file in os.listdir(path):        filepath = os.path.join(path,file)        if (re.search(r&#39;^[\._]&#39;,file)==None):            if os.path.isdir(filepath):                finddir(file,filepath)            else:                if (re.search(r&#39;\.md$&#39;,file)!=None):                    oper(tag,filepath)    returnfinddir(&#39;post&#39;,postpath)</code></pre><p>最后的效果是把部署当天更新或修改的文章在archive页置顶标注，之前的文章则踢回原本时间线。</p><p>顺便把<code>layout.ejs</code>的修改也放上来。</p><pre><code class="html">&lt;% var now = moment(); %&gt;&lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;    &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;&lt;% &#125; %&gt;</code></pre><p>值得注意的是，要使它按照<code>updated</code>关键字倒序排序需要修改博客的<code>_config.yml</code>文件，添加：</p><pre><code class="yaml">index_generator:  path: &#39;&#39;  per_page: 10  order_by: -updated  pagination_dir: pagearchive_generator:  enabled: true  per_page: 10  yearly: true  monthly: true  daily: false  order_by: -updatedcategory_generator:  per_page: 10  order_by: -updatedtag_generator:  per_page: 10  order_by: -updated</code></pre><p>感谢Joseph，posts按<code>-updated</code>排序需要把<code>node_modules\hexo\lib\plugins\generator\post.js</code>中<code>-date</code>改为<code>-updated</code>，这真难找（捂脸</p><br/><h2 id="List-of-posts"><a href="#List-of-posts" class="headerlink" title="List of posts"></a>List of posts</h2><p>White本身提供了把同分类的文章展示在post页面底部的功能，之前是手动把categories设置成YYYY.MM来梳理日记，但可以预见的是，如果这博客持续更新下去，这分类数量就太多了，干脆改了改让Diary分类下的文章底部只显示同月的日记。</p><p>但跳月份还是很麻烦，<u>果然还是想要日历云</u>。</p><p>然而这超出我的能力范围了（气</p><p>ps，如果明年我还在维护这个博客，就加上「那年今日」功能。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Tips" scheme="https://noooooof.gitee.io/categories/Tips/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Talk</title>
-    <link href="https://noooooof.gitee.io/20201114/"/>
-    <id>https://noooooof.gitee.io/20201114/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201114/"/>
+    <id>https://noooooof.gitee.io/Diary/20201114/</id>
     <published>2020-11-14T15:57:04.000Z</published>
-    <updated>2020-11-15T15:57:04.000Z</updated>
+    <updated>2020-11-14T15:57:04.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>徐老来北京交流，在东来顺约饭。</p><p>怎么说，麻酱总算中和了羊肉的膻味，但吃着好腻啊hhh</p><p>试图避免奇怪的聊天话题跑到了男生那桌，听他们说到工作和薪资，打开TIM把暗宴和沼人的链接发到了群里，感觉自己有些格格不入。徐老说我一点没变，不好说，或许一定程度上我也拒绝改变吧。不想长大，之类的。厅姐和她男票走了之后我又跑到徐老这桌，听徐老吐槽起小孩和婚姻……她还盯着我，啊这，别看我啊。</p><p>多少会觉得我以为的见面不是这样的吧，但又会是哪样的呢？还以为自己才十七岁吗？</p><p>陪他们等车的时候在门口聊天，孔大佬翻起以前的票圈。</p><blockquote><p>川农助学会 高考前5周 深夜清谈</p><p>从比特币到转基因食品到科学范畴到古代中西科学精神到中医到医学到中西文明源流考到地缘政治论到高中历史全国卷命题到高考选拔机制到学科划分到高中地理实质到学术研究范式到庸俗化的马克思主义哲学…</p><p>“希望20年后还能有这样无拘束的清谈而不是房子车子孩子”</p><p>“希望到时候不需要来X城监狱探视我”</p><p>“希望20年后能活着见到你们”</p><p>“天黑了”</p></blockquote><p>希望吧，希望吧，一切都好。<br><br/></p><p>ps，鹏霸入职心田花开了，他说，王老师说，他很想你。有点难过。</p>]]></content>
     
@@ -42,34 +92,11 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://noooooof.gitee.io/scaffolds/music/"/>
-    <id>https://noooooof.gitee.io/scaffolds/music/</id>
-    <published>2020-11-15T13:19:45.950Z</published>
-    <updated>2020-11-15T13:19:45.950Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-HcCPQCTf" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="netease" data-server="song" data-type="preload:none" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#1A98FF"    ></div>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>FriEnd</title>
-    <link href="https://noooooof.gitee.io/20201113/"/>
-    <id>https://noooooof.gitee.io/20201113/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201113/"/>
+    <id>https://noooooof.gitee.io/Diary/20201113/</id>
     <published>2020-11-13T01:49:22.000Z</published>
-    <updated>2020-11-15T01:49:22.000Z</updated>
+    <updated>2020-11-13T01:49:22.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>啊哈哈，跑团跑得友尽可还行。我也不知道为什么我就跑了三次团三次都会吵架。</p><p>从最初的「泛泛之交」就该认清的现实，到现在六七八年了也该明白了吧。</p><p>我只是一厢情愿地抓着自以为是的幻影不放罢了，对着幻影说的话，说到底只有自己能听见。</p><p>我没有又假装自己被伤害到，这可没什么意思，大概只是祛魅了吧。</p><p>只是我曾经认识一个人，他走远了，现在还保持着微薄的联系，仅此而已。</p><p>像守墓人曾经埋下的那些墓碑一样。</p>]]></content>
     
@@ -91,8 +118,8 @@
   
   <entry>
     <title>Back</title>
-    <link href="https://noooooof.gitee.io/20201109/"/>
-    <id>https://noooooof.gitee.io/20201109/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201109/"/>
+    <id>https://noooooof.gitee.io/Diary/20201109/</id>
     <published>2020-11-09T06:11:12.000Z</published>
     <updated>2020-11-09T06:11:12.000Z</updated>
     
@@ -116,8 +143,8 @@
   
   <entry>
     <title>End</title>
-    <link href="https://noooooof.gitee.io/20201108/"/>
-    <id>https://noooooof.gitee.io/20201108/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201108/"/>
+    <id>https://noooooof.gitee.io/Diary/20201108/</id>
     <published>2020-11-08T06:09:54.000Z</published>
     <updated>2020-11-08T06:09:54.000Z</updated>
     
@@ -141,8 +168,8 @@
   
   <entry>
     <title>East lake</title>
-    <link href="https://noooooof.gitee.io/20201107/"/>
-    <id>https://noooooof.gitee.io/20201107/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201107/"/>
+    <id>https://noooooof.gitee.io/Diary/20201107/</id>
     <published>2020-11-07T06:06:30.000Z</published>
     <updated>2020-11-07T06:06:30.000Z</updated>
     
@@ -166,8 +193,8 @@
   
   <entry>
     <title>Tired</title>
-    <link href="https://noooooof.gitee.io/20201106/"/>
-    <id>https://noooooof.gitee.io/20201106/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201106/"/>
+    <id>https://noooooof.gitee.io/Diary/20201106/</id>
     <published>2020-11-06T06:05:09.000Z</published>
     <updated>2020-11-06T06:05:09.000Z</updated>
     
@@ -191,8 +218,8 @@
   
   <entry>
     <title>Wuhan</title>
-    <link href="https://noooooof.gitee.io/20201105/"/>
-    <id>https://noooooof.gitee.io/20201105/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201105/"/>
+    <id>https://noooooof.gitee.io/Diary/20201105/</id>
     <published>2020-11-04T17:11:20.000Z</published>
     <updated>2020-11-04T17:11:20.000Z</updated>
     
@@ -216,8 +243,8 @@
   
   <entry>
     <title>Keep healthy</title>
-    <link href="https://noooooof.gitee.io/20201104/"/>
-    <id>https://noooooof.gitee.io/20201104/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201104/"/>
+    <id>https://noooooof.gitee.io/Diary/20201104/</id>
     <published>2020-11-04T15:59:57.000Z</published>
     <updated>2020-11-04T15:59:57.000Z</updated>
     
@@ -241,8 +268,8 @@
   
   <entry>
     <title>Lost and found</title>
-    <link href="https://noooooof.gitee.io/20201102/"/>
-    <id>https://noooooof.gitee.io/20201102/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201102/"/>
+    <id>https://noooooof.gitee.io/Diary/20201102/</id>
     <published>2020-11-01T17:41:27.000Z</published>
     <updated>2020-11-01T17:41:27.000Z</updated>
     
@@ -266,8 +293,8 @@
   
   <entry>
     <title>Halloween</title>
-    <link href="https://noooooof.gitee.io/20201031/"/>
-    <id>https://noooooof.gitee.io/20201031/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201031/"/>
+    <id>https://noooooof.gitee.io/Diary/20201031/</id>
     <published>2020-10-30T17:35:56.000Z</published>
     <updated>2020-10-30T17:35:56.000Z</updated>
     
@@ -291,8 +318,8 @@
   
   <entry>
     <title>Europe</title>
-    <link href="https://noooooof.gitee.io/europe/"/>
-    <id>https://noooooof.gitee.io/europe/</id>
+    <link href="https://noooooof.gitee.io/Essay/europe/"/>
+    <id>https://noooooof.gitee.io/Essay/europe/</id>
     <published>2020-10-30T16:01:05.000Z</published>
     <updated>2020-10-30T16:01:05.000Z</updated>
     
@@ -316,8 +343,8 @@
   
   <entry>
     <title>Monster</title>
-    <link href="https://noooooof.gitee.io/monster/"/>
-    <id>https://noooooof.gitee.io/monster/</id>
+    <link href="https://noooooof.gitee.io/Essay/monster/"/>
+    <id>https://noooooof.gitee.io/Essay/monster/</id>
     <published>2020-10-28T17:01:05.000Z</published>
     <updated>2020-10-28T17:01:05.000Z</updated>
     
@@ -341,8 +368,8 @@
   
   <entry>
     <title>Daily</title>
-    <link href="https://noooooof.gitee.io/20201027/"/>
-    <id>https://noooooof.gitee.io/20201027/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201027/"/>
+    <id>https://noooooof.gitee.io/Diary/20201027/</id>
     <published>2020-10-27T06:42:38.000Z</published>
     <updated>2020-10-27T06:42:38.000Z</updated>
     
@@ -365,9 +392,9 @@
   </entry>
   
   <entry>
-    <title>RSS</title>
-    <link href="https://noooooof.gitee.io/t20201026/"/>
-    <id>https://noooooof.gitee.io/t20201026/</id>
+    <title>RSS link</title>
+    <link href="https://noooooof.gitee.io/Tips/rss-link/"/>
+    <id>https://noooooof.gitee.io/Tips/rss-link/</id>
     <published>2020-10-26T12:53:12.000Z</published>
     <updated>2020-10-26T12:53:12.000Z</updated>
     
@@ -390,34 +417,9 @@
   </entry>
   
   <entry>
-    <title>Theme</title>
-    <link href="https://noooooof.gitee.io/theme/"/>
-    <id>https://noooooof.gitee.io/theme/</id>
-    <published>2020-10-22T07:01:05.000Z</published>
-    <updated>2020-10-22T07:01:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>White是一个非常年轻的主题，有一说一它的功能非常单一，设计更是简洁，但「刚刚够用」这一点实在太香了。所以在搭建博客的时候第一眼就选定了它，并想方设法把它打磨成我希望的样子。</p><p>发布者上次更新的时候添加了图片归档界面和lazyload功能，感觉和White本身的轻巧背道而驰，但后续更新还是值得期待的……直到他突然心态崩掉跑路（害</p><p>现在我使用的这个主题已经多少和White有所不同了，以后或许会有更大区别，想着不如记录在这里吧。</p><h2 id="Paginator"><a href="#Paginator" class="headerlink" title="Paginator"></a>Paginator</h2><p>White原本的翻页方式就只有archive页面的「prev」和「next」按钮。</p><p>我增加了archive页面的页码和post页面的前后翻页功能，然后根据页面宽度改了改显示效果。</p><p>实现方式有点笨，就是在ejs文件里把宽屏和窄屏的翻页部件都写出来，然后在styl文件里根据屏幕宽度选择性显示。</p><pre><code class="stylus">.paginator   display none  @media $desktop-m    display block.paginator_diy  display block  @media $desktop-m    display none</code></pre><p>stylus对格式的要求比较低，各种花括号、冒号、分号都可以省略。</p><p>其实还想要<u>输入页码跳转</u>的功能来着。</p><h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>看了下hexo默认的排序文件不太知道怎么改，所以还是选择改自己的post。</p><p>自动更新updated有点问题，只能在编辑文本时手动修改了。</p><pre><code class="python"># coding:utf-8import osimport reimport timepath = &#39;../_posts&#39; # _posts文件夹位置for file in os.listdir(path):    if (&#39;.md&#39; in file):        fileName = os.path.join(path,file)        with open(fileName,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:            postContent = fi.read() # markdown文件内容        localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间        localUpdate = time.strftime(&#39;%Y-%m-%d %H:%M:%S&#39;, time.localtime(os.stat(fileName).st_mtime)) # 文件修改时间        postCategoris = re.findall(r&#39;categories: ([\s\S]*?)\n&#39;,postContent)[0] # 分类        postDate = re.findall(r&#39;date: 2020-10-22 15:01:05        postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # update时间        post = &quot;&quot; # 准备覆写        if (localDate not in localUpdate): # 过往文章            if (postDate != postUpdate):                post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, postContent) # 按date时间复位        else:            if (localDate in postUpdate): # 今日更新文章                if ((postCategoris != &#39;Diary&#39;) and (postDate != postUpdate)):                    post = re.sub(r&#39;date: 2020-10-22 15:01:05        if (post):            with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:                fo.write(post) # 覆写</code></pre><p>最后的效果是把部署当天更新或修改的文章在archive页置顶标注，之前的文章则踢回原本时间线。</p><p>顺便把<code>layout.ejs</code>的修改也放上来。</p><pre><code class="html">&lt;% var now = moment(); %&gt;&lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;    &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;&lt;% &#125; %&gt;</code></pre><p>值得注意的是，要使它按照<code>updated</code>关键字倒序排序需要修改博客的<code>_config.yml</code>文件，添加：</p><pre><code class="yaml">index_generator:  path: &#39;&#39;  per_page: 10  order_by: -updated  pagination_dir: pagearchive_generator:  enabled: true  per_page: 10  yearly: true  monthly: true  daily: false  order_by: -updatedcategory_generator:  per_page: 10  order_by: -updatedtag_generator:  per_page: 10  order_by: -updated</code></pre><p>感谢Joseph，posts按<code>-updated</code>排序需要把<code>node_modules\hexo\lib\plugins\generator\post.js</code>中<code>-date</code>改为<code>-updated</code>，这真难找（捂脸</p><br/><h2 id="List-of-posts"><a href="#List-of-posts" class="headerlink" title="List of posts"></a>List of posts</h2><p>White本身提供了把同分类的文章展示在post页面底部的功能，之前是手动把categories设置成YYYY.MM来梳理日记，但可以预见的是，如果这博客持续更新下去，这分类数量就太多了，干脆改了改让Diary分类下的文章底部只显示同月的日记。</p><p>但跳月份还是很麻烦，<u>果然还是想要日历云</u>。</p><p>然而这超出我的能力范围了（气</p><p>ps，如果明年我还在维护这个博客，就加上「那年今日」功能。</p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="Tips" scheme="https://noooooof.gitee.io/categories/Tips/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Little things</title>
-    <link href="https://noooooof.gitee.io/20201020/"/>
-    <id>https://noooooof.gitee.io/20201020/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201020/"/>
+    <id>https://noooooof.gitee.io/Diary/20201020/</id>
     <published>2020-10-20T03:19:25.000Z</published>
     <updated>2020-10-20T03:19:25.000Z</updated>
     
@@ -441,8 +443,8 @@
   
   <entry>
     <title>Be my mirror my sword and shield</title>
-    <link href="https://noooooof.gitee.io/20201017/"/>
-    <id>https://noooooof.gitee.io/20201017/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201017/"/>
+    <id>https://noooooof.gitee.io/Diary/20201017/</id>
     <published>2020-10-16T17:33:27.000Z</published>
     <updated>2020-10-16T17:33:27.000Z</updated>
     
@@ -466,8 +468,8 @@
   
   <entry>
     <title>Lighten</title>
-    <link href="https://noooooof.gitee.io/20201016/"/>
-    <id>https://noooooof.gitee.io/20201016/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201016/"/>
+    <id>https://noooooof.gitee.io/Diary/20201016/</id>
     <published>2020-10-15T17:46:11.000Z</published>
     <updated>2020-10-15T17:46:11.000Z</updated>
     
@@ -491,8 +493,8 @@
   
   <entry>
     <title>Normal</title>
-    <link href="https://noooooof.gitee.io/20201015/"/>
-    <id>https://noooooof.gitee.io/20201015/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201015/"/>
+    <id>https://noooooof.gitee.io/Diary/20201015/</id>
     <published>2020-10-14T17:43:35.000Z</published>
     <updated>2020-10-14T17:43:35.000Z</updated>
     
@@ -516,8 +518,8 @@
   
   <entry>
     <title>New life</title>
-    <link href="https://noooooof.gitee.io/20201012/"/>
-    <id>https://noooooof.gitee.io/20201012/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201012/"/>
+    <id>https://noooooof.gitee.io/Diary/20201012/</id>
     <published>2020-10-11T17:41:58.000Z</published>
     <updated>2020-10-11T17:41:58.000Z</updated>
     
@@ -541,8 +543,8 @@
   
   <entry>
     <title>Complex</title>
-    <link href="https://noooooof.gitee.io/20201010/"/>
-    <id>https://noooooof.gitee.io/20201010/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201010/"/>
+    <id>https://noooooof.gitee.io/Diary/20201010/</id>
     <published>2020-10-09T16:57:15.000Z</published>
     <updated>2020-10-09T16:57:15.000Z</updated>
     
@@ -566,8 +568,8 @@
   
   <entry>
     <title>Moon</title>
-    <link href="https://noooooof.gitee.io/20201001/"/>
-    <id>https://noooooof.gitee.io/20201001/</id>
+    <link href="https://noooooof.gitee.io/Diary/20201001/"/>
+    <id>https://noooooof.gitee.io/Diary/20201001/</id>
     <published>2020-10-01T12:07:50.000Z</published>
     <updated>2020-10-01T12:07:50.000Z</updated>
     
@@ -591,8 +593,8 @@
   
   <entry>
     <title>Stray dog</title>
-    <link href="https://noooooof.gitee.io/20200930/"/>
-    <id>https://noooooof.gitee.io/20200930/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200930/"/>
+    <id>https://noooooof.gitee.io/Diary/20200930/</id>
     <published>2020-09-30T09:23:27.000Z</published>
     <updated>2020-09-30T09:23:27.000Z</updated>
     
@@ -616,12 +618,12 @@
   
   <entry>
     <title>Nof</title>
-    <link href="https://noooooof.gitee.io/20200928/"/>
-    <id>https://noooooof.gitee.io/20200928/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200928/"/>
+    <id>https://noooooof.gitee.io/Diary/20200928/</id>
     <published>2020-09-28T10:24:56.000Z</published>
     <updated>2020-09-28T10:24:56.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-UYQniqyp" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br/><p>「Nof」这个名字省略自「Not for」，虽然它看上去确实蛮像「No friend」的。</p><p>今天收到了太多的祝福和鼓励，甚至有一点点想哭（笑</p><p>只是一点点而已。</p><br/><p>谢谢您们，真的。</p><blockquote><p>Happy birthday, Nof.</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-qlOGVMoR" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br/><p>「Nof」这个名字省略自「Not for」，虽然它看上去确实蛮像「No friend」的。</p><p>今天收到了太多的祝福和鼓励，甚至有一点点想哭（笑</p><p>只是一点点而已。</p><br/><p>谢谢您们，真的。</p><blockquote><p>Happy birthday, Nof.</p></blockquote>]]></content>
     
     
       
@@ -641,8 +643,8 @@
   
   <entry>
     <title>Day</title>
-    <link href="https://noooooof.gitee.io/20200927/"/>
-    <id>https://noooooof.gitee.io/20200927/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200927/"/>
+    <id>https://noooooof.gitee.io/Diary/20200927/</id>
     <published>2020-09-27T08:32:07.000Z</published>
     <updated>2020-09-27T08:32:07.000Z</updated>
     
@@ -666,8 +668,8 @@
   
   <entry>
     <title>Fail</title>
-    <link href="https://noooooof.gitee.io/20200925/"/>
-    <id>https://noooooof.gitee.io/20200925/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200925/"/>
+    <id>https://noooooof.gitee.io/Diary/20200925/</id>
     <published>2020-09-25T13:08:18.000Z</published>
     <updated>2020-09-25T13:08:18.000Z</updated>
     
@@ -691,8 +693,8 @@
   
   <entry>
     <title>Over</title>
-    <link href="https://noooooof.gitee.io/20200924/"/>
-    <id>https://noooooof.gitee.io/20200924/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200924/"/>
+    <id>https://noooooof.gitee.io/Diary/20200924/</id>
     <published>2020-09-24T10:37:53.000Z</published>
     <updated>2020-09-24T10:37:53.000Z</updated>
     
@@ -716,8 +718,8 @@
   
   <entry>
     <title>Autumn</title>
-    <link href="https://noooooof.gitee.io/20200922/"/>
-    <id>https://noooooof.gitee.io/20200922/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200922/"/>
+    <id>https://noooooof.gitee.io/Diary/20200922/</id>
     <published>2020-09-22T11:28:33.000Z</published>
     <updated>2020-09-22T11:28:33.000Z</updated>
     
@@ -741,8 +743,8 @@
   
   <entry>
     <title>Deserter</title>
-    <link href="https://noooooof.gitee.io/20200921/"/>
-    <id>https://noooooof.gitee.io/20200921/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200921/"/>
+    <id>https://noooooof.gitee.io/Diary/20200921/</id>
     <published>2020-09-21T00:45:02.000Z</published>
     <updated>2020-09-21T00:45:02.000Z</updated>
     
@@ -766,8 +768,8 @@
   
   <entry>
     <title>When we two parted</title>
-    <link href="https://noooooof.gitee.io/20200920/"/>
-    <id>https://noooooof.gitee.io/20200920/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200920/"/>
+    <id>https://noooooof.gitee.io/Diary/20200920/</id>
     <published>2020-09-20T14:31:56.000Z</published>
     <updated>2020-09-20T14:31:56.000Z</updated>
     
@@ -791,8 +793,8 @@
   
   <entry>
     <title>Dream</title>
-    <link href="https://noooooof.gitee.io/20200918/"/>
-    <id>https://noooooof.gitee.io/20200918/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200918/"/>
+    <id>https://noooooof.gitee.io/Diary/20200918/</id>
     <published>2020-09-18T00:06:16.000Z</published>
     <updated>2020-09-18T00:06:16.000Z</updated>
     
@@ -816,12 +818,12 @@
   
   <entry>
     <title>Font</title>
-    <link href="https://noooooof.gitee.io/t20200917/"/>
-    <id>https://noooooof.gitee.io/t20200917/</id>
+    <link href="https://noooooof.gitee.io/Tips/font/"/>
+    <id>https://noooooof.gitee.io/Tips/font/</id>
     <published>2020-09-16T16:01:05.000Z</published>
     <updated>2020-09-16T16:01:05.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用<a href="https://noooooof.gitee.io/t20200916/">字蛛</a>把博客字体缩小到1.02MB，但用<a href="https://noooooof.gitee.io/t20200902/">cdn链接</a>加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p><p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p><ul><li><a href="https://noooooof.gitee.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li><li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li></ul><p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p><br/><p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用<a href="https://noooooof.gitee.io/Tips/t20200916/">字蛛</a>把博客字体缩小到1.02MB，但用<a href="https://noooooof.gitee.io/Tips/t20200902/">cdn链接</a>加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p><p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p><ul><li><a href="https://noooooof.gitee.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li><li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li></ul><p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p><br/><p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>]]></content>
     
     
       
@@ -841,8 +843,8 @@
   
   <entry>
     <title>Font-spider</title>
-    <link href="https://noooooof.gitee.io/t20200916/"/>
-    <id>https://noooooof.gitee.io/t20200916/</id>
+    <link href="https://noooooof.gitee.io/Tips/font-spider/"/>
+    <id>https://noooooof.gitee.io/Tips/font-spider/</id>
     <published>2020-09-15T16:01:05.000Z</published>
     <updated>2020-09-15T16:01:05.000Z</updated>
     
@@ -866,8 +868,8 @@
   
   <entry>
     <title>Trivia</title>
-    <link href="https://noooooof.gitee.io/20200911/"/>
-    <id>https://noooooof.gitee.io/20200911/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200911/"/>
+    <id>https://noooooof.gitee.io/Diary/20200911/</id>
     <published>2020-09-11T08:44:50.000Z</published>
     <updated>2020-09-11T08:44:50.000Z</updated>
     
@@ -891,8 +893,8 @@
   
   <entry>
     <title>Back to school</title>
-    <link href="https://noooooof.gitee.io/20200909/"/>
-    <id>https://noooooof.gitee.io/20200909/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200909/"/>
+    <id>https://noooooof.gitee.io/Diary/20200909/</id>
     <published>2020-09-08T16:49:57.000Z</published>
     <updated>2020-09-08T16:49:57.000Z</updated>
     
@@ -916,8 +918,8 @@
   
   <entry>
     <title>Long summer</title>
-    <link href="https://noooooof.gitee.io/20200907/"/>
-    <id>https://noooooof.gitee.io/20200907/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200907/"/>
+    <id>https://noooooof.gitee.io/Diary/20200907/</id>
     <published>2020-09-07T07:24:28.000Z</published>
     <updated>2020-09-07T07:24:28.000Z</updated>
     
@@ -941,8 +943,8 @@
   
   <entry>
     <title>Goodbye</title>
-    <link href="https://noooooof.gitee.io/20200902/"/>
-    <id>https://noooooof.gitee.io/20200902/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200902/"/>
+    <id>https://noooooof.gitee.io/Diary/20200902/</id>
     <published>2020-09-02T15:34:55.000Z</published>
     <updated>2020-09-02T15:34:55.000Z</updated>
     
@@ -962,8 +964,8 @@
   
   <entry>
     <title>Bleach</title>
-    <link href="https://noooooof.gitee.io/bleach/"/>
-    <id>https://noooooof.gitee.io/bleach/</id>
+    <link href="https://noooooof.gitee.io/Essay/bleach/"/>
+    <id>https://noooooof.gitee.io/Essay/bleach/</id>
     <published>2020-09-01T16:01:05.000Z</published>
     <updated>2020-09-01T16:01:05.000Z</updated>
     
@@ -987,8 +989,8 @@
   
   <entry>
     <title>CDN link</title>
-    <link href="https://noooooof.gitee.io/t20200902/"/>
-    <id>https://noooooof.gitee.io/t20200902/</id>
+    <link href="https://noooooof.gitee.io/Tips/cdn-link/"/>
+    <id>https://noooooof.gitee.io/Tips/cdn-link/</id>
     <published>2020-09-01T16:01:05.000Z</published>
     <updated>2020-09-01T16:01:05.000Z</updated>
     
@@ -1012,8 +1014,8 @@
   
   <entry>
     <title>Crazy</title>
-    <link href="https://noooooof.gitee.io/20200827/"/>
-    <id>https://noooooof.gitee.io/20200827/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200827/"/>
+    <id>https://noooooof.gitee.io/Diary/20200827/</id>
     <published>2020-08-27T11:45:16.000Z</published>
     <updated>2020-08-27T11:45:16.000Z</updated>
     
@@ -1037,8 +1039,8 @@
   
   <entry>
     <title>The bridge of cloud</title>
-    <link href="https://noooooof.gitee.io/20200824/"/>
-    <id>https://noooooof.gitee.io/20200824/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200824/"/>
+    <id>https://noooooof.gitee.io/Diary/20200824/</id>
     <published>2020-08-23T18:23:37.000Z</published>
     <updated>2020-08-23T18:23:37.000Z</updated>
     
@@ -1062,8 +1064,8 @@
   
   <entry>
     <title>Osmanthus fragrans</title>
-    <link href="https://noooooof.gitee.io/20200823-2/"/>
-    <id>https://noooooof.gitee.io/20200823-2/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200823-2/"/>
+    <id>https://noooooof.gitee.io/Diary/20200823-2/</id>
     <published>2020-08-22T17:32:54.000Z</published>
     <updated>2020-08-22T17:32:54.000Z</updated>
     
@@ -1087,12 +1089,12 @@
   
   <entry>
     <title>Diary</title>
-    <link href="https://noooooof.gitee.io/20200823-1/"/>
-    <id>https://noooooof.gitee.io/20200823-1/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200823-1/"/>
+    <id>https://noooooof.gitee.io/Diary/20200823-1/</id>
     <published>2020-08-22T16:34:31.000Z</published>
     <updated>2020-08-22T16:34:31.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>万万没想到会遭遇催更。</p><p>这算是好事吧，有人在看着我呢。</p><p>不过针对博客「写得敷衍」的评价多少想为自己辩护，明明该写的都在纸面上了嘛。我所经历的事件的细节没有那么重要，重要的是那些琐碎的片段所带给我的感觉；而这种感觉，我却不太愿意也并不能够将它澄清——它是模糊的、跳跃的、无意义的，像清晨草叶上的白霜，也许存在过一瞬间，却转眼消逝了。</p><p>于是我只能蜻蜓点水地写下寥寥几句，让话语停留在不可被述说的事物边缘。</p><p>至于我这一天的故事，写太多总觉得拖沓。也许它们会出现在我与某人的聊天记录里，但放进日记好像有些奇怪。以昨日为例，我应当再写些什么呢？我们这两个半小时都吃了些什么，以至于我礼貌地判断它「味道一般」？女仆店黄色卷发的小姐姐非常可爱，但沉迷游戏的各位毫无所觉？烤肉店的阿姨叫我帅哥又叫嵩嵩美女，小老说没办法想象我初中当班长的样子（因为没有威慑力）？我其实小学初中都还蛮凶的。</p><p>这种拉拉杂杂的东西，就没必要记录下来了吧，我想。</p><br/><p>ps，Essay中我偏爱那篇<a href="https://noooooof.gitee.io/e20160305/">雨霖铃</a>，这也许能够说明我的倾向吧？</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>万万没想到会遭遇催更。</p><p>这算是好事吧，有人在看着我呢。</p><p>不过针对博客「写得敷衍」的评价多少想为自己辩护，明明该写的都在纸面上了嘛。我所经历的事件的细节没有那么重要，重要的是那些琐碎的片段所带给我的感觉；而这种感觉，我却不太愿意也并不能够将它澄清——它是模糊的、跳跃的、无意义的，像清晨草叶上的白霜，也许存在过一瞬间，却转眼消逝了。</p><p>于是我只能蜻蜓点水地写下寥寥几句，让话语停留在不可被述说的事物边缘。</p><p>至于我这一天的故事，写太多总觉得拖沓。也许它们会出现在我与某人的聊天记录里，但放进日记好像有些奇怪。以昨日为例，我应当再写些什么呢？我们这两个半小时都吃了些什么，以至于我礼貌地判断它「味道一般」？女仆店黄色卷发的小姐姐非常可爱，但沉迷游戏的各位毫无所觉？烤肉店的阿姨叫我帅哥又叫嵩嵩美女，小老说没办法想象我初中当班长的样子（因为没有威慑力）？我其实小学初中都还蛮凶的。</p><p>这种拉拉杂杂的东西，就没必要记录下来了吧，我想。</p><br/><p>ps，Essay中我偏爱那篇<a href="https://noooooof.gitee.io/Essay/%E9%9B%A8%E9%9C%96%E9%93%83/">雨霖铃</a>，这也许能够说明我的倾向吧？</p>]]></content>
     
     
       
@@ -1112,8 +1114,8 @@
   
   <entry>
     <title>Old times</title>
-    <link href="https://noooooof.gitee.io/20200822/"/>
-    <id>https://noooooof.gitee.io/20200822/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200822/"/>
+    <id>https://noooooof.gitee.io/Diary/20200822/</id>
     <published>2020-08-22T13:23:54.000Z</published>
     <updated>2020-08-22T13:23:54.000Z</updated>
     
@@ -1137,8 +1139,8 @@
   
   <entry>
     <title>At home</title>
-    <link href="https://noooooof.gitee.io/20200821/"/>
-    <id>https://noooooof.gitee.io/20200821/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200821/"/>
+    <id>https://noooooof.gitee.io/Diary/20200821/</id>
     <published>2020-08-21T09:14:07.000Z</published>
     <updated>2020-08-21T09:14:07.000Z</updated>
     
@@ -1162,8 +1164,8 @@
   
   <entry>
     <title>Exchange</title>
-    <link href="https://noooooof.gitee.io/20200820/"/>
-    <id>https://noooooof.gitee.io/20200820/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200820/"/>
+    <id>https://noooooof.gitee.io/Diary/20200820/</id>
     <published>2020-08-19T17:40:49.000Z</published>
     <updated>2020-08-19T17:40:49.000Z</updated>
     
@@ -1183,8 +1185,8 @@
   
   <entry>
     <title>Memory</title>
-    <link href="https://noooooof.gitee.io/20200816/"/>
-    <id>https://noooooof.gitee.io/20200816/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200816/"/>
+    <id>https://noooooof.gitee.io/Diary/20200816/</id>
     <published>2020-08-15T18:23:39.000Z</published>
     <updated>2020-08-15T18:23:39.000Z</updated>
     
@@ -1208,8 +1210,8 @@
   
   <entry>
     <title>Tired</title>
-    <link href="https://noooooof.gitee.io/20200815/"/>
-    <id>https://noooooof.gitee.io/20200815/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200815/"/>
+    <id>https://noooooof.gitee.io/Diary/20200815/</id>
     <published>2020-08-15T14:01:25.000Z</published>
     <updated>2020-08-15T14:01:25.000Z</updated>
     
@@ -1233,8 +1235,8 @@
   
   <entry>
     <title>Rainy days</title>
-    <link href="https://noooooof.gitee.io/20200812/"/>
-    <id>https://noooooof.gitee.io/20200812/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200812/"/>
+    <id>https://noooooof.gitee.io/Diary/20200812/</id>
     <published>2020-08-12T13:40:19.000Z</published>
     <updated>2020-08-12T13:40:19.000Z</updated>
     
@@ -1258,8 +1260,8 @@
   
   <entry>
     <title>Lavender&#39;s blue</title>
-    <link href="https://noooooof.gitee.io/20200810/"/>
-    <id>https://noooooof.gitee.io/20200810/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200810/"/>
+    <id>https://noooooof.gitee.io/Diary/20200810/</id>
     <published>2020-08-10T00:21:42.000Z</published>
     <updated>2020-08-10T00:21:42.000Z</updated>
     
@@ -1283,8 +1285,8 @@
   
   <entry>
     <title>Whispering</title>
-    <link href="https://noooooof.gitee.io/20200809/"/>
-    <id>https://noooooof.gitee.io/20200809/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200809/"/>
+    <id>https://noooooof.gitee.io/Diary/20200809/</id>
     <published>2020-08-08T20:19:01.000Z</published>
     <updated>2020-08-08T20:19:01.000Z</updated>
     
@@ -1308,8 +1310,8 @@
   
   <entry>
     <title>Rain</title>
-    <link href="https://noooooof.gitee.io/20200804/"/>
-    <id>https://noooooof.gitee.io/20200804/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200804/"/>
+    <id>https://noooooof.gitee.io/Diary/20200804/</id>
     <published>2020-08-04T13:20:18.000Z</published>
     <updated>2020-08-04T13:20:18.000Z</updated>
     
@@ -1333,8 +1335,8 @@
   
   <entry>
     <title>Liar</title>
-    <link href="https://noooooof.gitee.io/20200802/"/>
-    <id>https://noooooof.gitee.io/20200802/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200802/"/>
+    <id>https://noooooof.gitee.io/Diary/20200802/</id>
     <published>2020-08-02T13:41:02.000Z</published>
     <updated>2020-08-02T13:41:02.000Z</updated>
     
@@ -1358,8 +1360,8 @@
   
   <entry>
     <title>Meeting</title>
-    <link href="https://noooooof.gitee.io/20200801/"/>
-    <id>https://noooooof.gitee.io/20200801/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200801/"/>
+    <id>https://noooooof.gitee.io/Diary/20200801/</id>
     <published>2020-08-01T12:46:48.000Z</published>
     <updated>2020-08-01T12:46:48.000Z</updated>
     
@@ -1383,8 +1385,8 @@
   
   <entry>
     <title>Romance and friendship</title>
-    <link href="https://noooooof.gitee.io/20200731/"/>
-    <id>https://noooooof.gitee.io/20200731/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200731/"/>
+    <id>https://noooooof.gitee.io/Diary/20200731/</id>
     <published>2020-07-31T15:38:33.000Z</published>
     <updated>2020-07-31T15:38:33.000Z</updated>
     
@@ -1408,8 +1410,8 @@
   
   <entry>
     <title>Fireworks</title>
-    <link href="https://noooooof.gitee.io/20200730/"/>
-    <id>https://noooooof.gitee.io/20200730/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200730/"/>
+    <id>https://noooooof.gitee.io/Diary/20200730/</id>
     <published>2020-07-30T07:02:54.000Z</published>
     <updated>2020-07-30T07:02:54.000Z</updated>
     
@@ -1433,8 +1435,8 @@
   
   <entry>
     <title>Without reader</title>
-    <link href="https://noooooof.gitee.io/20200729/"/>
-    <id>https://noooooof.gitee.io/20200729/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200729/"/>
+    <id>https://noooooof.gitee.io/Diary/20200729/</id>
     <published>2020-07-28T19:10:09.000Z</published>
     <updated>2020-07-28T19:10:09.000Z</updated>
     
@@ -1458,8 +1460,8 @@
   
   <entry>
     <title>Museum</title>
-    <link href="https://noooooof.gitee.io/20200728/"/>
-    <id>https://noooooof.gitee.io/20200728/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200728/"/>
+    <id>https://noooooof.gitee.io/Diary/20200728/</id>
     <published>2020-07-28T07:36:09.000Z</published>
     <updated>2020-07-28T07:36:09.000Z</updated>
     
@@ -1483,8 +1485,8 @@
   
   <entry>
     <title>A la recherche du temps perdu</title>
-    <link href="https://noooooof.gitee.io/20200727/"/>
-    <id>https://noooooof.gitee.io/20200727/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200727/"/>
+    <id>https://noooooof.gitee.io/Diary/20200727/</id>
     <published>2020-07-27T11:11:00.000Z</published>
     <updated>2020-07-27T11:11:00.000Z</updated>
     
@@ -1508,8 +1510,8 @@
   
   <entry>
     <title>Friends</title>
-    <link href="https://noooooof.gitee.io/20200725/"/>
-    <id>https://noooooof.gitee.io/20200725/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200725/"/>
+    <id>https://noooooof.gitee.io/Diary/20200725/</id>
     <published>2020-07-25T15:37:54.000Z</published>
     <updated>2020-07-25T15:37:54.000Z</updated>
     
@@ -1533,8 +1535,8 @@
   
   <entry>
     <title>Hurry up</title>
-    <link href="https://noooooof.gitee.io/20200724/"/>
-    <id>https://noooooof.gitee.io/20200724/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200724/"/>
+    <id>https://noooooof.gitee.io/Diary/20200724/</id>
     <published>2020-07-23T18:19:27.000Z</published>
     <updated>2020-07-23T18:19:27.000Z</updated>
     
@@ -1554,8 +1556,8 @@
   
   <entry>
     <title>Fragile</title>
-    <link href="https://noooooof.gitee.io/20200723/"/>
-    <id>https://noooooof.gitee.io/20200723/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200723/"/>
+    <id>https://noooooof.gitee.io/Diary/20200723/</id>
     <published>2020-07-22T18:16:11.000Z</published>
     <updated>2020-07-22T18:16:11.000Z</updated>
     
@@ -1579,8 +1581,8 @@
   
   <entry>
     <title>Se una notte d&#39;inverno un viaggiatore</title>
-    <link href="https://noooooof.gitee.io/20200722/"/>
-    <id>https://noooooof.gitee.io/20200722/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200722/"/>
+    <id>https://noooooof.gitee.io/Diary/20200722/</id>
     <published>2020-07-21T18:19:12.000Z</published>
     <updated>2020-07-21T18:19:12.000Z</updated>
     
@@ -1604,8 +1606,8 @@
   
   <entry>
     <title>Keyboard and Umbrella</title>
-    <link href="https://noooooof.gitee.io/20200721/"/>
-    <id>https://noooooof.gitee.io/20200721/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200721/"/>
+    <id>https://noooooof.gitee.io/Diary/20200721/</id>
     <published>2020-07-20T18:49:28.000Z</published>
     <updated>2020-07-20T18:49:28.000Z</updated>
     
@@ -1629,8 +1631,8 @@
   
   <entry>
     <title>Back to school</title>
-    <link href="https://noooooof.gitee.io/20200720/"/>
-    <id>https://noooooof.gitee.io/20200720/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200720/"/>
+    <id>https://noooooof.gitee.io/Diary/20200720/</id>
     <published>2020-07-19T18:16:21.000Z</published>
     <updated>2020-07-19T18:16:21.000Z</updated>
     
@@ -1654,8 +1656,8 @@
   
   <entry>
     <title>Painful</title>
-    <link href="https://noooooof.gitee.io/20200719/"/>
-    <id>https://noooooof.gitee.io/20200719/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200719/"/>
+    <id>https://noooooof.gitee.io/Diary/20200719/</id>
     <published>2020-07-18T18:14:35.000Z</published>
     <updated>2020-07-18T18:14:35.000Z</updated>
     
@@ -1675,8 +1677,8 @@
   
   <entry>
     <title>Old things, precious things</title>
-    <link href="https://noooooof.gitee.io/20200717/"/>
-    <id>https://noooooof.gitee.io/20200717/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200717/"/>
+    <id>https://noooooof.gitee.io/Diary/20200717/</id>
     <published>2020-07-17T14:33:43.000Z</published>
     <updated>2020-07-17T14:33:43.000Z</updated>
     
@@ -1700,8 +1702,8 @@
   
   <entry>
     <title>Cat and dog</title>
-    <link href="https://noooooof.gitee.io/20200716/"/>
-    <id>https://noooooof.gitee.io/20200716/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200716/"/>
+    <id>https://noooooof.gitee.io/Diary/20200716/</id>
     <published>2020-07-15T18:11:29.000Z</published>
     <updated>2020-07-15T18:11:29.000Z</updated>
     
@@ -1725,8 +1727,8 @@
   
   <entry>
     <title>Driving</title>
-    <link href="https://noooooof.gitee.io/20200715/"/>
-    <id>https://noooooof.gitee.io/20200715/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200715/"/>
+    <id>https://noooooof.gitee.io/Diary/20200715/</id>
     <published>2020-07-14T18:09:57.000Z</published>
     <updated>2020-07-14T18:09:57.000Z</updated>
     
@@ -1750,8 +1752,8 @@
   
   <entry>
     <title>Dating</title>
-    <link href="https://noooooof.gitee.io/20200712/"/>
-    <id>https://noooooof.gitee.io/20200712/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200712/"/>
+    <id>https://noooooof.gitee.io/Diary/20200712/</id>
     <published>2020-07-11T18:08:36.000Z</published>
     <updated>2020-07-11T18:08:36.000Z</updated>
     
@@ -1771,8 +1773,8 @@
   
   <entry>
     <title>Wandering</title>
-    <link href="https://noooooof.gitee.io/20200710/"/>
-    <id>https://noooooof.gitee.io/20200710/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200710/"/>
+    <id>https://noooooof.gitee.io/Diary/20200710/</id>
     <published>2020-07-09T18:07:18.000Z</published>
     <updated>2020-07-09T18:07:18.000Z</updated>
     
@@ -1792,8 +1794,8 @@
   
   <entry>
     <title>College entrance exam</title>
-    <link href="https://noooooof.gitee.io/20200707/"/>
-    <id>https://noooooof.gitee.io/20200707/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200707/"/>
+    <id>https://noooooof.gitee.io/Diary/20200707/</id>
     <published>2020-07-06T18:37:02.000Z</published>
     <updated>2020-07-06T18:37:02.000Z</updated>
     
@@ -1817,8 +1819,8 @@
   
   <entry>
     <title>Take your responsibility</title>
-    <link href="https://noooooof.gitee.io/20200703/"/>
-    <id>https://noooooof.gitee.io/20200703/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200703/"/>
+    <id>https://noooooof.gitee.io/Diary/20200703/</id>
     <published>2020-07-02T18:39:19.000Z</published>
     <updated>2020-07-02T18:39:19.000Z</updated>
     
@@ -1842,8 +1844,8 @@
   
   <entry>
     <title>Graduation</title>
-    <link href="https://noooooof.gitee.io/20200702/"/>
-    <id>https://noooooof.gitee.io/20200702/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200702/"/>
+    <id>https://noooooof.gitee.io/Diary/20200702/</id>
     <published>2020-07-01T18:41:50.000Z</published>
     <updated>2020-07-01T18:41:50.000Z</updated>
     
@@ -1867,8 +1869,8 @@
   
   <entry>
     <title>Back to daily life</title>
-    <link href="https://noooooof.gitee.io/20200629/"/>
-    <id>https://noooooof.gitee.io/20200629/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200629/"/>
+    <id>https://noooooof.gitee.io/Diary/20200629/</id>
     <published>2020-06-28T18:55:42.000Z</published>
     <updated>2020-06-28T18:55:42.000Z</updated>
     
@@ -1892,8 +1894,8 @@
   
   <entry>
     <title>Sad</title>
-    <link href="https://noooooof.gitee.io/20200628/"/>
-    <id>https://noooooof.gitee.io/20200628/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200628/"/>
+    <id>https://noooooof.gitee.io/Diary/20200628/</id>
     <published>2020-06-27T18:55:01.000Z</published>
     <updated>2020-06-27T18:55:01.000Z</updated>
     
@@ -1917,8 +1919,8 @@
   
   <entry>
     <title>Day 3</title>
-    <link href="https://noooooof.gitee.io/20200625/"/>
-    <id>https://noooooof.gitee.io/20200625/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200625/"/>
+    <id>https://noooooof.gitee.io/Diary/20200625/</id>
     <published>2020-06-24T18:54:09.000Z</published>
     <updated>2020-06-24T18:54:09.000Z</updated>
     
@@ -1942,8 +1944,8 @@
   
   <entry>
     <title>Day 2</title>
-    <link href="https://noooooof.gitee.io/20200624/"/>
-    <id>https://noooooof.gitee.io/20200624/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200624/"/>
+    <id>https://noooooof.gitee.io/Diary/20200624/</id>
     <published>2020-06-23T18:53:26.000Z</published>
     <updated>2020-06-23T18:53:26.000Z</updated>
     
@@ -1967,8 +1969,8 @@
   
   <entry>
     <title>Day 1</title>
-    <link href="https://noooooof.gitee.io/20200623/"/>
-    <id>https://noooooof.gitee.io/20200623/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200623/"/>
+    <id>https://noooooof.gitee.io/Diary/20200623/</id>
     <published>2020-06-22T18:52:37.000Z</published>
     <updated>2020-06-22T18:52:37.000Z</updated>
     
@@ -1992,8 +1994,8 @@
   
   <entry>
     <title>Lugu Lake</title>
-    <link href="https://noooooof.gitee.io/20200622/"/>
-    <id>https://noooooof.gitee.io/20200622/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200622/"/>
+    <id>https://noooooof.gitee.io/Diary/20200622/</id>
     <published>2020-06-21T18:51:44.000Z</published>
     <updated>2020-06-21T18:51:44.000Z</updated>
     
@@ -2017,8 +2019,8 @@
   
   <entry>
     <title>Give up</title>
-    <link href="https://noooooof.gitee.io/20200621/"/>
-    <id>https://noooooof.gitee.io/20200621/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200621/"/>
+    <id>https://noooooof.gitee.io/Diary/20200621/</id>
     <published>2020-06-20T18:03:12.000Z</published>
     <updated>2020-06-20T18:03:12.000Z</updated>
     
@@ -2042,8 +2044,8 @@
   
   <entry>
     <title>Four years long</title>
-    <link href="https://noooooof.gitee.io/20200605/"/>
-    <id>https://noooooof.gitee.io/20200605/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200605/"/>
+    <id>https://noooooof.gitee.io/Diary/20200605/</id>
     <published>2020-06-04T18:47:01.000Z</published>
     <updated>2020-06-04T18:47:01.000Z</updated>
     
@@ -2067,8 +2069,8 @@
   
   <entry>
     <title>Live a life</title>
-    <link href="https://noooooof.gitee.io/20200604/"/>
-    <id>https://noooooof.gitee.io/20200604/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200604/"/>
+    <id>https://noooooof.gitee.io/Diary/20200604/</id>
     <published>2020-06-03T18:45:56.000Z</published>
     <updated>2020-06-03T18:45:56.000Z</updated>
     
@@ -2092,8 +2094,8 @@
   
   <entry>
     <title>Spider silk</title>
-    <link href="https://noooooof.gitee.io/20200601/"/>
-    <id>https://noooooof.gitee.io/20200601/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200601/"/>
+    <id>https://noooooof.gitee.io/Diary/20200601/</id>
     <published>2020-05-31T18:44:00.000Z</published>
     <updated>2020-05-31T18:44:00.000Z</updated>
     
@@ -2117,8 +2119,8 @@
   
   <entry>
     <title>Gift</title>
-    <link href="https://noooooof.gitee.io/20200529/"/>
-    <id>https://noooooof.gitee.io/20200529/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200529/"/>
+    <id>https://noooooof.gitee.io/Diary/20200529/</id>
     <published>2020-05-28T19:08:56.000Z</published>
     <updated>2020-05-28T19:08:56.000Z</updated>
     
@@ -2142,8 +2144,8 @@
   
   <entry>
     <title>Fall down</title>
-    <link href="https://noooooof.gitee.io/20200526/"/>
-    <id>https://noooooof.gitee.io/20200526/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200526/"/>
+    <id>https://noooooof.gitee.io/Diary/20200526/</id>
     <published>2020-05-25T19:07:55.000Z</published>
     <updated>2020-05-25T19:07:55.000Z</updated>
     
@@ -2167,8 +2169,8 @@
   
   <entry>
     <title>Dating</title>
-    <link href="https://noooooof.gitee.io/20200522/"/>
-    <id>https://noooooof.gitee.io/20200522/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200522/"/>
+    <id>https://noooooof.gitee.io/Diary/20200522/</id>
     <published>2020-05-21T17:58:46.000Z</published>
     <updated>2020-05-21T17:58:46.000Z</updated>
     
@@ -2188,8 +2190,8 @@
   
   <entry>
     <title>Rain</title>
-    <link href="https://noooooof.gitee.io/20200521/"/>
-    <id>https://noooooof.gitee.io/20200521/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200521/"/>
+    <id>https://noooooof.gitee.io/Diary/20200521/</id>
     <published>2020-05-20T17:55:07.000Z</published>
     <updated>2020-05-20T17:55:07.000Z</updated>
     
@@ -2213,8 +2215,8 @@
   
   <entry>
     <title>Runabout</title>
-    <link href="https://noooooof.gitee.io/20200518/"/>
-    <id>https://noooooof.gitee.io/20200518/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200518/"/>
+    <id>https://noooooof.gitee.io/Diary/20200518/</id>
     <published>2020-05-17T17:51:09.000Z</published>
     <updated>2020-05-17T17:51:09.000Z</updated>
     
@@ -2238,8 +2240,8 @@
   
   <entry>
     <title>There are two roads in the forest</title>
-    <link href="https://noooooof.gitee.io/20200517/"/>
-    <id>https://noooooof.gitee.io/20200517/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200517/"/>
+    <id>https://noooooof.gitee.io/Diary/20200517/</id>
     <published>2020-05-16T17:49:18.000Z</published>
     <updated>2020-05-16T17:49:18.000Z</updated>
     
@@ -2263,8 +2265,8 @@
   
   <entry>
     <title>Run in the rain</title>
-    <link href="https://noooooof.gitee.io/20200513/"/>
-    <id>https://noooooof.gitee.io/20200513/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200513/"/>
+    <id>https://noooooof.gitee.io/Diary/20200513/</id>
     <published>2020-05-12T17:57:05.000Z</published>
     <updated>2020-05-12T17:57:05.000Z</updated>
     
@@ -2288,8 +2290,8 @@
   
   <entry>
     <title>Dream a dream</title>
-    <link href="https://noooooof.gitee.io/20200512/"/>
-    <id>https://noooooof.gitee.io/20200512/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200512/"/>
+    <id>https://noooooof.gitee.io/Diary/20200512/</id>
     <published>2020-05-11T17:44:29.000Z</published>
     <updated>2020-05-11T17:44:29.000Z</updated>
     
@@ -2313,8 +2315,8 @@
   
   <entry>
     <title>On the wire</title>
-    <link href="https://noooooof.gitee.io/20200511/"/>
-    <id>https://noooooof.gitee.io/20200511/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200511/"/>
+    <id>https://noooooof.gitee.io/Diary/20200511/</id>
     <published>2020-05-10T17:34:24.000Z</published>
     <updated>2020-05-10T17:34:24.000Z</updated>
     
@@ -2338,8 +2340,8 @@
   
   <entry>
     <title>Endless summer</title>
-    <link href="https://noooooof.gitee.io/20200510/"/>
-    <id>https://noooooof.gitee.io/20200510/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200510/"/>
+    <id>https://noooooof.gitee.io/Diary/20200510/</id>
     <published>2020-05-09T19:05:49.000Z</published>
     <updated>2020-05-09T19:05:49.000Z</updated>
     
@@ -2363,8 +2365,8 @@
   
   <entry>
     <title>Wake up</title>
-    <link href="https://noooooof.gitee.io/20200509/"/>
-    <id>https://noooooof.gitee.io/20200509/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200509/"/>
+    <id>https://noooooof.gitee.io/Diary/20200509/</id>
     <published>2020-05-08T17:32:53.000Z</published>
     <updated>2020-05-08T17:32:53.000Z</updated>
     
@@ -2388,8 +2390,8 @@
   
   <entry>
     <title>Temperamental</title>
-    <link href="https://noooooof.gitee.io/20200507/"/>
-    <id>https://noooooof.gitee.io/20200507/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200507/"/>
+    <id>https://noooooof.gitee.io/Diary/20200507/</id>
     <published>2020-05-06T19:04:04.000Z</published>
     <updated>2020-05-06T19:04:04.000Z</updated>
     
@@ -2413,8 +2415,8 @@
   
   <entry>
     <title>Back to those years</title>
-    <link href="https://noooooof.gitee.io/20200506/"/>
-    <id>https://noooooof.gitee.io/20200506/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200506/"/>
+    <id>https://noooooof.gitee.io/Diary/20200506/</id>
     <published>2020-05-05T19:02:46.000Z</published>
     <updated>2020-05-05T19:02:46.000Z</updated>
     
@@ -2438,8 +2440,8 @@
   
   <entry>
     <title>But I refuse</title>
-    <link href="https://noooooof.gitee.io/20200505/"/>
-    <id>https://noooooof.gitee.io/20200505/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200505/"/>
+    <id>https://noooooof.gitee.io/Diary/20200505/</id>
     <published>2020-05-04T17:27:29.000Z</published>
     <updated>2020-05-04T17:27:29.000Z</updated>
     
@@ -2459,8 +2461,8 @@
   
   <entry>
     <title>Float in the air</title>
-    <link href="https://noooooof.gitee.io/20200504/"/>
-    <id>https://noooooof.gitee.io/20200504/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200504/"/>
+    <id>https://noooooof.gitee.io/Diary/20200504/</id>
     <published>2020-05-03T19:01:26.000Z</published>
     <updated>2020-05-03T19:01:26.000Z</updated>
     
@@ -2484,8 +2486,8 @@
   
   <entry>
     <title>The city of fog</title>
-    <link href="https://noooooof.gitee.io/20200503/"/>
-    <id>https://noooooof.gitee.io/20200503/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200503/"/>
+    <id>https://noooooof.gitee.io/Diary/20200503/</id>
     <published>2020-05-02T18:59:36.000Z</published>
     <updated>2020-05-02T18:59:36.000Z</updated>
     
@@ -2509,8 +2511,8 @@
   
   <entry>
     <title>Some Dreams</title>
-    <link href="https://noooooof.gitee.io/20200502/"/>
-    <id>https://noooooof.gitee.io/20200502/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200502/"/>
+    <id>https://noooooof.gitee.io/Diary/20200502/</id>
     <published>2020-05-01T18:58:29.000Z</published>
     <updated>2020-05-01T18:58:29.000Z</updated>
     
@@ -2534,8 +2536,8 @@
   
   <entry>
     <title>Somebody tells you they love you</title>
-    <link href="https://noooooof.gitee.io/20200501/"/>
-    <id>https://noooooof.gitee.io/20200501/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200501/"/>
+    <id>https://noooooof.gitee.io/Diary/20200501/</id>
     <published>2020-04-30T18:57:11.000Z</published>
     <updated>2020-04-30T18:57:11.000Z</updated>
     
@@ -2559,8 +2561,8 @@
   
   <entry>
     <title>As well</title>
-    <link href="https://noooooof.gitee.io/20200430/"/>
-    <id>https://noooooof.gitee.io/20200430/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200430/"/>
+    <id>https://noooooof.gitee.io/Diary/20200430/</id>
     <published>2020-04-29T19:15:56.000Z</published>
     <updated>2020-04-29T19:15:56.000Z</updated>
     
@@ -2584,8 +2586,8 @@
   
   <entry>
     <title>Unexamined life</title>
-    <link href="https://noooooof.gitee.io/20200429/"/>
-    <id>https://noooooof.gitee.io/20200429/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200429/"/>
+    <id>https://noooooof.gitee.io/Diary/20200429/</id>
     <published>2020-04-28T17:23:24.000Z</published>
     <updated>2020-04-28T17:23:24.000Z</updated>
     
@@ -2609,8 +2611,8 @@
   
   <entry>
     <title>Consolida ajacis</title>
-    <link href="https://noooooof.gitee.io/20200428/"/>
-    <id>https://noooooof.gitee.io/20200428/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200428/"/>
+    <id>https://noooooof.gitee.io/Diary/20200428/</id>
     <published>2020-04-27T19:12:43.000Z</published>
     <updated>2020-04-27T19:12:43.000Z</updated>
     
@@ -2634,8 +2636,8 @@
   
   <entry>
     <title>Reborn</title>
-    <link href="https://noooooof.gitee.io/20200427/"/>
-    <id>https://noooooof.gitee.io/20200427/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200427/"/>
+    <id>https://noooooof.gitee.io/Diary/20200427/</id>
     <published>2020-04-26T19:11:22.000Z</published>
     <updated>2020-04-26T19:11:22.000Z</updated>
     
@@ -2659,8 +2661,8 @@
   
   <entry>
     <title>A star and a stray dog</title>
-    <link href="https://noooooof.gitee.io/20200426/"/>
-    <id>https://noooooof.gitee.io/20200426/</id>
+    <link href="https://noooooof.gitee.io/Diary/20200426/"/>
+    <id>https://noooooof.gitee.io/Diary/20200426/</id>
     <published>2020-04-25T19:10:09.000Z</published>
     <updated>2020-04-25T19:10:09.000Z</updated>
     
@@ -2684,8 +2686,8 @@
   
   <entry>
     <title>童子何知</title>
-    <link href="https://noooooof.gitee.io/e20180914/"/>
-    <id>https://noooooof.gitee.io/e20180914/</id>
+    <link href="https://noooooof.gitee.io/Essay/%E7%AB%A5%E5%AD%90%E4%BD%95%E7%9F%A5/"/>
+    <id>https://noooooof.gitee.io/Essay/%E7%AB%A5%E5%AD%90%E4%BD%95%E7%9F%A5/</id>
     <published>2018-09-13T16:01:05.000Z</published>
     <updated>2018-09-13T16:01:05.000Z</updated>
     
@@ -2709,8 +2711,8 @@
   
   <entry>
     <title>凤凰花</title>
-    <link href="https://noooooof.gitee.io/e20160530/"/>
-    <id>https://noooooof.gitee.io/e20160530/</id>
+    <link href="https://noooooof.gitee.io/Essay/%E5%87%A4%E5%87%B0%E8%8A%B1/"/>
+    <id>https://noooooof.gitee.io/Essay/%E5%87%A4%E5%87%B0%E8%8A%B1/</id>
     <published>2016-05-29T16:01:05.000Z</published>
     <updated>2016-05-29T16:01:05.000Z</updated>
     
@@ -2734,8 +2736,8 @@
   
   <entry>
     <title>雨霖铃</title>
-    <link href="https://noooooof.gitee.io/e20160305/"/>
-    <id>https://noooooof.gitee.io/e20160305/</id>
+    <link href="https://noooooof.gitee.io/Essay/%E9%9B%A8%E9%9C%96%E9%93%83/"/>
+    <id>https://noooooof.gitee.io/Essay/%E9%9B%A8%E9%9C%96%E9%93%83/</id>
     <published>2016-03-04T16:01:05.000Z</published>
     <updated>2016-03-04T16:01:05.000Z</updated>
     
@@ -2759,8 +2761,8 @@
   
   <entry>
     <title>辉夜</title>
-    <link href="https://noooooof.gitee.io/e20160304/"/>
-    <id>https://noooooof.gitee.io/e20160304/</id>
+    <link href="https://noooooof.gitee.io/Essay/%E8%BE%89%E5%A4%9C/"/>
+    <id>https://noooooof.gitee.io/Essay/%E8%BE%89%E5%A4%9C/</id>
     <published>2016-03-03T16:01:05.000Z</published>
     <updated>2016-03-03T16:01:05.000Z</updated>
     
@@ -2784,8 +2786,8 @@
   
   <entry>
     <title>日落</title>
-    <link href="https://noooooof.gitee.io/e20140930/"/>
-    <id>https://noooooof.gitee.io/e20140930/</id>
+    <link href="https://noooooof.gitee.io/Essay/%E6%97%A5%E8%90%BD/"/>
+    <id>https://noooooof.gitee.io/Essay/%E6%97%A5%E8%90%BD/</id>
     <published>2014-09-29T16:01:05.000Z</published>
     <updated>2014-09-29T16:01:05.000Z</updated>
     
@@ -2809,8 +2811,8 @@
   
   <entry>
     <title>聊将锦瑟寄流年</title>
-    <link href="https://noooooof.gitee.io/e20140905/"/>
-    <id>https://noooooof.gitee.io/e20140905/</id>
+    <link href="https://noooooof.gitee.io/Essay/%E8%81%8A%E5%B0%86%E9%94%A6%E7%91%9F%E5%AF%84%E6%B5%81%E5%B9%B4/"/>
+    <id>https://noooooof.gitee.io/Essay/%E8%81%8A%E5%B0%86%E9%94%A6%E7%91%9F%E5%AF%84%E6%B5%81%E5%B9%B4/</id>
     <published>2014-09-04T16:01:05.000Z</published>
     <updated>2014-09-04T16:01:05.000Z</updated>
     
@@ -2834,8 +2836,8 @@
   
   <entry>
     <title>彼年豆蔻</title>
-    <link href="https://noooooof.gitee.io/e20140818/"/>
-    <id>https://noooooof.gitee.io/e20140818/</id>
+    <link href="https://noooooof.gitee.io/Essay/%E5%BD%BC%E5%B9%B4%E8%B1%86%E8%94%BB/"/>
+    <id>https://noooooof.gitee.io/Essay/%E5%BD%BC%E5%B9%B4%E8%B1%86%E8%94%BB/</id>
     <published>2014-08-17T16:01:05.000Z</published>
     <updated>2014-08-17T16:01:05.000Z</updated>
     

@@ -1558,7 +1558,7 @@
     <title>Nof</title>
     <url>/Diary/20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-ZqkEAgLf" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-UJDUuGdj" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -2206,42 +2206,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Obsidian</title>
-    <url>/Tips/Obsidian/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从Joseph那摸到了这个应用：<a href="https://obsidian.md/">Obsidian</a>，拿来维护blog好香。这里插播一条他的硬核安利「vscode永不服输」，没用过的我不予置评。</p>
-<p>一些小问题在于，它不能直接打开单个文件，相关的配置和模板文件都会放在所打开的文件夹目录下，显得有些凌乱，在「所见即所得」方面更比不上永远的神typora；但它响应速度不错，体量很轻，外观优美（可以自定义css文件，还支持半透明状界面），允许分栏阅读，支持导入模板，也能比较方便地管理大量文档——对于主要文档都在<code>_posts</code>文件夹下的博客来说就非常nice，更何况现在hexo也能够读取<code>_posts</code>的子文件夹下的文件了。</p>
-<p>接下来介绍一些设置选项：</p>
-<ul>
-<li>Editor：编辑器相关。<ul>
-<li>Fold heading 和 Fold indent：这两个选项允许你把小标题和列表的子项目收起来，和Notion里面的toggle list是一样的功能。</li>
-<li>Vim key bindings：看来创作者用的是vim，不过至少这个选项说明你是有可能全靠键盘进行编辑操作的（这我就要安利tp的小红点了，同样手是不用离开键盘的嘛x</li>
-</ul>
-</li>
-<li>Files and links：我只用来维护我的博客，基本用不上文档之间的链接和本地附件。</li>
-<li>Appearance：选Custom Css可以自定义主题文件，也可以从Obsidian的社区里选，我是直接用的默认主题（Dark）啦，它没啥不好。</li>
-<li>Hotkeys：自定义热键，好物。</li>
-<li>About：版本升级和语言设定之类的东西，它现在还是个beta版本（不过我印象中typora好像也是这么多年了还在beta版本？</li>
-<li>Account：不管它不管它。</li>
-<li>Core plugins：核心插件。<ul>
-<li>Graph view：我用不着这个，把它关掉了，文档之间层级和链接关系做得好的话会很好看。</li>
-<li>Tag pane：不知道它怎么认定的，我front matter里的tag它似乎没识别出来。</li>
-<li>Starred：星标文档，这个我打开了，毕竟有些在更（gu）新（gu）的文档需要稍微区分一下。</li>
-<li>Daily notes：不好用，它的本意是你可以快速创建当日日记（文档名字默认为当天日期），日记会根据你建立的日记模板的样式被创建出来。但是，它按照日记模板是不会自动把模板中的<code>&#123;date&#125;</code>变量变更为创建时间的，而是会老老实实地把<code>&#123;date&#125;</code>打出来……有被蠢到（捂脸</li>
-<li>Templates：这个模板就没问题，放心用。不过由于模板文件必须在库的目录或子目录下，建议以<code>_</code>开头命名你的模板文件夹，避免被hexo读取时误伤（否则你就会发现archive页面多了几篇奇奇怪怪的文章）。</li>
-<li>Zettelkasten prefixer：这是Obsidian提供的另一种快速创建文档的方式，新建的文档会以这个zp码为名，默认格式是YYYYMMDDHHII（可以改，当然可以改，我反正就设成年月日形式，即YYYYMMDD，来记日记了）。</li>
-<li>Translucent window：半透明磨砂式的界面，效果超好！不过刚打开可能需要给它一点时间加载出来，据说是因为这种UI要求的运算力比较大。</li>
-<li>Publish：付费服务。</li>
-</ul>
-</li>
-<li>Trird-party plugins：我没开，请尽情探索（？</li>
-<li>Plugin options：不赘述了。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
     <title>CDN link</title>
     <url>/Tips/cdn-link/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>博客上引用各种资源（比如图片）的时候可以把要引用的东西丢到<code>source</code>文件夹里，然后使用相对地址。不过我一开始不知道这种方法，就只能把图片上传到GitHub仓库里，然后用cdn链接引用它。</p>
@@ -2329,6 +2293,42 @@ font-spider word.html</code></pre>
 <br/>
 
 <p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Obsidian</title>
+    <url>/Tips/obsidian/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从Joseph那摸到了这个应用：<a href="https://obsidian.md/">Obsidian</a>，拿来维护blog好香。这里插播一条他的硬核安利「vscode永不服输」，没用过的我不予置评。</p>
+<p>一些小问题在于，它不能直接打开单个文件，相关的配置和模板文件都会放在所打开的文件夹目录下，显得有些凌乱，在「所见即所得」方面更比不上永远的神typora；但它响应速度不错，体量很轻，外观优美（可以自定义css文件，还支持半透明状界面），允许分栏阅读，支持导入模板，也能比较方便地管理大量文档——对于主要文档都在<code>_posts</code>文件夹下的博客来说就非常nice，更何况现在hexo也能够读取<code>_posts</code>的子文件夹下的文件了。</p>
+<p>接下来介绍一些设置选项：</p>
+<ul>
+<li>Editor：编辑器相关。<ul>
+<li>Fold heading 和 Fold indent：这两个选项允许你把小标题和列表的子项目收起来，和Notion里面的toggle list是一样的功能。</li>
+<li>Vim key bindings：看来创作者用的是vim，不过至少这个选项说明你是有可能全靠键盘进行编辑操作的（这我就要安利tp的小红点了，同样手是不用离开键盘的嘛x</li>
+</ul>
+</li>
+<li>Files and links：我只用来维护我的博客，基本用不上文档之间的链接和本地附件。</li>
+<li>Appearance：选Custom Css可以自定义主题文件，也可以从Obsidian的社区里选，我是直接用的默认主题（Dark）啦，它没啥不好。</li>
+<li>Hotkeys：自定义热键，好物。</li>
+<li>About：版本升级和语言设定之类的东西，它现在还是个beta版本（不过我印象中typora好像也是这么多年了还在beta版本？</li>
+<li>Account：不管它不管它。</li>
+<li>Core plugins：核心插件。<ul>
+<li>Graph view：我用不着这个，把它关掉了，文档之间层级和链接关系做得好的话会很好看。</li>
+<li>Tag pane：不知道它怎么认定的，我front matter里的tag它似乎没识别出来。</li>
+<li>Starred：星标文档，这个我打开了，毕竟有些在更（gu）新（gu）的文档需要稍微区分一下。</li>
+<li>Daily notes：不好用，它的本意是你可以快速创建当日日记（文档名字默认为当天日期），日记会根据你建立的日记模板的样式被创建出来。但是，它按照日记模板是不会自动把模板中的<code>&#123;date&#125;</code>变量变更为创建时间的，而是会老老实实地把<code>&#123;date&#125;</code>打出来……有被蠢到（捂脸</li>
+<li>Templates：这个模板就没问题，放心用。不过由于模板文件必须在库的目录或子目录下，建议以<code>_</code>开头命名你的模板文件夹，避免被hexo读取时误伤（否则你就会发现archive页面多了几篇奇奇怪怪的文章）。</li>
+<li>Zettelkasten prefixer：这是Obsidian提供的另一种快速创建文档的方式，新建的文档会以这个zp码为名，默认格式是YYYYMMDDHHII（可以改，当然可以改，我反正就设成年月日形式，即YYYYMMDD，来记日记了）。</li>
+<li>Translucent window：半透明磨砂式的界面，效果超好！不过刚打开可能需要给它一点时间加载出来，据说是因为这种UI要求的运算力比较大。</li>
+<li>Publish：付费服务。</li>
+</ul>
+</li>
+<li>Trird-party plugins：我没开，请尽情探索（？</li>
+<li>Plugin options：不赘述了。</li>
+</ul>
 ]]></content>
       <categories>
         <category>Tips</category>

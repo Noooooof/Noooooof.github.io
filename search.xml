@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Obsidian</title>
+    <url>/obsidian/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从Joseph那摸到了这个应用：<a href="https://obsidian.md/">Obsidian</a>，拿来维护blog好香。这里插播一条他的硬核安利「vscode永不服输」，没用过的我不予置评。</p>
+<p>一些小问题在于，它不能直接打开单个文件，相关的配置和模板文件都会放在所打开的文件夹目录下，显得有些凌乱，在「所见即所得」方面更比不上永远的神typora；但它响应速度不错，体量很轻，外观优美（可以自定义css文件，还支持半透明状界面），允许分栏阅读，支持导入模板，也能比较方便地管理大量文档——对于主要文档都在<code>_posts</code>文件夹下的博客来说就非常nice，更何况现在hexo也能够读取<code>_posts</code>的子文件夹下的文件了。</p>
+<p>接下来介绍一些设置选项：</p>
+<ul>
+<li>Editor：编辑器相关。<ul>
+<li>Fold heading 和 Fold indent：这两个选项允许你把小标题和列表的子项目收起来，和Notion里面的toggle list是一样的功能。</li>
+<li>Vim key bindings：看来创作者用的是vim，不过至少这个选项说明你是有可能全靠键盘进行编辑操作的（这我就要安利tp的小红点了，同样手是不用离开键盘的嘛x</li>
+</ul>
+</li>
+<li>Files and links：我只用来维护我的博客，基本用不上文档之间的链接和本地附件。</li>
+<li>Appearance：选Custom Css可以自定义主题文件，也可以从Obsidian的社区里选，我是直接用的默认主题（Dark）啦，它没啥不好。</li>
+<li>Hotkeys：自定义热键，好物。</li>
+<li>About：版本升级和语言设定之类的东西，它现在还是个beta版本（不过我印象中typora好像也是这么多年了还在beta版本？</li>
+<li>Account：不管它不管它。</li>
+<li>Core plugins：核心插件。<ul>
+<li>Graph view：我用不着这个，把它关掉了，文档之间层级和链接关系做得好的话会很好看。</li>
+<li>Tag pane：不知道它怎么认定的，我front matter里的tag它似乎没识别出来。</li>
+<li>Starred：星标文档，这个我打开了，毕竟有些在更（gu）新（gu）的文档需要稍微区分一下。</li>
+<li>Daily notes：不好用，它的本意是你可以快速创建当日日记（文档名字默认为当天日期），日记会根据你建立的日记模板的样式被创建出来。但是，它按照日记模板是不会自动把模板中的<code>&#123;date&#125;</code>变量变更为创建时间的，而是会老老实实地把<code>&#123;date&#125;</code>打出来……有被蠢到（捂脸</li>
+<li>Templates：这个模板就没问题，放心用。不过由于模板文件必须在库的目录或子目录下，建议以<code>_</code>开头命名你的模板文件夹，避免被hexo读取时误伤（否则你就会发现archive页面多了几篇奇奇怪怪的文章）。</li>
+<li>Zettelkasten prefixer：这是Obsidian提供的另一种快速创建文档的方式，新建的文档会以这个zp码为名，默认格式是YYYYMMDDHHII（可以改，当然可以改，我反正就设成年月日形式，即YYYYMMDD，来记日记了）。</li>
+<li>Translucent window：半透明磨砂式的界面，效果超好！不过刚打开可能需要给它一点时间加载出来，据说是因为这种UI要求的运算力比较大。</li>
+<li>Publish：付费服务。</li>
+</ul>
+</li>
+<li>Trird-party plugins：我没开，请尽情探索（？</li>
+<li>Plugin options：不赘述了。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>post</category>
+      </categories>
+  </entry>
+  <entry>
     <title>A star and a stray dog</title>
     <url>/Diary/20200426/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
@@ -791,31 +827,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Back to school</title>
-    <url>/Diary/20200720/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>键盘到了，突然又觉得现在的键盘好像也不是不可以用。</p>
-<p>我总是这样想一出是一出。</p>
-<p>现在这副键盘还是好好收藏起来吧。</p>
-<br/>
-
-<p>昨天看到生态园要被推平的消息，今天练完车就去学校看看。</p>
-<p>状况其实比想象中好。</p>
-<p>徐妈把我捞进学校，坐在机房和她聊了会天。</p>
-<br/>
-
-<p>和潘一起粗略把学校逛了一遍，哪怕在高中的时候也没有这么做过。</p>
-<p>我们是好孩子啊（笑</p>
-<p>把宿舍到教室的路走了一遍又一遍，笔直向前，从不拐弯。</p>
-<p>希望我们也是这样，不要分岔，不要回头。</p>
-<br/>
-
-<p>ps，看了xrp安利了好久的Agatha Christie’s Poirot，东方快车谋杀案里Poirot的挣扎真是太美味了。甚至有把原著全部翻出来读的冲动。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Keyboard and Umbrella</title>
     <url>/Diary/20200721/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>键盘和雨伞都到了。</p>
@@ -1302,6 +1313,31 @@
       </categories>
   </entry>
   <entry>
+    <title>Back to school</title>
+    <url>/Diary/20200720/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>键盘到了，突然又觉得现在的键盘好像也不是不可以用。</p>
+<p>我总是这样想一出是一出。</p>
+<p>现在这副键盘还是好好收藏起来吧。</p>
+<br/>
+
+<p>昨天看到生态园要被推平的消息，今天练完车就去学校看看。</p>
+<p>状况其实比想象中好。</p>
+<p>徐妈把我捞进学校，坐在机房和她聊了会天。</p>
+<br/>
+
+<p>和潘一起粗略把学校逛了一遍，哪怕在高中的时候也没有这么做过。</p>
+<p>我们是好孩子啊（笑</p>
+<p>把宿舍到教室的路走了一遍又一遍，笔直向前，从不拐弯。</p>
+<p>希望我们也是这样，不要分岔，不要回头。</p>
+<br/>
+
+<p>ps，看了xrp安利了好久的Agatha Christie’s Poirot，东方快车谋杀案里Poirot的挣扎真是太美味了。甚至有把原著全部翻出来读的冲动。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Goodbye</title>
     <url>/Diary/20200902/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -1522,18 +1558,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Fail</title>
-    <url>/Diary/20200925/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>跟厅姐他们约饭的时候突然收到了出成绩的消息，数了数名次，果然没过。</p>
-<p>某种意义上说，也算是意料之中的事情吧。</p>
-<p>接下来怎么办呢？想要继续拖延做决定的话，大概就是考研吧，不行还有春招或者出国？</p>
-<p>哪项都是很恼火的事情（笑</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Day</title>
     <url>/Diary/20200927/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早上收到了马知送的小恐龙，超可爱。</p>
@@ -1555,10 +1579,22 @@
       </categories>
   </entry>
   <entry>
+    <title>Fail</title>
+    <url>/Diary/20200925/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>跟厅姐他们约饭的时候突然收到了出成绩的消息，数了数名次，果然没过。</p>
+<p>某种意义上说，也算是意料之中的事情吧。</p>
+<p>接下来怎么办呢？想要继续拖延做决定的话，大概就是考研吧，不行还有春招或者出国？</p>
+<p>哪项都是很恼火的事情（笑</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Nof</title>
     <url>/Diary/20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-DLuKfmiy" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-UWzCVNWP" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -1684,23 +1720,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Be my mirror my sword and shield</title>
-    <url>/Diary/20201017/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>过于充实的一天。</p>
-<p>早上起来冲去地铁站，在路上听完了咔擦部的介绍会，然后陪周芷屹看「喜宝」和约饭，返程换车浪费了时间没能赶上喂猫，徒劳地找了找就去鹤一了。吃到九点，把网管和小老送走后拐去ktv，又送走康康和孔大佬后踩点进校门，跟嵩嵩压了一个小时马路，骑回停车棚看到室友们问我还回来吗。进寝室，熄灯坐下敲键盘。</p>
-<p>鹤一的清酒不好喝但暖胃，唱吧的啤酒真难喝啊，我果然还是不喜欢啤酒。</p>
-<p>又是国际歌、viva la vida和最佳损友，这次倒没点Do you hear the people sing……想想第一次跟这帮人ktv还是16年初为嵩和潘庆生，大一小老生日在全家洗出来的照片还好好地贴在我的桌上呢。</p>
-<p>杯子碰撞在一起，还是当年的声音。</p>
-<br/>
-
-<p>ps，和马知说了晚安之后起身洗漱，不小心把啤酒带翻了。万幸抽插线板抽得快，没被殃及。反反复复擦了五遍还是能闻见啤酒独特的甜香味，爱咋咋地吧。</p>
-<p>p.ps，淘洗抹布的时候（凌晨三点）碰见明早约了小组讨论的同学，有咕咕的预感。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Little things</title>
     <url>/Diary/20201020/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>前天和嵩约了麦当劳，昨晚下了课又在楼梯上碰到，快乐恰麻辣烫。</p>
@@ -1746,6 +1765,23 @@
 <br/>
 
 <p>不过话说回来，到底哪种牛奶更好喝呢。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Be my mirror my sword and shield</title>
+    <url>/Diary/20201017/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>过于充实的一天。</p>
+<p>早上起来冲去地铁站，在路上听完了咔擦部的介绍会，然后陪周芷屹看「喜宝」和约饭，返程换车浪费了时间没能赶上喂猫，徒劳地找了找就去鹤一了。吃到九点，把网管和小老送走后拐去ktv，又送走康康和孔大佬后踩点进校门，跟嵩嵩压了一个小时马路，骑回停车棚看到室友们问我还回来吗。进寝室，熄灯坐下敲键盘。</p>
+<p>鹤一的清酒不好喝但暖胃，唱吧的啤酒真难喝啊，我果然还是不喜欢啤酒。</p>
+<p>又是国际歌、viva la vida和最佳损友，这次倒没点Do you hear the people sing……想想第一次跟这帮人ktv还是16年初为嵩和潘庆生，大一小老生日在全家洗出来的照片还好好地贴在我的桌上呢。</p>
+<p>杯子碰撞在一起，还是当年的声音。</p>
+<br/>
+
+<p>ps，和马知说了晚安之后起身洗漱，不小心把啤酒带翻了。万幸抽插线板抽得快，没被殃及。反反复复擦了五遍还是能闻见啤酒独特的甜香味，爱咋咋地吧。</p>
+<p>p.ps，淘洗抹布的时候（凌晨三点）碰见明早约了小组讨论的同学，有咕咕的预感。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2293,42 +2329,6 @@ font-spider word.html</code></pre>
 <br/>
 
 <p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Obsidian</title>
-    <url>/Tips/obsidian/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从Joseph那摸到了这个应用：<a href="https://obsidian.md/">Obsidian</a>，拿来维护blog好香。这里插播一条他的硬核安利「vscode永不服输」，没用过的我不予置评。</p>
-<p>一些小问题在于，它不能直接打开单个文件，相关的配置和模板文件都会放在所打开的文件夹目录下，显得有些凌乱，在「所见即所得」方面更比不上永远的神typora；但它响应速度不错，体量很轻，外观优美（可以自定义css文件，还支持半透明状界面），允许分栏阅读，支持导入模板，也能比较方便地管理大量文档——对于主要文档都在<code>_posts</code>文件夹下的博客来说就非常nice，更何况现在hexo也能够读取<code>_posts</code>的子文件夹下的文件了。</p>
-<p>接下来介绍一些设置选项：</p>
-<ul>
-<li>Editor：编辑器相关。<ul>
-<li>Fold heading 和 Fold indent：这两个选项允许你把小标题和列表的子项目收起来，和Notion里面的toggle list是一样的功能。</li>
-<li>Vim key bindings：看来创作者用的是vim，不过至少这个选项说明你是有可能全靠键盘进行编辑操作的（这我就要安利tp的小红点了，同样手是不用离开键盘的嘛x</li>
-</ul>
-</li>
-<li>Files and links：我只用来维护我的博客，基本用不上文档之间的链接和本地附件。</li>
-<li>Appearance：选Custom Css可以自定义主题文件，也可以从Obsidian的社区里选，我是直接用的默认主题（Dark）啦，它没啥不好。</li>
-<li>Hotkeys：自定义热键，好物。</li>
-<li>About：版本升级和语言设定之类的东西，它现在还是个beta版本（不过我印象中typora好像也是这么多年了还在beta版本？</li>
-<li>Account：不管它不管它。</li>
-<li>Core plugins：核心插件。<ul>
-<li>Graph view：我用不着这个，把它关掉了，文档之间层级和链接关系做得好的话会很好看。</li>
-<li>Tag pane：不知道它怎么认定的，我front matter里的tag它似乎没识别出来。</li>
-<li>Starred：星标文档，这个我打开了，毕竟有些在更（gu）新（gu）的文档需要稍微区分一下。</li>
-<li>Daily notes：不好用，它的本意是你可以快速创建当日日记（文档名字默认为当天日期），日记会根据你建立的日记模板的样式被创建出来。但是，它按照日记模板是不会自动把模板中的<code>&#123;date&#125;</code>变量变更为创建时间的，而是会老老实实地把<code>&#123;date&#125;</code>打出来……有被蠢到（捂脸</li>
-<li>Templates：这个模板就没问题，放心用。不过由于模板文件必须在库的目录或子目录下，建议以<code>_</code>开头命名你的模板文件夹，避免被hexo读取时误伤（否则你就会发现archive页面多了几篇奇奇怪怪的文章）。</li>
-<li>Zettelkasten prefixer：这是Obsidian提供的另一种快速创建文档的方式，新建的文档会以这个zp码为名，默认格式是YYYYMMDDHHII（可以改，当然可以改，我反正就设成年月日形式，即YYYYMMDD，来记日记了）。</li>
-<li>Translucent window：半透明磨砂式的界面，效果超好！不过刚打开可能需要给它一点时间加载出来，据说是因为这种UI要求的运算力比较大。</li>
-<li>Publish：付费服务。</li>
-</ul>
-</li>
-<li>Trird-party plugins：我没开，请尽情探索（？</li>
-<li>Plugin options：不赘述了。</li>
-</ul>
 ]]></content>
       <categories>
         <category>Tips</category>

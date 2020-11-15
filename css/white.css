@@ -611,16 +611,15 @@ a {
 .post-content-inner ul,
 ol {
   padding-left: 22px;
-  margin: 7px 0px;
-  text-indent: 1em;
+  margin: 10px 0em 10px 1em;
 }
 .post-content-inner ol {
   list-style: none;
   counter-reset: li;
 }
 .post-content-inner ol li {
-  line-height: 1.5;
-  margin: 6px 0px;
+  line-height: 1.7;
+  margin: 8px 0px;
   counter-increment: li;
 }
 .post-content-inner ol li::before {
@@ -635,8 +634,8 @@ ol {
   list-style: none;
 }
 .post-content-inner ul li {
-  line-height: 1.5;
-  margin: 6px 0px;
+  line-height: 1.7;
+  margin: 8px 0px;
 }
 .post-content-inner ul li::before {
   content: "◆";

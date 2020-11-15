@@ -623,7 +623,7 @@
     <published>2020-09-28T10:24:56.000Z</published>
     <updated>2020-09-28T10:24:56.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-qlOGVMoR" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br/><p>「Nof」这个名字省略自「Not for」，虽然它看上去确实蛮像「No friend」的。</p><p>今天收到了太多的祝福和鼓励，甚至有一点点想哭（笑</p><p>只是一点点而已。</p><br/><p>谢谢您们，真的。</p><blockquote><p>Happy birthday, Nof.</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-thgiTpya" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br/><p>「Nof」这个名字省略自「Not for」，虽然它看上去确实蛮像「No friend」的。</p><p>今天收到了太多的祝福和鼓励，甚至有一点点想哭（笑</p><p>只是一点点而已。</p><br/><p>谢谢您们，真的。</p><blockquote><p>Happy birthday, Nof.</p></blockquote>]]></content>
     
     
       
@@ -823,7 +823,7 @@
     <published>2020-09-16T16:01:05.000Z</published>
     <updated>2020-09-16T16:01:05.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用<a href="https://noooooof.gitee.io/Tips/t20200916/">字蛛</a>把博客字体缩小到1.02MB，但用<a href="https://noooooof.gitee.io/Tips/t20200902/">cdn链接</a>加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p><p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p><ul><li><a href="https://noooooof.gitee.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li><li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li></ul><p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p><br/><p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用<a href="https://noooooof.gitee.io/Tips/font-spider/">字蛛</a>把博客字体缩小到1.02MB，但用<a href="https://noooooof.gitee.io/Tips/cdn-link/">cdn链接</a>加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p><p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p><ul><li><a href="https://noooooof.gitee.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li><li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li></ul><p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p><br/><p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>]]></content>
     
     
       

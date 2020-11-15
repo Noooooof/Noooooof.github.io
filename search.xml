@@ -871,25 +871,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Hurry up</title>
-    <url>/Diary/20200724/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Please enter the password.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="d3b3d1d4ee8682d84af6baa63bfbf695ab52def8029ebe412e3a6e08f6fcfbc3">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1f4ea82b83b4b531515239b5cc0215abe4b2802d963db203240044e9045942c4385aa2f290f173c8b99bf7f9486de4008c63b421e0d48e9538603d7f6a922ec01e2dc2787306e02268035c0a509bdf9e3eed630d3711c8e80ddc8bb47c2c187f068f938d097ec19999c618dd242bde1f5aba769e22ebfbebf9c417f8493dddbf080bec95d5cd3627423ea1322536a4d25bf8d776b76d19993040c1d25b9cdae1beab7e862a49c208c953d91edf9ce519036c9184195095b4dee72e7524af589f8f74c10edab578ecb83365a83a1277034d42172528cf98df071d5fbea58e375ed750b9ac13f40f592ca3fe782b271b0d6546ab2377b6c3b5fe5988708bb00f6e8688f10262d9b1075c015249fc5620523dee61ff0bc4bc8c0adb7b268eddf3c38bfe3b47a1bbb6a2b09481368951957775c33ce794ba09a3f3a6a83786114e11bf84396e828f4512130f9221001d7fb254fa956ae0f6e105ef38f5af77e398944fa691ad1f2e756ced91913fc371dd345ca21547f8fc1de6bf51c5549cdd270890c7c1bef67de174dd45d9e2fd8ceb96cf</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-      <tags>
-        <tag>locked</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Fragile</title>
     <url>/Diary/20200723/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>xrp给我推大都会博物馆的杯子，挺好看的，想买来补充潘摔碎的那个。</p>
@@ -912,6 +893,25 @@
       <categories>
         <category>Diary</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Hurry up</title>
+    <url>/Diary/20200724/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Please enter the password.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="d3b3d1d4ee8682d84af6baa63bfbf695ab52def8029ebe412e3a6e08f6fcfbc3">93bd26cb56f20561f051befff0c8133263cadcca4dc00201148d7ec4ed96381684b77df405c59b0479119b9ac7ffdcb5fafc06658d9291cf2832c80d28409f1bc541b7e9d3f633b14ee18fc9ce9aa66bcb73ae0952467fa9bd7bcaace2677186c7688958d9c09cdb8b96ba096d86258e6a30c012912c5287c7c2272401eb42fcc26d79c89f76871f89976c4fb0af66f35f055c9c93cd36a2fb16186e6c5f0d9af1a260c27b8d30ec727872c6d202cd0f8f35610ee8c6b9a214865c1f9cb45bacdbf86d0195bf9acca77648d990f8d170711a9acbfb55250762642ecc9d549fdd6f35dcec02e9e89aae6cf83df0d4a24438dd42b13ac33fee57950ac50256a697cc55f00ba35440d19766bae7b21bbe1f4ea82b83b4b531515239b5cc0215abe4b2802d963db203240044e9045942c4385aa2f290f173c8b99bf7f9486de4008c63b421e0d48e9538603d7f6a922ec01e2dc2787306e02268035c0a509bdf9e3eed630d3711c8e80ddc8bb47c2c187f068f938d097ec19999c618dd242bde1f5aba769e22ebfbebf9c417f8493dddbf080bec95d5cd3627423ea1322536a4d25bf8d776b76d19993040c1d25b9cdae1beab7e862a49c208c953d91edf9ce519036c9184195095b4dee72e7524af589f8f74c10edab578ecb83365a83a1277034d42172528cf98df071d5fbea58e375ed750b9ac13f40f592ca3fe782b271b0d6546ab2377b6c3b5fe5988708bb00f6e8688f10262d9b1075c015249fc5620523dee61ff0bc4bc8c0adb7b268eddf3c38bfe3b47a1bbb6a2b09481368951957775c33ce794ba09a3f3a6a83786114e11bf84396e828f4512130f9221001d7fb254fa956ae0f6e105ef38f5af77e398944fa691ad1f2e756ced91913fc371dd345ca21547f8fc1de6bf51c5549cdd270890c7c1bef67de174dd45d9e2fd8ceb96cf</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+      <tags>
+        <tag>locked</tag>
+      </tags>
   </entry>
   <entry>
     <title>Friends</title>
@@ -1558,7 +1558,7 @@
     <title>Nof</title>
     <url>/Diary/20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-NDHlOJzt" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-yDidFQIE" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -2322,7 +2322,7 @@ font-spider word.html</code></pre>
 <li>Daily notes：不好用，它的本意是你可以快速创建当日日记（文档名字默认为当天日期），日记会根据你建立的日记模板的样式被创建出来。但是，它按照日记模板是不会自动把模板中的<code>&#123;date&#125;</code>变量变更为创建时间的，而是会老老实实地把<code>&#123;date&#125;</code>打出来……有被蠢到（捂脸</li>
 <li>Templates：这个模板就没问题，放心用。不过由于模板文件必须在库的目录或子目录下，建议以<code>_</code>开头命名你的模板文件夹，避免被hexo读取时误伤（否则你就会发现archive页面多了几篇奇奇怪怪的文章）。</li>
 <li>Zettelkasten prefixer：这是Obsidian提供的另一种快速创建文档的方式，新建的文档会以这个zp码为名，默认格式是YYYYMMDDHHII（可以改，当然可以改，我反正就设成年月日形式，即YYYYMMDD，来记日记了）。</li>
-<li>Translucent window：半透明磨砂式的界面，效果超好！不过刚打开可能需要给它一点时间加载出来，据说是因为这种UI要求的运算力比较大。</li>
+<li>Translucent window：半透明磨砂式的界面，效果超好！不过刚打开可能需要拖动一下窗口才能显示半透明的界面，不知道是什么bug。</li>
 <li>Publish：付费服务。</li>
 </ul>
 </li>

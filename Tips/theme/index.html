@@ -138,7 +138,7 @@
   <div class="post-content-outer">
     <div class="post-intro">
       <div class="post-title animate__animated  animate__fadeInUp">Theme</div>
-      <div class="meta-intro animate__animated  animate__fadeInUp">Nov 16 2020</div>
+      <div class="meta-intro animate__animated  animate__fadeInUp">Nov 19 2020</div>
       
     </div>
     <div class="post-content-inner">
@@ -190,7 +190,7 @@ def oper(tag,fileName): #  处理md文档
         post = re.sub(r&#39;categories: ([\s\S]*?)\n&#39;,&#39;categories: &#39; + tag + &#39;\n&#39;,post)
 
     localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间
-    postDate = re.findall(r&#39;date: 2020-11-16 00:01:05
+    postDate = re.findall(r&#39;date: 2020-11-19 00:01:05
     postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # 文章update
     if (postDate != postUpdate):
         if (localDate not in postUpdate): # 非new
@@ -199,7 +199,7 @@ def oper(tag,fileName): #  处理md文档
         else: # new post
             if (tag != &#39;Diary&#39;):
                 flag = 1
-                post = re.sub(r&#39;date: 2020-11-16 00:01:05
+                post = re.sub(r&#39;date: 2020-11-19 00:01:05
 
     if (flag):
         with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
@@ -255,6 +255,18 @@ tag_generator:
 <p>但跳月份还是很麻烦，<u>果然还是想要日历云</u>。</p>
 <p>然而这超出我的能力范围了（气</p>
 <p>ps，如果明年我还在维护这个博客，就加上「那年今日」功能。</p>
+<h2 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h2><p>照搬自<a target="_blank" rel="noopener" href="https://github.com/random-yang/paper">paper</a>主题。</p>
+<pre><code class="JavaScript">ar title = document.title;
+window.onblur = function() &#123;
+
+    document.title = &quot;See Ya.&quot;; //离开本页面
+&#125;
+window.onfocus = function() &#123;
+    document.title = title; //切换回本页面
+&#125;</code></pre>
+<p>这段放在主题的js文件（比如我的是<code>source\js\white.js</code>）里面就可以了，是个在用户离开和返回博客页面时更改标题显示的小东西。</p>
+<h2 id="Dark-mode"><a href="#Dark-mode" class="headerlink" title="Dark mode"></a>Dark mode</h2><p>呜，好难，正在研究<a target="_blank" rel="noopener" href="https://github.com/Siricee/hexo-theme-Chic">Chic</a>主题是怎么实现夜间模式切换的，还没有成果。</p>
+<p>这个主题也很好看，推荐。</p>
 
         <!-- 分类文章 -->
         
@@ -262,10 +274,6 @@ tag_generator:
             <div class="post-categoris-bottom">
               <div class="post-categoris-name">Tips</div>
               <ul class="post-categoris-list">
-              
-              
-                
-              
               
               
                 
@@ -597,6 +605,10 @@ tag_generator:
               
               
                 
+              
+              
+              
+                
                   <li>
                     
                       <a  href="/Tips/font-spider/" class="post-categoris-bottom-link">
@@ -751,16 +763,6 @@ tag_generator:
                 
                   <li>
                     
-                      <span class="post-me-link"> Theme </span>
-                    
-                  </li>
-                
-              
-              
-              
-                
-                  <li>
-                    
                       <a  href="/Tips/obsidian/" class="post-categoris-bottom-link">
                       Obsidian
                       </a>
@@ -781,6 +783,16 @@ tag_generator:
                 
               
               
+              
+                
+                  <li>
+                    
+                      <span class="post-me-link"> Theme </span>
+                    
+                  </li>
+                
+              
+              
               </ul>
             </div>
           
@@ -793,8 +805,8 @@ tag_generator:
       
             <div align="right" style="float:right" class="post-nav-next">
               
-                <a href="/Diary/20201114/" rel="next" title="Talk">
-                Talk
+                <a href="/Diary/20201118/" rel="next" title="Rain">
+                Rain
                 </a>
                 <span> > </span>
               
@@ -802,11 +814,6 @@ tag_generator:
 
             <div align="left" style="float:left" class="post-nav-prev">
                 
-                <span> < </span>
-                <a href="/Tips/obsidian/" rel="prev" title="Obsidian">
-                Obsidian
-                </a>
-              
             </div>
 
           </div>
@@ -816,16 +823,13 @@ tag_generator:
       
             <div align="right" style="float:right" class="post-bot-next">
               
-                <a href="/Diary/20201114/" rel="next" title="Talk"> Next </a>
+                <a href="/Diary/20201118/" rel="next" title="Rain"> Next </a>
                 <span> > </span>
               
             </div>
 
             <div align="left" style="float:left" class="post-bot-prev">
                 
-                <span> < </span>
-                <a href="/Tips/obsidian/" rel="prev" title="Obsidian"> Prev </a>
-              
             </div>
 
           </div>
@@ -836,7 +840,7 @@ tag_generator:
       <div class="post-content-inner-space">
         
           <div class="space-toc-main animate__animated  animate__fadeInUp">
-            <ol class="space-toc"><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Paginator"><span class="space-toc-text">Paginator</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Sort-by"><span class="space-toc-text">Sort_by</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#List-of-posts"><span class="space-toc-text">List of posts</span></a></li></ol>
+            <ol class="space-toc"><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Paginator"><span class="space-toc-text">Paginator</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Sort-by"><span class="space-toc-text">Sort_by</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#List-of-posts"><span class="space-toc-text">List of posts</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Title"><span class="space-toc-text">Title</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Dark-mode"><span class="space-toc-text">Dark mode</span></a></li></ol>
            </div>
         
       </div>

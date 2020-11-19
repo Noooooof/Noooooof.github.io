@@ -111,3 +111,13 @@ function loadImg(el) {
 window.onload = window.onscroll = function () { //onscroll()在滚动条滚动的时候触发
     check();
 }
+
+
+var title = document.title;
+window.onblur = function() {
+
+    document.title = "See Ya."; //离开本页面
+}
+window.onfocus = function() {
+    document.title = title; //切换回本页面
+}

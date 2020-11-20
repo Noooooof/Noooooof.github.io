@@ -6,7 +6,7 @@
   <link href="https://noooooof.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://noooooof.gitee.io/"/>
-  <updated>2020-11-18T16:01:05.000Z</updated>
+  <updated>2020-11-20T11:12:10.000Z</updated>
   <id>https://noooooof.gitee.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Flag</title>
+    <link href="https://noooooof.gitee.io/Diary/20201120/"/>
+    <id>https://noooooof.gitee.io/Diary/20201120/</id>
+    <published>2020-11-20T11:12:10.000Z</published>
+    <updated>2020-11-20T11:12:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>期中季基本上过去了，又到了适合插flag的时候。</p><ul><li><p><input disabled="" type="checkbox">  游泳</p></li><li><p><input disabled="" type="checkbox">  口琴</p></li><li><p><input disabled="" type="checkbox">  Unity</p></li><li><p><input disabled="" type="checkbox">  早睡早起</p></li><li><p><input disabled="" type="checkbox">  ddl默认提前十天</p></li><li><p><input disabled="" type="checkbox">  希望我不会冻死在东北</p></li></ul><p>学语言之类的不切实际的想法没有了没有了，先好好生活吧，再恶补下法律常识什么的，学年论文和小组作业的选题也得提上日程了。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Diary" scheme="https://noooooof.gitee.io/categories/Diary/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Theme</title>
@@ -698,7 +723,7 @@
     <published>2020-09-28T10:24:56.000Z</published>
     <updated>2020-09-28T10:24:56.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-qvQFRMwi" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br/><p>「Nof」这个名字省略自「Not for」，虽然它看上去确实蛮像「No friend」的。</p><p>今天收到了太多的祝福和鼓励，甚至有一点点想哭（笑</p><p>只是一点点而已。</p><br/><p>谢谢您们，真的。</p><blockquote><p>Happy birthday, Nof.</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-mxvTbMQS" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br/><p>「Nof」这个名字省略自「Not for」，虽然它看上去确实蛮像「No friend」的。</p><p>今天收到了太多的祝福和鼓励，甚至有一点点想哭（笑</p><p>只是一点点而已。</p><br/><p>谢谢您们，真的。</p><blockquote><p>Happy birthday, Nof.</p></blockquote>]]></content>
     
     
       

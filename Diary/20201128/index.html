@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>  Theme |    Farewell.</title>
+  <title>  Sunset |    Farewell.</title>
   <!-- 标签页图标 -->
   
 
@@ -137,8 +137,8 @@
     <article class="post-inner">
   <div class="post-content-outer">
     <div class="post-intro">
-      <div class="post-title animate__animated  animate__fadeInUp">Theme</div>
-      <div class="meta-intro animate__animated  animate__fadeInUp">Nov 19 2020</div>
+      <div class="post-title animate__animated  animate__fadeInUp">Sunset</div>
+      <div class="meta-intro animate__animated  animate__fadeInUp">Nov 28 2020</div>
       
     </div>
     <div class="post-content-inner">
@@ -148,130 +148,18 @@
       <div class="post-content-main animate__animated  animate__fadeInUp">
         <!-- top型目录 -->
         
-        <p>White是一个非常年轻的主题，有一说一它的功能非常单一，设计更是简洁，但「刚刚够用」这一点实在太香了。所以在搭建博客的时候第一眼就选定了它，并想方设法把它打磨成我希望的样子。</p>
-<p>发布者上次更新的时候添加了图片归档界面和lazyload功能，感觉和White本身的轻巧背道而驰，但后续更新还是值得期待的……直到他突然心态崩掉跑路（害</p>
-<p>现在我使用的这个主题已经多少和White有所不同了，以后或许会有更大区别，想着不如记录在这里吧。</p>
-<h2 id="Paginator"><a href="#Paginator" class="headerlink" title="Paginator"></a>Paginator</h2><p>White原本的翻页方式就只有archive页面的「prev」和「next」按钮。</p>
-<p>我增加了archive页面的页码和post页面的前后翻页功能，然后根据页面宽度改了改显示效果。</p>
-<p>实现方式有点笨，就是在ejs文件里把宽屏和窄屏的翻页部件都写出来，然后在styl文件里根据屏幕宽度选择性显示。</p>
-<pre><code class="stylus">.paginator 
-  display none
-  @media $desktop-m
-    display block
+        <p>中午骑车溜了一圈，冻僵的手进到温暖的室内，每个指关节都泛起温热以至于滚烫的酥麻感。还挺爽的，说实话。不过多来这么几次可能我的手也别想要了。</p>
+<p>下午看见了非常棒的晚霞，犹豫了下骑着车去追。然而越追越远，到西边围墙的时候，霞光已经落到对街的楼房后了，很低矮的位置。掉头回农园吃饭，它又一点点升了起来。我停在三角地想照相，却没法捕捉到眼前所见万分之一的壮美。</p>
+<p>继续往前，树梢间藏着一轮满月，疏忽又不见了。</p>
+<br>
 
-.paginator_diy
-  display block
-  @media $desktop-m
-    display none</code></pre>
-<p>stylus对格式的要求比较低，各种花括号、冒号、分号都可以省略。</p>
-<p>其实还想要<u>输入页码跳转</u>的功能来着。</p>
-<h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>我的主题没有置顶功能，与我相关的描述就都放在「About」界面了。</p>
-<p>这里通过修改文件updated时间手动置顶每天的更新。</p>
-<p>令人高兴的是，hexo不知道什么时候也认<code>_posts</code>下面的子文件夹了，我稍微改了下之前的脚本，并让它自动按照文件路径修改文章分类（懒人的快乐x</p>
-<pre><code class="python"># coding:utf-8
-
-import os
-import re
-import time
-
-postpath = &#39;../_posts&#39; # _posts文件夹位置
-
-def oper(tag,fileName): #  处理md文档
-
-    with open(fileName,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:
-        postContent = fi.read() # markdown文件内容
-
-    post = postContent # 准备覆写
-    flag = 0
-
-    postCategoris = re.findall(r&#39;categories: ([\s\S]*?)\n&#39;,postContent)[0] # 文章分类
-    if (postCategoris!=tag): # 按照文件路径更改分类
-        flag = 1
-        post = re.sub(r&#39;categories: ([\s\S]*?)\n&#39;,&#39;categories: &#39; + tag + &#39;\n&#39;,post)
-
-    localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间
-    postDate = re.findall(r&#39;date: 2020-11-19 00:01:05
-    postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # 文章update
-    if (postDate != postUpdate):
-        if (localDate not in postUpdate): # 非new
-            flag = 1
-            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, post) # 按date时间复位
-        else: # new post
-            if (tag != &#39;Diary&#39;):
-                flag = 1
-                post = re.sub(r&#39;date: 2020-11-19 00:01:05
-
-    if (flag):
-        with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
-            fo.write(post) # 覆写
-
-    return
-
-def finddir(tag,path): # 递归遍历文件夹
-    for file in os.listdir(path):
-
-        filepath = os.path.join(path,file)
-
-        if (re.search(r&#39;^[\._]&#39;,file)==None):
-            if os.path.isdir(filepath):
-                finddir(file,filepath)
-            else:
-                if (re.search(r&#39;\.md$&#39;,file)!=None):
-                    oper(tag,filepath)
-    return
-
-finddir(&#39;post&#39;,postpath)</code></pre>
-<p>最后的效果是把部署当天更新或修改的文章在archive页置顶标注，之前的文章则踢回原本时间线。</p>
-<p>顺便把<code>layout.ejs</code>的修改也放上来。</p>
-<pre><code class="html">&lt;% var now = moment(); %&gt;
-
-&lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;
-    &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;
-&lt;% &#125; %&gt;</code></pre>
-<p>值得注意的是，要使它按照<code>updated</code>关键字倒序排序需要修改博客的<code>_config.yml</code>文件，添加：</p>
-<pre><code class="yaml">index_generator:
-  path: &#39;&#39;
-  per_page: 10
-  order_by: -updated
-  pagination_dir: page
-
-archive_generator:
-  enabled: true
-  per_page: 10
-  yearly: true
-  monthly: true
-  daily: false
-  order_by: -updated
-
-category_generator:
-  per_page: 10
-  order_by: -updated
-
-tag_generator:
-  per_page: 10
-  order_by: -updated</code></pre>
-<p>感谢Joseph，posts按<code>-updated</code>排序需要把<code>node_modules\hexo\lib\plugins\generator\post.js</code>中<code>-date</code>改为<code>-updated</code>，这真难找（捂脸</p>
-<h2 id="List-of-posts"><a href="#List-of-posts" class="headerlink" title="List of posts"></a>List of posts</h2><p>White本身提供了把同分类的文章展示在post页面底部的功能，之前是手动把categories设置成YYYY.MM来梳理日记，但可以预见的是，如果这博客持续更新下去，这分类数量就太多了，干脆改了改让Diary分类下的文章底部只显示同月的日记。</p>
-<p>但跳月份还是很麻烦，<u>果然还是想要日历云</u>。</p>
-<p>然而这超出我的能力范围了（气</p>
-<p>ps，如果明年我还在维护这个博客，就加上「那年今日」功能。</p>
-<h2 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h2><p>照搬自<a target="_blank" rel="noopener" href="https://github.com/random-yang/paper">paper</a>主题。</p>
-<pre><code class="JavaScript">var title = document.title;
-window.onblur = function() &#123;
-    document.title = &quot;See ya.&quot;; //离开本页面
-&#125;
-window.onfocus = function() &#123;
-    document.title = title; //切换回本页面
-&#125;</code></pre>
-<p>这段放在主题的js文件（比如我的是<code>source\js\white.js</code>）里面就可以了，是个在用户离开和返回博客页面时更改标题显示的小东西。</p>
-<h2 id="Dark-mode"><a href="#Dark-mode" class="headerlink" title="Dark mode"></a>Dark mode</h2><p>呜，好难，正在研究<a target="_blank" rel="noopener" href="https://github.com/Siricee/hexo-theme-Chic">Chic</a>主题是怎么实现夜间模式切换的，还没有成果。</p>
-<p>这个主题也很好看，推荐。</p>
+<p>ps，晚上削橙子割了手，绝了。手掌似乎反应了一会，然后爆发出猛烈的刺痛和热感。说不定热和痛实际上是一种感觉？清理干净贴了创口贴，在我补这篇日记的时候，血渗出来的痕迹像一只蝴蝶。</p>
 
         <!-- 分类文章 -->
         
           
             <div class="post-categoris-bottom">
-              <div class="post-categoris-name">Tips</div>
+              <div class="post-categoris-name">2020.11</div>
               <ul class="post-categoris-list">
               
               
@@ -580,10 +468,227 @@ window.onfocus = function() &#123;
               
               
                 
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
+              
+              
+              
+                
                   <li>
                     
-                      <a  href="/Tips/cdn-link/" class="post-categoris-bottom-link">
-                      CDN link
+                      <a  href="/Diary/20201102/" class="post-categoris-bottom-link">
+                      Lost and found
+                      <span style="float: right" class="post-categoris-date"> Nov 02 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/Diary/20201104/" class="post-categoris-bottom-link">
+                      Keep healthy
+                      <span style="float: right" class="post-categoris-date"> Nov 04 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/Diary/20201105/" class="post-categoris-bottom-link">
+                      Wuhan
+                      <span style="float: right" class="post-categoris-date"> Nov 05 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/Diary/20201106/" class="post-categoris-bottom-link">
+                      Tired
+                      <span style="float: right" class="post-categoris-date"> Nov 06 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/Diary/20201107/" class="post-categoris-bottom-link">
+                      East lake
+                      <span style="float: right" class="post-categoris-date"> Nov 07 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/Diary/20201108/" class="post-categoris-bottom-link">
+                      End
+                      <span style="float: right" class="post-categoris-date"> Nov 08 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/Diary/20201109/" class="post-categoris-bottom-link">
+                      Back
+                      <span style="float: right" class="post-categoris-date"> Nov 09 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/Diary/20201113/" class="post-categoris-bottom-link">
+                      Friend
+                      <span style="float: right" class="post-categoris-date"> Nov 13 </span>
+                      </a>
+                    
+                  </li>
+                
+              
+              
+              
+                
+                  <li>
+                    
+                      <a  href="/Diary/20201114/" class="post-categoris-bottom-link">
+                      Talk
+                      <span style="float: right" class="post-categoris-date"> Nov 14 </span>
                       </a>
                     
                   </li>
@@ -600,18 +705,11 @@ window.onfocus = function() &#123;
               
               
                 
-              
-              
-              
-                
-              
-              
-              
-                
                   <li>
                     
-                      <a  href="/Tips/font-spider/" class="post-categoris-bottom-link">
-                      Font-spider
+                      <a  href="/Diary/20201117/" class="post-categoris-bottom-link">
+                      Jaegermeister
+                      <span style="float: right" class="post-categoris-date"> Nov 17 </span>
                       </a>
                     
                   </li>
@@ -622,84 +720,9 @@ window.onfocus = function() &#123;
                 
                   <li>
                     
-                      <a  href="/Tips/font/" class="post-categoris-bottom-link">
-                      Font
-                      </a>
-                    
-                  </li>
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-                  <li>
-                    
-                      <a  href="/Tips/rss-link/" class="post-categoris-bottom-link">
-                      RSS link
+                      <a  href="/Diary/20201118/" class="post-categoris-bottom-link">
+                      Rain
+                      <span style="float: right" class="post-categoris-date"> Nov 18 </span>
                       </a>
                     
                   </li>
@@ -712,58 +735,11 @@ window.onfocus = function() &#123;
               
               
                 
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
                   <li>
                     
-                      <a  href="/Tips/obsidian/" class="post-categoris-bottom-link">
-                      Obsidian
+                      <a  href="/Diary/20201120/" class="post-categoris-bottom-link">
+                      Flag
+                      <span style="float: right" class="post-categoris-date"> Nov 20 </span>
                       </a>
                     
                   </li>
@@ -772,21 +748,12 @@ window.onfocus = function() &#123;
               
               
                 
-              
-              
-              
-                
-              
-              
-              
-                
-              
-              
-              
-                
                   <li>
                     
-                      <span class="post-me-link"> Theme </span>
+                      <a  href="/Diary/20201121/" class="post-categoris-bottom-link">
+                      Forever
+                      <span style="float: right" class="post-categoris-date"> Nov 21 </span>
+                      </a>
                     
                   </li>
                 
@@ -794,25 +761,50 @@ window.onfocus = function() &#123;
               
               
                 
-              
-              
-              
+                  <li>
+                    
+                      <a  href="/Diary/20201122/" class="post-categoris-bottom-link">
+                      Today
+                      <span style="float: right" class="post-categoris-date"> Nov 22 </span>
+                      </a>
+                    
+                  </li>
                 
               
               
               
                 
-              
-              
-              
+                  <li>
+                    
+                      <a  href="/Diary/20201123/" class="post-categoris-bottom-link">
+                      Sleeplessness
+                      <span style="float: right" class="post-categoris-date"> Nov 23 </span>
+                      </a>
+                    
+                  </li>
                 
               
               
               
                 
+                  <li>
+                    
+                      <a  href="/Diary/20201127/" class="post-categoris-bottom-link">
+                      Drunk
+                      <span style="float: right" class="post-categoris-date"> Nov 27 </span>
+                      </a>
+                    
+                  </li>
+                
               
               
               
+                
+                  <li>
+                    
+                      <span class="post-me-link"> Sunset </span>
+                    
+                  </li>
                 
               
               
@@ -828,8 +820,8 @@ window.onfocus = function() &#123;
       
             <div align="right" style="float:right" class="post-nav-next">
               
-                <a href="/Diary/20201118/" rel="next" title="Rain">
-                Rain
+                <a href="/Diary/20201127/" rel="next" title="Drunk">
+                Drunk
                 </a>
                 <span> > </span>
               
@@ -837,11 +829,6 @@ window.onfocus = function() &#123;
 
             <div align="left" style="float:left" class="post-nav-prev">
                 
-                <span> < </span>
-                <a href="/Diary/20201120/" rel="prev" title="Flag">
-                Flag
-                </a>
-              
             </div>
 
           </div>
@@ -851,16 +838,13 @@ window.onfocus = function() &#123;
       
             <div align="right" style="float:right" class="post-bot-next">
               
-                <a href="/Diary/20201118/" rel="next" title="Rain"> Next </a>
+                <a href="/Diary/20201127/" rel="next" title="Drunk"> Next </a>
                 <span> > </span>
               
             </div>
 
             <div align="left" style="float:left" class="post-bot-prev">
                 
-                <span> < </span>
-                <a href="/Diary/20201120/" rel="prev" title="Flag"> Prev </a>
-              
             </div>
 
           </div>
@@ -869,10 +853,6 @@ window.onfocus = function() &#123;
                 
       </div>
       <div class="post-content-inner-space">
-        
-          <div class="space-toc-main animate__animated  animate__fadeInUp">
-            <ol class="space-toc"><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Paginator"><span class="space-toc-text">Paginator</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Sort-by"><span class="space-toc-text">Sort_by</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#List-of-posts"><span class="space-toc-text">List of posts</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Title"><span class="space-toc-text">Title</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#Dark-mode"><span class="space-toc-text">Dark mode</span></a></li></ol>
-           </div>
         
       </div>
     </div>

@@ -6,7 +6,7 @@
   <link href="https://noooooof.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://noooooof.gitee.io/"/>
-  <updated>2020-12-27T10:13:38.000Z</updated>
+  <updated>2020-12-28T06:12:24.000Z</updated>
   <id>https://noooooof.gitee.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Application</title>
+    <link href="https://noooooof.gitee.io/Tips/application/"/>
+    <id>https://noooooof.gitee.io/Tips/application/</id>
+    <published>2020-12-28T06:12:24.000Z</published>
+    <updated>2020-12-28T06:12:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>整理备份文件的时候顺手记录下常用软件们：</p><ul><li><strong>Everything</strong>：小巧而迅速的文件搜索软件，根据名称定位，会记忆上一次对某一关键词的搜索结果——可以用来快速启动其他程序。</li><li><strong>CCleaner</strong>：清理垃圾、清理注册表、管理自启动进程和插件etc。免费版够用了，想买付费版等一等黑色星期五，会有相当优惠的价格。</li><li><strong>ESET</strong>：习惯了，存在感不高的杀毒软件。不过有windows defender的情况下杀毒软件有什么用吗？</li><li><strong>7-zip</strong>：解压软件，你永远可以相信7z。</li><li><strong>IObit Uninstaller</strong>：卸载软件，同样免费版够用。</li><li><strong>Chrome</strong>：界面干净操作舒适，扩展程序非常多，没有迁移其他浏览器的意愿。<ul><li><strong>aria2</strong>：辅助下载大文件，Chrome自己不带断点续传，下Unity的时候反复99%挂掉好绝望。</li></ul></li><li><strong>Typora</strong>：优雅的markdown文本编辑器，所见即所得。据说Mac上面显示效果更好些。</li><li><strong>eDiary</strong>：很棒的本地日记本，反应迅速，界面简单，可以设置密码，有一个联网获取天气的小插件。</li><li><strong>Obsidian</strong>：适用于管理一个文件库的笔记软件，之前有介绍。</li><li><strong>Sublime Text 3</strong>：文本编辑器。高中沉迷于自定义，现在沦为了python启动器x</li><li><strong>Notion</strong>：全平台同步，数据库是个有趣且方便的设定，拿来整理资料和记录日程。</li><li><strong>OneNote</strong>：全平台同步，手写支持很不错，界面美观格式齐全，笔记软件的无冕之王。</li><li><strong>Adobe Acrobat Pro DC</strong>：电脑上用了一堆pdf阅读器还是Acrobat最香。</li><li><strong>PotPlayer</strong>：视频播放器，疫情在家为了二倍速看录播换的，蛮好用。</li><li><strong>v2rayN</strong>：You-know-what : )</li></ul>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Tips" scheme="https://noooooof.gitee.io/categories/Tips/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Frivolous</title>
@@ -423,7 +448,7 @@
     <published>2020-11-22T17:12:27.000Z</published>
     <updated>2020-11-22T17:12:27.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-yICsUqiq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="33410648" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br><p>试图早睡早起的第二天。</p><p>昨天晚上其实就入睡的很艰难，躺了起码一个小时才陷入黑沉的梦境，尽管我此前才困得原地睡着。今晚更绝，从十二点出头躺到两点没有一点睡意，塞住耳朵，埋进被子里，耳边有轻微的键盘声音和自己的呼吸声，接着幻听成一首接一首的乐曲。</p><p>睡不着就是睡不着。</p><p>翻下床，趿拉着拖鞋走到书桌前，往椅子上一缩眼泪就掉了下来。出于愤怒。</p><p>可能还有委屈。</p><p>我总觉得我可以完全地支配自己的身体，给它食物、水和休息、给它舒适的环境，它就能像杂草一样生存下来，支撑着我一天接一天摸鱼，奔向心血来潮的冒险。想睡觉就能睡着，想玩或者赶due压榨一下也没问题，它总会回应我的——可能只有两种情况无能为力，越来越深的眼镜度数，和每月造访的痛经。</p><p>那我都准备对你好点了，为什么你却不听话呢？</p><p>失眠可能就是这样的东西，身体在快快乐乐地提醒我，瞧，你不是总能吩咐我的。</p><p>好吧，你赢了。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-ofujwQdj" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="33410648" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br><p>试图早睡早起的第二天。</p><p>昨天晚上其实就入睡的很艰难，躺了起码一个小时才陷入黑沉的梦境，尽管我此前才困得原地睡着。今晚更绝，从十二点出头躺到两点没有一点睡意，塞住耳朵，埋进被子里，耳边有轻微的键盘声音和自己的呼吸声，接着幻听成一首接一首的乐曲。</p><p>睡不着就是睡不着。</p><p>翻下床，趿拉着拖鞋走到书桌前，往椅子上一缩眼泪就掉了下来。出于愤怒。</p><p>可能还有委屈。</p><p>我总觉得我可以完全地支配自己的身体，给它食物、水和休息、给它舒适的环境，它就能像杂草一样生存下来，支撑着我一天接一天摸鱼，奔向心血来潮的冒险。想睡觉就能睡着，想玩或者赶due压榨一下也没问题，它总会回应我的——可能只有两种情况无能为力，越来越深的眼镜度数，和每月造访的痛经。</p><p>那我都准备对你好点了，为什么你却不听话呢？</p><p>失眠可能就是这样的东西，身体在快快乐乐地提醒我，瞧，你不是总能吩咐我的。</p><p>好吧，你赢了。</p>]]></content>
     
     
       
@@ -1148,7 +1173,7 @@
     <published>2020-09-28T10:24:56.000Z</published>
     <updated>2020-09-28T10:24:56.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-GjgjylGr" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br/><p>「Nof」这个名字省略自「Not for」，虽然它看上去确实蛮像「No friend」的。</p><p>今天收到了太多的祝福和鼓励，甚至有一点点想哭（笑</p><p>只是一点点而已。</p><br/><p>谢谢您们，真的。</p><blockquote><p>Happy birthday, Nof.</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>    <div id="aplayer-UsiImVqB" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"    ></div><br/><p>「Nof」这个名字省略自「Not for」，虽然它看上去确实蛮像「No friend」的。</p><p>今天收到了太多的祝福和鼓励，甚至有一点点想哭（笑</p><p>只是一点点而已。</p><br/><p>谢谢您们，真的。</p><blockquote><p>Happy birthday, Nof.</p></blockquote>]]></content>
     
     
       

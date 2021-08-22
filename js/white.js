@@ -115,7 +115,7 @@ window.onload = window.onscroll = function () { //onscroll()在滚动条滚动�
 
 var title = document.title;
 window.onblur = function() {
-    document.title = "See ya."; //离开本页面
+    document.title = "Salut."; //离开本页面
 }
 window.onfocus = function() {
     document.title = title; //切换回本页面

@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Blanc</title>
+    <url>/Anime/bleach/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天把「死神」看完了，结尾有点仓促，但实在是非常有趣的作品。</p>
+<p>有些激动，想要写点什么，关于几个蛮喜欢的大叔、关于那些各具特色的人物和能力。</p>
+<p>但现在写总觉得会有所遗漏，而且也会是个挺大的工程，等我什么时候二刷完再说吧。</p>
+<br>
+
+<p>ps，大叔的可爱之处不就在于此吗？清楚地知道自己最重视什么最渴望什么，也曾为此付出过努力和代价；把寂寞、遗憾甚至后悔都塞进壳里，一片真心藏着掖着不轻易示人。虽然在小鬼们面前总是一副幽默甚至轻浮的面孔，但关键时刻还得仰仗他的决断和层出不穷的Plan B。</p>
+<p>
+        <span class="lazyload-img-span">
+        <img   
+           data-src="https://cdn.jsdelivr.net/gh//Noooooof/partials/Image/Bleach/Souls2_1.png" >
+        </sapn>
+      </p>
+<p>
+        <span class="lazyload-img-span">
+        <img   
+           data-src="https://cdn.jsdelivr.net/gh//Noooooof/partials/Image/Bleach/Souls2_2.png" >
+        </sapn>
+      </p>
+<p>（图源「灵魂嘉年华2」，完全命中我的萌点x）</p>
+]]></content>
+      <categories>
+        <category>Anime</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Monster</title>
     <url>/Anime/monster/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这番也太长了，想一边看一边记录下自己的猜测和吐槽。</p>
@@ -76,30 +103,314 @@
       </categories>
   </entry>
   <entry>
-    <title>Blanc</title>
-    <url>/Anime/bleach/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天把「死神」看完了，结尾有点仓促，但实在是非常有趣的作品。</p>
-<p>有些激动，想要写点什么，关于几个蛮喜欢的大叔、关于那些各具特色的人物和能力。</p>
-<p>但现在写总觉得会有所遗漏，而且也会是个挺大的工程，等我什么时候二刷完再说吧。</p>
+    <title>Blog</title>
+    <url>/Tips/blog/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今日暴雨，宜昼寝。</p>
 <br>
 
-<p>ps，大叔的可爱之处不就在于此吗？清楚地知道自己最重视什么最渴望什么，也曾为此付出过努力和代价；把寂寞、遗憾甚至后悔都塞进壳里，一片真心藏着掖着不轻易示人。虽然在小鬼们面前总是一副幽默甚至轻浮的面孔，但关键时刻还得仰仗他的决断和层出不穷的Plan B。</p>
-<p>
-        <span class="lazyload-img-span">
-        <img   
-           data-src="https://cdn.jsdelivr.net/gh//Noooooof/partials/Image/Bleach/Souls2_1.png" >
-        </sapn>
-      </p>
-<p>
-        <span class="lazyload-img-span">
-        <img   
-           data-src="https://cdn.jsdelivr.net/gh//Noooooof/partials/Image/Bleach/Souls2_2.png" >
-        </sapn>
-      </p>
-<p>（图源「灵魂嘉年华2」，完全命中我的萌点x）</p>
+<p>gitee pages404了，废了老大功夫迁移博客。</p>
+<p>一口气买了十年的域名，晴儿问我会写十年吗？我也不太清楚。</p>
+<p>但前两个十年，不是转瞬即逝了吗。</p>
 ]]></content>
       <categories>
-        <category>Anime</category>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>CDN link</title>
+    <url>/Tips/cdn-link/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>博客上引用各种资源（比如图片）的时候可以把要引用的东西丢到<code>source</code>文件夹里，然后使用相对地址。不过我一开始不知道这种方法，就只能把图片上传到GitHub仓库里，然后用cdn链接引用它。</p>
+<p>这样做的好处一个是加载速度远快于直接用gitee链接，另一个是在撰写markdown文档的时候就可以看到图片效果了。</p>
+<p>当然想用cdn链接的话，除了jsDelivr提供的关联GitHub的免费链接之外，国内也有其他平台提供支持。jsDelivr的优点是不需要注册什么有的没的，只要GitHub上传了就OK。他家链接除了20MB的单个文件上限之外没有任何值得诟病的地方，反正用来传图片还是绰绰有余了。</p>
+<p>那么把要用的文件推到GitHub之后，就可以直接使用下述链接来引用它：</p>
+<pre><code>https://cdn.jsdelivr.net/gh//GitHub用户名/库名/文件位置</code></pre>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Font-spider</title>
+    <url>/Tips/font-spider/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>字蛛是个中文字体压缩器。简单来说就是检测网页上用到了哪些字，然后把原字体文件中没用到的字删掉，使得在压缩字体文件大小的同时也不影响网站的正常显示。对于静态部署的博客来说不失为一种提高网页加载速度的好方案。</p>
+<br>
+
+<p>先用npm安装下载。</p>
+<pre><code>npm install font-spider -g</code></pre>
+<br>
+
+<p>我的思路是遍历所有博文，收集起来丢进集合，然后输出一个包含网站所有文字的网页提供给字蛛。</p>
+<p>鉴于博文主要都在<code>_posts</code>文件夹内，我就没爬其他page页面了。理论上该爬的，但post本身文本量够大，我就偷了个懒。</p>
+<pre><code class="python"># coding:utf-8
+
+import os
+
+postPath = &#39;E:/Recent/MyBlog/source/_posts&#39; # _posts文件夹位置
+path = os.path.dirname(__file__) # 所在文件夹位置
+
+def getFile(logPath):
+    text = &quot;&quot;
+    for file in os.listdir(logPath):
+        fileInput = os.path.join(logPath,file)
+        with open(fileInput,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:
+            text += fi.read()
+    return set(text) # 返回一个包含所有post文字的集合
+
+content = &quot;&quot;.join(getFile(postPath)) # set转str
+
+title = &quot;&lt;meta charset=\&quot;UTF-8\&quot;&gt;\n&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;word.css\&quot;&gt;\n&lt;body&gt;\n&quot;
+
+content = title + content +&quot;\n&lt;/body&gt;&quot; # 网页内容
+
+fileOutput = os.path.join(path,&quot;word.html&quot;)
+with open(fileOutput,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
+    fo.write(content) # 输出html文件
+
+print(&quot;Words are collected.\n&quot;) # 一个回应</code></pre>
+<br>
+
+<p>在同文件夹下放了字体文件和样式文件（<code>word.css</code>）。</p>
+<pre><code class="css">@font-face&#123;
+  font-family:&quot;CH&quot;;
+  src:url(../H-TTF-BuMing-R-2.ttf);
+&#125;
+body&#123;
+    font-family:&quot;CH&quot;
+&#125;</code></pre>
+<br>
+
+<p>最后一个简单的脚本。</p>
+<pre><code>@echo off
+python word.py
+Xcopy E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font\.font-spider\H-TTF-BuMing-R-2.ttf E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font /Y
+font-spider word.html</code></pre>
+<p>这里这样写主要是因为运行font-spider之后，它会在原字体文件目录下新建<code>.font-spider</code>文件夹，把该字体文件备份过去；然后把原字体文件替换为压缩过的新字体文件。</p>
+<p>如此，我使用的「不明体」可以直接从12MB压缩到1.1MB。</p>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Font</title>
+    <url>/Tips/font/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用<a href="https://noooooof.space/Tips/font-spider/">字蛛</a>把博客字体缩小到1.02MB，但用<a href="https://noooooof.space/Tips/cdn-link/">cdn链接</a>加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p>
+<p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p>
+<ul>
+<li><a href="https://noooooof.github.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li>
+<li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li>
+</ul>
+<p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p>
+<br>
+
+<p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>RSS link</title>
+    <url>/Tips/rss-link/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>开启了<a href="http://noooooof.space/atom.xml">RSS</a>订阅，请自行取用。</p>
+<br>
+
+<p>ps，一个小小的彩蛋在博客的页脚，<code>After long yearss.</code></p>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Obsidian</title>
+    <url>/Tips/obsidian/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从Joseph那摸到了这个应用：<a href="https://obsidian.md/">Obsidian</a>，拿来维护blog好香。这里插播一条他的硬核安利「vscode永不服输」，没用过的我不予置评。</p>
+<p>一些小问题在于，它不能直接打开单个文件，相关的配置和模板文件都会放在所打开的文件夹目录下，显得有些凌乱，在「所见即所得」方面更比不上永远的神typora；但它响应速度不错，体量很轻，外观优美（可以自定义css文件，还支持半透明状界面），允许分栏阅读，支持导入模板，也能比较方便地管理大量文档——对于主要文档都在<code>_posts</code>文件夹下的博客来说就非常nice，更何况现在hexo也能够读取<code>_posts</code>的子文件夹下的文件了。</p>
+<p>接下来介绍一些设置选项：</p>
+<ul>
+<li>Editor：编辑器相关。<ul>
+<li>Fold heading 和 Fold indent：这两个选项允许你把小标题下面的内容或缩进的内容收起来，和Notion里面的toggle list是一样的功能。</li>
+<li>Vim key bindings：看来创作者用的是vim，不过至少这个选项说明你是有可能全靠键盘进行编辑操作的（这我就要安利tp的小红点了，同样手是不用离开键盘的嘛x</li>
+</ul>
+</li>
+<li>Files and links：我只用来维护我的博客，基本用不上文档之间的链接和本地附件。</li>
+<li>Appearance：选Custom Css可以自定义主题文件，也可以从Obsidian的社区里选，我是直接用的默认主题（Dark）啦，它没啥不好。</li>
+<li>Hotkeys：自定义热键，好物。</li>
+<li>About：版本升级和语言设定之类的东西，它现在还是个beta版本（不过我印象中typora好像也是这么多年了还在beta版本？</li>
+<li>Account：不管它不管它。</li>
+<li>Core plugins：核心插件。<ul>
+<li>Graph view：我用不着这个，把它关掉了，文档之间层级和链接关系做得好的话会很好看。</li>
+<li>Tag pane：不知道它怎么认定的，我front matter里的tag它似乎没识别出来。</li>
+<li>Starred：星标文档，这个我打开了，毕竟有些在更（gu）新（gu）的文档需要稍微区分一下。</li>
+<li>Daily notes：不好用，它的本意是你可以快速创建当日日记（文档名字默认为当天日期），日记会根据你建立的日记模板的样式被创建出来。但是，它按照日记模板是不会自动把模板中的<code>&#123;date&#125;</code>变量变更为创建时间的，而是会老老实实地把<code>&#123;date&#125;</code>打出来……有被蠢到（捂脸</li>
+<li>Templates：这个模板就没问题，放心用。不过由于模板文件必须在库的目录或子目录下，建议以<code>_</code>开头命名你的模板文件夹，避免被hexo读取时误伤（否则你就会发现archive页面多了几篇奇奇怪怪的文章）。</li>
+<li>Zettelkasten prefixer：这是Obsidian提供的另一种快速创建文档的方式，新建的文档会以这个zp码为名，默认格式是YYYYMMDDHHII（可以改，当然可以改，我反正就设成年月日形式，即YYYYMMDD，来记日记了）。</li>
+<li>Translucent window：半透明磨砂式的界面，效果超好！</li>
+<li>Publish：付费服务。</li>
+</ul>
+</li>
+<li>Trird-party plugins：我没开，请尽情探索（？</li>
+<li>Plugin options：不赘述了。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Software</title>
+    <url>/Tips/software/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>整理备份文件的时候顺手记录下常用软件们：</p>
+<ul>
+<li><strong>Everything</strong>：小巧而迅速的文件搜索软件，根据名称定位，会记忆上一次对某一关键词的搜索结果——可以用来快速启动其他程序。</li>
+<li><strong>CCleaner</strong>：清理垃圾、清理注册表、管理自启动进程和插件etc。免费版够用了，想买付费版等一等黑色星期五，会有相当优惠的价格。</li>
+<li><strong>ESET</strong>：习惯了，存在感不高的杀毒软件。不过有windows defender的情况下杀毒软件有什么用吗？</li>
+<li><strong>7-zip</strong>：解压软件，你永远可以相信7z。</li>
+<li><strong>IObit Uninstaller</strong>：卸载软件，同样免费版够用。</li>
+<li><strong>Chrome</strong>：界面干净操作舒适，扩展程序非常多，没有迁移其他浏览器的意愿。<ul>
+<li><s><strong>aria2</strong>：辅助下载大文件，Chrome自己不带断点续传，下Unity的时候反复99%挂掉好绝望。（Chrome91版本中似乎挂了）</s></li>
+</ul>
+</li>
+<li><strong>Typora</strong>：优雅的markdown文本编辑器，所见即所得。据说Mac上面显示效果更好些。</li>
+<li><strong>eDiary</strong>：很棒的本地日记本，反应迅速，界面简单，可以设置密码，有一个联网获取天气的小插件。</li>
+<li><strong>Obsidian</strong>：适用于管理一个文件库的笔记软件，之前有介绍。</li>
+<li><strong>Sublime Text 3</strong>：文本编辑器。高中沉迷于自定义，现在沦为了python启动器x</li>
+<li><strong>Notion</strong>：全平台同步，数据库是个有趣且方便的设定，拿来整理资料和记录日程。</li>
+<li><strong>OneNote</strong>：全平台同步，手写支持很不错，界面美观格式齐全，笔记软件的无冕之王。</li>
+<li><strong>Adobe Acrobat Pro DC</strong>：电脑上用了一堆pdf阅读器还是Acrobat最香。</li>
+<li><strong>PotPlayer</strong>：视频播放器，疫情在家为了二倍速看录播换的，蛮好用。</li>
+<li><strong>v2rayN</strong>：You-know-what : )</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Theme</title>
+    <url>/Tips/theme/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>White是一个非常年轻的主题，有一说一它的功能非常单一，设计更是简洁，但「刚刚够用」这一点实在太香了。所以在搭建博客的时候第一眼就选定了它，并想方设法把它打磨成我希望的样子。</p>
+<p>发布者上次更新的时候添加了图片归档界面和lazyload功能，感觉和White本身的轻巧背道而驰，但后续更新还是值得期待的……直到他突然心态崩掉跑路（害</p>
+<p>现在我使用的这个主题已经多少和White有所不同了，以后或许会有更大区别，想着不如记录在这里吧。</p>
+<h2 id="New"><a href="#New" class="headerlink" title="New"></a>New</h2><p>调整了post界面的翻页顺序，要正确显示可能得清一下缓存。</p>
+<h2 id="Paginator"><a href="#Paginator" class="headerlink" title="Paginator"></a>Paginator</h2><p>White原本的翻页方式就只有archive页面的「prev」和「next」按钮。</p>
+<p>我增加了archive页面的页码和post页面的前后翻页功能，然后根据页面宽度改了改显示效果。</p>
+<p>实现方式有点笨，就是在ejs文件里把宽屏和窄屏的翻页部件都写出来，然后在styl文件里根据屏幕宽度选择性显示。</p>
+<pre><code class="stylus">.paginator 
+  display none
+  @media $desktop-m
+    display block
+
+.paginator_diy
+  display block
+  @media $desktop-m
+    display none</code></pre>
+<p>stylus对格式的要求比较低，各种花括号、冒号、分号都可以省略。</p>
+<p>其实还想要<u>输入页码跳转</u>的功能来着。</p>
+<h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>我的主题没有置顶功能，与我相关的描述就都放在「About」界面了。</p>
+<p>这里通过修改文件updated时间手动置顶每天的更新。</p>
+<p>令人高兴的是，hexo不知道什么时候也认<code>_posts</code>下面的子文件夹了，我稍微改了下之前的脚本，并让它自动按照文件路径修改文章分类（懒人的快乐x</p>
+<pre><code class="python"># coding:utf-8
+
+import os
+import re
+import time
+
+postpath = &#39;../_posts&#39; # _posts文件夹位置
+
+def oper(tag,fileName): #  处理md文档
+
+    with open(fileName,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:
+        postContent = fi.read() # markdown文件内容
+
+    post = postContent # 准备覆写
+    flag = 0
+
+    postCategoris = re.findall(r&#39;categories: ([\s\S]*?)\n&#39;,postContent)[0] # 文章分类
+    if (postCategoris!=tag): # 按照文件路径更改分类
+        flag = 1
+        post = re.sub(r&#39;categories: ([\s\S]*?)\n&#39;,&#39;categories: &#39; + tag + &#39;\n&#39;,post)
+
+    localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间
+    postDate = re.findall(r&#39;date: 2020-12-02 00:01:05
+    postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # 文章update
+    if (postDate != postUpdate):
+        if (localDate not in postUpdate): # 非new
+            flag = 1
+            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, post) # 按date时间复位
+        else: # new post
+            if (tag != &#39;Diary&#39;):
+                flag = 1
+                post = re.sub(r&#39;date: 2020-12-02 00:01:05
+
+    if (flag):
+        with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
+            fo.write(post) # 覆写
+
+    return
+
+def finddir(tag,path): # 递归遍历文件夹
+    for file in os.listdir(path):
+
+        filepath = os.path.join(path,file)
+
+        if (re.search(r&#39;^[\._]&#39;,file)==None):
+            if os.path.isdir(filepath):
+                finddir(file,filepath)
+            else:
+                if (re.search(r&#39;\.md$&#39;,file)!=None):
+                    oper(tag,filepath)
+    return
+
+finddir(&#39;post&#39;,postpath)</code></pre>
+<p>最后的效果是把部署当天更新或修改的文章在archive页置顶标注，之前的文章则踢回原本时间线。</p>
+<p>顺便把<code>layout.ejs</code>的修改也放上来。</p>
+<pre><code class="html">&lt;% var now = moment(); %&gt;
+
+&lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;
+    &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;
+&lt;% &#125; %&gt;</code></pre>
+<p>值得注意的是，要使它按照<code>updated</code>关键字倒序排序需要修改博客的<code>_config.yml</code>文件，添加：</p>
+<pre><code class="yaml">index_generator:
+  path: &#39;&#39;
+  per_page: 10
+  order_by: -updated
+  pagination_dir: page
+
+archive_generator:
+  enabled: true
+  per_page: 10
+  yearly: true
+  monthly: true
+  daily: false
+  order_by: -updated
+
+category_generator:
+  per_page: 10
+  order_by: -updated
+
+tag_generator:
+  per_page: 10
+  order_by: -updated</code></pre>
+<p>感谢Joseph，posts按<code>-updated</code>排序需要把<code>node_modules\hexo\lib\plugins\generator\post.js</code>中<code>-date</code>改为<code>-updated</code>，这真难找（捂脸</p>
+<h2 id="List-of-posts"><a href="#List-of-posts" class="headerlink" title="List of posts"></a>List of posts</h2><p>White本身提供了把同分类的文章展示在post页面底部的功能，之前是手动把categories设置成YYYY.MM来梳理日记，但可以预见的是，如果这博客持续更新下去，这分类数量就太多了，干脆改了改让Diary分类下的文章底部只显示同月的日记。</p>
+<p>但跳月份还是很麻烦，<u>果然还是想要日历云</u>。</p>
+<p>然而这超出我的能力范围了（气</p>
+<p>ps，如果明年我还在维护这个博客，就加上「那年今日」功能。</p>
+<h2 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h2><p>照搬自<a href="https://github.com/random-yang/paper">paper</a>主题。</p>
+<pre><code class="JavaScript">var title = document.title;
+window.onblur = function() &#123;
+    document.title = &quot;See ya.&quot;; //离开本页面
+&#125;
+window.onfocus = function() &#123;
+    document.title = title; //切换回本页面
+&#125;</code></pre>
+<p>这段放在主题的js文件（比如我的是<code>source\js\white.js</code>）里面就可以了，是个在用户离开和返回博客页面时更改标题显示的小东西。</p>
+<h2 id="Dark-mode"><a href="#Dark-mode" class="headerlink" title="Dark mode"></a>Dark mode</h2><p>呜，好难，正在研究<a href="https://github.com/Siricee/hexo-theme-Chic">Chic</a>主题是怎么实现夜间模式切换的，还没有成果。</p>
+<p>这个主题也很好看，推荐。</p>
+]]></content>
+      <categories>
+        <category>Tips</category>
       </categories>
   </entry>
   <entry>
@@ -1545,21 +1856,6 @@
       </categories>
   </entry>
   <entry>
-    <title>At home</title>
-    <url>/Diary/20200821/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>包了整整一个早上的饺子，就着稻草人的视频让自己别那么无聊。</p>
-<p>终于把馅全部嚯嚯完之后感觉人没了，刚好十二点。</p>
-<p>如果以后不得不呆在一个狭小的地方，日复一日年复一年地做着重复而无趣的工作，我大概会死的。</p>
-<br>
-
-<p>下午闷头睡到四点半，难得做了个奇幻的梦，被145条微信消息一棍子打翻。</p>
-<p>明天是川农这学期第二次聚会，可惜孔大佬飞不回来。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Memory</title>
     <url>/Diary/20200816/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从醉酒聊到初中的往事。</p>
@@ -1569,6 +1865,21 @@
 <p>是嘛，是嘛，我怀念的，我忘记的。</p>
 <p>捂住嘴，按住笔，也会从眼睛里流出来。</p>
 <p>何况我捂不住嘴也按不住笔呢？</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>At home</title>
+    <url>/Diary/20200821/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>包了整整一个早上的饺子，就着稻草人的视频让自己别那么无聊。</p>
+<p>终于把馅全部嚯嚯完之后感觉人没了，刚好十二点。</p>
+<p>如果以后不得不呆在一个狭小的地方，日复一日年复一年地做着重复而无趣的工作，我大概会死的。</p>
+<br>
+
+<p>下午闷头睡到四点半，难得做了个奇幻的梦，被145条微信消息一棍子打翻。</p>
+<p>明天是川农这学期第二次聚会，可惜孔大佬飞不回来。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1885,7 +2196,7 @@
     <title>Nof</title>
     <url>/Diary/20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-TqztImlk" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-vAtFsznH" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -2130,6 +2441,35 @@
       </categories>
   </entry>
   <entry>
+    <title>Wuhan</title>
+    <url>/Diary/20201105/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天和桃儿去武汉，在高铁上睡得有些晕晕乎乎。</p>
+<p>下车之后去民宿，她查了地图。</p>
+<blockquote>
+<p>陶：在岳家嘴转。</p>
+<p>我：啥？鱼打盹（儿）？</p>
+<p>陶：哈哈哈哈你怎么听成了驴打滚儿？</p>
+</blockquote>
+<p>笑死。</p>
+<p>放好行李去六院做了核酸检测，然后往江汉街附近的租界建筑群走。</p>
+<br>
+
+<p>武汉实在寥落。树和藤尚葱郁，只有靠近阳光的叶尖染了几簇红色或黄色；然而天空阴沉沉，建筑鬼森森，街上少行人。</p>
+<p>在立交桥上给桃儿照相的时候，有个小孩跑过来推搡我，「这里是不可以照相的」，他叫喊着，然后被他的母亲或者婆婆拉走了。我就站在栏杆旁边，立交桥的信号灯由黄变红，桃儿注意到这边的插曲跑过来。他或许是有智力缺陷吧，我猜。但被推攘的一瞬间确实以为他是预备推我下去的，像天真而无辜地用石头碾碎一只青虫或者用笔尖压死一只飞虫一样，推我下去，翻过栏杆，跌进车流里。</p>
+<p>走到街头建筑博物馆的时候恰逢放学，到处乱跑的小孩子冲淡了这座城市带给我的压抑感。这个片区的小巷子全都设立了禁止机动车通行的告示牌，然而车辆还是肆意进出，过马路过的心惊胆战。</p>
+<p>逛到吉庆街买了豆皮，街头的蜡像群很有意思。一眼望去活人和蜡像在昏黄的灯光下基本分不出来，可能也就是蜡像不会玩手机戴口罩吧。</p>
+<p>然后又把江汉步行街转了一遍，一路上很多西式建筑，但很难看出是翻新还是仿建的——它们新得过于刻意。查了下还真是老建筑翻新……行吧，高兴就好。</p>
+<p>明天去东湖，希望是个好天气。</p>
+<br>
+
+<p>ps，某一次爬天桥的时候我抱怨好累啊，桃儿附和说自己也是。正好从天桥上下来的两个中学生模样的女孩子与我们擦肩而过，走在前面的女孩子对后面的说，「……才走几步就累了啊……」。好家伙，无缝衔接。</p>
+<p>p.ps，口琴到了，然而我并不能吹出单音hhh</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Tired</title>
     <url>/Diary/20201106/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>腰，腰要断了。单肩包令人痛苦。</p>
@@ -2156,35 +2496,6 @@
 <br>
 
 <p>ps，东湖日落还是很美的。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Wuhan</title>
-    <url>/Diary/20201105/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天和桃儿去武汉，在高铁上睡得有些晕晕乎乎。</p>
-<p>下车之后去民宿，她查了地图。</p>
-<blockquote>
-<p>陶：在岳家嘴转。</p>
-<p>我：啥？鱼打盹（儿）？</p>
-<p>陶：哈哈哈哈你怎么听成了驴打滚儿？</p>
-</blockquote>
-<p>笑死。</p>
-<p>放好行李去六院做了核酸检测，然后往江汉街附近的租界建筑群走。</p>
-<br>
-
-<p>武汉实在寥落。树和藤尚葱郁，只有靠近阳光的叶尖染了几簇红色或黄色；然而天空阴沉沉，建筑鬼森森，街上少行人。</p>
-<p>在立交桥上给桃儿照相的时候，有个小孩跑过来推搡我，「这里是不可以照相的」，他叫喊着，然后被他的母亲或者婆婆拉走了。我就站在栏杆旁边，立交桥的信号灯由黄变红，桃儿注意到这边的插曲跑过来。他或许是有智力缺陷吧，我猜。但被推攘的一瞬间确实以为他是预备推我下去的，像天真而无辜地用石头碾碎一只青虫或者用笔尖压死一只飞虫一样，推我下去，翻过栏杆，跌进车流里。</p>
-<p>走到街头建筑博物馆的时候恰逢放学，到处乱跑的小孩子冲淡了这座城市带给我的压抑感。这个片区的小巷子全都设立了禁止机动车通行的告示牌，然而车辆还是肆意进出，过马路过的心惊胆战。</p>
-<p>逛到吉庆街买了豆皮，街头的蜡像群很有意思。一眼望去活人和蜡像在昏黄的灯光下基本分不出来，可能也就是蜡像不会玩手机戴口罩吧。</p>
-<p>然后又把江汉步行街转了一遍，一路上很多西式建筑，但很难看出是翻新还是仿建的——它们新得过于刻意。查了下还真是老建筑翻新……行吧，高兴就好。</p>
-<p>明天去东湖，希望是个好天气。</p>
-<br>
-
-<p>ps，某一次爬天桥的时候我抱怨好累啊，桃儿附和说自己也是。正好从天桥上下来的两个中学生模样的女孩子与我们擦肩而过，走在前面的女孩子对后面的说，「……才走几步就累了啊……」。好家伙，无缝衔接。</p>
-<p>p.ps，口琴到了，然而我并不能吹出单音hhh</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2331,7 +2642,7 @@
     <title>Sleeplessness</title>
     <url>/Diary/20201123/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-cCftCVVj" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ehTLtqwK" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="33410648" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -3169,6 +3480,22 @@
       </categories>
   </entry>
   <entry>
+    <title>Concert</title>
+    <url>/Diary/20210425/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>仍然是听不懂的，唯一的进步可能就是这次好歹没有睡着。音乐实在是比起文字来说更加难以理解的东西，它的语言体系复杂而陌生，听到奇怪的停顿和突兀的跳转只会让我满心疑惑……整体结构什么的，就更无法把握了。</p>
+<p>今晚上半场是贝多芬第二交响曲，想到荆棘鸟，总体感觉是华丽而愉快的。下半场的马勒第一交响曲，对比之前听过的第一乐章，现场听确实声音丰富和立体许多，像流溢的涌泉和爆裂的金粉。第四乐章极其恢弘……但不太让人感到振奋。怎么说呢，第一乐章里一直呼唤而得不到应答的鸟叫声似乎就是整部作品的基调的感觉。</p>
+<p>……无非是门外汉的一点漫谈。</p>
+<p>加场是英国作曲家的什么什么没能听清，舒缓柔和的调子，算是安抚了听完马勒的心悸吧。</p>
+<br>
+
+<p>今晚是难得的满月，天天在mc里看星星，也有点想尝试认一下星座了。</p>
+<p>走到寝室门口才想起没买水果捞，转头回去，没要香蕉和杨桃。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>ThinkPad</title>
     <url>/Diary/20210428/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>告别的倒计时大概就是Mi6每次充电都会显示的Charging slow和T450s的续航无可挽回地掉到了两小时以下。</p>
@@ -3186,22 +3513,6 @@
 <p>中午的叙利亚餐厅挺一般，晚上的粤菜除了虾球外都很好吃。</p>
 <p>下午在五道口和中关村逛了逛电子产品，无所事事的一天。</p>
 <p>泡泡玛特抽到了最不喜欢的款，老非酋了。回学校路上在名创买了只伊布摆件可可爱爱，盲盒是坏文明。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Concert</title>
-    <url>/Diary/20210425/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>仍然是听不懂的，唯一的进步可能就是这次好歹没有睡着。音乐实在是比起文字来说更加难以理解的东西，它的语言体系复杂而陌生，听到奇怪的停顿和突兀的跳转只会让我满心疑惑……整体结构什么的，就更无法把握了。</p>
-<p>今晚上半场是贝多芬第二交响曲，想到荆棘鸟，总体感觉是华丽而愉快的。下半场的马勒第一交响曲，对比之前听过的第一乐章，现场听确实声音丰富和立体许多，像流溢的涌泉和爆裂的金粉。第四乐章极其恢弘……但不太让人感到振奋。怎么说呢，第一乐章里一直呼唤而得不到应答的鸟叫声似乎就是整部作品的基调的感觉。</p>
-<p>……无非是门外汉的一点漫谈。</p>
-<p>加场是英国作曲家的什么什么没能听清，舒缓柔和的调子，算是安抚了听完马勒的心悸吧。</p>
-<br>
-
-<p>今晚是难得的满月，天天在mc里看星星，也有点想尝试认一下星座了。</p>
-<p>走到寝室门口才想起没买水果捞，转头回去，没要香蕉和杨桃。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3546,7 +3857,7 @@
     <title>Marble boat</title>
     <url>/Diary/20210714/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-oQKkjtxA" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-zDcgtSZE" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1871463890" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -3938,314 +4249,15 @@
       </categories>
   </entry>
   <entry>
-    <title>Blog</title>
-    <url>/Tips/blog/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今日暴雨，宜昼寝。</p>
-<br>
-
-<p>gitee pages404了，废了老大功夫迁移博客。</p>
-<p>一口气买了十年的域名，晴儿问我会写十年吗？我也不太清楚。</p>
-<p>但前两个十年，不是转瞬即逝了吗。</p>
+    <title>Well</title>
+    <url>/Diary/20211201/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>十二月了，一事无成。</p>
+<p>没有小说可看的废人进入了贤者时间。</p>
+<p>太吵了，言语，争论，近在咫尺的ddl，硬着头皮去做的工作。</p>
+<p>网络和现实肆无忌惮地割裂开来，真有活力啊，真恶心啊，眼冒金星头晕目眩。巧克力牛奶特有的甜腻反胃感从喉咙口涌上来。充斥着粗粝的可可粉的，廉价的工业糖精带来同样廉价的放松和镇定，沉没在下一个日出之前。</p>
 ]]></content>
       <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>CDN link</title>
-    <url>/Tips/cdn-link/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>博客上引用各种资源（比如图片）的时候可以把要引用的东西丢到<code>source</code>文件夹里，然后使用相对地址。不过我一开始不知道这种方法，就只能把图片上传到GitHub仓库里，然后用cdn链接引用它。</p>
-<p>这样做的好处一个是加载速度远快于直接用gitee链接，另一个是在撰写markdown文档的时候就可以看到图片效果了。</p>
-<p>当然想用cdn链接的话，除了jsDelivr提供的关联GitHub的免费链接之外，国内也有其他平台提供支持。jsDelivr的优点是不需要注册什么有的没的，只要GitHub上传了就OK。他家链接除了20MB的单个文件上限之外没有任何值得诟病的地方，反正用来传图片还是绰绰有余了。</p>
-<p>那么把要用的文件推到GitHub之后，就可以直接使用下述链接来引用它：</p>
-<pre><code>https://cdn.jsdelivr.net/gh//GitHub用户名/库名/文件位置</code></pre>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Font-spider</title>
-    <url>/Tips/font-spider/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>字蛛是个中文字体压缩器。简单来说就是检测网页上用到了哪些字，然后把原字体文件中没用到的字删掉，使得在压缩字体文件大小的同时也不影响网站的正常显示。对于静态部署的博客来说不失为一种提高网页加载速度的好方案。</p>
-<br>
-
-<p>先用npm安装下载。</p>
-<pre><code>npm install font-spider -g</code></pre>
-<br>
-
-<p>我的思路是遍历所有博文，收集起来丢进集合，然后输出一个包含网站所有文字的网页提供给字蛛。</p>
-<p>鉴于博文主要都在<code>_posts</code>文件夹内，我就没爬其他page页面了。理论上该爬的，但post本身文本量够大，我就偷了个懒。</p>
-<pre><code class="python"># coding:utf-8
-
-import os
-
-postPath = &#39;E:/Recent/MyBlog/source/_posts&#39; # _posts文件夹位置
-path = os.path.dirname(__file__) # 所在文件夹位置
-
-def getFile(logPath):
-    text = &quot;&quot;
-    for file in os.listdir(logPath):
-        fileInput = os.path.join(logPath,file)
-        with open(fileInput,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:
-            text += fi.read()
-    return set(text) # 返回一个包含所有post文字的集合
-
-content = &quot;&quot;.join(getFile(postPath)) # set转str
-
-title = &quot;&lt;meta charset=\&quot;UTF-8\&quot;&gt;\n&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;word.css\&quot;&gt;\n&lt;body&gt;\n&quot;
-
-content = title + content +&quot;\n&lt;/body&gt;&quot; # 网页内容
-
-fileOutput = os.path.join(path,&quot;word.html&quot;)
-with open(fileOutput,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
-    fo.write(content) # 输出html文件
-
-print(&quot;Words are collected.\n&quot;) # 一个回应</code></pre>
-<br>
-
-<p>在同文件夹下放了字体文件和样式文件（<code>word.css</code>）。</p>
-<pre><code class="css">@font-face&#123;
-  font-family:&quot;CH&quot;;
-  src:url(../H-TTF-BuMing-R-2.ttf);
-&#125;
-body&#123;
-    font-family:&quot;CH&quot;
-&#125;</code></pre>
-<br>
-
-<p>最后一个简单的脚本。</p>
-<pre><code>@echo off
-python word.py
-Xcopy E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font\.font-spider\H-TTF-BuMing-R-2.ttf E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font /Y
-font-spider word.html</code></pre>
-<p>这里这样写主要是因为运行font-spider之后，它会在原字体文件目录下新建<code>.font-spider</code>文件夹，把该字体文件备份过去；然后把原字体文件替换为压缩过的新字体文件。</p>
-<p>如此，我使用的「不明体」可以直接从12MB压缩到1.1MB。</p>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Font</title>
-    <url>/Tips/font/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用<a href="https://noooooof.space/Tips/font-spider/">字蛛</a>把博客字体缩小到1.02MB，但用<a href="https://noooooof.space/Tips/cdn-link/">cdn链接</a>加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p>
-<p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p>
-<ul>
-<li><a href="https://noooooof.github.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li>
-<li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li>
-</ul>
-<p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p>
-<br>
-
-<p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Obsidian</title>
-    <url>/Tips/obsidian/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从Joseph那摸到了这个应用：<a href="https://obsidian.md/">Obsidian</a>，拿来维护blog好香。这里插播一条他的硬核安利「vscode永不服输」，没用过的我不予置评。</p>
-<p>一些小问题在于，它不能直接打开单个文件，相关的配置和模板文件都会放在所打开的文件夹目录下，显得有些凌乱，在「所见即所得」方面更比不上永远的神typora；但它响应速度不错，体量很轻，外观优美（可以自定义css文件，还支持半透明状界面），允许分栏阅读，支持导入模板，也能比较方便地管理大量文档——对于主要文档都在<code>_posts</code>文件夹下的博客来说就非常nice，更何况现在hexo也能够读取<code>_posts</code>的子文件夹下的文件了。</p>
-<p>接下来介绍一些设置选项：</p>
-<ul>
-<li>Editor：编辑器相关。<ul>
-<li>Fold heading 和 Fold indent：这两个选项允许你把小标题下面的内容或缩进的内容收起来，和Notion里面的toggle list是一样的功能。</li>
-<li>Vim key bindings：看来创作者用的是vim，不过至少这个选项说明你是有可能全靠键盘进行编辑操作的（这我就要安利tp的小红点了，同样手是不用离开键盘的嘛x</li>
-</ul>
-</li>
-<li>Files and links：我只用来维护我的博客，基本用不上文档之间的链接和本地附件。</li>
-<li>Appearance：选Custom Css可以自定义主题文件，也可以从Obsidian的社区里选，我是直接用的默认主题（Dark）啦，它没啥不好。</li>
-<li>Hotkeys：自定义热键，好物。</li>
-<li>About：版本升级和语言设定之类的东西，它现在还是个beta版本（不过我印象中typora好像也是这么多年了还在beta版本？</li>
-<li>Account：不管它不管它。</li>
-<li>Core plugins：核心插件。<ul>
-<li>Graph view：我用不着这个，把它关掉了，文档之间层级和链接关系做得好的话会很好看。</li>
-<li>Tag pane：不知道它怎么认定的，我front matter里的tag它似乎没识别出来。</li>
-<li>Starred：星标文档，这个我打开了，毕竟有些在更（gu）新（gu）的文档需要稍微区分一下。</li>
-<li>Daily notes：不好用，它的本意是你可以快速创建当日日记（文档名字默认为当天日期），日记会根据你建立的日记模板的样式被创建出来。但是，它按照日记模板是不会自动把模板中的<code>&#123;date&#125;</code>变量变更为创建时间的，而是会老老实实地把<code>&#123;date&#125;</code>打出来……有被蠢到（捂脸</li>
-<li>Templates：这个模板就没问题，放心用。不过由于模板文件必须在库的目录或子目录下，建议以<code>_</code>开头命名你的模板文件夹，避免被hexo读取时误伤（否则你就会发现archive页面多了几篇奇奇怪怪的文章）。</li>
-<li>Zettelkasten prefixer：这是Obsidian提供的另一种快速创建文档的方式，新建的文档会以这个zp码为名，默认格式是YYYYMMDDHHII（可以改，当然可以改，我反正就设成年月日形式，即YYYYMMDD，来记日记了）。</li>
-<li>Translucent window：半透明磨砂式的界面，效果超好！</li>
-<li>Publish：付费服务。</li>
-</ul>
-</li>
-<li>Trird-party plugins：我没开，请尽情探索（？</li>
-<li>Plugin options：不赘述了。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>RSS link</title>
-    <url>/Tips/rss-link/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>开启了<a href="http://noooooof.space/atom.xml">RSS</a>订阅，请自行取用。</p>
-<br>
-
-<p>ps，一个小小的彩蛋在博客的页脚，<code>After long yearss.</code></p>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Software</title>
-    <url>/Tips/software/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>整理备份文件的时候顺手记录下常用软件们：</p>
-<ul>
-<li><strong>Everything</strong>：小巧而迅速的文件搜索软件，根据名称定位，会记忆上一次对某一关键词的搜索结果——可以用来快速启动其他程序。</li>
-<li><strong>CCleaner</strong>：清理垃圾、清理注册表、管理自启动进程和插件etc。免费版够用了，想买付费版等一等黑色星期五，会有相当优惠的价格。</li>
-<li><strong>ESET</strong>：习惯了，存在感不高的杀毒软件。不过有windows defender的情况下杀毒软件有什么用吗？</li>
-<li><strong>7-zip</strong>：解压软件，你永远可以相信7z。</li>
-<li><strong>IObit Uninstaller</strong>：卸载软件，同样免费版够用。</li>
-<li><strong>Chrome</strong>：界面干净操作舒适，扩展程序非常多，没有迁移其他浏览器的意愿。<ul>
-<li><s><strong>aria2</strong>：辅助下载大文件，Chrome自己不带断点续传，下Unity的时候反复99%挂掉好绝望。（Chrome91版本中似乎挂了）</s></li>
-</ul>
-</li>
-<li><strong>Typora</strong>：优雅的markdown文本编辑器，所见即所得。据说Mac上面显示效果更好些。</li>
-<li><strong>eDiary</strong>：很棒的本地日记本，反应迅速，界面简单，可以设置密码，有一个联网获取天气的小插件。</li>
-<li><strong>Obsidian</strong>：适用于管理一个文件库的笔记软件，之前有介绍。</li>
-<li><strong>Sublime Text 3</strong>：文本编辑器。高中沉迷于自定义，现在沦为了python启动器x</li>
-<li><strong>Notion</strong>：全平台同步，数据库是个有趣且方便的设定，拿来整理资料和记录日程。</li>
-<li><strong>OneNote</strong>：全平台同步，手写支持很不错，界面美观格式齐全，笔记软件的无冕之王。</li>
-<li><strong>Adobe Acrobat Pro DC</strong>：电脑上用了一堆pdf阅读器还是Acrobat最香。</li>
-<li><strong>PotPlayer</strong>：视频播放器，疫情在家为了二倍速看录播换的，蛮好用。</li>
-<li><strong>v2rayN</strong>：You-know-what : )</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Theme</title>
-    <url>/Tips/theme/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>White是一个非常年轻的主题，有一说一它的功能非常单一，设计更是简洁，但「刚刚够用」这一点实在太香了。所以在搭建博客的时候第一眼就选定了它，并想方设法把它打磨成我希望的样子。</p>
-<p>发布者上次更新的时候添加了图片归档界面和lazyload功能，感觉和White本身的轻巧背道而驰，但后续更新还是值得期待的……直到他突然心态崩掉跑路（害</p>
-<p>现在我使用的这个主题已经多少和White有所不同了，以后或许会有更大区别，想着不如记录在这里吧。</p>
-<h2 id="New"><a href="#New" class="headerlink" title="New"></a>New</h2><p>调整了post界面的翻页顺序，要正确显示可能得清一下缓存。</p>
-<h2 id="Paginator"><a href="#Paginator" class="headerlink" title="Paginator"></a>Paginator</h2><p>White原本的翻页方式就只有archive页面的「prev」和「next」按钮。</p>
-<p>我增加了archive页面的页码和post页面的前后翻页功能，然后根据页面宽度改了改显示效果。</p>
-<p>实现方式有点笨，就是在ejs文件里把宽屏和窄屏的翻页部件都写出来，然后在styl文件里根据屏幕宽度选择性显示。</p>
-<pre><code class="stylus">.paginator 
-  display none
-  @media $desktop-m
-    display block
-
-.paginator_diy
-  display block
-  @media $desktop-m
-    display none</code></pre>
-<p>stylus对格式的要求比较低，各种花括号、冒号、分号都可以省略。</p>
-<p>其实还想要<u>输入页码跳转</u>的功能来着。</p>
-<h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>我的主题没有置顶功能，与我相关的描述就都放在「About」界面了。</p>
-<p>这里通过修改文件updated时间手动置顶每天的更新。</p>
-<p>令人高兴的是，hexo不知道什么时候也认<code>_posts</code>下面的子文件夹了，我稍微改了下之前的脚本，并让它自动按照文件路径修改文章分类（懒人的快乐x</p>
-<pre><code class="python"># coding:utf-8
-
-import os
-import re
-import time
-
-postpath = &#39;../_posts&#39; # _posts文件夹位置
-
-def oper(tag,fileName): #  处理md文档
-
-    with open(fileName,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:
-        postContent = fi.read() # markdown文件内容
-
-    post = postContent # 准备覆写
-    flag = 0
-
-    postCategoris = re.findall(r&#39;categories: ([\s\S]*?)\n&#39;,postContent)[0] # 文章分类
-    if (postCategoris!=tag): # 按照文件路径更改分类
-        flag = 1
-        post = re.sub(r&#39;categories: ([\s\S]*?)\n&#39;,&#39;categories: &#39; + tag + &#39;\n&#39;,post)
-
-    localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间
-    postDate = re.findall(r&#39;date: 2020-12-02 00:01:05
-    postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # 文章update
-    if (postDate != postUpdate):
-        if (localDate not in postUpdate): # 非new
-            flag = 1
-            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, post) # 按date时间复位
-        else: # new post
-            if (tag != &#39;Diary&#39;):
-                flag = 1
-                post = re.sub(r&#39;date: 2020-12-02 00:01:05
-
-    if (flag):
-        with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
-            fo.write(post) # 覆写
-
-    return
-
-def finddir(tag,path): # 递归遍历文件夹
-    for file in os.listdir(path):
-
-        filepath = os.path.join(path,file)
-
-        if (re.search(r&#39;^[\._]&#39;,file)==None):
-            if os.path.isdir(filepath):
-                finddir(file,filepath)
-            else:
-                if (re.search(r&#39;\.md$&#39;,file)!=None):
-                    oper(tag,filepath)
-    return
-
-finddir(&#39;post&#39;,postpath)</code></pre>
-<p>最后的效果是把部署当天更新或修改的文章在archive页置顶标注，之前的文章则踢回原本时间线。</p>
-<p>顺便把<code>layout.ejs</code>的修改也放上来。</p>
-<pre><code class="html">&lt;% var now = moment(); %&gt;
-
-&lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;
-    &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;
-&lt;% &#125; %&gt;</code></pre>
-<p>值得注意的是，要使它按照<code>updated</code>关键字倒序排序需要修改博客的<code>_config.yml</code>文件，添加：</p>
-<pre><code class="yaml">index_generator:
-  path: &#39;&#39;
-  per_page: 10
-  order_by: -updated
-  pagination_dir: page
-
-archive_generator:
-  enabled: true
-  per_page: 10
-  yearly: true
-  monthly: true
-  daily: false
-  order_by: -updated
-
-category_generator:
-  per_page: 10
-  order_by: -updated
-
-tag_generator:
-  per_page: 10
-  order_by: -updated</code></pre>
-<p>感谢Joseph，posts按<code>-updated</code>排序需要把<code>node_modules\hexo\lib\plugins\generator\post.js</code>中<code>-date</code>改为<code>-updated</code>，这真难找（捂脸</p>
-<h2 id="List-of-posts"><a href="#List-of-posts" class="headerlink" title="List of posts"></a>List of posts</h2><p>White本身提供了把同分类的文章展示在post页面底部的功能，之前是手动把categories设置成YYYY.MM来梳理日记，但可以预见的是，如果这博客持续更新下去，这分类数量就太多了，干脆改了改让Diary分类下的文章底部只显示同月的日记。</p>
-<p>但跳月份还是很麻烦，<u>果然还是想要日历云</u>。</p>
-<p>然而这超出我的能力范围了（气</p>
-<p>ps，如果明年我还在维护这个博客，就加上「那年今日」功能。</p>
-<h2 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h2><p>照搬自<a href="https://github.com/random-yang/paper">paper</a>主题。</p>
-<pre><code class="JavaScript">var title = document.title;
-window.onblur = function() &#123;
-    document.title = &quot;See ya.&quot;; //离开本页面
-&#125;
-window.onfocus = function() &#123;
-    document.title = title; //切换回本页面
-&#125;</code></pre>
-<p>这段放在主题的js文件（比如我的是<code>source\js\white.js</code>）里面就可以了，是个在用户离开和返回博客页面时更改标题显示的小东西。</p>
-<h2 id="Dark-mode"><a href="#Dark-mode" class="headerlink" title="Dark mode"></a>Dark mode</h2><p>呜，好难，正在研究<a href="https://github.com/Siricee/hexo-theme-Chic">Chic</a>主题是怎么实现夜间模式切换的，还没有成果。</p>
-<p>这个主题也很好看，推荐。</p>
-]]></content>
-      <categories>
-        <category>Tips</category>
+        <category>Diary</category>
       </categories>
   </entry>
 </search>

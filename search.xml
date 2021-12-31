@@ -192,24 +192,6 @@ font-spider word.html</code></pre>
       </categories>
   </entry>
   <entry>
-    <title>Font</title>
-    <url>/Tips/font/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用<a href="https://noooooof.space/Tips/font-spider/">字蛛</a>把博客字体缩小到1.02MB，但用<a href="https://noooooof.space/Tips/cdn-link/">cdn链接</a>加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p>
-<p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p>
-<ul>
-<li><a href="https://noooooof.github.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li>
-<li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li>
-</ul>
-<p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p>
-<br>
-
-<p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Obsidian</title>
     <url>/Tips/obsidian/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从Joseph那摸到了这个应用：<a href="https://obsidian.md/">Obsidian</a>，拿来维护blog好香。这里插播一条他的硬核安利「vscode永不服输」，没用过的我不予置评。</p>
@@ -246,41 +228,30 @@ font-spider word.html</code></pre>
       </categories>
   </entry>
   <entry>
-    <title>RSS link</title>
-    <url>/Tips/rss-link/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>开启了<a href="http://noooooof.space/atom.xml">RSS</a>订阅，请自行取用。</p>
+    <title>Font</title>
+    <url>/Tips/font/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用<a href="https://noooooof.space/Tips/font-spider/">字蛛</a>把博客字体缩小到1.02MB，但用<a href="https://noooooof.space/Tips/cdn-link/">cdn链接</a>加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p>
+<p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p>
+<ul>
+<li><a href="https://noooooof.github.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li>
+<li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li>
+</ul>
+<p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p>
 <br>
 
-<p>ps，一个小小的彩蛋在博客的页脚，<code>After long yearss.</code></p>
+<p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
 ]]></content>
       <categories>
         <category>Tips</category>
       </categories>
   </entry>
   <entry>
-    <title>Software</title>
-    <url>/Tips/software/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>整理备份文件的时候顺手记录下常用软件们：</p>
-<ul>
-<li><strong>Everything</strong>：小巧而迅速的文件搜索软件，根据名称定位，会记忆上一次对某一关键词的搜索结果——可以用来快速启动其他程序。</li>
-<li><strong>CCleaner</strong>：清理垃圾、清理注册表、管理自启动进程和插件etc。免费版够用了，想买付费版等一等黑色星期五，会有相当优惠的价格。</li>
-<li><strong>ESET</strong>：习惯了，存在感不高的杀毒软件。不过有windows defender的情况下杀毒软件有什么用吗？</li>
-<li><strong>7-zip</strong>：解压软件，你永远可以相信7z。</li>
-<li><strong>IObit Uninstaller</strong>：卸载软件，同样免费版够用。</li>
-<li><strong>Chrome</strong>：界面干净操作舒适，扩展程序非常多，没有迁移其他浏览器的意愿。<ul>
-<li><s><strong>aria2</strong>：辅助下载大文件，Chrome自己不带断点续传，下Unity的时候反复99%挂掉好绝望。（Chrome91版本中似乎挂了）</s></li>
-</ul>
-</li>
-<li><strong>Typora</strong>：优雅的markdown文本编辑器，所见即所得。据说Mac上面显示效果更好些。</li>
-<li><strong>eDiary</strong>：很棒的本地日记本，反应迅速，界面简单，可以设置密码，有一个联网获取天气的小插件。</li>
-<li><strong>Obsidian</strong>：适用于管理一个文件库的笔记软件，之前有介绍。</li>
-<li><strong>Sublime Text 3</strong>：文本编辑器。高中沉迷于自定义，现在沦为了python启动器x</li>
-<li><strong>Notion</strong>：全平台同步，数据库是个有趣且方便的设定，拿来整理资料和记录日程。</li>
-<li><strong>OneNote</strong>：全平台同步，手写支持很不错，界面美观格式齐全，笔记软件的无冕之王。</li>
-<li><strong>Adobe Acrobat Pro DC</strong>：电脑上用了一堆pdf阅读器还是Acrobat最香。</li>
-<li><strong>PotPlayer</strong>：视频播放器，疫情在家为了二倍速看录播换的，蛮好用。</li>
-<li><strong>v2rayN</strong>：You-know-what : )</li>
-</ul>
+    <title>RSS link</title>
+    <url>/Tips/rss-link/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>开启了<a href="http://noooooof.space/atom.xml">RSS</a>订阅，请自行取用。</p>
+<br>
+
+<p>ps，一个小小的彩蛋在博客的页脚，<code>After long yearss.</code></p>
 ]]></content>
       <categories>
         <category>Tips</category>
@@ -414,18 +385,32 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>A star and a stray dog</title>
-    <url>/Diary/20200426/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>看见星星的话，就要搭起高塔去捞星星。</p>
-<p>因为真正美好而明亮的星星不是那么常见的东西。</p>
-</blockquote>
-<br>
-
-<p>即使是野狗，也可以拥有自己的星星的吧。</p>
+    <title>Software</title>
+    <url>/Tips/software/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>整理备份文件的时候顺手记录下常用软件们：</p>
+<ul>
+<li><strong>Everything</strong>：小巧而迅速的文件搜索软件，根据名称定位，会记忆上一次对某一关键词的搜索结果——可以用来快速启动其他程序。</li>
+<li><strong>CCleaner</strong>：清理垃圾、清理注册表、管理自启动进程和插件etc。免费版够用了，想买付费版等一等黑色星期五，会有相当优惠的价格。</li>
+<li><strong>ESET</strong>：习惯了，存在感不高的杀毒软件。不过有windows defender的情况下杀毒软件有什么用吗？</li>
+<li><strong>7-zip</strong>：解压软件，你永远可以相信7z。</li>
+<li><strong>IObit Uninstaller</strong>：卸载软件，同样免费版够用。</li>
+<li><strong>Chrome</strong>：界面干净操作舒适，扩展程序非常多，没有迁移其他浏览器的意愿。<ul>
+<li><s><strong>aria2</strong>：辅助下载大文件，Chrome自己不带断点续传，下Unity的时候反复99%挂掉好绝望。（Chrome91版本中似乎挂了）</s></li>
+</ul>
+</li>
+<li><strong>Typora</strong>：优雅的markdown文本编辑器，所见即所得。据说Mac上面显示效果更好些。</li>
+<li><strong>eDiary</strong>：很棒的本地日记本，反应迅速，界面简单，可以设置密码，有一个联网获取天气的小插件。</li>
+<li><strong>Obsidian</strong>：适用于管理一个文件库的笔记软件，之前有介绍。</li>
+<li><strong>Sublime Text 3</strong>：文本编辑器。高中沉迷于自定义，现在沦为了python启动器x</li>
+<li><strong>Notion</strong>：全平台同步，数据库是个有趣且方便的设定，拿来整理资料和记录日程。</li>
+<li><strong>OneNote</strong>：全平台同步，手写支持很不错，界面美观格式齐全，笔记软件的无冕之王。</li>
+<li><strong>Adobe Acrobat Pro DC</strong>：电脑上用了一堆pdf阅读器还是Acrobat最香。</li>
+<li><strong>PotPlayer</strong>：视频播放器，疫情在家为了二倍速看录播换的，蛮好用。</li>
+<li><strong>v2rayN</strong>：You-know-what : )</li>
+</ul>
 ]]></content>
       <categories>
-        <category>Diary</category>
+        <category>Tips</category>
       </categories>
   </entry>
   <entry>
@@ -443,6 +428,21 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>A star and a stray dog</title>
+    <url>/Diary/20200426/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>看见星星的话，就要搭起高塔去捞星星。</p>
+<p>因为真正美好而明亮的星星不是那么常见的东西。</p>
+</blockquote>
+<br>
+
+<p>即使是野狗，也可以拥有自己的星星的吧。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Consolida ajacis</title>
     <url>/Diary/20200428/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天书桌上多了一株蓝色飞燕草，记得上次奶奶带回家的是玫瑰，再上次是栀子。被突然折下，插进瓶中，匆匆零落，会感到寂寞吗。</p>
@@ -451,25 +451,6 @@ window.onfocus = function() &#123;
 <br>
 
 <p>ps，飞燕草的花语是清净、轻盈、自由。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Unexamined life</title>
-    <url>/Diary/20200429/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最大的问题不在于非体系化，而在于奉为圭臬。</p>
-<p>未经审视就将别人的话奉为至宝，把别人当作一生追随的对象的话，早晚会后悔的。</p>
-<br>
-
-<p>说着就想起昨天看到的五黑框的事了。</p>
-<blockquote>
-<p>江南曾听雨，杨柳今何在。</p>
-</blockquote>
-<br>
-
-<p> ps，飞燕草又掉了一片花瓣。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -491,6 +472,25 @@ window.onfocus = function() &#123;
 
 <p>今天眼睛稍微消肿了一点，晚上再热敷一下上点眼药膏吧。</p>
 <p>天气渐渐热起来了，虽然我还窝在屋子里穿着毛衣，但夏天是确切地临近了。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Unexamined life</title>
+    <url>/Diary/20200429/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最大的问题不在于非体系化，而在于奉为圭臬。</p>
+<p>未经审视就将别人的话奉为至宝，把别人当作一生追随的对象的话，早晚会后悔的。</p>
+<br>
+
+<p>说着就想起昨天看到的五黑框的事了。</p>
+<blockquote>
+<p>江南曾听雨，杨柳今何在。</p>
+</blockquote>
+<br>
+
+<p> ps，飞燕草又掉了一片花瓣。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -716,20 +716,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Runabout</title>
-    <url>/Diary/20200518/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>确实，我忘了很多事。</p>
-<p>能够重新开始当然不是件坏事情，但逃避总是另当别论的。</p>
-<p>过去的回忆埋藏在黑夜里，细细密密地啃咬着古井无波的日常。</p>
-<p>我是跑不掉的。</p>
-<p>也不想逃跑。</p>
-<p>人生苦短，如果希望能够捡起来一点什么的话，就从现在开始吧。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Rain</title>
     <url>/Diary/20200521/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>雨夜读庄子。</p>
@@ -739,6 +725,20 @@ window.onfocus = function() &#123;
 
 
 <p>ps，北京暴雨，白昼如夜。国之将兴，必有祯祥啊。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Runabout</title>
+    <url>/Diary/20200518/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>确实，我忘了很多事。</p>
+<p>能够重新开始当然不是件坏事情，但逃避总是另当别论的。</p>
+<p>过去的回忆埋藏在黑夜里，细细密密地啃咬着古井无波的日常。</p>
+<p>我是跑不掉的。</p>
+<p>也不想逃跑。</p>
+<p>人生苦短，如果希望能够捡起来一点什么的话，就从现在开始吧。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -767,6 +767,21 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>Gift</title>
+    <url>/Diary/20200529/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>例行破产送了一批儿童节礼物。</p>
+<p>如果有所付出过却没有人给我写信，多少会觉得寂寞；但选完礼物一一填好地址的时候，还是很快乐。</p>
+<p>抱着今天的快乐，就不要太在乎明天可能的失落了吧？</p>
+<p>不知不觉之间我有了这么多可以送出礼物的朋友，明明就是值得高兴的事情啊。</p>
+<br>
+
+<p>ps，「伸爪怕犯错，缩爪怕错过」，这太真实了不是吗。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Spider silk</title>
     <url>/Diary/20200601/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>对稳定安全的关系没有要求的话，建立契约好像确实不是必要的事情。</p>
@@ -787,21 +802,6 @@ window.onfocus = function() &#123;
 <p>钻机声代替蝉鸣不知疲倦地喧噪着。从前我能在蝉声中轻易入睡，如今亦然。</p>
 <p>总得向前看看，总得向前走走。</p>
 <p>有想做的事，有想见的人，有想去的地方，就别困守一隅了啊。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Gift</title>
-    <url>/Diary/20200529/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>例行破产送了一批儿童节礼物。</p>
-<p>如果有所付出过却没有人给我写信，多少会觉得寂寞；但选完礼物一一填好地址的时候，还是很快乐。</p>
-<p>抱着今天的快乐，就不要太在乎明天可能的失落了吧？</p>
-<p>不知不觉之间我有了这么多可以送出礼物的朋友，明明就是值得高兴的事情啊。</p>
-<br>
-
-<p>ps，「伸爪怕犯错，缩爪怕错过」，这太真实了不是吗。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1018,6 +1018,25 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>Driving</title>
+    <url>/Diary/20200715/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨晚熬到两点半把所有pc的unity文件都做完了，算是初步告一段落。</p>
+<br>
+
+<p>今天头一次练车，从华阳骑到世纪城，七公里全速，人都没了。</p>
+<p>开车好像还蛮好玩的，有点上头。</p>
+<p>说是要好好学习的，又拉着潘浪了一天，抱歉抱歉。</p>
+<br>
+
+<p>总觉得马知越来越极端了呀，倒也没必要什么都上到道德评价上去。何况米二挣腐女的钱和讨厌腐女本来就不矛盾嘛，他又没有故意卖腐；最多就是要承担相关群体讨厌他的后果，都是成年人了（笑</p>
+<p>和xrp胡侃，抱着小手机等新消息的青春真的结束了，总觉得是甜蜜而酸涩的一段时光。</p>
+<p>那倒也不错，不是吗？</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>College entrance exam</title>
     <url>/Diary/20200707/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>意外梦见被校园霸凌，醒来六点半。</p>
@@ -1039,25 +1058,6 @@ window.onfocus = function() &#123;
 <p>售货员问我是不是初中生，哭笑不得。</p>
 <p>显得年轻当然是好事，但这似乎意味着我无论是外表还是内心都不够成熟。</p>
 <p>成熟到底是什么呢？</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Driving</title>
-    <url>/Diary/20200715/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨晚熬到两点半把所有pc的unity文件都做完了，算是初步告一段落。</p>
-<br>
-
-<p>今天头一次练车，从华阳骑到世纪城，七公里全速，人都没了。</p>
-<p>开车好像还蛮好玩的，有点上头。</p>
-<p>说是要好好学习的，又拉着潘浪了一天，抱歉抱歉。</p>
-<br>
-
-<p>总觉得马知越来越极端了呀，倒也没必要什么都上到道德评价上去。何况米二挣腐女的钱和讨厌腐女本来就不矛盾嘛，他又没有故意卖腐；最多就是要承担相关群体讨厌他的后果，都是成年人了（笑</p>
-<p>和xrp胡侃，抱着小手机等新消息的青春真的结束了，总觉得是甜蜜而酸涩的一段时光。</p>
-<p>那倒也不错，不是吗？</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1108,6 +1108,26 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>Keyboard and Umbrella</title>
+    <url>/Diary/20200721/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>键盘和雨伞都到了。</p>
+<p>是一把超级大的黑伞，从镜子里看大概能装两个我。</p>
+<br>
+
+<p>把电脑拆开仔仔细细清洁了一遍，换上了和老键盘同厂商的新键盘。</p>
+<p>更换了一部分键盘帽，由于拆键盘帽的折损率实在太高而停手。</p>
+<p>好不容易习惯了之前的键盘，现在换回来又稍微有点不习惯了。</p>
+<p>主要是不带键盘膜用了好久啊（笑</p>
+<p>再使使就好了吧。</p>
+<br>
+
+<p>ps，看了Curtain和The Big Four，直奔最后一幕还是太着急了。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Back to school</title>
     <url>/Diary/20200720/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>键盘到了，突然又觉得现在的键盘好像也不是不可以用。</p>
@@ -1127,26 +1147,6 @@ window.onfocus = function() &#123;
 <br>
 
 <p>ps，看了xrp安利了好久的Agatha Christie’s Poirot，东方快车谋杀案里Poirot的挣扎真是太美味了。甚至有把原著全部翻出来读的冲动。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Keyboard and Umbrella</title>
-    <url>/Diary/20200721/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>键盘和雨伞都到了。</p>
-<p>是一把超级大的黑伞，从镜子里看大概能装两个我。</p>
-<br>
-
-<p>把电脑拆开仔仔细细清洁了一遍，换上了和老键盘同厂商的新键盘。</p>
-<p>更换了一部分键盘帽，由于拆键盘帽的折损率实在太高而停手。</p>
-<p>好不容易习惯了之前的键盘，现在换回来又稍微有点不习惯了。</p>
-<p>主要是不带键盘膜用了好久啊（笑</p>
-<p>再使使就好了吧。</p>
-<br>
-
-<p>ps，看了Curtain和The Big Four，直奔最后一幕还是太着急了。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1212,31 +1212,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Friends</title>
-    <url>/Diary/20200725/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>研究着github的使用方法，索索突然发消息说自己在132。</p>
-<p>换了衣服带上伞兴冲冲奔下去，没料想她爸爸妈妈也在。</p>
-<br>
-
-<p>嚼着红糖锅盔和糖油果子，伴着雨雾在公园里漫步，聊聊近况，聊聊过去和未来。</p>
-<p>坐在亭子里躲雨，历数彼此的情感经历，又聊到久远的八卦，聊到错综复杂的人际网络。<br>一群鸟雀裹挟着水汽从我们头上掠过又飞远。</p>
-<p>世界真的很小，我的朋友们也确实还在我身边。</p>
-<p>叔叔阿姨快走过来的时候，正聊到她高中的npy。我一边听着与我无关的故事，一边看着她背后飞来两只鸟，停在芦苇上，把纤细的芦苇杆压弯下去，掀起水珠。</p>
-<p>鸟们突然飞走了，故事也到了尾声。</p>
-<br>
-
-<p>晚饭约在湖中餐厅，好像又回到半夜爬过贺希颖的床再爬上她的床的时候，缩在被子里笑，把憋了六年的话都这样不吐不快。</p>
-<p>意外听见后面那桌人谈到嘉祥和七中，一问发现他们一人初高中都在嘉祥，一人则是初中嘉祥高中七中，大我们两届。这构成方式未免过于巧合，又似乎在情理之中。</p>
-<br>
-
-<p>蹭了她家的车去超市买了点东西，想着明天的约饭心中忐忑。</p>
-<p>回家看到尚未开头的稿子，头秃。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>A la recherche du temps perdu</title>
     <url>/Diary/20200727/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>和马知聊起往事的时候，突然想起这本书来。</p>
@@ -1277,6 +1252,31 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>Friends</title>
+    <url>/Diary/20200725/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>研究着github的使用方法，索索突然发消息说自己在132。</p>
+<p>换了衣服带上伞兴冲冲奔下去，没料想她爸爸妈妈也在。</p>
+<br>
+
+<p>嚼着红糖锅盔和糖油果子，伴着雨雾在公园里漫步，聊聊近况，聊聊过去和未来。</p>
+<p>坐在亭子里躲雨，历数彼此的情感经历，又聊到久远的八卦，聊到错综复杂的人际网络。<br>一群鸟雀裹挟着水汽从我们头上掠过又飞远。</p>
+<p>世界真的很小，我的朋友们也确实还在我身边。</p>
+<p>叔叔阿姨快走过来的时候，正聊到她高中的npy。我一边听着与我无关的故事，一边看着她背后飞来两只鸟，停在芦苇上，把纤细的芦苇杆压弯下去，掀起水珠。</p>
+<p>鸟们突然飞走了，故事也到了尾声。</p>
+<br>
+
+<p>晚饭约在湖中餐厅，好像又回到半夜爬过贺希颖的床再爬上她的床的时候，缩在被子里笑，把憋了六年的话都这样不吐不快。</p>
+<p>意外听见后面那桌人谈到嘉祥和七中，一问发现他们一人初高中都在嘉祥，一人则是初中嘉祥高中七中，大我们两届。这构成方式未免过于巧合，又似乎在情理之中。</p>
+<br>
+
+<p>蹭了她家的车去超市买了点东西，想着明天的约饭心中忐忑。</p>
+<p>回家看到尚未开头的稿子，头秃。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Without reader</title>
     <url>/Diary/20200729/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在博客上领养了一只猫，四舍五入我也是有猫的人了。</p>
@@ -1284,21 +1284,6 @@ window.onfocus = function() &#123;
 <br>
 
 <p>虽然说准备把大部分日记同步更新到博客，也分享了这个网址，但可能还是不要对读者有所预设为好，否则就真的没有可以和自己坦诚地说说话的地方了。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Fireworks</title>
-    <url>/Diary/20200730/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>由于交通管制有了光明正大的理由冒雨骑车。</p>
-<p>今天的雨简直称得上缱绻，细细密密，轻轻柔柔。并没有感到自己被打湿，但身遭又确凿缠绕着薄薄的水汽，它以不可抗拒的姿态将人网罗住，试探、触碰、又收回手，欲语还休。</p>
-<br>
-
-<p>返程的地铁上补小说更新，和「烟花」这一意象相关的故事总显得忧郁。可能烟花本身就带有这样的气质，在原本空荡荡的夜空中倾尽所有地绽放，绚烂的光彩一一散开然后凋零，再不能重来。</p>
-<p>未能实现的关于烟花的约定，是约定之时有人就知道不会实现的吗，还是多少都曾抱有微渺的期望却遭来幻灭？是世事弄人无缘再见，还是心意改变不必赴约？而终于看到了烟花的时候，这确实是曾经约定的那场烟花吗？却又隐隐预示了好景不长盛宴必散，此次一别再难有重聚的心境和时间。</p>
-<p>很微妙啊，这种感觉。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1316,6 +1301,21 @@ window.onfocus = function() &#123;
 <p>想起以前和博涵讨论这些事，没想通跑去问刘哲老师。</p>
 <p>他问我，那所谓普世意义上的爱情，指的是什么呢？</p>
 <p>……那其实我要是能够分析出来了，就不会有这个问题了嘛。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Fireworks</title>
+    <url>/Diary/20200730/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>由于交通管制有了光明正大的理由冒雨骑车。</p>
+<p>今天的雨简直称得上缱绻，细细密密，轻轻柔柔。并没有感到自己被打湿，但身遭又确凿缠绕着薄薄的水汽，它以不可抗拒的姿态将人网罗住，试探、触碰、又收回手，欲语还休。</p>
+<br>
+
+<p>返程的地铁上补小说更新，和「烟花」这一意象相关的故事总显得忧郁。可能烟花本身就带有这样的气质，在原本空荡荡的夜空中倾尽所有地绽放，绚烂的光彩一一散开然后凋零，再不能重来。</p>
+<p>未能实现的关于烟花的约定，是约定之时有人就知道不会实现的吗，还是多少都曾抱有微渺的期望却遭来幻灭？是世事弄人无缘再见，还是心意改变不必赴约？而终于看到了烟花的时候，这确实是曾经约定的那场烟花吗？却又隐隐预示了好景不长盛宴必散，此次一别再难有重聚的心境和时间。</p>
+<p>很微妙啊，这种感觉。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1357,26 +1357,6 @@ window.onfocus = function() &#123;
 <p>生而为人，我很抱歉。</p>
 </blockquote>
 <p>荒诞却真实。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Rain</title>
-    <url>/Diary/20200804/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>喜欢骑车。</p>
-<p>喜欢迎面而来的风，随心所欲地转弯，稍微长长的头发拘束在帽子里，薄薄一层汗。摘下帽子要更舒服些，捏着帽绳连同车把，行道树飞速后退。</p>
-<p>让人觉得自由。</p>
-<p>……如无意外今天的日记本来应该是这样的。</p>
-<br>
-
-<p>然而一出地铁碰上落雨，看架势马上要下大，刚好又没戴帽子。</p>
-<p>一边感慨着命中注定要变落汤鸡，一边扫了辆车走。</p>
-<p>往南骑的路上雨渐渐停了，黑沉沉的乌云边缘露出粉蓝色的天空，远远看见起重机背后的黛色群山。</p>
-<br>
-
-<p>ps，发现自己大量使用虚词，尽可能不说确切并避免语气生硬。以前倒不是这个样子的，改变的起因是初中索索说我说话未免太傲慢。这么多年来说话的口气变了，但我好像还是那样傲慢呢。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1426,6 +1406,26 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>Rain</title>
+    <url>/Diary/20200804/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>喜欢骑车。</p>
+<p>喜欢迎面而来的风，随心所欲地转弯，稍微长长的头发拘束在帽子里，薄薄一层汗。摘下帽子要更舒服些，捏着帽绳连同车把，行道树飞速后退。</p>
+<p>让人觉得自由。</p>
+<p>……如无意外今天的日记本来应该是这样的。</p>
+<br>
+
+<p>然而一出地铁碰上落雨，看架势马上要下大，刚好又没戴帽子。</p>
+<p>一边感慨着命中注定要变落汤鸡，一边扫了辆车走。</p>
+<p>往南骑的路上雨渐渐停了，黑沉沉的乌云边缘露出粉蓝色的天空，远远看见起重机背后的黛色群山。</p>
+<br>
+
+<p>ps，发现自己大量使用虚词，尽可能不说确切并避免语气生硬。以前倒不是这个样子的，改变的起因是初中索索说我说话未免太傲慢。这么多年来说话的口气变了，但我好像还是那样傲慢呢。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Lavender&#39;s blue</title>
     <url>/Diary/20200810/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
@@ -1465,28 +1465,19 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Tired</title>
-    <url>/Diary/20200815/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>不太舒服，几乎睡了一天。</p>
+    <title>Old times</title>
+    <url>/Diary/20200822/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>约在点都德，断断续续吃了两个半小时，老实说味道一般。</p>
+<p>去女仆电玩店（桌游店？）打PS4，我看了几卷死神，窝在沙发上睡了一觉。</p>
+<p>烤肉，康康、网管和嵩嵩对饮，然后结束。</p>
 <br>
 
-<p>翻着票圈看到说9号返校，想到毫无希望和期待的未来，那种踩不着底的飘忽感。</p>
-<p>凌晨的雨早上就停了，却恍惚觉得下了一整天。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Memory</title>
-    <url>/Diary/20200816/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从醉酒聊到初中的往事。</p>
-<p>「黑历史是瞒不住的」，xrp说。</p>
+<p>谈起高三的考试和午休，谈起高一的文理分科，谈起初中的擦肩而过。</p>
+<p>也谈奇奇怪怪的刑案和判决，也谈乱七八糟的游戏和旅行，也略略谈到未来。</p>
+<p>似乎足够熟悉，又似乎离得很远。</p>
 <br>
 
-<p>是嘛，是嘛，我怀念的，我忘记的。</p>
-<p>捂住嘴，按住笔，也会从眼睛里流出来。</p>
-<p>何况我捂不住嘴也按不住笔呢？</p>
+<p>见面的意义是什么呢？好像见面本身就是目的。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1502,25 +1493,6 @@ window.onfocus = function() &#123;
 
 <p>下午闷头睡到四点半，难得做了个奇幻的梦，被145条微信消息一棍子打翻。</p>
 <p>明天是川农这学期第二次聚会，可惜孔大佬飞不回来。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Old times</title>
-    <url>/Diary/20200822/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>约在点都德，断断续续吃了两个半小时，老实说味道一般。</p>
-<p>去女仆电玩店（桌游店？）打PS4，我看了几卷死神，窝在沙发上睡了一觉。</p>
-<p>烤肉，康康、网管和嵩嵩对饮，然后结束。</p>
-<br>
-
-<p>谈起高三的考试和午休，谈起高一的文理分科，谈起初中的擦肩而过。</p>
-<p>也谈奇奇怪怪的刑案和判决，也谈乱七八糟的游戏和旅行，也略略谈到未来。</p>
-<p>似乎足够熟悉，又似乎离得很远。</p>
-<br>
-
-<p>见面的意义是什么呢？好像见面本身就是目的。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1570,11 +1542,15 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Crazy</title>
-    <url>/Diary/20200827/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>写推送写吐了，有一说一没什么实质内容，只是个很简单的攻略，我居然搞了十个小时，原地爆炸。</p>
-<p>中午我妈骂完我爸又骂我，吃饭重新变成了维持自己不要死掉的任务。虽然一直以来我都这么觉得，但好像在外面自己做饭的时候要稍微快乐一点，都是自己愿意吃的食材，也不贪多，有种对自己生活的掌控感。在家里每次进厨房都感到极度的不适应，厨具和碗筷不在我顺手的位置，抹布到处乱放也没有分门别类，台面和地砖有水迹和污渍，锅好重，左边的灶总是打不燃火。这种时候就清楚地意识到这不是我的家，是我妈或者奶奶的，我只是借宿在这里，没有对一切物品的归置权。于是我打开冰箱拿了瓶酸奶，关上门，自己走开。</p>
-<p>……可能是占有欲和控制欲太过旺盛了也说不定。</p>
+    <title>Memory</title>
+    <url>/Diary/20200816/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从醉酒聊到初中的往事。</p>
+<p>「黑历史是瞒不住的」，xrp说。</p>
+<br>
+
+<p>是嘛，是嘛，我怀念的，我忘记的。</p>
+<p>捂住嘴，按住笔，也会从眼睛里流出来。</p>
+<p>何况我捂不住嘴也按不住笔呢？</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1637,6 +1613,17 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>Crazy</title>
+    <url>/Diary/20200827/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>写推送写吐了，有一说一没什么实质内容，只是个很简单的攻略，我居然搞了十个小时，原地爆炸。</p>
+<p>中午我妈骂完我爸又骂我，吃饭重新变成了维持自己不要死掉的任务。虽然一直以来我都这么觉得，但好像在外面自己做饭的时候要稍微快乐一点，都是自己愿意吃的食材，也不贪多，有种对自己生活的掌控感。在家里每次进厨房都感到极度的不适应，厨具和碗筷不在我顺手的位置，抹布到处乱放也没有分门别类，台面和地砖有水迹和污渍，锅好重，左边的灶总是打不燃火。这种时候就清楚地意识到这不是我的家，是我妈或者奶奶的，我只是借宿在这里，没有对一切物品的归置权。于是我打开冰箱拿了瓶酸奶，关上门，自己走开。</p>
+<p>……可能是占有欲和控制欲太过旺盛了也说不定。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Trivia</title>
     <url>/Diary/20200911/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>潘总结了下刘哲老师的推荐信，「花同学哲学方面特别优秀，然后突然想学法；虽然不知道为什么，但是她很厉害，你们要相信她」。这么一看是蛮好笑的。</p>
@@ -1646,6 +1633,19 @@ window.onfocus = function() &#123;
 <br>
 
 <p>ps，搬窗帘要了我半条命，这包东西怕是有半个我高（捂脸</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Tired</title>
+    <url>/Diary/20200815/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>不太舒服，几乎睡了一天。</p>
+<br>
+
+<p>翻着票圈看到说9号返校，想到毫无希望和期待的未来，那种踩不着底的飘忽感。</p>
+<p>凌晨的雨早上就停了，却恍惚觉得下了一整天。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1746,23 +1746,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Autumn</title>
-    <url>/Diary/20200922/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>被逻辑题折磨得自闭。</p>
-<p>翻着去年寥寥无几的照片，恍若隔世。</p>
-<p>十月后瑞典一阵一阵地下雨，教学楼门口的路满是泥泞，有小姐姐牵着大狗跑过去。深一脚浅一脚地挪动着和Robin抱怨天气的时候，他笑说瑞典总是这样的，北边雨势更大也更冷，这就是秋天。</p>
-<p>秋天，啊。</p>
-<p>一定要在四季之中选一个喜欢的季节，可能就是秋天了。</p>
-<p>没有夏天的燥气和生机，也没有冬天的严酷和死寂，从草木边缘处变了颜色，稍微透露出一点寂寥来，含蓄却也决绝。</p>
-<p>今天是秋分，不过倒只隐约闻到一点腐烂的白果的臭味，没有往年那么肆无忌惮。也许是因为开学太晚，又或者因为我完完全全地翘了课宅在二教，不怎么走过理教前面那条路。</p>
-<p>还有一天。</p>
-<p>明明不喜欢这个城市的，却还是想努力留下来，稍微有点可笑啊。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Over</title>
     <url>/Diary/20200924/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>法硕考试结束，论述题是防疫措施，面试题是坟头蹦迪。</p>
@@ -1776,6 +1759,23 @@ window.onfocus = function() &#123;
 <p>溜溜达达经燕南园走到光华楼，跟晴儿和桃儿分开，走回二教上这学期第一堂课。</p>
 <p>我要收回我的话，白果的腐烂味儿令人绝望。</p>
 <p>这种时候就觉得口罩多少还是有点用的了。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Autumn</title>
+    <url>/Diary/20200922/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>被逻辑题折磨得自闭。</p>
+<p>翻着去年寥寥无几的照片，恍若隔世。</p>
+<p>十月后瑞典一阵一阵地下雨，教学楼门口的路满是泥泞，有小姐姐牵着大狗跑过去。深一脚浅一脚地挪动着和Robin抱怨天气的时候，他笑说瑞典总是这样的，北边雨势更大也更冷，这就是秋天。</p>
+<p>秋天，啊。</p>
+<p>一定要在四季之中选一个喜欢的季节，可能就是秋天了。</p>
+<p>没有夏天的燥气和生机，也没有冬天的严酷和死寂，从草木边缘处变了颜色，稍微透露出一点寂寥来，含蓄却也决绝。</p>
+<p>今天是秋分，不过倒只隐约闻到一点腐烂的白果的臭味，没有往年那么肆无忌惮。也许是因为开学太晚，又或者因为我完完全全地翘了课宅在二教，不怎么走过理教前面那条路。</p>
+<p>还有一天。</p>
+<p>明明不喜欢这个城市的，却还是想努力留下来，稍微有点可笑啊。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1818,7 +1818,7 @@ window.onfocus = function() &#123;
     <title>Nof</title>
     <url>/Diary/20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-wyYHeIUV" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-WAmqGJvE" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -1846,6 +1846,33 @@ window.onfocus = function() &#123;
 <p>回来想着要不要买点酒去石舫呢，毕竟是最后一个中秋了。</p>
 <p>三年前的人都不在，似乎也没有这个必要。</p>
 <p>从兰熊带回来米酒酿奶，姑且敬一敬阳台上这轮月亮吧。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Stray dog</title>
+    <url>/Diary/20200930/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>没有星星的野狗就没有自己的存在价值了吗？</p>
+<p>或许它也曾意外成为谁的星星吗。</p>
+<p>它只不过是忘记了，野狗之所以被称为野狗的日子。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>New life</title>
+    <url>/Diary/20201012/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>推免结束。</p>
+<p>有学上了就会幸福吗？只是选择的期限再一次推迟罢了。</p>
+<p>希望三年之后我不会还是这个鬼样子。</p>
+<br>
+
+<p>无所事事的一早上，出门看见姜丝鸭和面粉猫猫对骂。</p>
+<p>下课之后读完了马基雅维利的「曼陀罗」，然后冻得瑟瑟发抖骑回寝室。</p>
+<p>有感兴趣的事情就动手，有想要的东西就去争取，活得更热烈更自我一点吧。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1886,22 +1913,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>New life</title>
-    <url>/Diary/20201012/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>推免结束。</p>
-<p>有学上了就会幸福吗？只是选择的期限再一次推迟罢了。</p>
-<p>希望三年之后我不会还是这个鬼样子。</p>
-<br>
-
-<p>无所事事的一早上，出门看见姜丝鸭和面粉猫猫对骂。</p>
-<p>下课之后读完了马基雅维利的「曼陀罗」，然后冻得瑟瑟发抖骑回寝室。</p>
-<p>有感兴趣的事情就动手，有想要的东西就去争取，活得更热烈更自我一点吧。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Normal</title>
     <url>/Diary/20201015/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨晚摸了下trilium和notion，选定notion作为未来笔记工具。</p>
@@ -1912,32 +1923,6 @@ window.onfocus = function() &#123;
 <p>吃了午饭回寝室，勉强看完一集monster就睡着了。</p>
 <p>三点多想着晴儿还在上课不想下床，翻了个身接着睡。</p>
 <p>然后就做噩梦了（瘫</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Stray dog</title>
-    <url>/Diary/20200930/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>没有星星的野狗就没有自己的存在价值了吗？</p>
-<p>或许它也曾意外成为谁的星星吗。</p>
-<p>它只不过是忘记了，野狗之所以被称为野狗的日子。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Lighten</title>
-    <url>/Diary/20201016/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>歌剧欣赏放了「费加罗的婚礼」，又好笑又可怕。</p>
-<p>下午天气很好，在寝室歇了一会出门逛逛。</p>
-<p>在未名湖边上看见了猫们。</p>
-<p>猫真是现实的动物，有粮的时候就不走了，黏黏腻腻地凑过来，揣着手手乖乖巧巧。</p>
-<br>
-
-<p>ps，在尝试学双拼，进展好慢，所以最近和我发消息发现我总在输入中或者反应慢得不行是正常的QAQ</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1955,6 +1940,21 @@ window.onfocus = function() &#123;
 
 <p>ps，和马知说了晚安之后起身洗漱，不小心把啤酒带翻了。万幸抽插线板抽得快，没被殃及。反反复复擦了五遍还是能闻见啤酒独特的甜香味，爱咋咋地吧。</p>
 <p>p.ps，淘洗抹布的时候（凌晨三点）碰见明早约了小组讨论的同学，有咕咕的预感。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Lighten</title>
+    <url>/Diary/20201016/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>歌剧欣赏放了「费加罗的婚礼」，又好笑又可怕。</p>
+<p>下午天气很好，在寝室歇了一会出门逛逛。</p>
+<p>在未名湖边上看见了猫们。</p>
+<p>猫真是现实的动物，有粮的时候就不走了，黏黏腻腻地凑过来，揣着手手乖乖巧巧。</p>
+<br>
+
+<p>ps，在尝试学双拼，进展好慢，所以最近和我发消息发现我总在输入中或者反应慢得不行是正常的QAQ</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2063,35 +2063,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Wuhan</title>
-    <url>/Diary/20201105/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天和桃儿去武汉，在高铁上睡得有些晕晕乎乎。</p>
-<p>下车之后去民宿，她查了地图。</p>
-<blockquote>
-<p>陶：在岳家嘴转。</p>
-<p>我：啥？鱼打盹（儿）？</p>
-<p>陶：哈哈哈哈你怎么听成了驴打滚儿？</p>
-</blockquote>
-<p>笑死。</p>
-<p>放好行李去六院做了核酸检测，然后往江汉街附近的租界建筑群走。</p>
-<br>
-
-<p>武汉实在寥落。树和藤尚葱郁，只有靠近阳光的叶尖染了几簇红色或黄色；然而天空阴沉沉，建筑鬼森森，街上少行人。</p>
-<p>在立交桥上给桃儿照相的时候，有个小孩跑过来推搡我，「这里是不可以照相的」，他叫喊着，然后被他的母亲或者婆婆拉走了。我就站在栏杆旁边，立交桥的信号灯由黄变红，桃儿注意到这边的插曲跑过来。他或许是有智力缺陷吧，我猜。但被推攘的一瞬间确实以为他是预备推我下去的，像天真而无辜地用石头碾碎一只青虫或者用笔尖压死一只飞虫一样，推我下去，翻过栏杆，跌进车流里。</p>
-<p>走到街头建筑博物馆的时候恰逢放学，到处乱跑的小孩子冲淡了这座城市带给我的压抑感。这个片区的小巷子全都设立了禁止机动车通行的告示牌，然而车辆还是肆意进出，过马路过的心惊胆战。</p>
-<p>逛到吉庆街买了豆皮，街头的蜡像群很有意思。一眼望去活人和蜡像在昏黄的灯光下基本分不出来，可能也就是蜡像不会玩手机戴口罩吧。</p>
-<p>然后又把江汉步行街转了一遍，一路上很多西式建筑，但很难看出是翻新还是仿建的——它们新得过于刻意。查了下还真是老建筑翻新……行吧，高兴就好。</p>
-<p>明天去东湖，希望是个好天气。</p>
-<br>
-
-<p>ps，某一次爬天桥的时候我抱怨好累啊，桃儿附和说自己也是。正好从天桥上下来的两个中学生模样的女孩子与我们擦肩而过，走在前面的女孩子对后面的说，「……才走几步就累了啊……」。好家伙，无缝衔接。</p>
-<p>p.ps，口琴到了，然而我并不能吹出单音hhh</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Tired</title>
     <url>/Diary/20201106/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>腰，腰要断了。单肩包令人痛苦。</p>
@@ -2118,6 +2089,35 @@ window.onfocus = function() &#123;
 <br>
 
 <p>ps，东湖日落还是很美的。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Wuhan</title>
+    <url>/Diary/20201105/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天和桃儿去武汉，在高铁上睡得有些晕晕乎乎。</p>
+<p>下车之后去民宿，她查了地图。</p>
+<blockquote>
+<p>陶：在岳家嘴转。</p>
+<p>我：啥？鱼打盹（儿）？</p>
+<p>陶：哈哈哈哈你怎么听成了驴打滚儿？</p>
+</blockquote>
+<p>笑死。</p>
+<p>放好行李去六院做了核酸检测，然后往江汉街附近的租界建筑群走。</p>
+<br>
+
+<p>武汉实在寥落。树和藤尚葱郁，只有靠近阳光的叶尖染了几簇红色或黄色；然而天空阴沉沉，建筑鬼森森，街上少行人。</p>
+<p>在立交桥上给桃儿照相的时候，有个小孩跑过来推搡我，「这里是不可以照相的」，他叫喊着，然后被他的母亲或者婆婆拉走了。我就站在栏杆旁边，立交桥的信号灯由黄变红，桃儿注意到这边的插曲跑过来。他或许是有智力缺陷吧，我猜。但被推攘的一瞬间确实以为他是预备推我下去的，像天真而无辜地用石头碾碎一只青虫或者用笔尖压死一只飞虫一样，推我下去，翻过栏杆，跌进车流里。</p>
+<p>走到街头建筑博物馆的时候恰逢放学，到处乱跑的小孩子冲淡了这座城市带给我的压抑感。这个片区的小巷子全都设立了禁止机动车通行的告示牌，然而车辆还是肆意进出，过马路过的心惊胆战。</p>
+<p>逛到吉庆街买了豆皮，街头的蜡像群很有意思。一眼望去活人和蜡像在昏黄的灯光下基本分不出来，可能也就是蜡像不会玩手机戴口罩吧。</p>
+<p>然后又把江汉步行街转了一遍，一路上很多西式建筑，但很难看出是翻新还是仿建的——它们新得过于刻意。查了下还真是老建筑翻新……行吧，高兴就好。</p>
+<p>明天去东湖，希望是个好天气。</p>
+<br>
+
+<p>ps，某一次爬天桥的时候我抱怨好累啊，桃儿附和说自己也是。正好从天桥上下来的两个中学生模样的女孩子与我们擦肩而过，走在前面的女孩子对后面的说，「……才走几步就累了啊……」。好家伙，无缝衔接。</p>
+<p>p.ps，口琴到了，然而我并不能吹出单音hhh</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2215,17 +2215,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Today</title>
-    <url>/Diary/20201122/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早上去新太阳地下练口琴，书店的白猫透过卷帘门与我相望。近半小时的鬼哭狼嚎居然能够有这样一个，或许其实也略微嫌弃我的，小小听众，是件十分有趣的事情。</p>
-<p>下午应桃儿的请求做一道挺简单的证明题，证得很绕，还无赖地怀疑是题目错了……真是没救了，建议重修数理逻辑。</p>
-<p>晚饭前去游泳，肩颈感到久违的舒适，事实证明肥宅生活并不会降低体能嗯嗯。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Flag</title>
     <url>/Diary/20201120/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>期中季基本上过去了，又到了适合插flag的时候。</p>
@@ -2244,6 +2233,17 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>Today</title>
+    <url>/Diary/20201122/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早上去新太阳地下练口琴，书店的白猫透过卷帘门与我相望。近半小时的鬼哭狼嚎居然能够有这样一个，或许其实也略微嫌弃我的，小小听众，是件十分有趣的事情。</p>
+<p>下午应桃儿的请求做一道挺简单的证明题，证得很绕，还无赖地怀疑是题目错了……真是没救了，建议重修数理逻辑。</p>
+<p>晚饭前去游泳，肩颈感到久违的舒适，事实证明肥宅生活并不会降低体能嗯嗯。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Forever</title>
     <url>/Diary/20201121/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>初雪。</p>
@@ -2255,6 +2255,30 @@ window.onfocus = function() &#123;
 <blockquote>
 <p>咩：永远。</p>
 </blockquote>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Sleeplessness</title>
+    <url>/Diary/20201123/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
+    <div id="aplayer-OhQYubnx" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="33410648" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
+    ></div>
+
+<br>
+
+<p>试图早睡早起的第二天。</p>
+<p>昨天晚上其实就入睡的很艰难，躺了起码一个小时才陷入黑沉的梦境，尽管我此前才困得原地睡着。今晚更绝，从十二点出头躺到两点没有一点睡意，塞住耳朵，埋进被子里，耳边有轻微的键盘声音和自己的呼吸声，接着幻听成一首接一首的乐曲。</p>
+<p>睡不着就是睡不着。</p>
+<p>翻下床，趿拉着拖鞋走到书桌前，往椅子上一缩眼泪就掉了下来。出于愤怒。</p>
+<p>可能还有委屈。</p>
+<p>我总觉得我可以完全地支配自己的身体，给它食物、水和休息、给它舒适的环境，它就能像杂草一样生存下来，支撑着我一天接一天摸鱼，奔向心血来潮的冒险。想睡觉就能睡着，想玩或者赶due压榨一下也没问题，它总会回应我的——可能只有两种情况无能为力，越来越深的眼镜度数，和每月造访的痛经。</p>
+<p>那我都准备对你好点了，为什么你却不听话呢？</p>
+<p>失眠可能就是这样的东西，身体在快快乐乐地提醒我，瞧，你不是总能吩咐我的。</p>
+<p>好吧，你赢了。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2294,24 +2318,10 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Sleeplessness</title>
-    <url>/Diary/20201123/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-eljtZsjl" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="33410648" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
-    ></div>
-
-<br>
-
-<p>试图早睡早起的第二天。</p>
-<p>昨天晚上其实就入睡的很艰难，躺了起码一个小时才陷入黑沉的梦境，尽管我此前才困得原地睡着。今晚更绝，从十二点出头躺到两点没有一点睡意，塞住耳朵，埋进被子里，耳边有轻微的键盘声音和自己的呼吸声，接着幻听成一首接一首的乐曲。</p>
-<p>睡不着就是睡不着。</p>
-<p>翻下床，趿拉着拖鞋走到书桌前，往椅子上一缩眼泪就掉了下来。出于愤怒。</p>
-<p>可能还有委屈。</p>
-<p>我总觉得我可以完全地支配自己的身体，给它食物、水和休息、给它舒适的环境，它就能像杂草一样生存下来，支撑着我一天接一天摸鱼，奔向心血来潮的冒险。想睡觉就能睡着，想玩或者赶due压榨一下也没问题，它总会回应我的——可能只有两种情况无能为力，越来越深的眼镜度数，和每月造访的痛经。</p>
-<p>那我都准备对你好点了，为什么你却不听话呢？</p>
-<p>失眠可能就是这样的东西，身体在快快乐乐地提醒我，瞧，你不是总能吩咐我的。</p>
-<p>好吧，你赢了。</p>
+    <title>Question</title>
+    <url>/Diary/20201129/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>对你来说，朋友是什么呢？</p>
+<p>是满月啊，今晚。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2323,16 +2333,6 @@ window.onfocus = function() &#123;
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我以前写过一篇「天河白马的最后一夜」。</p>
 <p>在这之前，场域局限在校园里，按铃他们写过「博实超市的最后一夜」、「新华书店的最后一夜」，或许也还有人写过「野草的最后一夜」、「康博斯的最后一夜」、「家园的最后一夜」诸如此类的东西。</p>
 <p>之所以提到这个，不过是因为学五中餐搬到新家园之后翔宇推了篇所谓「学五的最后一夜」；以及听说校方要清退最美时光咖啡厅，只搬一块同名的牌子进新家园。仅从食物的角度上看，它们完全不是一个性质：一者依然存在，一者即将消失。但人们所怀念的或许是同一件事，生活的习惯打破、记忆的场景消亡，以及贵校学生所津津乐道的权力对自由的驱逐。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Question</title>
-    <url>/Diary/20201129/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>对你来说，朋友是什么呢？</p>
-<p>是满月啊，今晚。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2420,18 +2420,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Sycophant of Dionysus</title>
-    <url>/Diary/20201217/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>蹭了桃儿的柠檬奶油利口酒，快乐。</p>
-<p>微醺感轻柔地浮上来，身体各个关节泛起热度，仿佛泡在树荫下的温泉里。</p>
-<p>酒神是带来狂欢的神明，是天真的稚拙的冲动，是转瞬即逝的灵感和放纵。</p>
-<p>多可爱啊，这杯中酒，镜中花。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Talk is cheap</title>
     <url>/Diary/20201220/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我想我得搞清楚，我在发起一个话题的时候，是要获得情感的支持还是观点的碰撞。</p>
@@ -2447,6 +2435,18 @@ window.onfocus = function() &#123;
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>和嵩嵩约了日式火锅。</p>
 <p>酒肉朋友就是随时都能叫出去喝酒吃肉的朋友✓</p>
 <p>只是明年可能就不再有了啊。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Sycophant of Dionysus</title>
+    <url>/Diary/20201217/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>蹭了桃儿的柠檬奶油利口酒，快乐。</p>
+<p>微醺感轻柔地浮上来，身体各个关节泛起热度，仿佛泡在树荫下的温泉里。</p>
+<p>酒神是带来狂欢的神明，是天真的稚拙的冲动，是转瞬即逝的灵感和放纵。</p>
+<p>多可爱啊，这杯中酒，镜中花。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2794,21 +2794,21 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Delicate</title>
-    <url>/Diary/20210308/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>感情真是困难而微妙的事情。</p>
-<p>因为微妙而困难，因为困难而微妙。</p>
-<p>甜牛奶兑利口酒到底是酒精饮料还是乳饮料呢，说不清楚。</p>
+    <title>Le Nozze di Figaro</title>
+    <url>/Diary/20210309/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>歌剧课讲到「叮叮咚咚」那段出现的号（horn）暗示了费加罗的绿帽子——文字游戏最棒了。直接的言语之外埋藏的意味，如果能被领会不是非常美妙嘛？</p>
+<p>倒也不是推崇遮遮掩掩猜谜语的交流方式，但偶尔这样果然会比较有趣吧。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
       </categories>
   </entry>
   <entry>
-    <title>Le Nozze di Figaro</title>
-    <url>/Diary/20210309/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>歌剧课讲到「叮叮咚咚」那段出现的号（horn）暗示了费加罗的绿帽子——文字游戏最棒了。直接的言语之外埋藏的意味，如果能被领会不是非常美妙嘛？</p>
-<p>倒也不是推崇遮遮掩掩猜谜语的交流方式，但偶尔这样果然会比较有趣吧。</p>
+    <title>Delicate</title>
+    <url>/Diary/20210308/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>感情真是困难而微妙的事情。</p>
+<p>因为微妙而困难，因为困难而微妙。</p>
+<p>甜牛奶兑利口酒到底是酒精饮料还是乳饮料呢，说不清楚。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2997,21 +2997,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Shanghai</title>
-    <url>/Diary/20210407/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>所谓心血来潮，就是冲动的生灭都过于突然。</p>
-<p>走在上海街头的我这样想着，没多少说话的力气。</p>
-<p>到处都给人似曾相识的感觉……可能没到城中心不应当过早做出判断。</p>
-<p>不过生煎挺好吃的。</p>
-<br>
-
-<p>ps，多少觉得人生无常。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Fudan</title>
     <url>/Diary/20210408-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早晨仍是小雨，想起半句「冻云黯淡天气」。</p>
@@ -3022,6 +3007,21 @@ window.onfocus = function() &#123;
 <br>
 
 <p>晚上和xrp，txy，库库姆去吃萨莉亚，又有些惰于说话了。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Shanghai</title>
+    <url>/Diary/20210407/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>所谓心血来潮，就是冲动的生灭都过于突然。</p>
+<p>走在上海街头的我这样想着，没多少说话的力气。</p>
+<p>到处都给人似曾相识的感觉……可能没到城中心不应当过早做出判断。</p>
+<p>不过生煎挺好吃的。</p>
+<br>
+
+<p>ps，多少觉得人生无常。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3197,21 +3197,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Noble</title>
-    <url>/Diary/20210517/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>Basically we can cope with everything else, born as we are to an underground and battling existence; again and again we keep coming up to the light, again and again we experience our golden hour of victory, - and then there we stand, the way we were born, unbreakable, tense, ready for new, more difficult and distant things, like a bow that is merely stretched tauter by affliction.</p>
-<p>…</p>
-<p>Today we see nothing that wants to expand, we suspect that things will just continue to decline, getting thinner, better-natured, cleverer, more comfortable, more mediocre, more indifferent, more Chinese, more Christian…</p>
-</blockquote>
-<p>危险而美丽的东西。</p>
-<p>尼采确实让我觉得历史研究或者至少哲学史研究是哲学研究中有必要的。这么强烈的情感和疯狂的修辞究竟是哪里迸发出来的？可以想见这些言论在当时是多么惊世骇俗。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Rainy</title>
     <url>/Diary/20210531/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
@@ -3272,6 +3257,21 @@ window.onfocus = function() &#123;
 <p>还是不想再改毕业论文了，完全不是我一两天的爆肝就能解决的。</p>
 <p>读读尼采，还有新的锅在前面等着。</p>
 <p>我每次都说希望自己活得勇敢而热烈一点，却总是在逃避啊。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Noble</title>
+    <url>/Diary/20210517/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>Basically we can cope with everything else, born as we are to an underground and battling existence; again and again we keep coming up to the light, again and again we experience our golden hour of victory, - and then there we stand, the way we were born, unbreakable, tense, ready for new, more difficult and distant things, like a bow that is merely stretched tauter by affliction.</p>
+<p>…</p>
+<p>Today we see nothing that wants to expand, we suspect that things will just continue to decline, getting thinner, better-natured, cleverer, more comfortable, more mediocre, more indifferent, more Chinese, more Christian…</p>
+</blockquote>
+<p>危险而美丽的东西。</p>
+<p>尼采确实让我觉得历史研究或者至少哲学史研究是哲学研究中有必要的。这么强烈的情感和疯狂的修辞究竟是哪里迸发出来的？可以想见这些言论在当时是多么惊世骇俗。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3360,6 +3360,23 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>Lots of</title>
+    <url>/Diary/20210707/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>两点入睡，七点惊醒。挂念着约看结果捱到八九点，一直没消息。</p>
+<p>中午约饭，听子墨、杨老师和雅轩聊发paper，无所适从。</p>
+<p>饭后从南门溜达到西门拍游客照，路上他们问起嵩的去向——从没有这么清楚地意识到，大学毕业与高中的不同，这一次的分别不再短暂而笃定，是更长久、更寂静的那一种。</p>
+<p>下午摆摊很开心，五点半收到中介的消息急匆匆赶去积水潭，确定了租房意向。回来收了摊，和嵩一起去艺二吃咕了他两周多的鹅腿。</p>
+<p>洗完澡湿着头发溜达，听抽吐槽毕业视频的事情。</p>
+<p>lc和xrp的飞机晚点了六个小时，终于落地北京。</p>
+<br>
+
+<p>ps，昨日各高校一众关心lgbt议题的公众号被注销。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Free</title>
     <url>/Diary/20210702/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>第一篇和最后一篇拖过ddl的都是天岳的论文，可谓有始有终（滑跪</p>
@@ -3372,23 +3389,6 @@ window.onfocus = function() &#123;
 <p>傍晚和桃儿、晴儿和鸡去拍毕业照。</p>
 <p>论当代女大学生为了拍照能做出什么沙雕行为.jpg</p>
 <p>在图书馆的时候低头摆弄了一下相机就走丢了，不愧是我。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Lots of</title>
-    <url>/Diary/20210707/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>两点入睡，七点惊醒。挂念着约看结果捱到八九点，一直没消息。</p>
-<p>中午约饭，听子墨、杨老师和雅轩聊发paper，无所适从。</p>
-<p>饭后从南门溜达到西门拍游客照，路上他们问起嵩的去向——从没有这么清楚地意识到，大学毕业与高中的不同，这一次的分别不再短暂而笃定，是更长久、更寂静的那一种。</p>
-<p>下午摆摊很开心，五点半收到中介的消息急匆匆赶去积水潭，确定了租房意向。回来收了摊，和嵩一起去艺二吃咕了他两周多的鹅腿。</p>
-<p>洗完澡湿着头发溜达，听抽吐槽毕业视频的事情。</p>
-<p>lc和xrp的飞机晚点了六个小时，终于落地北京。</p>
-<br>
-
-<p>ps，昨日各高校一众关心lgbt议题的公众号被注销。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3411,28 +3411,6 @@ window.onfocus = function() &#123;
 <br>
 
 <p>ps，其实一路大多是快活的，只是现在头脑懵冲，写出奇怪的东西。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Alley</title>
-    <url>/Diary/20210709/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>再吃都一处，芥末白菜还是不能接受的东西，炒肝意外地并不腥臊。</p>
-<p>豆汁配咸菜味道奇妙，涮羊肉不是很行。</p>
-<br>
-
-<p>走进胡同之后稍微觉得这座城市立体了一点。</p>
-<p>凉棚上蜿蜒的葡萄藤，嵌着青花瓷片的路面，腆着肚子移动的大叔，杂物堆里讲古的老太太。城市的历史只有在被看见的时候才有意义。</p>
-<br>
-
-<p>二环路骑车很舒适，人应当边骑车边发呆。</p>
-<p>1921-2021，我仍然会为理想主义感到振奋。太武断的接受和否定都很可笑，但我也很难说现在的自己有多么理性。xrp和lc似乎觉得我要么会睡着要么会走丢，倒也不至于，我在路上看着呢。</p>
-<br>
-
-<p>ps，潘去了自贸区，略微期待寄来的糖。</p>
-<p>p.ps，和抽约了后天的合影。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3479,7 +3457,7 @@ window.onfocus = function() &#123;
     <title>Marble boat</title>
     <url>/Diary/20210714/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-YTUpjKUX" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-EpLTMYxP" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1871463890" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -3492,6 +3470,28 @@ window.onfocus = function() &#123;
 <p>石舫没约上几个人，他那一班围观清华军训打横幅的朋友，再带个我和一个学弟。下午不少人跳湖导致保安巡查很严，但一点多的时候还是被一个坐在石舫边缘的兄弟得逞了。</p>
 <p>草草分散，去南门排了份杰哥炒面，还是那样咸。</p>
 <p>常恨自己笨嘴拙舌又顾虑重重，没法坦然面对旧友，也很难做妥帖的安慰。但如此这般，也算是毕业的道别了吧。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Alley</title>
+    <url>/Diary/20210709/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>再吃都一处，芥末白菜还是不能接受的东西，炒肝意外地并不腥臊。</p>
+<p>豆汁配咸菜味道奇妙，涮羊肉不是很行。</p>
+<br>
+
+<p>走进胡同之后稍微觉得这座城市立体了一点。</p>
+<p>凉棚上蜿蜒的葡萄藤，嵌着青花瓷片的路面，腆着肚子移动的大叔，杂物堆里讲古的老太太。城市的历史只有在被看见的时候才有意义。</p>
+<br>
+
+<p>二环路骑车很舒适，人应当边骑车边发呆。</p>
+<p>1921-2021，我仍然会为理想主义感到振奋。太武断的接受和否定都很可笑，但我也很难说现在的自己有多么理性。xrp和lc似乎觉得我要么会睡着要么会走丢，倒也不至于，我在路上看着呢。</p>
+<br>
+
+<p>ps，潘去了自贸区，略微期待寄来的糖。</p>
+<p>p.ps，和抽约了后天的合影。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3620,20 +3620,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Settle</title>
-    <url>/Diary/20210901/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>收拾屋子不知今夕何夕。</p>
-<p>时钟悄悄越过十二点时，只感觉九月来得突兀。</p>
-<p>晚上打了火锅，算是对狗窝终于能住人的小小庆贺。</p>
-<blockquote>
-<p>海鸥别叫啦，从今天起，我也是漂泊者呀。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Fall down</title>
     <url>/Diary/20210906/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在空中短暂停滞的时候，恍惚觉得自己在飞。</p>
@@ -3643,6 +3629,20 @@ window.onfocus = function() &#123;
 <p>和我共患难的还有眼镜和手环，可惜手环六才刚到手一周就宣告退役。物品和人的磨损都是永久性的，这么想也不是那么不公平，起码我是陪着我的物件们一起磕磕绊绊的。</p>
 <p>回到住处检查了一下伤势，小腿的淤青不太影响，右手掌的疼痛存在感过高，但愿没有伤到骨头。至于嘴里的凄惨状况……大后天复查时希望能保住我可怜的门牙。</p>
 <p>有点晕，且休息吧。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Settle</title>
+    <url>/Diary/20210901/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>收拾屋子不知今夕何夕。</p>
+<p>时钟悄悄越过十二点时，只感觉九月来得突兀。</p>
+<p>晚上打了火锅，算是对狗窝终于能住人的小小庆贺。</p>
+<blockquote>
+<p>海鸥别叫啦，从今天起，我也是漂泊者呀。</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3789,22 +3789,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Away from Keyboard</title>
-    <url>/Diary/20211103/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>闪耀暖暖更新客户端以后无法登录了。</p>
-<p>继更新os15出bug之后，ipad2018再一次提醒了我它的老态。</p>
-<p>刚玩的时候才出国交换，站在窗前看瑞典的雪，看书听课打游戏，和马知一起昼夜颠倒；这两天notability改为订阅制了，我还裹着那时买的小毯子，疫情看起来还会长久地持续下去。</p>
-<p>去超话上发了消息，揪了个人送号，一别两宽，各自欢喜。</p>
-<br>
-
-<p>无论好坏，习惯被改变的时候，总有种与过去彻底割裂的错觉。好像曾经的时间和记忆和这份记忆所构成的自我还在某些形色和声音和滋味和触感中徘徊不去。</p>
-<p>但毕竟是永远地流逝了。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Forbidden City</title>
     <url>/Diary/20211105/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>中午去投了人大代表，了解不多相当于xjb选。真正的民主要求的不仅是制度更是能力，不仅是权利更是义务，距离公民社会还远得很呢。</p>
@@ -3825,6 +3809,22 @@ window.onfocus = function() &#123;
 <br>
 
 <p>ps，蟹黄鲜美，蟹膏丰腴，好！</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Away from Keyboard</title>
+    <url>/Diary/20211103/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>闪耀暖暖更新客户端以后无法登录了。</p>
+<p>继更新os15出bug之后，ipad2018再一次提醒了我它的老态。</p>
+<p>刚玩的时候才出国交换，站在窗前看瑞典的雪，看书听课打游戏，和马知一起昼夜颠倒；这两天notability改为订阅制了，我还裹着那时买的小毯子，疫情看起来还会长久地持续下去。</p>
+<p>去超话上发了消息，揪了个人送号，一别两宽，各自欢喜。</p>
+<br>
+
+<p>无论好坏，习惯被改变的时候，总有种与过去彻底割裂的错觉。好像曾经的时间和记忆和这份记忆所构成的自我还在某些形色和声音和滋味和触感中徘徊不去。</p>
+<p>但毕竟是永远地流逝了。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3990,6 +3990,22 @@ window.onfocus = function() &#123;
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>其实大概也就是这两年，明显能看到集体主义、人民史观的叙事在网络小说中泛滥了起来。这是个非常有趣的现象，与七年前铺天盖地的自私自利、杀伐果断的个人英雄形象相比堪称割裂，多少可以证明当代流行文化风向的转变，无论出于自愿还是舆论管控的影响。</p>
 <p>看到博涵转发南方周末十年前的新年献词，配文「噤声不过十年」：十年前「没有哪个黎明能阻止阳光」，十年后「落子无悔，抉择本身就是向前」。个人的权利和自由与国家的强权和干预总是有不可避免的冲突，我现在依然很难讲清楚对错，体制最缺的总是宽容。</p>
 <p>But my friend, what’s the expense?</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>New Year</title>
+    <url>/Diary/20211231/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>看到久保的店长贺图，愣了会神才反应过来。</p>
+<p>又是一年年末。</p>
+<p>今年有很多对不起的人，父母、老师、九人，终于低下头道了歉。</p>
+<p>认错认得飞快，就是死活不改，想起徐妈多年前的评价。</p>
+<p>捡回来记日记的初衷，是不想忘记每一个当下的自己，但好像还是没留住什么。有很多想看的书，想学的事，想一起走下去的人，缘分总是稍纵即逝的。我没法预料到未来会漂流到什么地方，躺平的话就什么都抓不住了吧。</p>
+<br>
+
+<p>ps，我确实非常喜欢Cheers这个博客名，但偶尔还是想换换口味。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -4215,6 +4231,28 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>日落</title>
+    <url>/Essay/%E6%97%A5%E8%90%BD/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>看见日落。</p>
+<p>寥廓的天际横卧一片霞霓。</p>
+<p>云边笼上浅淡的光辉，像婴儿脸上初生的绒毛。也许是错觉，我看见云层和着我的心跳搏动，有受惊的鸟冲着天空飞起，树林站立成无言的寂静。</p>
+<p>这种时候，在这个地方，我应该想些什么呢。是想着气吞万里壮志凌云，还是想着日暮西山一生行休。不由自嘲，我只是想起上一次是谁陪我看着日落。</p>
+<p>曾经在雨幕里笑着打闹着的那个人，曾经用坐标描述整个世界的那个人，曾经为我撑伞教我处事的那个人，曾经戴着耳机侧影斑驳的那个人，浸润在我的生命里，最后却也物是人非。</p>
+<p>于是我骄傲于我的孤独，我的不曾孤独，我不断迷惑，不断改变，不断肯定，亦不断追寻。我一直以为我孑然一人，可以放下一切，独自活在这个世界上。</p>
+<p>直到我的小学同学变成我的高中同学，直到他无意中喊出了我儿时的乳名，直到他尴尬地摆手换回称呼，直到我挠着脑袋说就这样就可以。我才在一阵恍惚中明白，我到底忽略了些什么。曾经的印记是永远都无法摆脱的，它永远都在那里，记载在我的生命中，在某一时刻出现，如闪电乍然掠过。</p>
+<p>我们带着过去的一切来到这里，我们所经历的最后都变成了我们的一部分，包括我们所看过的书，我们所走过的路，我们所见过的事，我们所爱过的人。这世界又何尝不是如此呢。弄堂口那棵树的高度，小小的孩童怎样爬上树干摘下嫩叶；厂门口文化广场的大小，电影结束人群散去后的一片狼藉；阴井盖缝隙的宽度和下雨天雨水如何流转汇聚；路边树丛下野草的间隙和一只老鼠如何沿着它躲入阴影。</p>
+<p>构成这个世界的，其实是我们的经历。</p>
+<p>生命是一场如此庞大的抒情，时间与空间缠绕绵延。我们也就是这样成长起来的，我们的生命里承载着这个世界。散文里的爱憎与思索，小说里的悲欢和离合，朋友一句无意的戏言，师长一段恳切的提点，江南的烟雨迷蒙小桥流水，塞北的长空万里大漠孤烟。</p>
+<p>原是这般的，安然而庄重。</p>
+<p>虫鸣在野。</p>
+<p>我抬头，看见最后一抹霞光就此敛去。</p>
+<p>天地之间，只余湛湛然一片。</p>
+]]></content>
+      <categories>
+        <category>Essay</category>
+      </categories>
+  </entry>
+  <entry>
     <title>彼年豆蔻</title>
     <url>/Essay/%E5%BD%BC%E5%B9%B4%E8%B1%86%E8%94%BB/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>默。</p>
@@ -4232,28 +4270,6 @@ window.onfocus = function() &#123;
 <p>就像曾经的相片，荏苒着又一茬春秋。</p>
 <p>就像曾经梨花半敛新叶未成，我站在树下。</p>
 <p>落了薄薄一层悲欢。</p>
-]]></content>
-      <categories>
-        <category>Essay</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>日落</title>
-    <url>/Essay/%E6%97%A5%E8%90%BD/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>看见日落。</p>
-<p>寥廓的天际横卧一片霞霓。</p>
-<p>云边笼上浅淡的光辉，像婴儿脸上初生的绒毛。也许是错觉，我看见云层和着我的心跳搏动，有受惊的鸟冲着天空飞起，树林站立成无言的寂静。</p>
-<p>这种时候，在这个地方，我应该想些什么呢。是想着气吞万里壮志凌云，还是想着日暮西山一生行休。不由自嘲，我只是想起上一次是谁陪我看着日落。</p>
-<p>曾经在雨幕里笑着打闹着的那个人，曾经用坐标描述整个世界的那个人，曾经为我撑伞教我处事的那个人，曾经戴着耳机侧影斑驳的那个人，浸润在我的生命里，最后却也物是人非。</p>
-<p>于是我骄傲于我的孤独，我的不曾孤独，我不断迷惑，不断改变，不断肯定，亦不断追寻。我一直以为我孑然一人，可以放下一切，独自活在这个世界上。</p>
-<p>直到我的小学同学变成我的高中同学，直到他无意中喊出了我儿时的乳名，直到他尴尬地摆手换回称呼，直到我挠着脑袋说就这样就可以。我才在一阵恍惚中明白，我到底忽略了些什么。曾经的印记是永远都无法摆脱的，它永远都在那里，记载在我的生命中，在某一时刻出现，如闪电乍然掠过。</p>
-<p>我们带着过去的一切来到这里，我们所经历的最后都变成了我们的一部分，包括我们所看过的书，我们所走过的路，我们所见过的事，我们所爱过的人。这世界又何尝不是如此呢。弄堂口那棵树的高度，小小的孩童怎样爬上树干摘下嫩叶；厂门口文化广场的大小，电影结束人群散去后的一片狼藉；阴井盖缝隙的宽度和下雨天雨水如何流转汇聚；路边树丛下野草的间隙和一只老鼠如何沿着它躲入阴影。</p>
-<p>构成这个世界的，其实是我们的经历。</p>
-<p>生命是一场如此庞大的抒情，时间与空间缠绕绵延。我们也就是这样成长起来的，我们的生命里承载着这个世界。散文里的爱憎与思索，小说里的悲欢和离合，朋友一句无意的戏言，师长一段恳切的提点，江南的烟雨迷蒙小桥流水，塞北的长空万里大漠孤烟。</p>
-<p>原是这般的，安然而庄重。</p>
-<p>虫鸣在野。</p>
-<p>我抬头，看见最后一抹霞光就此敛去。</p>
-<p>天地之间，只余湛湛然一片。</p>
 ]]></content>
       <categories>
         <category>Essay</category>

@@ -185,10 +185,10 @@ def oper(tag,fileName): #  处理md文档
     post = postContent # 准备覆写
     flag = 0
 
-    postCategoris = re.findall(r&#39;categories: ([\s\S]*?)\n&#39;,postContent)[0] # 文章分类
+    postCategoris = re.findall(r&#39;categories: Tips
     if (postCategoris!=tag): # 按照文件路径更改分类
         flag = 1
-        post = re.sub(r&#39;categories: ([\s\S]*?)\n&#39;,&#39;categories: &#39; + tag + &#39;\n&#39;,post)
+        post = re.sub(r&#39;categories: Tips
 
     localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间
     postDate = re.findall(r&#39;date: 2020-12-02 00:01:05

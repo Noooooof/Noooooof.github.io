@@ -505,317 +505,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Blog</title>
-    <url>/Tips/blog/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今日暴雨，宜昼寝。</p>
-<br>
-
-<p>gitee pages404了，废了老大功夫迁移博客。</p>
-<p>一口气买了十年的域名，晴儿问我会写十年吗？我也不太清楚。</p>
-<p>但前两个十年，不是转瞬即逝了吗。</p>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>CDN link</title>
-    <url>/Tips/cdn-link/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>博客上引用各种资源（比如图片）的时候可以把要引用的东西丢到<code>source</code>文件夹里，然后使用相对地址。不过我一开始不知道这种方法，就只能把图片上传到GitHub仓库里，然后用cdn链接引用它。</p>
-<p>这样做的好处一个是加载速度远快于直接用gitee链接，另一个是在撰写markdown文档的时候就可以看到图片效果了。</p>
-<p>当然想用cdn链接的话，除了jsDelivr提供的关联GitHub的免费链接之外，国内也有其他平台提供支持。jsDelivr的优点是不需要注册什么有的没的，只要GitHub上传了就OK。他家链接除了20MB的单个文件上限之外没有任何值得诟病的地方，反正用来传图片还是绰绰有余了。</p>
-<p>那么把要用的文件推到GitHub之后，就可以直接使用下述链接来引用它：</p>
-<pre><code>https://cdn.jsdelivr.net/gh//GitHub用户名/库名/文件位置</code></pre>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Font-spider</title>
-    <url>/Tips/font-spider/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>字蛛是个中文字体压缩器。简单来说就是检测网页上用到了哪些字，然后把原字体文件中没用到的字删掉，使得在压缩字体文件大小的同时也不影响网站的正常显示。对于静态部署的博客来说不失为一种提高网页加载速度的好方案。</p>
-<br>
-
-<p>先用npm安装下载。</p>
-<pre><code>npm install font-spider -g</code></pre>
-<br>
-
-<p>我的思路是遍历所有博文，收集起来丢进集合，然后输出一个包含网站所有文字的网页提供给字蛛。</p>
-<p>鉴于博文主要都在<code>_posts</code>文件夹内，我就没爬其他page页面了。理论上该爬的，但post本身文本量够大，我就偷了个懒。</p>
-<pre><code class="python"># coding:utf-8
-
-import os
-
-postPath = &#39;E:/Recent/MyBlog/source/_posts&#39; # _posts文件夹位置
-path = os.path.dirname(__file__) # 所在文件夹位置
-
-def getFile(logPath):
-    text = &quot;&quot;
-    for file in os.listdir(logPath):
-        fileInput = os.path.join(logPath,file)
-        with open(fileInput,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:
-            text += fi.read()
-    return set(text) # 返回一个包含所有post文字的集合
-
-content = &quot;&quot;.join(getFile(postPath)) # set转str
-
-title = &quot;&lt;meta charset=\&quot;UTF-8\&quot;&gt;\n&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;word.css\&quot;&gt;\n&lt;body&gt;\n&quot;
-
-content = title + content +&quot;\n&lt;/body&gt;&quot; # 网页内容
-
-fileOutput = os.path.join(path,&quot;word.html&quot;)
-with open(fileOutput,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
-    fo.write(content) # 输出html文件
-
-print(&quot;Words are collected.\n&quot;) # 一个回应</code></pre>
-<br>
-
-<p>在同文件夹下放了字体文件和样式文件（<code>word.css</code>）。</p>
-<pre><code class="css">@font-face&#123;
-  font-family:&quot;CH&quot;;
-  src:url(../H-TTF-BuMing-R-2.ttf);
-&#125;
-body&#123;
-    font-family:&quot;CH&quot;
-&#125;</code></pre>
-<br>
-
-<p>最后一个简单的脚本。</p>
-<pre><code>@echo off
-python word.py
-Xcopy E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font\.font-spider\H-TTF-BuMing-R-2.ttf E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font /Y
-font-spider word.html</code></pre>
-<p>这里这样写主要是因为运行font-spider之后，它会在原字体文件目录下新建<code>.font-spider</code>文件夹，把该字体文件备份过去；然后把原字体文件替换为压缩过的新字体文件。</p>
-<p>如此，我使用的「不明体」可以直接从12MB压缩到1.1MB。</p>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Font</title>
-    <url>/Tips/font/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用<a href="https://noooooof.space/Tips/font-spider/">字蛛</a>把博客字体缩小到1.02MB，但用<a href="https://noooooof.space/Tips/cdn-link/">cdn链接</a>加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p>
-<p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p>
-<ul>
-<li><a href="https://noooooof.github.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li>
-<li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li>
-</ul>
-<p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p>
-<br>
-
-<p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Obsidian</title>
-    <url>/Tips/obsidian/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从Joseph那摸到了这个应用：<a href="https://obsidian.md/">Obsidian</a>，拿来维护blog好香。这里插播一条他的硬核安利「vscode永不服输」，没用过的我不予置评。</p>
-<p>一些小问题在于，它不能直接打开单个文件，相关的配置和模板文件都会放在所打开的文件夹目录下，显得有些凌乱，在「所见即所得」方面更比不上永远的神typora；但它响应速度不错，体量很轻，外观优美（可以自定义css文件，还支持半透明状界面），允许分栏阅读，支持导入模板，也能比较方便地管理大量文档——对于主要文档都在<code>_posts</code>文件夹下的博客来说就非常nice，更何况现在hexo也能够读取<code>_posts</code>的子文件夹下的文件了。</p>
-<p>接下来介绍一些设置选项：</p>
-<ul>
-<li>Editor：编辑器相关。<ul>
-<li>Fold heading 和 Fold indent：这两个选项允许你把小标题下面的内容或缩进的内容收起来，和Notion里面的toggle list是一样的功能。</li>
-<li>Vim key bindings：看来创作者用的是vim，不过至少这个选项说明你是有可能全靠键盘进行编辑操作的（这我就要安利tp的小红点了，同样手是不用离开键盘的嘛x</li>
-</ul>
-</li>
-<li>Files and links：我只用来维护我的博客，基本用不上文档之间的链接和本地附件。</li>
-<li>Appearance：选Custom Css可以自定义主题文件，也可以从Obsidian的社区里选，我是直接用的默认主题（Dark）啦，它没啥不好。</li>
-<li>Hotkeys：自定义热键，好物。</li>
-<li>About：版本升级和语言设定之类的东西，它现在还是个beta版本（不过我印象中typora好像也是这么多年了还在beta版本？</li>
-<li>Account：不管它不管它。</li>
-<li>Core plugins：核心插件。<ul>
-<li>Graph view：我用不着这个，把它关掉了，文档之间层级和链接关系做得好的话会很好看。</li>
-<li>Tag pane：不知道它怎么认定的，我front matter里的tag它似乎没识别出来。</li>
-<li>Starred：星标文档，这个我打开了，毕竟有些在更（gu）新（gu）的文档需要稍微区分一下。</li>
-<li>Daily notes：不好用，它的本意是你可以快速创建当日日记（文档名字默认为当天日期），日记会根据你建立的日记模板的样式被创建出来。但是，它按照日记模板是不会自动把模板中的<code>&#123;date&#125;</code>变量变更为创建时间的，而是会老老实实地把<code>&#123;date&#125;</code>打出来……有被蠢到（捂脸</li>
-<li>Templates：这个模板就没问题，放心用。不过由于模板文件必须在库的目录或子目录下，建议以<code>_</code>开头命名你的模板文件夹，避免被hexo读取时误伤（否则你就会发现archive页面多了几篇奇奇怪怪的文章）。</li>
-<li>Zettelkasten prefixer：这是Obsidian提供的另一种快速创建文档的方式，新建的文档会以这个zp码为名，默认格式是YYYYMMDDHHII（可以改，当然可以改，我反正就设成年月日形式，即YYYYMMDD，来记日记了）。</li>
-<li>Translucent window：半透明磨砂式的界面，效果超好！</li>
-<li>Publish：付费服务。</li>
-</ul>
-</li>
-<li>Trird-party plugins：我没开，请尽情探索（？</li>
-<li>Plugin options：不赘述了。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>RSS link</title>
-    <url>/Tips/rss-link/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>开启了<a href="http://noooooof.space/atom.xml">RSS</a>订阅，请自行取用。</p>
-<br>
-
-<p>ps，一个小小的彩蛋在博客的页脚，<code>After long yearss.</code></p>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Software</title>
-    <url>/Tips/software/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>整理备份文件的时候顺手记录下常用软件们：</p>
-<ul>
-<li><strong>Everything</strong>：小巧而迅速的文件搜索软件，根据名称定位，会记忆上一次对某一关键词的搜索结果——可以用来快速启动其他程序。</li>
-<li><strong>CCleaner</strong>：清理垃圾、清理注册表、管理自启动进程和插件etc。免费版够用了，想买付费版等一等黑色星期五，会有相当优惠的价格。</li>
-<li><strong>ESET</strong>：习惯了，存在感不高的杀毒软件。不过有windows defender的情况下杀毒软件有什么用吗？</li>
-<li><strong>7-zip</strong>：解压软件，你永远可以相信7z。</li>
-<li><strong>IObit Uninstaller</strong>：卸载软件，同样免费版够用。</li>
-<li><strong>Chrome</strong>：界面干净操作舒适，扩展程序非常多，没有迁移其他浏览器的意愿。<ul>
-<li><s><strong>aria2</strong>：辅助下载大文件，Chrome自己不带断点续传，下Unity的时候反复99%挂掉好绝望。（Chrome91版本中似乎挂了）</s></li>
-</ul>
-</li>
-<li><strong>Typora</strong>：优雅的markdown文本编辑器，所见即所得。据说Mac上面显示效果更好些。</li>
-<li><strong>eDiary</strong>：很棒的本地日记本，反应迅速，界面简单，可以设置密码，有一个联网获取天气的小插件。</li>
-<li><strong>Obsidian</strong>：适用于管理一个文件库的笔记软件，之前有介绍。</li>
-<li><strong>Sublime Text 3</strong>：文本编辑器。高中沉迷于自定义，现在沦为了python启动器x</li>
-<li><strong>Notion</strong>：全平台同步，数据库是个有趣且方便的设定，拿来整理资料和记录日程。</li>
-<li><strong>OneNote</strong>：全平台同步，手写支持很不错，界面美观格式齐全，笔记软件的无冕之王。</li>
-<li><strong>Adobe Acrobat Pro DC</strong>：电脑上用了一堆pdf阅读器还是Acrobat最香。</li>
-<li><strong>PotPlayer</strong>：视频播放器，疫情在家为了二倍速看录播换的，蛮好用。</li>
-<li><strong>v2rayN</strong>：You-know-what : )</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Theme</title>
-    <url>/Tips/theme/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>White是一个非常年轻的主题，有一说一它的功能非常单一，设计更是简洁，但「刚刚够用」这一点实在太香了。所以在搭建博客的时候第一眼就选定了它，并想方设法把它打磨成我希望的样子。</p>
-<p>发布者上次更新的时候添加了图片归档界面和lazyload功能，感觉和White本身的轻巧背道而驰，但后续更新还是值得期待的……直到他突然心态崩掉跑路（害</p>
-<p>现在我使用的这个主题已经多少和White有所不同了，以后或许会有更大区别，想着不如记录在这里吧。</p>
-<h2 id="New"><a href="#New" class="headerlink" title="New"></a>New</h2><p>调整了post界面的翻页顺序，要正确显示可能得清一下缓存。</p>
-<h2 id="Paginator"><a href="#Paginator" class="headerlink" title="Paginator"></a>Paginator</h2><p>White原本的翻页方式就只有archive页面的「prev」和「next」按钮。</p>
-<p>我增加了archive页面的页码和post页面的前后翻页功能，然后根据页面宽度改了改显示效果。</p>
-<p>实现方式有点笨，就是在ejs文件里把宽屏和窄屏的翻页部件都写出来，然后在styl文件里根据屏幕宽度选择性显示。</p>
-<pre><code class="stylus">.paginator 
-  display none
-  @media $desktop-m
-    display block
-
-.paginator_diy
-  display block
-  @media $desktop-m
-    display none</code></pre>
-<p>stylus对格式的要求比较低，各种花括号、冒号、分号都可以省略。</p>
-<p>其实还想要<u>输入页码跳转</u>的功能来着。</p>
-<h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>我的主题没有置顶功能，与我相关的描述就都放在「About」界面了。</p>
-<p>这里通过修改文件updated时间手动置顶每天的更新。</p>
-<p>令人高兴的是，hexo不知道什么时候也认<code>_posts</code>下面的子文件夹了，我稍微改了下之前的脚本，并让它自动按照文件路径修改文章分类（懒人的快乐x</p>
-<pre><code class="python"># coding:utf-8
-
-import os
-import re
-import time
-
-postpath = &#39;../_posts&#39; # _posts文件夹位置
-
-def oper(tag,fileName): #  处理md文档
-
-    with open(fileName,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:
-        postContent = fi.read() # markdown文件内容
-
-    post = postContent # 准备覆写
-    flag = 0
-
-    postCategoris = re.findall(r&#39;categories: Tips
-    if (postCategoris!=tag): # 按照文件路径更改分类
-        flag = 1
-        post = re.sub(r&#39;categories: Tips
-
-    localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间
-    postDate = re.findall(r&#39;date: 2020-12-02 00:01:05
-    postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # 文章update
-    if (postDate != postUpdate):
-        if (localDate not in postUpdate): # 非new
-            flag = 1
-            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, post) # 按date时间复位
-        else: # new post
-            if (tag != &#39;Diary&#39;):
-                flag = 1
-                post = re.sub(r&#39;date: 2020-12-02 00:01:05
-
-    if (flag):
-        with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
-            fo.write(post) # 覆写
-
-    return
-
-def finddir(tag,path): # 递归遍历文件夹
-    for file in os.listdir(path):
-
-        filepath = os.path.join(path,file)
-
-        if (re.search(r&#39;^[\._]&#39;,file)==None):
-            if os.path.isdir(filepath):
-                finddir(file,filepath)
-            else:
-                if (re.search(r&#39;\.md$&#39;,file)!=None):
-                    oper(tag,filepath)
-    return
-
-finddir(&#39;post&#39;,postpath)</code></pre>
-<p>最后的效果是把部署当天更新或修改的文章在archive页置顶标注，之前的文章则踢回原本时间线。</p>
-<p>顺便把<code>layout.ejs</code>的修改也放上来。</p>
-<pre><code class="html">&lt;% var now = moment(); %&gt;
-
-&lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;
-    &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;
-&lt;% &#125; %&gt;</code></pre>
-<p>值得注意的是，要使它按照<code>updated</code>关键字倒序排序需要修改博客的<code>_config.yml</code>文件，添加：</p>
-<pre><code class="yaml">index_generator:
-  path: &#39;&#39;
-  per_page: 10
-  order_by: -updated
-  pagination_dir: page
-
-archive_generator:
-  enabled: true
-  per_page: 10
-  yearly: true
-  monthly: true
-  daily: false
-  order_by: -updated
-
-category_generator:
-  per_page: 10
-  order_by: -updated
-
-tag_generator:
-  per_page: 10
-  order_by: -updated</code></pre>
-<p>感谢Joseph，posts按<code>-updated</code>排序需要把<code>node_modules\hexo\lib\plugins\generator\post.js</code>中<code>-date</code>改为<code>-updated</code>，这真难找（捂脸</p>
-<h2 id="List-of-posts"><a href="#List-of-posts" class="headerlink" title="List of posts"></a>List of posts</h2><p>White本身提供了把同分类的文章展示在post页面底部的功能，之前是手动把categories设置成YYYY.MM来梳理日记，但可以预见的是，如果这博客持续更新下去，这分类数量就太多了，干脆改了改让Diary分类下的文章底部只显示同月的日记。</p>
-<p>但跳月份还是很麻烦，<u>果然还是想要日历云</u>。</p>
-<p>然而这超出我的能力范围了（气</p>
-<p>ps，如果明年我还在维护这个博客，就加上「那年今日」功能。</p>
-<h2 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h2><p>照搬自<a href="https://github.com/random-yang/paper">paper</a>主题。</p>
-<pre><code class="JavaScript">var title = document.title;
-window.onblur = function() &#123;
-    document.title = &quot;See ya.&quot;; //离开本页面
-&#125;
-window.onfocus = function() &#123;
-    document.title = title; //切换回本页面
-&#125;</code></pre>
-<p>这段放在主题的js文件（比如我的是<code>source\js\white.js</code>）里面就可以了，是个在用户离开和返回博客页面时更改标题显示的小东西。</p>
-<h2 id="Dark-mode"><a href="#Dark-mode" class="headerlink" title="Dark mode"></a>Dark mode</h2><p>呜，好难，正在研究<a href="https://github.com/Siricee/hexo-theme-Chic">Chic</a>主题是怎么实现夜间模式切换的，还没有成果。</p>
-<p>这个主题也很好看，推荐。</p>
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
     <title>A star and a stray dog</title>
     <url>/Diary/20200426/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
@@ -1147,21 +836,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Gift</title>
-    <url>/Diary/20200529/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>例行破产送了一批儿童节礼物。</p>
-<p>如果有所付出过却没有人给我写信，多少会觉得寂寞；但选完礼物一一填好地址的时候，还是很快乐。</p>
-<p>抱着今天的快乐，就不要太在乎明天可能的失落了吧？</p>
-<p>不知不觉之间我有了这么多可以送出礼物的朋友，明明就是值得高兴的事情啊。</p>
-<br>
-
-<p>ps，「伸爪怕犯错，缩爪怕错过」，这太真实了不是吗。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Fall down</title>
     <url>/Diary/20200526/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>偶尔也会意识到，自己是个无可救药的渣滓。</p>
@@ -1178,6 +852,21 @@ window.onfocus = function() &#123;
 <p>潘今天跑了八公里，我躺在床上度过了无所事事的又一天。</p>
 <p>「难过的时候睡觉，糊涂的时候读书」，柳依这样说。</p>
 <p>在下雨啊，我很糊涂。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Gift</title>
+    <url>/Diary/20200529/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>例行破产送了一批儿童节礼物。</p>
+<p>如果有所付出过却没有人给我写信，多少会觉得寂寞；但选完礼物一一填好地址的时候，还是很快乐。</p>
+<p>抱着今天的快乐，就不要太在乎明天可能的失落了吧？</p>
+<p>不知不觉之间我有了这么多可以送出礼物的朋友，明明就是值得高兴的事情啊。</p>
+<br>
+
+<p>ps，「伸爪怕犯错，缩爪怕错过」，这太真实了不是吗。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1263,25 +952,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Day 1</title>
-    <url>/Diary/20200623/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>半梦半醒之间觉得自己毕业了，惶恐不安。</p>
-<br>
-
-<p>醒来去湖边走走，鸭子和马们倒是相处愉快。</p>
-<p>上德庆林寺远眺达祖村的全貌，下山路上拴着五色经幡。</p>
-<p>想着节约一点船费步行到花海边上的码头，坐在木桩上等一条不会来的猪槽船。</p>
-<p>日落时坐在情人滩边上吃着米线和烧烤，黑云压下一线天光，水面空空荡荡。</p>
-<br>
-
-<p>回民宿之后，梅西（客栈的金毛）高高兴兴地围着潘嗅嗅舔舔。</p>
-<p>大狗真可爱。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Day 2</title>
     <url>/Diary/20200624/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>不想写论文。</p>
@@ -1298,6 +968,25 @@ window.onfocus = function() &#123;
 <p>下午又是暴雨，补了补觉。出门看见晚霞欲拒还迎地留在湖面。</p>
 <p>换了家店吃铜火锅，牦牛肉很香。打着手电晃回来，又磨蹭到半夜。</p>
 <p>真的不想写论文啊。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Day 1</title>
+    <url>/Diary/20200623/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>半梦半醒之间觉得自己毕业了，惶恐不安。</p>
+<br>
+
+<p>醒来去湖边走走，鸭子和马们倒是相处愉快。</p>
+<p>上德庆林寺远眺达祖村的全貌，下山路上拴着五色经幡。</p>
+<p>想着节约一点船费步行到花海边上的码头，坐在木桩上等一条不会来的猪槽船。</p>
+<p>日落时坐在情人滩边上吃着米线和烧烤，黑云压下一线天光，水面空空荡荡。</p>
+<br>
+
+<p>回民宿之后，梅西（客栈的金毛）高高兴兴地围着潘嗅嗅舔舔。</p>
+<p>大狗真可爱。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1336,25 +1025,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Back to daily life</title>
-    <url>/Diary/20200629/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>司机要接住在里格的另一位客人，趁机看了看沿途的风景，大概也就那样。</p>
-<p>路过云南附近的观景台，溜达上去看了看湖，摆拍了两三张没甚意思的照片，又下来了。</p>
-<p>看，我突然又陷入这样的疲惫状态了。</p>
-<br>
-
-<p>在大悦城吃海底捞，中途开始下暴雨，白雾茫茫。</p>
-<p>坐在楼下的咖啡馆改当年的采访稿，身体陷在柔软的椅子里，却没能好好体会。</p>
-<p>我当年就是挤牙膏一样写东西，现在好像也没什么区别。</p>
-<p>不，大概是更懒惰了。懒得去考虑眼前之外的事情，懒得了解也懒得关心。</p>
-<p>这样是不对的吗？我以什么理由得出这样的判断？</p>
-<p>我不知道。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Graduation</title>
     <url>/Diary/20200702/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>16级的朋友们毕业了，君仪学姐也毕业了。</p>
@@ -1373,6 +1043,25 @@ window.onfocus = function() &#123;
 <p>有什么不甘心的呢？</p>
 <p>仅仅觉得做出反抗权威的姿态很酷？还是暗暗地想要“合群”呢？</p>
 <p>挺没意思的。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Back to daily life</title>
+    <url>/Diary/20200629/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>司机要接住在里格的另一位客人，趁机看了看沿途的风景，大概也就那样。</p>
+<p>路过云南附近的观景台，溜达上去看了看湖，摆拍了两三张没甚意思的照片，又下来了。</p>
+<p>看，我突然又陷入这样的疲惫状态了。</p>
+<br>
+
+<p>在大悦城吃海底捞，中途开始下暴雨，白雾茫茫。</p>
+<p>坐在楼下的咖啡馆改当年的采访稿，身体陷在柔软的椅子里，却没能好好体会。</p>
+<p>我当年就是挤牙膏一样写东西，现在好像也没什么区别。</p>
+<p>不，大概是更懒惰了。懒得去考虑眼前之外的事情，懒得了解也懒得关心。</p>
+<p>这样是不对的吗？我以什么理由得出这样的判断？</p>
+<p>我不知道。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1487,6 +1176,31 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>Back to school</title>
+    <url>/Diary/20200720/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>键盘到了，突然又觉得现在的键盘好像也不是不可以用。</p>
+<p>我总是这样想一出是一出。</p>
+<p>现在这副键盘还是好好收藏起来吧。</p>
+<br>
+
+<p>昨天看到生态园要被推平的消息，今天练完车就去学校看看。</p>
+<p>状况其实比想象中好。</p>
+<p>徐妈把我捞进学校，坐在机房和她聊了会天。</p>
+<br>
+
+<p>和潘一起粗略把学校逛了一遍，哪怕在高中的时候也没有这么做过。</p>
+<p>我们是好孩子啊（笑</p>
+<p>把宿舍到教室的路走了一遍又一遍，笔直向前，从不拐弯。</p>
+<p>希望我们也是这样，不要分岔，不要回头。</p>
+<br>
+
+<p>ps，看了xrp安利了好久的Agatha Christie’s Poirot，东方快车谋杀案里Poirot的挣扎真是太美味了。甚至有把原著全部翻出来读的冲动。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Old things, precious things</title>
     <url>/Diary/20200717/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>又在琢磨买伞的事情。</p>
@@ -1510,25 +1224,20 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Back to school</title>
-    <url>/Diary/20200720/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>键盘到了，突然又觉得现在的键盘好像也不是不可以用。</p>
-<p>我总是这样想一出是一出。</p>
-<p>现在这副键盘还是好好收藏起来吧。</p>
+    <title>Keyboard and Umbrella</title>
+    <url>/Diary/20200721/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>键盘和雨伞都到了。</p>
+<p>是一把超级大的黑伞，从镜子里看大概能装两个我。</p>
 <br>
 
-<p>昨天看到生态园要被推平的消息，今天练完车就去学校看看。</p>
-<p>状况其实比想象中好。</p>
-<p>徐妈把我捞进学校，坐在机房和她聊了会天。</p>
+<p>把电脑拆开仔仔细细清洁了一遍，换上了和老键盘同厂商的新键盘。</p>
+<p>更换了一部分键盘帽，由于拆键盘帽的折损率实在太高而停手。</p>
+<p>好不容易习惯了之前的键盘，现在换回来又稍微有点不习惯了。</p>
+<p>主要是不带键盘膜用了好久啊（笑</p>
+<p>再使使就好了吧。</p>
 <br>
 
-<p>和潘一起粗略把学校逛了一遍，哪怕在高中的时候也没有这么做过。</p>
-<p>我们是好孩子啊（笑</p>
-<p>把宿舍到教室的路走了一遍又一遍，笔直向前，从不拐弯。</p>
-<p>希望我们也是这样，不要分岔，不要回头。</p>
-<br>
-
-<p>ps，看了xrp安利了好久的Agatha Christie’s Poirot，东方快车谋杀案里Poirot的挣扎真是太美味了。甚至有把原著全部翻出来读的冲动。</p>
+<p>ps，看了Curtain和The Big Four，直奔最后一幕还是太着急了。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1570,20 +1279,24 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Keyboard and Umbrella</title>
-    <url>/Diary/20200721/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>键盘和雨伞都到了。</p>
-<p>是一把超级大的黑伞，从镜子里看大概能装两个我。</p>
+    <title>Fragile</title>
+    <url>/Diary/20200723/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>xrp给我推大都会博物馆的杯子，挺好看的，想买来补充潘摔碎的那个。</p>
+<p>又看到店里的随手杯，星空很梦幻，只可惜是白瓷的。</p>
+<p>我总希望随身物品能够陪我久一点，再久一点。</p>
+<p>欣赏的距离和自己的生活显然是两个维度，如果不能长久，为什么要开始呢？</p>
+<p>无论是东西还是人，都是这样的啊。</p>
 <br>
 
-<p>把电脑拆开仔仔细细清洁了一遍，换上了和老键盘同厂商的新键盘。</p>
-<p>更换了一部分键盘帽，由于拆键盘帽的折损率实在太高而停手。</p>
-<p>好不容易习惯了之前的键盘，现在换回来又稍微有点不习惯了。</p>
-<p>主要是不带键盘膜用了好久啊（笑</p>
-<p>再使使就好了吧。</p>
-<br>
-
-<p>ps，看了Curtain和The Big Four，直奔最后一幕还是太着急了。</p>
+<p>高考出分。</p>
+<p>「突然觉得世界是割裂的」，我这么和斯丝说。</p>
+<p>她回复我。</p>
+<blockquote>
+<p>谢斯丝：大家以为选择了一个好大学就有好未来</p>
+<p>谢斯丝：但实际上路是越来越难走</p>
+<p>谢斯丝：过去的成绩只能带来那一时的快乐和自豪</p>
+<p>谢斯丝：更多还是以后的焦虑 唉</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1615,24 +1328,18 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Fragile</title>
-    <url>/Diary/20200723/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>xrp给我推大都会博物馆的杯子，挺好看的，想买来补充潘摔碎的那个。</p>
-<p>又看到店里的随手杯，星空很梦幻，只可惜是白瓷的。</p>
-<p>我总希望随身物品能够陪我久一点，再久一点。</p>
-<p>欣赏的距离和自己的生活显然是两个维度，如果不能长久，为什么要开始呢？</p>
-<p>无论是东西还是人，都是这样的啊。</p>
+    <title>Museum</title>
+    <url>/Diary/20200728/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>逛了逛四川美术馆的抗疫专题，有两张画略显迷惑。</p>
+<p>一张是围栏中的鸭子，取名为「守望·守候」。</p>
+<p>家里的动物成员守望主人的归来确实是充满温情的画面，也是不少文艺作品的主题；但当主角变成作为储备粮的家禽，就变得奇怪了起来。难道在围栏里安安静静地等待主人回来自己被杀吗？试图揣摩画家的用意，大概是家禽在本该出栏的时间仍然待在原地，生活的日常秩序遭到打破，平静祥和的画面之下潜藏着人世间波涛汹涌的变动——但起这个名字实在是显得讽刺了。</p>
+<p>仿佛说，众人像鸭子一样无措地蹲在围栏之后，等待着即将到来的审判。</p>
+<p>另一张是出征前推平女医护人员头发的画面，应该是对当初那张争议颇多的照片的再现。</p>
+<p>它触及了太多的敏感点：强权对个人自由的压迫，作秀与对人的尊严的践踏，和女性，对，女性。</p>
+<p>最有趣的地方就在这里，画面本身并没有意义，现象本身没有发出声音，在丛林里努力大喊着的是事件的无关者，他们臆想，并因此愤怒或感动。</p>
 <br>
 
-<p>高考出分。</p>
-<p>「突然觉得世界是割裂的」，我这么和斯丝说。</p>
-<p>她回复我。</p>
-<blockquote>
-<p>谢斯丝：大家以为选择了一个好大学就有好未来</p>
-<p>谢斯丝：但实际上路是越来越难走</p>
-<p>谢斯丝：过去的成绩只能带来那一时的快乐和自豪</p>
-<p>谢斯丝：更多还是以后的焦虑 唉</p>
-</blockquote>
+<p>ps，在Joseph帮助下建起了自己的博客，明明是很简单的事情，却做的挺费劲。已经变成电脑废柴了啊。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1674,23 +1381,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Romance and friendship</title>
-    <url>/Diary/20200731/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>共度时光是有两种解读方式的，你得知道。</p>
-<p>等价交换不仅仅意味着以血还血以牙还牙，还意味着相互试探、竞争、分享和占有，撕扯下来嚼碎了吞下去揉进骨血里，从此融为一体。</p>
-<p>要说爱情与友情有什么区别，也许后者并没有这样强的进攻性，缺少磨合适应的阵痛，同时也意味着另一个人可以更从容地抽身离开，留下的人在暗夜里独守空坟。</p>
-<p>害，但前者其实也并非是那么容易维系的东西，人与人之间的羁绊总是这样脆弱的。</p>
-<br>
-
-<p>想起以前和博涵讨论这些事，没想通跑去问刘哲老师。</p>
-<p>他问我，那所谓普世意义上的爱情，指的是什么呢？</p>
-<p>……那其实我要是能够分析出来了，就不会有这个问题了嘛。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Fireworks</title>
     <url>/Diary/20200730/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>由于交通管制有了光明正大的理由冒雨骑车。</p>
@@ -1706,18 +1396,17 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Museum</title>
-    <url>/Diary/20200728/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>逛了逛四川美术馆的抗疫专题，有两张画略显迷惑。</p>
-<p>一张是围栏中的鸭子，取名为「守望·守候」。</p>
-<p>家里的动物成员守望主人的归来确实是充满温情的画面，也是不少文艺作品的主题；但当主角变成作为储备粮的家禽，就变得奇怪了起来。难道在围栏里安安静静地等待主人回来自己被杀吗？试图揣摩画家的用意，大概是家禽在本该出栏的时间仍然待在原地，生活的日常秩序遭到打破，平静祥和的画面之下潜藏着人世间波涛汹涌的变动——但起这个名字实在是显得讽刺了。</p>
-<p>仿佛说，众人像鸭子一样无措地蹲在围栏之后，等待着即将到来的审判。</p>
-<p>另一张是出征前推平女医护人员头发的画面，应该是对当初那张争议颇多的照片的再现。</p>
-<p>它触及了太多的敏感点：强权对个人自由的压迫，作秀与对人的尊严的践踏，和女性，对，女性。</p>
-<p>最有趣的地方就在这里，画面本身并没有意义，现象本身没有发出声音，在丛林里努力大喊着的是事件的无关者，他们臆想，并因此愤怒或感动。</p>
+    <title>Romance and friendship</title>
+    <url>/Diary/20200731/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>共度时光是有两种解读方式的，你得知道。</p>
+<p>等价交换不仅仅意味着以血还血以牙还牙，还意味着相互试探、竞争、分享和占有，撕扯下来嚼碎了吞下去揉进骨血里，从此融为一体。</p>
+<p>要说爱情与友情有什么区别，也许后者并没有这样强的进攻性，缺少磨合适应的阵痛，同时也意味着另一个人可以更从容地抽身离开，留下的人在暗夜里独守空坟。</p>
+<p>害，但前者其实也并非是那么容易维系的东西，人与人之间的羁绊总是这样脆弱的。</p>
 <br>
 
-<p>ps，在Joseph帮助下建起了自己的博客，明明是很简单的事情，却做的挺费劲。已经变成电脑废柴了啊。</p>
+<p>想起以前和博涵讨论这些事，没想通跑去问刘哲老师。</p>
+<p>他问我，那所谓普世意义上的爱情，指的是什么呢？</p>
+<p>……那其实我要是能够分析出来了，就不会有这个问题了嘛。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -1785,45 +1474,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Lavender&#39;s blue</title>
-    <url>/Diary/20200810/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>Lavender’s blue, dily dily, lavender’s green. </p>
-<p>When I am king, dily dily, you shall be queen. </p>
-<p>Lavender’s green, dily dily, lavender’s blue. </p>
-<p>If you love me, dily dily, I will love you. </p>
-</blockquote>
-<br>
-
-<p>「生日快乐」，我说。</p>
-<p>每年都是这样，这可能是我能够找到的和渐行渐远的朋友们的唯一交集。</p>
-<br>
-
-<p>梦见初中美术课前所有人往楼下跑，我慢吞吞地在铁皮柜里翻东西，却总是找不到。</p>
-<p>再抬头，教室空无一人。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Rainy days</title>
-    <url>/Diary/20200812/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>雨天的气温非常舒适。</p>
-<p>本来约定的是早上练车，无精打采地爬起来洗漱准备滚蛋，一看手机发现取消了。</p>
-<p>幸福地躺回去裹紧被子.jpg</p>
-<br>
-
-<p>躺在床上看材料，感觉头有点痛就把平板放在一边闭目养神。</p>
-<p>再睁眼就是五点半，母上打电话来叫我去门口领酸奶。</p>
-<p>阴云密布，我背着伞一步一步走在石板路上。</p>
-<p>自己给自己配乐，中二的快乐。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Whispering</title>
     <url>/Diary/20200809/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>夜半惊醒。</p>
@@ -1861,6 +1511,45 @@ window.onfocus = function() &#123;
 <br>
 
 <p>哎，我真正想说的其实也不是日记里说出来的这些，写着写着就插科打诨或者岔开话题了。那好像是说不出来的，更隐晦更幽微的感受，是我敲着字却无法排解的胸中块垒。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Lavender&#39;s blue</title>
+    <url>/Diary/20200810/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>Lavender’s blue, dily dily, lavender’s green. </p>
+<p>When I am king, dily dily, you shall be queen. </p>
+<p>Lavender’s green, dily dily, lavender’s blue. </p>
+<p>If you love me, dily dily, I will love you. </p>
+</blockquote>
+<br>
+
+<p>「生日快乐」，我说。</p>
+<p>每年都是这样，这可能是我能够找到的和渐行渐远的朋友们的唯一交集。</p>
+<br>
+
+<p>梦见初中美术课前所有人往楼下跑，我慢吞吞地在铁皮柜里翻东西，却总是找不到。</p>
+<p>再抬头，教室空无一人。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Rainy days</title>
+    <url>/Diary/20200812/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>雨天的气温非常舒适。</p>
+<p>本来约定的是早上练车，无精打采地爬起来洗漱准备滚蛋，一看手机发现取消了。</p>
+<p>幸福地躺回去裹紧被子.jpg</p>
+<br>
+
+<p>躺在床上看材料，感觉头有点痛就把平板放在一边闭目养神。</p>
+<p>再睁眼就是五点半，母上打电话来叫我去门口领酸奶。</p>
+<p>阴云密布，我背着伞一步一步走在石板路上。</p>
+<p>自己给自己配乐，中二的快乐。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2039,21 +1728,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Trivia</title>
-    <url>/Diary/20200911/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>潘总结了下刘哲老师的推荐信，「花同学哲学方面特别优秀，然后突然想学法；虽然不知道为什么，但是她很厉害，你们要相信她」。这么一看是蛮好笑的。</p>
-<p>上午跑去教务盖了章，也收到了天岳老师的推荐信，突然觉得这事情的结果还是很重要，不说我未来的方向，就只说对不对得起老师们的推荐和祝福。虽然到这个时间点也没办法再挽回什么了，我还是认认真真抱抱佛脚吧。</p>
-<p>疫情期间去地下室要开介绍信，文体部的老师开会没回来，索性坐在门口自习——简直像在静坐示威。</p>
-<p>去B209搬了椅子、窗帘和医药箱出来，在南门等闪送的时候陆续碰到了嵩嵩、左正浩和徐培琰，大家这是扎堆出门吗（笑</p>
-<br>
-
-<p>ps，搬窗帘要了我半条命，这包东西怕是有半个我高（捂脸</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Dream</title>
     <url>/Diary/20200918/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>梦见老吉，梦见一群很久不见甚至很可能不会再见的人。</p>
@@ -2067,6 +1741,21 @@ window.onfocus = function() &#123;
 <br>
 
 <p>p.ps，试了下准备穿去面试的衣服，晴儿和抽抽都说像小企鹅（悲</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Trivia</title>
+    <url>/Diary/20200911/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>潘总结了下刘哲老师的推荐信，「花同学哲学方面特别优秀，然后突然想学法；虽然不知道为什么，但是她很厉害，你们要相信她」。这么一看是蛮好笑的。</p>
+<p>上午跑去教务盖了章，也收到了天岳老师的推荐信，突然觉得这事情的结果还是很重要，不说我未来的方向，就只说对不对得起老师们的推荐和祝福。虽然到这个时间点也没办法再挽回什么了，我还是认认真真抱抱佛脚吧。</p>
+<p>疫情期间去地下室要开介绍信，文体部的老师开会没回来，索性坐在门口自习——简直像在静坐示威。</p>
+<p>去B209搬了椅子、窗帘和医药箱出来，在南门等闪送的时候陆续碰到了嵩嵩、左正浩和徐培琰，大家这是扎堆出门吗（笑</p>
+<br>
+
+<p>ps，搬窗帘要了我半条命，这包东西怕是有半个我高（捂脸</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2220,7 +1909,7 @@ window.onfocus = function() &#123;
     <title>Nof</title>
     <url>/Diary/20200928/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-wEDZbwEX" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-RWewBAlG" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18927562" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -2315,21 +2004,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Lighten</title>
-    <url>/Diary/20201016/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>歌剧欣赏放了「费加罗的婚礼」，又好笑又可怕。</p>
-<p>下午天气很好，在寝室歇了一会出门逛逛。</p>
-<p>在未名湖边上看见了猫们。</p>
-<p>猫真是现实的动物，有粮的时候就不走了，黏黏腻腻地凑过来，揣着手手乖乖巧巧。</p>
-<br>
-
-<p>ps，在尝试学双拼，进展好慢，所以最近和我发消息发现我总在输入中或者反应慢得不行是正常的QAQ</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Normal</title>
     <url>/Diary/20201015/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨晚摸了下trilium和notion，选定notion作为未来笔记工具。</p>
@@ -2340,6 +2014,21 @@ window.onfocus = function() &#123;
 <p>吃了午饭回寝室，勉强看完一集monster就睡着了。</p>
 <p>三点多想着晴儿还在上课不想下床，翻了个身接着睡。</p>
 <p>然后就做噩梦了（瘫</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Lighten</title>
+    <url>/Diary/20201016/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>歌剧欣赏放了「费加罗的婚礼」，又好笑又可怕。</p>
+<p>下午天气很好，在寝室歇了一会出门逛逛。</p>
+<p>在未名湖边上看见了猫们。</p>
+<p>猫真是现实的动物，有粮的时候就不走了，黏黏腻腻地凑过来，揣着手手乖乖巧巧。</p>
+<br>
+
+<p>ps，在尝试学双拼，进展好慢，所以最近和我发消息发现我总在输入中或者反应慢得不行是正常的QAQ</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2538,17 +2227,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Back</title>
-    <url>/Diary/20201109/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早饭尝试了泡蛋苕粉，太油了吃不下去。不得不说我觉得武汉的早餐都不像正常早餐，喜欢喝粥吃馄饨吃米粉的人感到头秃。</p>
-<p>收拾行李的时候看到新买的口琴，我大概两天没碰过它了，咕咕咕总是好容易。</p>
-<p>不管了，先赶论文，一周三篇我可以的（我不行</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Friend</title>
     <url>/Diary/20201113/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>啊哈哈，跑团跑得友尽可还行。我也不知道为什么我就跑了三次团三次都会吵架。</p>
@@ -2564,14 +2242,11 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Jaegermeister</title>
-    <url>/Diary/20201117/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本来咕噜咕噜灌了大半升牛奶（我估摸着600ml吧），去洗杯子的时候发现桃儿在喝酒，蹭了口挺不错，就去抽抽那里要酒喝了。</p>
-<p>野格的味道有点像急支糖浆，一种清爽通透的感觉直冲天灵盖。抽抽觉得药味儿太重了不好喝，但可能我从小中药喝的多了，就也不难接受。兑了大量可乐之后虽然更适口，但总觉得少了些风味。</p>
-<p>桃儿喝完第二杯就醉的迷迷瞪瞪开始碎碎念，实在可爱。下次果然还是录音吧，这家伙醒了就翻脸不认账了。</p>
-<br>
-
-<p>ps，新世界的大门打开了，想再多尝试一些酒看看。</p>
+    <title>Back</title>
+    <url>/Diary/20201109/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早饭尝试了泡蛋苕粉，太油了吃不下去。不得不说我觉得武汉的早餐都不像正常早餐，喜欢喝粥吃馄饨吃米粉的人感到头秃。</p>
+<p>收拾行李的时候看到新买的口琴，我大概两天没碰过它了，咕咕咕总是好容易。</p>
+<p>不管了，先赶论文，一周三篇我可以的（我不行</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2595,6 +2270,20 @@ window.onfocus = function() &#123;
 </blockquote>
 <p>希望吧，希望吧，一切都好。<br><br></p>
 <p>ps，鹏霸入职心田花开了，他说，王老师说，他很想你。有点难过。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Jaegermeister</title>
+    <url>/Diary/20201117/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本来咕噜咕噜灌了大半升牛奶（我估摸着600ml吧），去洗杯子的时候发现桃儿在喝酒，蹭了口挺不错，就去抽抽那里要酒喝了。</p>
+<p>野格的味道有点像急支糖浆，一种清爽通透的感觉直冲天灵盖。抽抽觉得药味儿太重了不好喝，但可能我从小中药喝的多了，就也不难接受。兑了大量可乐之后虽然更适口，但总觉得少了些风味。</p>
+<p>桃儿喝完第二杯就醉的迷迷瞪瞪开始碎碎念，实在可爱。下次果然还是录音吧，这家伙醒了就翻脸不认账了。</p>
+<br>
+
+<p>ps，新世界的大门打开了，想再多尝试一些酒看看。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -2666,7 +2355,7 @@ window.onfocus = function() &#123;
     <title>Sleeplessness</title>
     <url>/Diary/20201123/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-uvpagXZN" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-JHSLvLUG" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="33410648" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -2822,22 +2511,22 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Sycophant of Dionysus</title>
-    <url>/Diary/20201217/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>蹭了桃儿的柠檬奶油利口酒，快乐。</p>
-<p>微醺感轻柔地浮上来，身体各个关节泛起热度，仿佛泡在树荫下的温泉里。</p>
-<p>酒神是带来狂欢的神明，是天真的稚拙的冲动，是转瞬即逝的灵感和放纵。</p>
-<p>多可爱啊，这杯中酒，镜中花。</p>
+    <title>Talk is cheap</title>
+    <url>/Diary/20201220/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我想我得搞清楚，我在发起一个话题的时候，是要获得情感的支持还是观点的碰撞。</p>
+<p>如果只是奔着被同情被理解被认可而来，讨论就变成最无意义的事情了。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
       </categories>
   </entry>
   <entry>
-    <title>Talk is cheap</title>
-    <url>/Diary/20201220/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我想我得搞清楚，我在发起一个话题的时候，是要获得情感的支持还是观点的碰撞。</p>
-<p>如果只是奔着被同情被理解被认可而来，讨论就变成最无意义的事情了。</p>
+    <title>Sycophant of Dionysus</title>
+    <url>/Diary/20201217/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>蹭了桃儿的柠檬奶油利口酒，快乐。</p>
+<p>微醺感轻柔地浮上来，身体各个关节泛起热度，仿佛泡在树荫下的温泉里。</p>
+<p>酒神是带来狂欢的神明，是天真的稚拙的冲动，是转瞬即逝的灵感和放纵。</p>
+<p>多可爱啊，这杯中酒，镜中花。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3399,21 +3088,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Shanghai</title>
-    <url>/Diary/20210407/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>所谓心血来潮，就是冲动的生灭都过于突然。</p>
-<p>走在上海街头的我这样想着，没多少说话的力气。</p>
-<p>到处都给人似曾相识的感觉……可能没到城中心不应当过早做出判断。</p>
-<p>不过生煎挺好吃的。</p>
-<br>
-
-<p>ps，多少觉得人生无常。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Fudan</title>
     <url>/Diary/20210408-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>早晨仍是小雨，想起半句「冻云黯淡天气」。</p>
@@ -3424,6 +3098,21 @@ window.onfocus = function() &#123;
 <br>
 
 <p>晚上和xrp，txy，库库姆去吃萨莉亚，又有些惰于说话了。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Shanghai</title>
+    <url>/Diary/20210407/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>所谓心血来潮，就是冲动的生灭都过于突然。</p>
+<p>走在上海街头的我这样想着，没多少说话的力气。</p>
+<p>到处都给人似曾相识的感觉……可能没到城中心不应当过早做出判断。</p>
+<p>不过生煎挺好吃的。</p>
+<br>
+
+<p>ps，多少觉得人生无常。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3543,28 +3232,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Joy</title>
-    <url>/Diary/20210505/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>寝室密室逃脱局，在中关村附近玩了个叫蝶与魂的本。</p>
-<p>富强民主文明和谐自由平等公正法制爱国敬业诚信友善。</p>
-<p>剧情相对一般但氛围营造的不错……或许只是我胆子小。</p>
-<p>吃了日式火锅之后和晴儿一起逛街，快乐购入戒指和帽子……我的常用帽数量已经飙升至五了，不算家里那顶黑色渔夫帽的话。</p>
-<br>
-
-<p>补了一觉醒来九点半了，完全错过了晚饭的点。</p>
-<blockquote>
-<p>我：我应当吃饭，但现在没饭吃了，但我也不饿。</p>
-<p>晴：这两个但是想要表达对吃饭的义务感嘛？</p>
-<p>陶：吃饭作为天职！</p>
-<p>夏：每天早上把花花从床上叫起来的是什么，是吃饭；每天晚上把花花从床上叫起来的是什么，是全家。</p>
-<p>陶：天天被吃饭PUA（笑</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Les oiseaux dans la charmille</title>
     <url>/Diary/20210509/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天法国歌剧选段音乐会，印象最深的还是木偶之歌。无论听几次都觉得它有趣。第一次给木偶上发条的时候场中有笑声和鼓掌，这本来就是喜歌剧想要带来的效果吧。</p>
@@ -3674,6 +3341,28 @@ window.onfocus = function() &#123;
 <p>还是不想再改毕业论文了，完全不是我一两天的爆肝就能解决的。</p>
 <p>读读尼采，还有新的锅在前面等着。</p>
 <p>我每次都说希望自己活得勇敢而热烈一点，却总是在逃避啊。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Joy</title>
+    <url>/Diary/20210505/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>寝室密室逃脱局，在中关村附近玩了个叫蝶与魂的本。</p>
+<p>富强民主文明和谐自由平等公正法制爱国敬业诚信友善。</p>
+<p>剧情相对一般但氛围营造的不错……或许只是我胆子小。</p>
+<p>吃了日式火锅之后和晴儿一起逛街，快乐购入戒指和帽子……我的常用帽数量已经飙升至五了，不算家里那顶黑色渔夫帽的话。</p>
+<br>
+
+<p>补了一觉醒来九点半了，完全错过了晚饭的点。</p>
+<blockquote>
+<p>我：我应当吃饭，但现在没饭吃了，但我也不饿。</p>
+<p>晴：这两个但是想要表达对吃饭的义务感嘛？</p>
+<p>陶：吃饭作为天职！</p>
+<p>夏：每天早上把花花从床上叫起来的是什么，是吃饭；每天晚上把花花从床上叫起来的是什么，是全家。</p>
+<p>陶：天天被吃饭PUA（笑</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3819,6 +3508,18 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>Blank</title>
+    <url>/Diary/20210710/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无趣而匆促的时间。</p>
+<p>上午见房东签合同、找弹棉花的小店，中午折腾饭卡和日历、在餐桌上睡着，下午收了两箱半行李，晚上反而如同梦游。</p>
+<p>有一些亟待做且必须做的事情，有一些想要做但怠于做的事情，陀螺似地溜溜转，让人烦躁。</p>
+<p>左胸有些细微的疼痛，或许它也有些撑不住了吧。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Alley</title>
     <url>/Diary/20210709/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>再吃都一处，芥末白菜还是不能接受的东西，炒肝意外地并不腥臊。</p>
@@ -3835,18 +3536,6 @@ window.onfocus = function() &#123;
 
 <p>ps，潘去了自贸区，略微期待寄来的糖。</p>
 <p>p.ps，和抽约了后天的合影。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Blank</title>
-    <url>/Diary/20210710/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无趣而匆促的时间。</p>
-<p>上午见房东签合同、找弹棉花的小店，中午折腾饭卡和日历、在餐桌上睡着，下午收了两箱半行李，晚上反而如同梦游。</p>
-<p>有一些亟待做且必须做的事情，有一些想要做但怠于做的事情，陀螺似地溜溜转，让人烦躁。</p>
-<p>左胸有些细微的疼痛，或许它也有些撑不住了吧。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -3881,7 +3570,7 @@ window.onfocus = function() &#123;
     <title>Marble boat</title>
     <url>/Diary/20210714/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-PoLoLpwa" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-DunsGYne" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1871463890" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#1A98FF"
     ></div>
 
@@ -4101,21 +3790,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Words</title>
-    <url>/Diary/20211002/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>儿时我从未质疑过自己文字的才能，坦诚记录所见所想，最多也就是被指责无病呻吟——心里却是极不认同的，孩子就与怜惜、痛悔、诸如此类的一切与失去有关的感情无缘了吗？因着自己所有的极少，反而会愈发看重吧。</p>
-<p>但越年长、越衰老，就越困难了。</p>
-<p>这毕竟是一项天才和勤奋的艺术，需要奇崛的想象力和精妙的修辞技艺，而我哪点都不沾边。日常表达已然感到用语的匮乏，更别谈跑团所需要的，用文字刻画世界的能力。</p>
-<p>「永恒之火」约莫是最挫败的一次，任何一点事前预想都没能实现。我恐怕只留下了一个空洞而苍白的小镇，一群干瘪而呆板的人物，一个又臭又长，宛如裹脚布的无趣故事。</p>
-<p>潘说，这个游戏的问题似乎在于太自由了。不，不是，自由正是他的乐趣所在，他成为问题完全是kp的失职。</p>
-<p>我真的能够做到吗？我不能吧。跃跃欲试想要逃跑。</p>
-<p>但逃跑从来没有用的啊，不行动就永远不会失败是吗？</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Alone</title>
     <url>/Diary/20211013/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>很久没写日记了。</p>
@@ -4154,6 +3828,21 @@ window.onfocus = function() &#123;
 <br>
 
 <p>ps，今夜满月，无人共饮。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Words</title>
+    <url>/Diary/20211002/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>儿时我从未质疑过自己文字的才能，坦诚记录所见所想，最多也就是被指责无病呻吟——心里却是极不认同的，孩子就与怜惜、痛悔、诸如此类的一切与失去有关的感情无缘了吗？因着自己所有的极少，反而会愈发看重吧。</p>
+<p>但越年长、越衰老，就越困难了。</p>
+<p>这毕竟是一项天才和勤奋的艺术，需要奇崛的想象力和精妙的修辞技艺，而我哪点都不沾边。日常表达已然感到用语的匮乏，更别谈跑团所需要的，用文字刻画世界的能力。</p>
+<p>「永恒之火」约莫是最挫败的一次，任何一点事前预想都没能实现。我恐怕只留下了一个空洞而苍白的小镇，一群干瘪而呆板的人物，一个又臭又长，宛如裹脚布的无趣故事。</p>
+<p>潘说，这个游戏的问题似乎在于太自由了。不，不是，自由正是他的乐趣所在，他成为问题完全是kp的失职。</p>
+<p>我真的能够做到吗？我不能吧。跃跃欲试想要逃跑。</p>
+<p>但逃跑从来没有用的啊，不行动就永远不会失败是吗？</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -4308,6 +3997,18 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>NG</title>
+    <url>/Diary/20211207/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我再也不作死了TAT</p>
+<p>立帖为证。</p>
+<p>下次再拖ddl，一杯饮品，种类自定，见者有份。</p>
+<p>我觉得咕咕是可以改的（沉痛</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Meteor shower</title>
     <url>/Diary/20211213/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>把脸埋进高高竖起的衣领，希图以此挽留一些偷渡的热量，空气沁凉。在建筑物与车站之间的狭小庭院，二环的暖黄灯光照料不到的角落，一如设想的那般幽暗阒静。</p>
@@ -4359,18 +4060,6 @@ window.onfocus = function() &#123;
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>喉咙疼。</p>
 <p>梦见颜色各异大小不同的鹦鹉啄破了厨房的纱窗，落了一地羽毛。</p>
 <p>梦中的情绪总是极端而迅猛，或许因为不做梦的时候也是如此。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>NG</title>
-    <url>/Diary/20211207/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我再也不作死了TAT</p>
-<p>立帖为证。</p>
-<p>下次再拖ddl，一杯饮品，种类自定，见者有份。</p>
-<p>我觉得咕咕是可以改的（沉痛</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -4571,35 +4260,6 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
-    <title>Confession</title>
-    <url>/Diary/20220306/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>像冬日浮出水面换气的鱼，近乎惶恐地重新意识到自己的傲慢。</p>
-<br>
-
-<blockquote>
-<p>我接纳你的本质。</p>
-</blockquote>
-<p>我未曾了解过。</p>
-<blockquote>
-<p>我会一直在你身边。</p>
-</blockquote>
-<p>我离开许多年了。</p>
-<blockquote>
-<p>It hurts to stay still.</p>
-</blockquote>
-<p>什么时候开始，我却驻足不前了呢？</p>
-<br>
-
-<p>以肤浅的第一印象来评价人当然是件不公平的事情，以固化的旧有印象来评判岂不是一样的愚蠢吗？People do change. 时至今日，还像十二年前的小孩那样，因为改变而怀抱着无从说起的沮丧……真是一点长进也没有。</p>
-<p>这个自私而傲慢的家伙从来没有真正地看着对话者的眼睛，她爱上的是自己的回忆、自己的想象、是睡梦中的束缚和假象的欢愉。和她做朋友是天底下最不值当的事情。</p>
-<p>It hurts to stay still.</p>
-<p>And it’s time to move on.</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Fairy tale</title>
     <url>/Diary/20220307/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>匆匆忙忙把玩家超正义看完了。</p>
@@ -4628,6 +4288,35 @@ window.onfocus = function() &#123;
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>天与云与山与水，上下一白。</p>
 <p>树干上生长出一团一簇的绒絮，野鸭一摇一摆抖落背后的负累。新雪蓬松而柔软，湖上完全是水墨画的景象。</p>
 <p>城市里遇见风雪和山林间的感受截然不同，咫尺之外就是滚滚的红尘，给了早已被文明驯化的人充足胡闹的勇气。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Confession</title>
+    <url>/Diary/20220306/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>像冬日浮出水面换气的鱼，近乎惶恐地重新意识到自己的傲慢。</p>
+<br>
+
+<blockquote>
+<p>我接纳你的本质。</p>
+</blockquote>
+<p>我未曾了解过。</p>
+<blockquote>
+<p>我会一直在你身边。</p>
+</blockquote>
+<p>我离开许多年了。</p>
+<blockquote>
+<p>It hurts to stay still.</p>
+</blockquote>
+<p>什么时候开始，我却驻足不前了呢？</p>
+<br>
+
+<p>以肤浅的第一印象来评价人当然是件不公平的事情，以固化的旧有印象来评判岂不是一样的愚蠢吗？People do change. 时至今日，还像十二年前的小孩那样，因为改变而怀抱着无从说起的沮丧……真是一点长进也没有。</p>
+<p>这个自私而傲慢的家伙从来没有真正地看着对话者的眼睛，她爱上的是自己的回忆、自己的想象、是睡梦中的束缚和假象的欢愉。和她做朋友是天底下最不值当的事情。</p>
+<p>It hurts to stay still.</p>
+<p>And it’s time to move on.</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -4772,6 +4461,21 @@ window.onfocus = function() &#123;
       </categories>
   </entry>
   <entry>
+    <title>Normal</title>
+    <url>/Diary/20221109/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天有点低落，潘回来陪我。</p>
+<p>今天睡到十二点起来，重复饿死到撑死的过程。</p>
+<p>晚上出门觅食觅了一个多小时，疫情防控之下店铺整条整条地关停。</p>
+<p>最幽默的大约是西直门的西西弗书店，玻璃门上赫然贴着预计营业时间10月13日，一个月之前。</p>
+<br>
+
+<p>ps，悲报，在南京大排档拉开一根年代久远的老木凳的时候，中指被夹掉了一块皮。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Rain</title>
     <url>/Diary/20221111/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>接连几天的雾霾，今天下了雨。</p>
@@ -4788,21 +4492,6 @@ window.onfocus = function() &#123;
 <p>我：销量会暴跌的吧？  </p>
 <p>潘：哈哈哈哈哈哈这是战神五！你信啦？你居然信啦？  </p>
 <p>我：（磨刀霍霍向猪羊）</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Normal</title>
-    <url>/Diary/20221109/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天有点低落，潘回来陪我。</p>
-<p>今天睡到十二点起来，重复饿死到撑死的过程。</p>
-<p>晚上出门觅食觅了一个多小时，疫情防控之下店铺整条整条地关停。</p>
-<p>最幽默的大约是西直门的西西弗书店，玻璃门上赫然贴着预计营业时间10月13日，一个月之前。</p>
-<br>
-
-<p>ps，悲报，在南京大排档拉开一根年代久远的老木凳的时候，中指被夹掉了一块皮。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -4837,6 +4526,351 @@ window.onfocus = function() &#123;
 ]]></content>
       <categories>
         <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Blog</title>
+    <url>/Tips/blog/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今日暴雨，宜昼寝。</p>
+<br>
+
+<p>gitee pages404了，废了老大功夫迁移博客。</p>
+<p>一口气买了十年的域名，晴儿问我会写十年吗？我也不太清楚。</p>
+<p>但前两个十年，不是转瞬即逝了吗。</p>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Covid</title>
+    <url>/Diary/20221218/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="2022-12-13"><a href="#2022-12-13" class="headerlink" title="2022.12.13"></a>2022.12.13</h1><p>去物美买菜。</p>
+<p>一路上都是咳嗽的人，走在商场里已经隐约感到喉咙发痒。</p>
+<p>站在寒风中等潘打包晚饭的时候，估摸着差不多可以准备抗疫了。</p>
+<h1 id="2022-12-14"><a href="#2022-12-14" class="headerlink" title="2022.12.14"></a>2022.12.14</h1><p>一直不舒服，过于频繁地与潘对比体温让他颇不耐烦。</p>
+<p>晚上把碗洗了回来，反而感到身体轻松了一些。</p>
+<p>潘：你发烧了。</p>
+<h1 id="2022-12-15"><a href="#2022-12-15" class="headerlink" title="2022.12.15"></a>2022.12.15</h1><p>本想记录些温度逐渐升高的感受，选取的语词和睡梦一起七零八落。</p>
+<p>醒来看网管在群里记录着自己的温度信息有了点紧张感，在街道群问一个姐姐借了多余的体温计。</p>
+<p>39.1，哦豁。</p>
+<p>晚上被严令禁止再把睡袍捂在床头，但我脑袋总觉得哪有阴风在吹啊。</p>
+<h1 id="2022-12-16"><a href="#2022-12-16" class="headerlink" title="2022.12.16"></a>2022.12.16</h1><p>体温过山车，早上起来37.5，下午又上了38.3。</p>
+<p>喉咙好疼，吃饭喝水堪称酷刑。</p>
+<p>潘有点生气，说明天再高烧就去医院。</p>
+<p>躺在床上辗转反侧，急促地喘咳，起身揪着喉咙给自己灌水。说实话，如果不是有潘在的话，感觉我也许前两天就孤单地死在北京了吧。</p>
+<p>抽：不会的，你有任何不舒服就打爆我电话，我立马过来。</p>
+<p>呜我以后会好好锻炼身体的，真的。</p>
+<h1 id="2022-12-17"><a href="#2022-12-17" class="headerlink" title="2022.12.17"></a>2022.12.17</h1><p>蒸蛋好评，比较顺利吃下去了。</p>
+<p>不咳了但体温继续过山车，从36.9干到38.6。</p>
+<p>吃了颗布洛芬去了医院，急诊走廊都是躺在行军床上输液的老头老太。最后还是没有挂排队的号，直接开了药走人。</p>
+<p>不知道是布洛芬的作用还是怎的，喉咙没那么疼了。在医院边上吃了包子和小米粥，潘西里呼噜地吃着羊肉泡馍。有点羡慕。</p>
+<p>回来多少带着点破罐子破摔地洗了个澡。而潘忙活着切了苹果，舀了一勺黄桃罐头，又蒸了个橘子。</p>
+<p>三个小碗放在我面前的时候他有点得意：八个冷盘八个热盘，请~</p>
+<h1 id="2022-12-18"><a href="#2022-12-18" class="headerlink" title="2022.12.18"></a>2022.12.18</h1><p>退！烧！了！Finally.</p>
+<p>被高烧隐藏的不舒服反而找了上来，头疼，咳嗽，浓痰，流涕。好消息是咽痛清减了不少，晚上狠狠干了一碗冬瓜排骨汤，能吃真好。</p>
+<p>潘这些天一直断断续续有点低烧，四肢疼痛但程度轻微，今天却严重了不少。该我照顾你了。</p>
+<p>陪我吃瘦肉粥和蒸鱼片吧哼哼。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>CDN link</title>
+    <url>/Tips/cdn-link/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>博客上引用各种资源（比如图片）的时候可以把要引用的东西丢到<code>source</code>文件夹里，然后使用相对地址。不过我一开始不知道这种方法，就只能把图片上传到GitHub仓库里，然后用cdn链接引用它。</p>
+<p>这样做的好处一个是加载速度远快于直接用gitee链接，另一个是在撰写markdown文档的时候就可以看到图片效果了。</p>
+<p>当然想用cdn链接的话，除了jsDelivr提供的关联GitHub的免费链接之外，国内也有其他平台提供支持。jsDelivr的优点是不需要注册什么有的没的，只要GitHub上传了就OK。他家链接除了20MB的单个文件上限之外没有任何值得诟病的地方，反正用来传图片还是绰绰有余了。</p>
+<p>那么把要用的文件推到GitHub之后，就可以直接使用下述链接来引用它：</p>
+<pre><code>https://cdn.jsdelivr.net/gh//GitHub用户名/库名/文件位置</code></pre>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Font-spider</title>
+    <url>/Tips/font-spider/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>字蛛是个中文字体压缩器。简单来说就是检测网页上用到了哪些字，然后把原字体文件中没用到的字删掉，使得在压缩字体文件大小的同时也不影响网站的正常显示。对于静态部署的博客来说不失为一种提高网页加载速度的好方案。</p>
+<br>
+
+<p>先用npm安装下载。</p>
+<pre><code>npm install font-spider -g</code></pre>
+<br>
+
+<p>我的思路是遍历所有博文，收集起来丢进集合，然后输出一个包含网站所有文字的网页提供给字蛛。</p>
+<p>鉴于博文主要都在<code>_posts</code>文件夹内，我就没爬其他page页面了。理论上该爬的，但post本身文本量够大，我就偷了个懒。</p>
+<pre><code class="python"># coding:utf-8
+
+import os
+
+postPath = &#39;E:/Recent/MyBlog/source/_posts&#39; # _posts文件夹位置
+path = os.path.dirname(__file__) # 所在文件夹位置
+
+def getFile(logPath):
+    text = &quot;&quot;
+    for file in os.listdir(logPath):
+        fileInput = os.path.join(logPath,file)
+        with open(fileInput,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:
+            text += fi.read()
+    return set(text) # 返回一个包含所有post文字的集合
+
+content = &quot;&quot;.join(getFile(postPath)) # set转str
+
+title = &quot;&lt;meta charset=\&quot;UTF-8\&quot;&gt;\n&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;word.css\&quot;&gt;\n&lt;body&gt;\n&quot;
+
+content = title + content +&quot;\n&lt;/body&gt;&quot; # 网页内容
+
+fileOutput = os.path.join(path,&quot;word.html&quot;)
+with open(fileOutput,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
+    fo.write(content) # 输出html文件
+
+print(&quot;Words are collected.\n&quot;) # 一个回应</code></pre>
+<br>
+
+<p>在同文件夹下放了字体文件和样式文件（<code>word.css</code>）。</p>
+<pre><code class="css">@font-face&#123;
+  font-family:&quot;CH&quot;;
+  src:url(../H-TTF-BuMing-R-2.ttf);
+&#125;
+body&#123;
+    font-family:&quot;CH&quot;
+&#125;</code></pre>
+<br>
+
+<p>最后一个简单的脚本。</p>
+<pre><code>@echo off
+python word.py
+Xcopy E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font\.font-spider\H-TTF-BuMing-R-2.ttf E:\Recent\MyBlog\themes\hexo-theme-white-master\source\font /Y
+font-spider word.html</code></pre>
+<p>这里这样写主要是因为运行font-spider之后，它会在原字体文件目录下新建<code>.font-spider</code>文件夹，把该字体文件备份过去；然后把原字体文件替换为压缩过的新字体文件。</p>
+<p>如此，我使用的「不明体」可以直接从12MB压缩到1.1MB。</p>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Font</title>
+    <url>/Tips/font/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨天用<a href="https://noooooof.space/Tips/font-spider/">字蛛</a>把博客字体缩小到1.02MB，但用<a href="https://noooooof.space/Tips/cdn-link/">cdn链接</a>加载还是得加载8.4MB；把字体源放在本地倒是1.1MB，但仍然无法避免那个明显的卡顿……束手无策.jpg</p>
+<p>于是学习Joseph的鸵鸟解法，把用到的两种字体文件的链接挂在这里：</p>
+<ul>
+<li><a href="https://noooooof.github.io/font/H-GUNGSEO2.2.TTF">H-宫书</a></li>
+<li><a href="https://cdn.jsdelivr.net/gh//Noooooof/partials/Font/FZSKBXKJW.TTF">方正宋刻本秀楷简体</a></li>
+</ul>
+<p>安装之后网页效果就能正常显示了，不过或许默认的微软雅黑也没什么大问题？</p>
+<br>
+
+<p>另一个待解决的问题是夜间模式——这就交给以后的我了，又或者我就懒得弄了也说不定。</p>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Obsidian</title>
+    <url>/Tips/obsidian/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从Joseph那摸到了这个应用：<a href="https://obsidian.md/">Obsidian</a>，拿来维护blog好香。这里插播一条他的硬核安利「vscode永不服输」，没用过的我不予置评。</p>
+<p>一些小问题在于，它不能直接打开单个文件，相关的配置和模板文件都会放在所打开的文件夹目录下，显得有些凌乱，在「所见即所得」方面更比不上永远的神typora；但它响应速度不错，体量很轻，外观优美（可以自定义css文件，还支持半透明状界面），允许分栏阅读，支持导入模板，也能比较方便地管理大量文档——对于主要文档都在<code>_posts</code>文件夹下的博客来说就非常nice，更何况现在hexo也能够读取<code>_posts</code>的子文件夹下的文件了。</p>
+<p>接下来介绍一些设置选项：</p>
+<ul>
+<li>Editor：编辑器相关。<ul>
+<li>Fold heading 和 Fold indent：这两个选项允许你把小标题下面的内容或缩进的内容收起来，和Notion里面的toggle list是一样的功能。</li>
+<li>Vim key bindings：看来创作者用的是vim，不过至少这个选项说明你是有可能全靠键盘进行编辑操作的（这我就要安利tp的小红点了，同样手是不用离开键盘的嘛x</li>
+</ul>
+</li>
+<li>Files and links：我只用来维护我的博客，基本用不上文档之间的链接和本地附件。</li>
+<li>Appearance：选Custom Css可以自定义主题文件，也可以从Obsidian的社区里选，我是直接用的默认主题（Dark）啦，它没啥不好。</li>
+<li>Hotkeys：自定义热键，好物。</li>
+<li>About：版本升级和语言设定之类的东西，它现在还是个beta版本（不过我印象中typora好像也是这么多年了还在beta版本？</li>
+<li>Account：不管它不管它。</li>
+<li>Core plugins：核心插件。<ul>
+<li>Graph view：我用不着这个，把它关掉了，文档之间层级和链接关系做得好的话会很好看。</li>
+<li>Tag pane：不知道它怎么认定的，我front matter里的tag它似乎没识别出来。</li>
+<li>Starred：星标文档，这个我打开了，毕竟有些在更（gu）新（gu）的文档需要稍微区分一下。</li>
+<li>Daily notes：不好用，它的本意是你可以快速创建当日日记（文档名字默认为当天日期），日记会根据你建立的日记模板的样式被创建出来。但是，它按照日记模板是不会自动把模板中的<code>&#123;date&#125;</code>变量变更为创建时间的，而是会老老实实地把<code>&#123;date&#125;</code>打出来……有被蠢到（捂脸</li>
+<li>Templates：这个模板就没问题，放心用。不过由于模板文件必须在库的目录或子目录下，建议以<code>_</code>开头命名你的模板文件夹，避免被hexo读取时误伤（否则你就会发现archive页面多了几篇奇奇怪怪的文章）。</li>
+<li>Zettelkasten prefixer：这是Obsidian提供的另一种快速创建文档的方式，新建的文档会以这个zp码为名，默认格式是YYYYMMDDHHII（可以改，当然可以改，我反正就设成年月日形式，即YYYYMMDD，来记日记了）。</li>
+<li>Translucent window：半透明磨砂式的界面，效果超好！</li>
+<li>Publish：付费服务。</li>
+</ul>
+</li>
+<li>Trird-party plugins：我没开，请尽情探索（？</li>
+<li>Plugin options：不赘述了。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>RSS link</title>
+    <url>/Tips/rss-link/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>开启了<a href="http://noooooof.space/atom.xml">RSS</a>订阅，请自行取用。</p>
+<br>
+
+<p>ps，一个小小的彩蛋在博客的页脚，<code>After long yearss.</code></p>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Software</title>
+    <url>/Tips/software/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>整理备份文件的时候顺手记录下常用软件们：</p>
+<ul>
+<li><strong>Everything</strong>：小巧而迅速的文件搜索软件，根据名称定位，会记忆上一次对某一关键词的搜索结果——可以用来快速启动其他程序。</li>
+<li><strong>CCleaner</strong>：清理垃圾、清理注册表、管理自启动进程和插件etc。免费版够用了，想买付费版等一等黑色星期五，会有相当优惠的价格。</li>
+<li><strong>ESET</strong>：习惯了，存在感不高的杀毒软件。不过有windows defender的情况下杀毒软件有什么用吗？</li>
+<li><strong>7-zip</strong>：解压软件，你永远可以相信7z。</li>
+<li><strong>IObit Uninstaller</strong>：卸载软件，同样免费版够用。</li>
+<li><strong>Chrome</strong>：界面干净操作舒适，扩展程序非常多，没有迁移其他浏览器的意愿。<ul>
+<li><s><strong>aria2</strong>：辅助下载大文件，Chrome自己不带断点续传，下Unity的时候反复99%挂掉好绝望。（Chrome91版本中似乎挂了）</s></li>
+</ul>
+</li>
+<li><strong>Typora</strong>：优雅的markdown文本编辑器，所见即所得。据说Mac上面显示效果更好些。</li>
+<li><strong>eDiary</strong>：很棒的本地日记本，反应迅速，界面简单，可以设置密码，有一个联网获取天气的小插件。</li>
+<li><strong>Obsidian</strong>：适用于管理一个文件库的笔记软件，之前有介绍。</li>
+<li><strong>Sublime Text 3</strong>：文本编辑器。高中沉迷于自定义，现在沦为了python启动器x</li>
+<li><strong>Notion</strong>：全平台同步，数据库是个有趣且方便的设定，拿来整理资料和记录日程。</li>
+<li><strong>OneNote</strong>：全平台同步，手写支持很不错，界面美观格式齐全，笔记软件的无冕之王。</li>
+<li><strong>Adobe Acrobat Pro DC</strong>：电脑上用了一堆pdf阅读器还是Acrobat最香。</li>
+<li><strong>PotPlayer</strong>：视频播放器，疫情在家为了二倍速看录播换的，蛮好用。</li>
+<li><strong>v2rayN</strong>：You-know-what : )</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Theme</title>
+    <url>/Tips/theme/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>White是一个非常年轻的主题，有一说一它的功能非常单一，设计更是简洁，但「刚刚够用」这一点实在太香了。所以在搭建博客的时候第一眼就选定了它，并想方设法把它打磨成我希望的样子。</p>
+<p>发布者上次更新的时候添加了图片归档界面和lazyload功能，感觉和White本身的轻巧背道而驰，但后续更新还是值得期待的……直到他突然心态崩掉跑路（害</p>
+<p>现在我使用的这个主题已经多少和White有所不同了，以后或许会有更大区别，想着不如记录在这里吧。</p>
+<h2 id="New"><a href="#New" class="headerlink" title="New"></a>New</h2><p>调整了post界面的翻页顺序，要正确显示可能得清一下缓存。</p>
+<h2 id="Paginator"><a href="#Paginator" class="headerlink" title="Paginator"></a>Paginator</h2><p>White原本的翻页方式就只有archive页面的「prev」和「next」按钮。</p>
+<p>我增加了archive页面的页码和post页面的前后翻页功能，然后根据页面宽度改了改显示效果。</p>
+<p>实现方式有点笨，就是在ejs文件里把宽屏和窄屏的翻页部件都写出来，然后在styl文件里根据屏幕宽度选择性显示。</p>
+<pre><code class="stylus">.paginator 
+  display none
+  @media $desktop-m
+    display block
+
+.paginator_diy
+  display block
+  @media $desktop-m
+    display none</code></pre>
+<p>stylus对格式的要求比较低，各种花括号、冒号、分号都可以省略。</p>
+<p>其实还想要<u>输入页码跳转</u>的功能来着。</p>
+<h2 id="Sort-by"><a href="#Sort-by" class="headerlink" title="Sort_by"></a>Sort_by</h2><p>我的主题没有置顶功能，与我相关的描述就都放在「About」界面了。</p>
+<p>这里通过修改文件updated时间手动置顶每天的更新。</p>
+<p>令人高兴的是，hexo不知道什么时候也认<code>_posts</code>下面的子文件夹了，我稍微改了下之前的脚本，并让它自动按照文件路径修改文章分类（懒人的快乐x</p>
+<pre><code class="python"># coding:utf-8
+
+import os
+import re
+import time
+
+postpath = &#39;../_posts&#39; # _posts文件夹位置
+
+def oper(tag,fileName): #  处理md文档
+
+    with open(fileName,&#39;r&#39;,encoding=&quot;utf-8&quot;)as fi:
+        postContent = fi.read() # markdown文件内容
+
+    post = postContent # 准备覆写
+    flag = 0
+
+    postCategoris = re.findall(r&#39;categories: Tips
+    if (postCategoris!=tag): # 按照文件路径更改分类
+        flag = 1
+        post = re.sub(r&#39;categories: Tips
+
+    localDate = time.strftime(&quot;%Y-%m-%d&quot;, time.localtime()) # 当前时间
+    postDate = re.findall(r&#39;date: 2020-12-02 00:01:05
+    postUpdate = re.findall(r&#39;updated: ([\s\S]*?)\n&#39;,postContent)[0] # 文章update
+    if (postDate != postUpdate):
+        if (localDate not in postUpdate): # 非new
+            flag = 1
+            post = re.sub(r&#39;updated: [\s\S]*?\n&#39;,&#39;updated: &#39;+ postDate +&#39;\n&#39;, post) # 按date时间复位
+        else: # new post
+            if (tag != &#39;Diary&#39;):
+                flag = 1
+                post = re.sub(r&#39;date: 2020-12-02 00:01:05
+
+    if (flag):
+        with open(fileName,&#39;w&#39;,encoding=&quot;utf-8&quot;)as fo:
+            fo.write(post) # 覆写
+
+    return
+
+def finddir(tag,path): # 递归遍历文件夹
+    for file in os.listdir(path):
+
+        filepath = os.path.join(path,file)
+
+        if (re.search(r&#39;^[\._]&#39;,file)==None):
+            if os.path.isdir(filepath):
+                finddir(file,filepath)
+            else:
+                if (re.search(r&#39;\.md$&#39;,file)!=None):
+                    oper(tag,filepath)
+    return
+
+finddir(&#39;post&#39;,postpath)</code></pre>
+<p>最后的效果是把部署当天更新或修改的文章在archive页置顶标注，之前的文章则踢回原本时间线。</p>
+<p>顺便把<code>layout.ejs</code>的修改也放上来。</p>
+<pre><code class="html">&lt;% var now = moment(); %&gt;
+
+&lt;% if (date(post.updated,&#39;YY-MM-DD&#39;)==date(now,&#39;YY-MM-DD&#39;))&#123; %&gt;
+    &lt;span class=&quot;archive-post-today&quot;&gt;&lt;%= &quot;New&quot; %&gt;&lt;/span&gt;
+&lt;% &#125; %&gt;</code></pre>
+<p>值得注意的是，要使它按照<code>updated</code>关键字倒序排序需要修改博客的<code>_config.yml</code>文件，添加：</p>
+<pre><code class="yaml">index_generator:
+  path: &#39;&#39;
+  per_page: 10
+  order_by: -updated
+  pagination_dir: page
+
+archive_generator:
+  enabled: true
+  per_page: 10
+  yearly: true
+  monthly: true
+  daily: false
+  order_by: -updated
+
+category_generator:
+  per_page: 10
+  order_by: -updated
+
+tag_generator:
+  per_page: 10
+  order_by: -updated</code></pre>
+<p>感谢Joseph，posts按<code>-updated</code>排序需要把<code>node_modules\hexo\lib\plugins\generator\post.js</code>中<code>-date</code>改为<code>-updated</code>，这真难找（捂脸</p>
+<h2 id="List-of-posts"><a href="#List-of-posts" class="headerlink" title="List of posts"></a>List of posts</h2><p>White本身提供了把同分类的文章展示在post页面底部的功能，之前是手动把categories设置成YYYY.MM来梳理日记，但可以预见的是，如果这博客持续更新下去，这分类数量就太多了，干脆改了改让Diary分类下的文章底部只显示同月的日记。</p>
+<p>但跳月份还是很麻烦，<u>果然还是想要日历云</u>。</p>
+<p>然而这超出我的能力范围了（气</p>
+<p>ps，如果明年我还在维护这个博客，就加上「那年今日」功能。</p>
+<h2 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h2><p>照搬自<a href="https://github.com/random-yang/paper">paper</a>主题。</p>
+<pre><code class="JavaScript">var title = document.title;
+window.onblur = function() &#123;
+    document.title = &quot;See ya.&quot;; //离开本页面
+&#125;
+window.onfocus = function() &#123;
+    document.title = title; //切换回本页面
+&#125;</code></pre>
+<p>这段放在主题的js文件（比如我的是<code>source\js\white.js</code>）里面就可以了，是个在用户离开和返回博客页面时更改标题显示的小东西。</p>
+<h2 id="Dark-mode"><a href="#Dark-mode" class="headerlink" title="Dark mode"></a>Dark mode</h2><p>呜，好难，正在研究<a href="https://github.com/Siricee/hexo-theme-Chic">Chic</a>主题是怎么实现夜间模式切换的，还没有成果。</p>
+<p>这个主题也很好看，推荐。</p>
+]]></content>
+      <categories>
+        <category>Tips</category>
       </categories>
   </entry>
 </search>
